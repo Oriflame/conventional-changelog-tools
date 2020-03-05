@@ -1,10 +1,10 @@
-/* eslint-disable jest/expect-expect, jest/no-test-callback */
+/* eslint-disable jest/expect-expect, jest/no-test-callback, import/no-extraneous-dependencies */
 
-import path from 'path';
-import Stream from 'stream';
 import conventionalChangelogCore from 'conventional-changelog-core';
 import conventionalRecommendedBump from 'conventional-recommended-bump';
+import path from 'path';
 import shell from 'shelljs';
+import Stream from 'stream';
 import { config } from '../src';
 
 function gitDummyCommit(msg: string | string[], silent: boolean = true) {
