@@ -59,7 +59,8 @@
       "typescript"
     ],
     "settings": {
-      "node": true
+      "node": true,
+      "library": true
     }
   }
 }
