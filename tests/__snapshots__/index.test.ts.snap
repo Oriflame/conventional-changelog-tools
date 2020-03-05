@@ -5,7 +5,7 @@ exports[`conventional-changelog-beemo doesnt replace @username if wrapped in bac
 
 #### 📦 Dependencies
 
-- Updated \\\\\`@types\\\\\` packages. ([a1b2c3d](https://github.com/rajzik/conventional-changelog-beemo/commit/a1b2c3d))"
+- Updated \`@types\` packages. ([a1b2c3d](https://github.com/rajzik/conventional-changelog-beemo/commit/a1b2c3d))"
 `;
 
 exports[`conventional-changelog-beemo handles merge commits 1`] = `
