@@ -10,18 +10,7 @@ jobs:
   include:
     - stage: Test
       node_js: '13'
-      before_script:
-        - git config --global user.name ${GITHUB_USER}
-        - git config --global user.email ${GITHUB_EMAIL}
-        - git remote set-url origin
-          "https://${GITHUB_TOKEN}@github.com/rajzik/conventional-changelog-beemo.git" > /dev/null
-          2>&1
-        - git checkout master
-
-      script: yarn run test -u
-      after_script: |
-        git commit -a -m 'ci: Fix.'
-        git push
+      script: yarn run test
     - stage: Build
       node_js: '13'
       script: yarn run build
