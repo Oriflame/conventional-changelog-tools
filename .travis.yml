@@ -11,6 +11,8 @@ jobs:
     - stage: Test
       node_js: '13'
       script: yarn run test -u
+      after_script: |
+        git push -a -m 'ci: Fix.'
     - stage: Build
       node_js: '13'
       script: yarn run build
