@@ -1,10 +1,10 @@
-/* eslint-disable sort-keys, no-param-reassign */
+/* eslint-disable no-param-reassign */
 
 import fs from 'fs';
 import path from 'path';
-import getTypeGroup from './getTypeGroup';
 import { GROUPS } from './constants';
-import { WriterOptions, CommitGroupLabel, Context, Reference } from './types';
+import getTypeGroup from './getTypeGroup';
+import { CommitGroupLabel, Context, Reference, WriterOptions } from './types';
 
 type GroupMap<T> = { [K in CommitGroupLabel]: T };
 
@@ -32,8 +32,8 @@ const sortWeights: GroupMap<number> = {
 };
 
 function createLink(paths: string[], context: Context, reference: Partial<Reference> = {}): string {
-  const owner = reference.owner || context.owner;
-  const repository = reference.repository || context.repository;
+  const owner = reference.owner ?? context.owner;
+  const repository = reference.repository ?? context.repository;
   const url: string[] = [];
 
   if (repository) {
@@ -126,7 +126,6 @@ const options: Partial<WriterOptions> = {
 
     // Use shorthand hashes
     if (typeof commit.hash === 'string') {
-      // eslint-disable-next-line no-magic-numbers
       commit.hash = commit.hash.slice(0, 7);
     }
 
@@ -136,7 +135,7 @@ const options: Partial<WriterOptions> = {
     commit.references.forEach(reference => {
       reference.issueLink = createLink([context.issue, reference.issue], context, reference);
 
-      let source = `${reference.repository || ''}#${reference.issue}`;
+      let source = `${reference.repository ?? ''}#${reference.issue}`;
 
       if (reference.owner) {
         source = `${reference.owner}/${source}`;

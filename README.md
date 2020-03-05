@@ -1,16 +1,15 @@
 # conventional-changelog-beemo
 
-[![npm version](https://badge.fury.io/js/conventional-changelog-beemo.svg)](https://www.npmjs.com/package/conventional-changelog-beemo)
-[![npm deps](https://david-dm.org/beemojs/conventional-changelog-beemo.svg)](https://www.npmjs.com/package/conventional-changelog-beemo)
+Original repo [beemo preset](https://github.com/beemojs/beemo)
 
-> [conventional-changelog](https://github.com/conventional-changelog/conventional-changelog) >
-> [beemo preset](https://github.com/beemojs/beemo)
+<!-- [![npm version](https://badge.fury.io/js/conventional-changelog-beemo.svg)](https://www.npmjs.com/package/conventional-changelog-beemo)
+[![npm deps](https://david-dm.org/beemojs/conventional-changelog-beemo.svg)](https://www.npmjs.com/package/conventional-changelog-beemo) -->
 
 Beemo's commit message guidelines and changelog structure. _Now with more emojis!_
 
 ## Commit Message Format
 
-The commit message format consists of a **type**, optional **scope** in parens, and a required
+The commit message format consists of a **type**, optional **scope** in parenthesis, and a required
 **message**:
 
 ```

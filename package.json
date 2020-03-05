@@ -1,6 +1,6 @@
 {
-  "name": "conventional-changelog-beemo",
-  "version": "1.6.0",
+  "name": "@rajzik/conventional-changelog-beemo",
+  "version": "0.0.0",
   "description": "Conventional changelog preset for Beemo and associated projects.",
   "keywords": [
     "conventional-changelog",
@@ -12,33 +12,45 @@
   "engines": {
     "node": ">=8.9.0"
   },
-  "repository": "https://github.com/beemojs/conventional-changelog-beemo",
-  "author": "Miles Johnson",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": "https://github.com/rajzik/conventional-changelog-beemo",
+  "author": "Jan Silhan",
   "license": "MIT",
   "scripts": {
-    "prepare": "beemo create-config --silent",
-    "build": "beemo typescript",
+    "prepare": "lumos create-config --silent",
+    "build": "lumos typescript",
     "coverage": "yarn run jest --coverage",
-    "eslint": "beemo eslint",
-    "jest": "beemo jest -i",
-    "prettier": "beemo prettier",
-    "release": "npx np --yolo --no-yarn",
-    "type": "beemo typescript --noEmit",
+    "eslint": "lumos eslint",
+    "jest": "lumos jest -i",
+    "prettier": "lumos prettier",
+    "release": "semantic-release",
+    "type": "lumos typescript --noEmit",
     "prerelease": "yarn test && yarn run build",
     "pretest": "yarn run type",
     "test": "yarn run jest",
     "posttest": "yarn run eslint"
   },
   "devDependencies": {
-    "@milesj/build-tools": "^0.60.4",
-    "@types/node": "^12.12.14",
+    "@commitlint/cli": "^8.3.5",
+    "@rajzik/az-semantic-release-config": "^1.0.2",
+    "@rajzik/config-babel": "^1.7.4",
+    "@rajzik/config-eslint": "^1.6.9",
+    "@rajzik/config-jest": "^1.5.7",
+    "@rajzik/config-prettier": "^1.4.9",
+    "@rajzik/config-typescript": "^1.4.8",
+    "@rajzik/conventional-changelog-lint-config-beemo": "^1.0.1",
+    "@rajzik/lumos": "^1.7.18",
+    "@types/node": "^13.7.7",
     "@types/shelljs": "^0.8.6",
-    "conventional-changelog-core": "^4.1.1",
+    "conventional-changelog-core": "^4.1.4",
     "conventional-recommended-bump": "^6.0.5",
+    "husky": "^4.2.3",
+    "semantic-release": "^17.0.4",
     "shelljs": "^0.8.3"
   },
-  "beemo": {
-    "module": "@milesj/build-tools",
+  "lumos": {
     "drivers": [
       "babel",
       "eslint",
@@ -49,9 +61,5 @@
     "settings": {
       "node": true
     }
-  },
-  "funding": {
-    "type": "ko-fi",
-    "url": "https://ko-fi.com/milesjohnson"
   }
 }
