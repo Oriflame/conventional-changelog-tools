@@ -1728,10 +1728,10 @@
     execa "^4.0.0"
     fast-glob "^3.2.2"
 
-"@rajzik/lumos@^1.7.18":
-  version "1.7.18"
-  resolved "https://registry.yarnpkg.com/@rajzik/lumos/-/lumos-1.7.18.tgz#d4915155fc5b1c3230714fc9a8c33d52f2215d91"
-  integrity sha512-a5QKKWzpl8AOjfjZGp83XXjufnTEb/vP4AIzWN/ugdJZZfZzNAs97p0snS5xBDU2f9bt3lOejiIO9SRnWFff+Q==
+"@rajzik/lumos@^1.7.19":
+  version "1.7.19"
+  resolved "https://registry.yarnpkg.com/@rajzik/lumos/-/lumos-1.7.19.tgz#c61fe2d4b442d19d4b96e8194359d17f5280b0e2"
+  integrity sha512-Yn+1ucDC64IaaJ9Df4iL4V+R3OK1m/zb+h/ZdLMB+2dUDeaP2CD6N4l73mSBnTOIqBVkKe5CeFqVtqcASI3/jg==
   dependencies:
     "@beemo/cli" "^1.0.9"
     "@beemo/core" "^1.1.5"
@@ -1739,7 +1739,7 @@
     chalk "^3.0.0"
     check-node-version "^4.0.2"
     conventional-changelog-beemo "^1.6.0"
-    cross-env "^7.0.1"
+    cross-env "^7.0.2"
     edit-json-file "^1.4.0"
     enquirer "^2.3.4"
     execa "^4.0.0"
@@ -3984,14 +3984,7 @@ end-of-stream@^1.0.0, end-of-stream@^1.1.0:
   dependencies:
     once "^1.4.0"
 
-enquirer@^2.3.0:
-  version "2.3.2"
-  resolved "https://registry.npmjs.org/enquirer/-/enquirer-2.3.2.tgz#1c30284907cadff5ed2404bd8396036dd3da070e"
-  integrity sha512-PLhTMPUXlnaIv9D3Cq3/Zr1xb7soeDDgunobyCmYLUG19n24dvC8i+ZZgm2DekGpDnx7JvFSHV7lxfM58PMtbA==
-  dependencies:
-    ansi-colors "^3.2.1"
-
-enquirer@^2.3.4:
+enquirer@^2.3.0, enquirer@^2.3.4:
   version "2.3.4"
   resolved "https://registry.yarnpkg.com/enquirer/-/enquirer-2.3.4.tgz#c608f2e1134c7f68c1c9ee056de13f9b31076de9"
   integrity sha512-pkYrrDZumL2VS6VBGDhqbajCM2xpkUNLuKfGPjfKaSIBKYopQbqEFyrOkRMIb2HDR/rO1kGhEt/5twBwtzKBXw==
