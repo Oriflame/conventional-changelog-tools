@@ -10,7 +10,7 @@ jobs:
   include:
     - stage: Test
       node_js: '13'
-      script: yarn run test
+      script: yarn run test -u
     - stage: Build
       node_js: '13'
       script: yarn run build
