@@ -1,3 +1,13 @@
+### 2.0.1 - 2020-03-05
+
+#### 🐞 Fixes
+
+- Added types. ([107ee9a](https://github.com/rajzik/conventional-changelog-beemo/commit/107ee9a))
+
+#### 🛠 Internals
+
+- Remove unnecessary stuff. ([c44e1a4](https://github.com/rajzik/conventional-changelog-beemo/commit/c44e1a4))
+
 # 2.0.0 - 2020-03-05
 
 #### 💥 Breaking
