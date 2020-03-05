@@ -5,7 +5,7 @@ exports[`conventional-changelog-beemo doesnt replace @username if wrapped in bac
 
 #### 📦 Dependencies
 
-- Updated \\\\\`@types\\\\\` packages. ([a1b2c3d](https://github.com/beemojs/conventional-changelog-beemo/commit/a1b2c3d))"
+- Updated \\\\\`@types\\\\\` packages. ([a1b2c3d](https://github.com/rajzik/conventional-changelog-beemo/commit/a1b2c3d))"
 `;
 
 exports[`conventional-changelog-beemo handles merge commits 1`] = `
@@ -13,7 +13,7 @@ exports[`conventional-changelog-beemo handles merge commits 1`] = `
 
 #### 🐞 Fixes
 
-- use yarn ([a1b2c3d](https://github.com/beemojs/conventional-changelog-beemo/commit/a1b2c3d))"
+- use yarn ([a1b2c3d](https://github.com/rajzik/conventional-changelog-beemo/commit/a1b2c3d))"
 `;
 
 exports[`conventional-changelog-beemo handles multiple notes 1`] = `
@@ -25,11 +25,11 @@ Made a lot of changes
 
 #### 🎉 Release
 
-- Initial release ([a1b2c3d](https://github.com/beemojs/conventional-changelog-beemo/commit/a1b2c3d))
+- Initial release ([a1b2c3d](https://github.com/rajzik/conventional-changelog-beemo/commit/a1b2c3d))
 
 #### 🐞 Fixes
 
-- **[button]** Made button changes ([a1b2c3d](https://github.com/beemojs/conventional-changelog-beemo/commit/a1b2c3d))"
+- **[button]** Made button changes ([a1b2c3d](https://github.com/rajzik/conventional-changelog-beemo/commit/a1b2c3d))"
 `;
 
 exports[`conventional-changelog-beemo handles revert type 1`] = `
@@ -37,7 +37,7 @@ exports[`conventional-changelog-beemo handles revert type 1`] = `
 
 #### ↩️ Reverts
 
-- **[foo]** undo this ([a1b2c3d](https://github.com/beemojs/conventional-changelog-beemo/commit/a1b2c3d))"
+- **[foo]** undo this ([a1b2c3d](https://github.com/rajzik/conventional-changelog-beemo/commit/a1b2c3d))"
 `;
 
 exports[`conventional-changelog-beemo links commits/issues to deep repositories correctly 1`] = `
@@ -45,7 +45,7 @@ exports[`conventional-changelog-beemo links commits/issues to deep repositories 
 
 #### 🚀 Updates
 
-- supports sub-package links ([a1b2c3d](https://github.com/beemojs/conventional-changelog-beemo/commit/a1b2c3d)), closes [#10](https://github.com/beemojs/conventional-changelog-beemo/issues/10)"
+- supports sub-package links ([a1b2c3d](https://github.com/rajzik/conventional-changelog-beemo/commit/a1b2c3d)), closes [#10](https://github.com/rajzik/conventional-changelog-beemo/issues/10)"
 `;
 
 exports[`conventional-changelog-beemo only replaces with link to user if it is an username 1`] = `
@@ -53,11 +53,11 @@ exports[`conventional-changelog-beemo only replaces with link to user if it is a
 
 #### 🐞 Fixes
 
-- use npm@5 ([@username](https://github.com/username)) ([a1b2c3d](https://github.com/beemojs/conventional-changelog-beemo/commit/a1b2c3d))
+- use npm@5 ([@username](https://github.com/username)) ([a1b2c3d](https://github.com/rajzik/conventional-changelog-beemo/commit/a1b2c3d))
 
 #### 🛠 Internals
 
-- **[deps]** bump @dummy/package from 7.1.2 to 8.0.0 ([a1b2c3d](https://github.com/beemojs/conventional-changelog-beemo/commit/a1b2c3d))"
+- **[deps]** bump @dummy/package from 7.1.2 to 8.0.0 ([a1b2c3d](https://github.com/rajzik/conventional-changelog-beemo/commit/a1b2c3d))"
 `;
 
 exports[`conventional-changelog-beemo replaces #[0-9]+ with issue URL 1`] = `
@@ -65,7 +65,7 @@ exports[`conventional-changelog-beemo replaces #[0-9]+ with issue URL 1`] = `
 
 #### 🚀 Updates
 
-- **[awesome]** fix #88 ([a1b2c3d](https://github.com/beemojs/conventional-changelog-beemo/commit/a1b2c3d)), closes [#88](https://github.com/beemojs/conventional-changelog-beemo/issues/88)"
+- **[awesome]** fix #88 ([a1b2c3d](https://github.com/rajzik/conventional-changelog-beemo/commit/a1b2c3d)), closes [#88](https://github.com/rajzik/conventional-changelog-beemo/issues/88)"
 `;
 
 exports[`conventional-changelog-beemo replaces @username with GitHub user URL 1`] = `
@@ -73,7 +73,7 @@ exports[`conventional-changelog-beemo replaces @username with GitHub user URL 1`
 
 #### 🚀 Updates
 
-- **[awesome]** issue brought up by [@bcoe](https://github.com/bcoe)! on Friday ([a1b2c3d](https://github.com/beemojs/conventional-changelog-beemo/commit/a1b2c3d))"
+- **[awesome]** issue brought up by [@bcoe](https://github.com/bcoe)! on Friday ([a1b2c3d](https://github.com/rajzik/conventional-changelog-beemo/commit/a1b2c3d))"
 `;
 
 exports[`conventional-changelog-beemo supports all types at once 1`] = `
@@ -85,49 +85,49 @@ They are easier now!
 
 #### 🎉 Release
 
-- New major! ([a1b2c3d](https://github.com/beemojs/conventional-changelog-beemo/commit/a1b2c3d))
+- New major! ([a1b2c3d](https://github.com/rajzik/conventional-changelog-beemo/commit/a1b2c3d))
 
 #### 💥 Breaking
 
-- Forms have changed ([a1b2c3d](https://github.com/beemojs/conventional-changelog-beemo/commit/a1b2c3d))
+- Forms have changed ([a1b2c3d](https://github.com/rajzik/conventional-changelog-beemo/commit/a1b2c3d))
 
 #### 🚀 Updates
 
-- **[core]** settings refactor ([a1b2c3d](https://github.com/beemojs/conventional-changelog-beemo/commit/a1b2c3d))
-- **[modal, button]** added accessibility ([a1b2c3d](https://github.com/beemojs/conventional-changelog-beemo/commit/a1b2c3d)), closes [#1](https://github.com/beemojs/conventional-changelog-beemo/issues/1) [#2](https://github.com/beemojs/conventional-changelog-beemo/issues/2)
-- amazing new module ([a1b2c3d](https://github.com/beemojs/conventional-changelog-beemo/commit/a1b2c3d))
+- **[core]** settings refactor ([a1b2c3d](https://github.com/rajzik/conventional-changelog-beemo/commit/a1b2c3d))
+- **[modal, button]** added accessibility ([a1b2c3d](https://github.com/rajzik/conventional-changelog-beemo/commit/a1b2c3d)), closes [#1](https://github.com/rajzik/conventional-changelog-beemo/issues/1) [#2](https://github.com/rajzik/conventional-changelog-beemo/issues/2)
+- amazing new module ([a1b2c3d](https://github.com/rajzik/conventional-changelog-beemo/commit/a1b2c3d))
 
 #### 🐞 Fixes
 
-- **[router]** Fix params ([a1b2c3d](https://github.com/beemojs/conventional-changelog-beemo/commit/a1b2c3d))
-- updated i18n ([a1b2c3d](https://github.com/beemojs/conventional-changelog-beemo/commit/a1b2c3d))
+- **[router]** Fix params ([a1b2c3d](https://github.com/rajzik/conventional-changelog-beemo/commit/a1b2c3d))
+- updated i18n ([a1b2c3d](https://github.com/rajzik/conventional-changelog-beemo/commit/a1b2c3d))
 
 #### 🔑 Security
 
-- **[auth]** improved logic ([a1b2c3d](https://github.com/beemojs/conventional-changelog-beemo/commit/a1b2c3d)), closes [#3](https://github.com/beemojs/conventional-changelog-beemo/issues/3)
+- **[auth]** improved logic ([a1b2c3d](https://github.com/rajzik/conventional-changelog-beemo/commit/a1b2c3d)), closes [#3](https://github.com/rajzik/conventional-changelog-beemo/issues/3)
 
 #### ⚙️ Types
 
-- Removed any ([a1b2c3d](https://github.com/beemojs/conventional-changelog-beemo/commit/a1b2c3d))
+- Removed any ([a1b2c3d](https://github.com/rajzik/conventional-changelog-beemo/commit/a1b2c3d))
 
 #### 🎨 Styles
 
-- **[button]** polished rounded corners ([a1b2c3d](https://github.com/beemojs/conventional-changelog-beemo/commit/a1b2c3d))
+- **[button]** polished rounded corners ([a1b2c3d](https://github.com/rajzik/conventional-changelog-beemo/commit/a1b2c3d))
 
 #### 📘 Docs
 
-- added getting started ([a1b2c3d](https://github.com/beemojs/conventional-changelog-beemo/commit/a1b2c3d))
+- added getting started ([a1b2c3d](https://github.com/rajzik/conventional-changelog-beemo/commit/a1b2c3d))
 
 #### 📦 Dependencies
 
-- **[babel,jest]** Bumped to latest ([a1b2c3d](https://github.com/beemojs/conventional-changelog-beemo/commit/a1b2c3d))
+- **[babel,jest]** Bumped to latest ([a1b2c3d](https://github.com/rajzik/conventional-changelog-beemo/commit/a1b2c3d))
 
 #### 🛠 Internals
 
-- **[ts]** updated types ([a1b2c3d](https://github.com/beemojs/conventional-changelog-beemo/commit/a1b2c3d))
-- setup testing framework ([a1b2c3d](https://github.com/beemojs/conventional-changelog-beemo/commit/a1b2c3d))
-- **[deps]** updated dev tools ([a1b2c3d](https://github.com/beemojs/conventional-changelog-beemo/commit/a1b2c3d))
-- **[travis]** fixed yaml config ([a1b2c3d](https://github.com/beemojs/conventional-changelog-beemo/commit/a1b2c3d))"
+- **[ts]** updated types ([a1b2c3d](https://github.com/rajzik/conventional-changelog-beemo/commit/a1b2c3d))
+- setup testing framework ([a1b2c3d](https://github.com/rajzik/conventional-changelog-beemo/commit/a1b2c3d))
+- **[deps]** updated dev tools ([a1b2c3d](https://github.com/rajzik/conventional-changelog-beemo/commit/a1b2c3d))
+- **[travis]** fixed yaml config ([a1b2c3d](https://github.com/rajzik/conventional-changelog-beemo/commit/a1b2c3d))"
 `;
 
 exports[`conventional-changelog-beemo supports non public GitHub repository locations 1`] = `
@@ -144,15 +144,15 @@ exports[`conventional-changelog-beemo uses h1 for major versions 1`] = `
 
 #### 🎉 Release
 
-- new stuff ([a1b2c3d](https://github.com/beemojs/conventional-changelog-beemo/commit/a1b2c3d))
+- new stuff ([a1b2c3d](https://github.com/rajzik/conventional-changelog-beemo/commit/a1b2c3d))
 
 #### 💥 Breaking
 
-- new shit ([a1b2c3d](https://github.com/beemojs/conventional-changelog-beemo/commit/a1b2c3d))
+- new shit ([a1b2c3d](https://github.com/rajzik/conventional-changelog-beemo/commit/a1b2c3d))
 
 #### 🐞 Fixes
 
-- just a patch ([a1b2c3d](https://github.com/beemojs/conventional-changelog-beemo/commit/a1b2c3d))"
+- just a patch ([a1b2c3d](https://github.com/rajzik/conventional-changelog-beemo/commit/a1b2c3d))"
 `;
 
 exports[`conventional-changelog-beemo uses h2 for minor versions 1`] = `
@@ -160,13 +160,13 @@ exports[`conventional-changelog-beemo uses h2 for minor versions 1`] = `
 
 #### 🚀 Updates
 
-- **[modal]** better modals ([a1b2c3d](https://github.com/beemojs/conventional-changelog-beemo/commit/a1b2c3d))
-- new shit ([a1b2c3d](https://github.com/beemojs/conventional-changelog-beemo/commit/a1b2c3d))
-- new stuff ([a1b2c3d](https://github.com/beemojs/conventional-changelog-beemo/commit/a1b2c3d))
+- **[modal]** better modals ([a1b2c3d](https://github.com/rajzik/conventional-changelog-beemo/commit/a1b2c3d))
+- new shit ([a1b2c3d](https://github.com/rajzik/conventional-changelog-beemo/commit/a1b2c3d))
+- new stuff ([a1b2c3d](https://github.com/rajzik/conventional-changelog-beemo/commit/a1b2c3d))
 
 #### 🐞 Fixes
 
-- just a patch ([a1b2c3d](https://github.com/beemojs/conventional-changelog-beemo/commit/a1b2c3d))"
+- just a patch ([a1b2c3d](https://github.com/rajzik/conventional-changelog-beemo/commit/a1b2c3d))"
 `;
 
 exports[`conventional-changelog-beemo uses h3 for patch versions 1`] = `
@@ -174,11 +174,11 @@ exports[`conventional-changelog-beemo uses h3 for patch versions 1`] = `
 
 #### 🐞 Fixes
 
-- just a patch ([a1b2c3d](https://github.com/beemojs/conventional-changelog-beemo/commit/a1b2c3d))
+- just a patch ([a1b2c3d](https://github.com/rajzik/conventional-changelog-beemo/commit/a1b2c3d))
 
 #### 📘 Docs
 
-- add a manual ([a1b2c3d](https://github.com/beemojs/conventional-changelog-beemo/commit/a1b2c3d))"
+- add a manual ([a1b2c3d](https://github.com/rajzik/conventional-changelog-beemo/commit/a1b2c3d))"
 `;
 
 exports[`conventional-changelog-beemo works if there is a semver tag 1`] = `
@@ -186,7 +186,7 @@ exports[`conventional-changelog-beemo works if there is a semver tag 1`] = `
 
 #### 🚀 Updates
 
-- some more features ([a1b2c3d](https://github.com/beemojs/conventional-changelog-beemo/commit/a1b2c3d))"
+- some more features ([a1b2c3d](https://github.com/rajzik/conventional-changelog-beemo/commit/a1b2c3d))"
 `;
 
 exports[`conventional-changelog-beemo works if there is no semver tag 1`] = `
@@ -196,26 +196,26 @@ New build system.
 
 #### 🚀 Updates
 
-- **[ngOptions]** make it faster ([a1b2c3d](https://github.com/beemojs/conventional-changelog-beemo/commit/a1b2c3d)), closes [#1](https://github.com/beemojs/conventional-changelog-beemo/issues/1) [#2](https://github.com/beemojs/conventional-changelog-beemo/issues/2)
-- amazing new module ([a1b2c3d](https://github.com/beemojs/conventional-changelog-beemo/commit/a1b2c3d))
+- **[ngOptions]** make it faster ([a1b2c3d](https://github.com/rajzik/conventional-changelog-beemo/commit/a1b2c3d)), closes [#1](https://github.com/rajzik/conventional-changelog-beemo/issues/1) [#2](https://github.com/rajzik/conventional-changelog-beemo/issues/2)
+- amazing new module ([a1b2c3d](https://github.com/rajzik/conventional-changelog-beemo/commit/a1b2c3d))
 
 #### 🐞 Fixes
 
-- **[compile]** avoid a bug ([a1b2c3d](https://github.com/beemojs/conventional-changelog-beemo/commit/a1b2c3d))
+- **[compile]** avoid a bug ([a1b2c3d](https://github.com/rajzik/conventional-changelog-beemo/commit/a1b2c3d))
 
 #### ⚙️ Types
 
-- Added unknown ([a1b2c3d](https://github.com/beemojs/conventional-changelog-beemo/commit/a1b2c3d))
+- Added unknown ([a1b2c3d](https://github.com/rajzik/conventional-changelog-beemo/commit/a1b2c3d))
 
 #### ↩️ Reverts
 
-- **[ngOptions]** bad commit ([a1b2c3d](https://github.com/beemojs/conventional-changelog-beemo/commit/a1b2c3d))
+- **[ngOptions]** bad commit ([a1b2c3d](https://github.com/rajzik/conventional-changelog-beemo/commit/a1b2c3d))
 
 #### 🛠 Internals
 
-- Added before hooks ([a1b2c3d](https://github.com/beemojs/conventional-changelog-beemo/commit/a1b2c3d))
-- **[travis]** add TravisCI pipeline ([a1b2c3d](https://github.com/beemojs/conventional-changelog-beemo/commit/a1b2c3d))
-- first build setup ([a1b2c3d](https://github.com/beemojs/conventional-changelog-beemo/commit/a1b2c3d))"
+- Added before hooks ([a1b2c3d](https://github.com/rajzik/conventional-changelog-beemo/commit/a1b2c3d))
+- **[travis]** add TravisCI pipeline ([a1b2c3d](https://github.com/rajzik/conventional-changelog-beemo/commit/a1b2c3d))
+- first build setup ([a1b2c3d](https://github.com/rajzik/conventional-changelog-beemo/commit/a1b2c3d))"
 `;
 
 exports[`conventional-changelog-beemo works with unknown host 1`] = `
