@@ -1713,32 +1713,37 @@
     "@beemo/driver-typescript" "^1.3.2"
     typescript "^3.8.3"
 
+"@rajzik/conventional-changelog-beemo@^2.0.1":
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/@rajzik/conventional-changelog-beemo/-/conventional-changelog-beemo-2.0.1.tgz#df2414a1b67ac879c22bcfa2800a8ac5feebb1e6"
+  integrity sha512-WL6IojaOIAanF2BC9NyGjnFf5Ia5UFmTZq+9UXXfgF+jeKjgheDDEpst+aRd2Q7yEGiML9Z91wbInlBPTC1r3w==
+
 "@rajzik/conventional-changelog-lint-config-beemo@^1.0.1":
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/@rajzik/conventional-changelog-lint-config-beemo/-/conventional-changelog-lint-config-beemo-1.0.1.tgz#0ace1c7d0377df0ebd150a99ae71418e25bdde66"
   integrity sha512-IMsLXO7VcTSdJM8rGT41HubNsoiO4iE7ZtzyJ0ezSqGSkkz94uhztNnYHiJFzeAJ8MCMOyDAHZiEHBiM68aY6w==
 
-"@rajzik/lumos-common@^1.5.4":
-  version "1.5.4"
-  resolved "https://registry.yarnpkg.com/@rajzik/lumos-common/-/lumos-common-1.5.4.tgz#c4ac4e4228495b02ce77585b764365ef99de698a"
-  integrity sha512-jJpVgrnD5McZQo8tRSDXU7GgWf2lutjoJjpmcTJlaiuEJWEwMi1wtxrIw1sRj+X36D22qRxKzTrPr1WWYXqXeg==
+"@rajzik/lumos-common@^1.5.4", "@rajzik/lumos-common@^1.6.0":
+  version "1.6.0"
+  resolved "https://registry.yarnpkg.com/@rajzik/lumos-common/-/lumos-common-1.6.0.tgz#004178d8a9034f42a98d2e4b35ed48b37b841341"
+  integrity sha512-U7yvxDare426S8nGjtB3ja74/+He9eOkZnuqobH6iA9zZ19uYFtX7w3dvvZKoCnowZrwro7ZJr5j9vXH8YrK2g==
   dependencies:
     "@beemo/core" "^1.1.5"
     "@boost/core" "^1.18.2"
     execa "^4.0.0"
     fast-glob "^3.2.2"
 
-"@rajzik/lumos@^1.7.20":
-  version "1.7.20"
-  resolved "https://registry.yarnpkg.com/@rajzik/lumos/-/lumos-1.7.20.tgz#87488630ddd96405e47d6aa427554e5cd2f23107"
-  integrity sha512-//1//y0uH1DMle+12VD5tJ6zLvdxJ3Jij7pFLq02W4S7Czch70h2iqj6Oa5pr1QWntXDwxugvgqdpGw9wKujDQ==
+"@rajzik/lumos@^1.8.0":
+  version "1.8.0"
+  resolved "https://registry.yarnpkg.com/@rajzik/lumos/-/lumos-1.8.0.tgz#5b5bca71ce21b66e41649cf635b17321445b9232"
+  integrity sha512-s9xc6uo4nXgHGJfCktdBrjEhiXXJqW1J+1zr8xl93qq98zT1BeaxpQUf2bVRSG4JZqpEu8Q6cneyMOo4Bab2vw==
   dependencies:
     "@beemo/cli" "^1.0.9"
     "@beemo/core" "^1.1.5"
-    "@rajzik/lumos-common" "^1.5.4"
+    "@rajzik/conventional-changelog-beemo" "^2.0.1"
+    "@rajzik/lumos-common" "^1.6.0"
     chalk "^3.0.0"
     check-node-version "^4.0.2"
-    conventional-changelog-beemo "^1.6.0"
     cross-env "^7.0.2"
     edit-json-file "^1.4.0"
     enquirer "^2.3.4"
