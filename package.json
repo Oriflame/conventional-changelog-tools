@@ -36,7 +36,7 @@
     "@commitlint/cli": "^8.3.5",
     "@rajzik/az-semantic-release-config": "^1.0.3",
     "@rajzik/config-babel": "^1.7.5",
-    "@rajzik/config-eslint": "^1.6.17",
+    "@rajzik/config-eslint": "^1.6.19",
     "@rajzik/config-jest": "^1.6.1",
     "@rajzik/config-prettier": "^1.4.10",
     "@rajzik/config-typescript": "^1.4.8",
