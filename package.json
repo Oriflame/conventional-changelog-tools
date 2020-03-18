@@ -39,7 +39,7 @@
     "@rajzik/config-eslint": "^1.6.19",
     "@rajzik/config-jest": "^1.6.1",
     "@rajzik/config-prettier": "^1.4.10",
-    "@rajzik/config-typescript": "^1.4.8",
+    "@rajzik/config-typescript": "^1.5.0",
     "@rajzik/conventional-changelog-lint-config-beemo": "^1.0.1",
     "@rajzik/lumos": "^1.9.2",
     "@types/node": "^13.9.1",
