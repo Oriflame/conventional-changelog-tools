@@ -1662,16 +1662,16 @@
     eslint-plugin-react-hooks "^2.5.0"
     eslint-plugin-unicorn "^17.2.0"
 
-"@rajzik/config-jest@^1.6.1":
-  version "1.6.1"
-  resolved "https://registry.yarnpkg.com/@rajzik/config-jest/-/config-jest-1.6.1.tgz#0a1e65b1f379ec5f91aa76f767aab27011555f3d"
-  integrity sha512-Qgz/EXAxYaa1jQIr0ODrT53BreymzBNwgMkNfso9zxecCJ4uiIt5l059v74culWCIGTHAMRwSjyeve0pRV2aew==
+"@rajzik/config-jest@^1.7.1":
+  version "1.7.1"
+  resolved "https://registry.yarnpkg.com/@rajzik/config-jest/-/config-jest-1.7.1.tgz#b3779fa78960b4f90846ee7ded3fcb9df4f9df36"
+  integrity sha512-fgbDQVZ8SV2s6GmCr0hnB7XwZInKiZib1mXJjX77HtDy7DjO/OdmO81SzoTZ00K8TUuSM+LNS6QGXAJ6rk6OVQ==
   dependencies:
     "@babel/core" "^7.8.7"
     "@beemo/core" "^1.1.5"
     "@beemo/driver-babel" "^1.2.2"
     "@beemo/driver-jest" "^1.2.1"
-    "@rajzik/lumos-common" "^1.6.0"
+    "@rajzik/lumos-common" "^1.7.1"
     "@types/jest" "^25.1.4"
     airbnb-js-shims "^2.2.1"
     cross-env "^7.0.2"
