@@ -41,7 +41,7 @@
     "@rajzik/config-prettier": "^1.4.10",
     "@rajzik/config-typescript": "^1.5.0",
     "@rajzik/conventional-changelog-lint-config-beemo": "^1.0.1",
-    "@rajzik/lumos": "^1.9.2",
+    "@rajzik/lumos": "^1.10.3",
     "@types/node": "^13.9.1",
     "@types/shelljs": "^0.8.6",
     "conventional-changelog-core": "^4.1.4",
