@@ -1144,10 +1144,10 @@
   resolved "https://registry.yarnpkg.com/@beemo/dependency-graph/-/dependency-graph-1.1.0.tgz#5f110fe8ed148acf589bc4fddc538b07f0a4d03f"
   integrity sha512-xBPqNB99Q0icr7NgYZyxH9lmjo1UgzzozZM/gcDe1jYqKBFx2CZ4jkuOG3d7exjAN4jq/+QfWETAJrHnopdAaA==
 
-"@beemo/driver-babel@^1.2.2":
-  version "1.2.2"
-  resolved "https://registry.yarnpkg.com/@beemo/driver-babel/-/driver-babel-1.2.2.tgz#3ad6c61197b81ebe85819db2465422623b557ae7"
-  integrity sha512-tFObzVoC4N7TT0qPhPgPdlNpBk3T0d/EyCqEAemQCNDkwEd+BQlhDnC8YQ/13ykEtKlrUIo3rpRFlijn8apKpA==
+"@beemo/driver-babel@^1.2.2", "@beemo/driver-babel@^1.2.3":
+  version "1.2.3"
+  resolved "https://registry.yarnpkg.com/@beemo/driver-babel/-/driver-babel-1.2.3.tgz#3780ec28fbd5b58e5967100f3133a2f729e8e944"
+  integrity sha512-tOUBR7bSQ8AqBPf0JkEI3mHjyxe+cJaLBeAJYhTZJ/vaLRdMPfLtzx8144dTZ9P0uk+oa8kwUjBLgBzjHNDpqg==
   dependencies:
     rimraf "^3.0.2"
 
@@ -1782,16 +1782,16 @@
     eslint-plugin-react-hooks "^2.5.1"
     eslint-plugin-unicorn "^17.2.0"
 
-"@rajzik/config-jest@^1.7.2":
-  version "1.7.2"
-  resolved "https://registry.yarnpkg.com/@rajzik/config-jest/-/config-jest-1.7.2.tgz#7a00a8bab2dce960e73af530f5fa922dbffc0d63"
-  integrity sha512-dFtOahaNX7nvL+bRUHswynLfuf8EaaapzPMIFP9fMFuZRjEJ+Ltch9Ae1JnYU+mcBFCYGfa2evufHpXI3Q75+g==
+"@rajzik/config-jest@^1.7.4":
+  version "1.7.4"
+  resolved "https://registry.yarnpkg.com/@rajzik/config-jest/-/config-jest-1.7.4.tgz#09f1b1e10b33f3ff56164d35f641e93d2f949047"
+  integrity sha512-pWK5aoAfuOmSVkG+VHFJScNY/JfhmzbhDSpMDSmfaVDG1H94eDNpR/jlqduEbeAQ+CEoqlHiWd7w6rho8ShVHw==
   dependencies:
     "@babel/core" "^7.9.0"
-    "@beemo/core" "^1.1.5"
-    "@beemo/driver-babel" "^1.2.2"
+    "@beemo/core" "^1.1.6"
+    "@beemo/driver-babel" "^1.2.3"
     "@beemo/driver-jest" "^1.2.1"
-    "@rajzik/lumos-common" "^1.7.1"
+    "@rajzik/lumos-common" "^1.7.2"
     "@types/jest" "^25.1.4"
     airbnb-js-shims "^2.2.1"
     cross-env "^7.0.2"
