@@ -1809,14 +1809,14 @@
     dom-storage "^2.1.0"
     jest "^25.1.0"
 
-"@rajzik/config-prettier@^1.6.1":
-  version "1.6.1"
-  resolved "https://registry.yarnpkg.com/@rajzik/config-prettier/-/config-prettier-1.6.1.tgz#e8450eb796f84302c02cf3c6d75e7231eb00d364"
-  integrity sha512-4b0bfO7ITeA3C7lAy3+RjilPnTh2AwZNkTDa0oqAIoO4Y7ZuuY4T5KO7St5TycRGLd7RUGyAMwuLwcsOunKXIQ==
+"@rajzik/config-prettier@^1.6.2":
+  version "1.6.2"
+  resolved "https://registry.yarnpkg.com/@rajzik/config-prettier/-/config-prettier-1.6.2.tgz#33b57c66ba6de06399d4add60fef760e932dacd7"
+  integrity sha512-0UwMnbCCg3Rj5Fk0GXe2feSTPJhG5bCJGlJ5uktJD+cw2FWXsGMNBVoBSWIa1LbRhZbblEkVrh8hhl4UQR0TOw==
   dependencies:
     "@beemo/core" "^1.1.6"
     "@beemo/driver-prettier" "^1.3.0"
-    "@rajzik/lumos-common" "^1.7.2"
+    "@rajzik/lumos-common" "^1.7.3"
     prettier "^2.0.1"
 
 "@rajzik/config-typescript@^1.5.2":
