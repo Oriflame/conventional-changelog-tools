@@ -1743,12 +1743,12 @@
   dependencies:
     "@types/node" ">= 8"
 
-"@rajzik/az-semantic-release-config@^1.0.4":
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/@rajzik/az-semantic-release-config/-/az-semantic-release-config-1.0.4.tgz#971675a2fe8cdb9479916653e90c4bcb611371bb"
-  integrity sha512-tFbE91yaJwIaxoa1Gj2NpOCSDJRDeXkQATrt2HrayRhUv/sFxPFBgpNGgPkzkFxV7Kpkt2+Ol84gO2jOf7iv3A==
+"@rajzik/az-semantic-release-config@^1.0.5":
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/@rajzik/az-semantic-release-config/-/az-semantic-release-config-1.0.5.tgz#e804e2e31ef69d9060ab6b854bc01edcb3ffa921"
+  integrity sha512-1/LvaReDFgQR/IAm8Y8vf0ViDYnYY2+2NnJTqLAw4F/Y/kZQv5BAzvTw3r1znA5WYQMtmFBHEiD0EF+PetwIBw==
   dependencies:
-    "@semantic-release/changelog" "^5.0.0"
+    "@semantic-release/changelog" "^5.0.1"
     "@semantic-release/commit-analyzer" "^8.0.1"
     "@semantic-release/git" "^9.0.0"
     "@semantic-release/npm" "^7.0.5"
@@ -1872,14 +1872,14 @@
     enquirer "^2.3.4"
     execa "^4.0.0"
 
-"@semantic-release/changelog@^5.0.0":
-  version "5.0.0"
-  resolved "https://registry.yarnpkg.com/@semantic-release/changelog/-/changelog-5.0.0.tgz#3db43fc15d78267c5b3f3f9dd311ddb2a0f8596b"
-  integrity sha512-A1uKqWtQG4WX9Vh4QI5b2ddhqx1qAJFlbow8szSNiXn+TaJg15LSUA9NVqyu0VxQFy3hKUJYwbBHGRXCxCy2fg==
+"@semantic-release/changelog@^5.0.1":
+  version "5.0.1"
+  resolved "https://registry.yarnpkg.com/@semantic-release/changelog/-/changelog-5.0.1.tgz#50a84b63e5d391b7debfe021421589fa2bcdafe4"
+  integrity sha512-unvqHo5jk4dvAf2nZ3aw4imrlwQ2I50eVVvq9D47Qc3R+keNqepx1vDYwkjF8guFXnOYaYcR28yrZWno1hFbiw==
   dependencies:
     "@semantic-release/error" "^2.1.0"
     aggregate-error "^3.0.0"
-    fs-extra "^8.0.0"
+    fs-extra "^9.0.0"
     lodash "^4.17.4"
 
 "@semantic-release/commit-analyzer@^8.0.0", "@semantic-release/commit-analyzer@^8.0.1":
