@@ -34,7 +34,7 @@
   },
   "devDependencies": {
     "@commitlint/cli": "^8.3.5",
-    "@rajzik/az-semantic-release-config": "^1.0.4",
+    "@rajzik/az-semantic-release-config": "^1.0.5",
     "@rajzik/config-babel": "^1.9.7",
     "@rajzik/config-eslint": "^2.1.7",
     "@rajzik/config-jest": "^1.7.7",
