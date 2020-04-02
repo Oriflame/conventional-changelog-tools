@@ -1856,16 +1856,16 @@
     execa "^4.0.0"
     fast-glob "^3.2.2"
 
-"@rajzik/lumos@^1.11.0":
-  version "1.11.0"
-  resolved "https://registry.yarnpkg.com/@rajzik/lumos/-/lumos-1.11.0.tgz#534372b67bfbb59a50d239c61523531c181a3e7b"
-  integrity sha512-r9kqDisE1X4T6TI1ZZCcBPuN5aTXVRZQ5cv6QsxDALNvte1bzHwsGMw8m0gbyUyzNVTusxK7HU7llWMZAUJkTg==
+"@rajzik/lumos@^1.11.1":
+  version "1.11.1"
+  resolved "https://registry.yarnpkg.com/@rajzik/lumos/-/lumos-1.11.1.tgz#9331276eed5b04ae3d2eff60383484c3de3fbded"
+  integrity sha512-3C6Hkb/awRjTyk9kDQIjuN1pgZehvxcSxrf3R2x3/w3KDuxny+znN+B33anl8Hu/rxcsM9EPz4+Zy9vylR99bQ==
   dependencies:
     "@beemo/cli" "^1.0.10"
     "@beemo/core" "^1.1.6"
     "@rajzik/conventional-changelog-beemo" "^2.0.1"
     "@rajzik/lumos-common" "^1.8.0"
-    chalk "^3.0.0"
+    chalk "^4.0.0"
     check-node-version "^4.0.2"
     cross-env "^7.0.2"
     edit-json-file "^1.4.0"
@@ -3043,6 +3043,14 @@ chalk@^3.0.0:
   version "3.0.0"
   resolved "https://registry.npmjs.org/chalk/-/chalk-3.0.0.tgz#3f73c2bf526591f574cc492c51e2456349f844e4"
   integrity sha512-4D3B6Wf41KOYRFdszmDqMCGq5VV/uMAB273JILmO+3jAlh8X4qDtdtgCR3fxtbLEMzSx22QdhnDcJvu2u1fVwg==
+  dependencies:
+    ansi-styles "^4.1.0"
+    supports-color "^7.1.0"
+
+chalk@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/chalk/-/chalk-4.0.0.tgz#6e98081ed2d17faab615eb52ac66ec1fe6209e72"
+  integrity sha512-N9oWFcegS0sFr9oh1oz2d7Npos6vNoWW9HvtCg5N1KRFpUhaAhvTv5Y58g880fZaEYSNm3qDz8SU1UrGvp+n7A==
   dependencies:
     ansi-styles "^4.1.0"
     supports-color "^7.1.0"
