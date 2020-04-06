@@ -1763,10 +1763,10 @@
     "@semantic-release/release-notes-generator" "^9.0.1"
     conventional-changelog-beemo "^1.6.0"
 
-"@rajzik/config-babel@^1.9.8":
-  version "1.9.8"
-  resolved "https://registry.yarnpkg.com/@rajzik/config-babel/-/config-babel-1.9.8.tgz#77f371fcec8d8b29e9ac061b5e335dd34d4b11d9"
-  integrity sha512-A/H0qw/riOogxCjhBOS6D5ZkF6wVNMZu8YRkB6dvt+pP1QqwTeovve0lPaCIWV+eVRNFG9bXM9t5RUuIAUiZIA==
+"@rajzik/config-babel@^1.9.9":
+  version "1.9.9"
+  resolved "https://registry.yarnpkg.com/@rajzik/config-babel/-/config-babel-1.9.9.tgz#4acbae328f77815f703a94a11e45283bacc63aff"
+  integrity sha512-2rL40d8HtpLqmuMb6w3VQusYA9DvEUU4LGHknW+X+ILv2s1neAss/B4Qo8RT53qEl+Z2vKq25ZKPMO6Mcu4PsA==
   dependencies:
     "@babel/cli" "^7.8.4"
     "@babel/core" "^7.9.0"
@@ -1780,7 +1780,7 @@
     "@babel/preset-typescript" "^7.9.0"
     "@beemo/core" "^1.1.6"
     "@beemo/driver-babel" "^1.2.3"
-    "@rajzik/lumos-common" "^1.8.0"
+    "@rajzik/lumos-common" "^1.9.0"
     babel-plugin-graphql-tag "^2.5.0"
     babel-plugin-transform-dev "^2.0.1"
     babel-plugin-transform-react-remove-prop-types "^0.4.24"
