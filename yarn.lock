@@ -1855,27 +1855,27 @@
   resolved "https://registry.yarnpkg.com/@rajzik/conventional-changelog-lint-config-beemo/-/conventional-changelog-lint-config-beemo-1.0.1.tgz#0ace1c7d0377df0ebd150a99ae71418e25bdde66"
   integrity sha512-IMsLXO7VcTSdJM8rGT41HubNsoiO4iE7ZtzyJ0ezSqGSkkz94uhztNnYHiJFzeAJ8MCMOyDAHZiEHBiM68aY6w==
 
-"@rajzik/lumos-common@^1.8.0":
-  version "1.8.0"
-  resolved "https://registry.yarnpkg.com/@rajzik/lumos-common/-/lumos-common-1.8.0.tgz#e4d66db6a191ec28b76d37435a1ffede4e37207a"
-  integrity sha512-HbEE3TGWrr0oJYv+GKuXTaNAuN9Lgj3N9U8GGbkUwumkBO3yPfdXR3bj2s0YOTr0BJxw5rTp4+B8P+xvt8mOjA==
+"@rajzik/lumos-common@^1.8.0", "@rajzik/lumos-common@^1.9.0":
+  version "1.9.0"
+  resolved "https://registry.yarnpkg.com/@rajzik/lumos-common/-/lumos-common-1.9.0.tgz#af3b0bf4cb52cc52350f12458df430f6fcbd692c"
+  integrity sha512-Ctrpqjnqv3nhsNaeXrbzPP1wo5sbNfWJjefIHAJVwB9jra1WejdGYOcjx96QGKc3MSSWuGyVSBxvc2KnOmTFsA==
   dependencies:
     "@beemo/core" "^1.1.6"
     "@boost/common" "^1.8.3"
     execa "^4.0.0"
     fast-glob "^3.2.2"
 
-"@rajzik/lumos@^1.11.6":
-  version "1.11.6"
-  resolved "https://registry.yarnpkg.com/@rajzik/lumos/-/lumos-1.11.6.tgz#3c404d93de9d4f896f36f5a0edd2b5bc31781d57"
-  integrity sha512-i/y8ARzmOCFiHhRnFSXp+HDgBwOhcOcuO+D9YY9UYDgqN8YeuhgGUdij/7jWV86PuJc33P0IaE/AsWoo89qZZQ==
+"@rajzik/lumos@^2.0.0":
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/@rajzik/lumos/-/lumos-2.0.0.tgz#3718bdac459604810464244c4378bf88b288dcc9"
+  integrity sha512-jvGjnjXmFH1zi1UjPkU8oFzcFtjhDBWglIac5CGVKMsbD5e4Id/gvYGFLowQNLr6N4t5R4XMyRFOcrBabd66Bw==
   dependencies:
     "@beemo/cli" "^1.0.10"
     "@beemo/core" "^1.1.6"
     "@rajzik/conventional-changelog-beemo" "^2.0.1"
-    "@rajzik/lumos-common" "^1.8.0"
+    "@rajzik/lumos-common" "^1.9.0"
     chalk "^4.0.0"
-    check-node-version "^4.0.2"
+    check-node-version "^4.0.3"
     cross-env "^7.0.2"
     edit-json-file "^1.4.0"
     enquirer "^2.3.4"
@@ -3100,10 +3100,10 @@ chardet@^0.7.0:
   resolved "https://registry.npmjs.org/chardet/-/chardet-0.7.0.tgz#90094849f0937f2eedc2425d0d28a9e5f0cbad9e"
   integrity sha512-mT8iDcrh03qDGRRmoA2hmBJnxpllMR+0/0qlzjqZES6NdiWDcZkCNAk4rPFZ9Q85r27unkiNNg8ZOiwZXBHwcA==
 
-check-node-version@^4.0.2:
-  version "4.0.2"
-  resolved "https://registry.yarnpkg.com/check-node-version/-/check-node-version-4.0.2.tgz#0385880c42425651ce4aaee8de8008e4a640f5dc"
-  integrity sha512-PsIRqtX9i4oWuScZrBf7I3fDfGfo8aS5uU7F1jJ771X0lNwW6hd+SYgIfs9w8Cw9mY4bF2QlU8ZZ1KdYdCobFA==
+check-node-version@^4.0.3:
+  version "4.0.3"
+  resolved "https://registry.yarnpkg.com/check-node-version/-/check-node-version-4.0.3.tgz#b783dc7267b2db0c2d0f0f51d75c9b6a5ee292f8"
+  integrity sha512-kbnOaF7SE1uasWx3hqxzsU2yz7I+rkxSMuTW0eKoF39eUtSR/a0F4Sm35LwJNx4itOIARf9eLhWHOOh7rlZ5/g==
   dependencies:
     chalk "^3.0.0"
     map-values "^1.0.1"
