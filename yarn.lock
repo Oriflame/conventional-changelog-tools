@@ -1786,14 +1786,14 @@
     babel-plugin-transform-react-remove-prop-types "^0.4.24"
     babel-plugin-typescript-to-proptypes "^1.3.2"
 
-"@rajzik/config-eslint@^2.2.1":
-  version "2.2.1"
-  resolved "https://registry.yarnpkg.com/@rajzik/config-eslint/-/config-eslint-2.2.1.tgz#01f3637dc1ad21b291b19a0e4aafe68b03835608"
-  integrity sha512-khK64YITEjn/niEKFtnzTbNttOL+aVT8dJ35zOzG2giOy1yWxHZsqZPIU8FiXx3OsdMRNm5gNf3A2WhN3ZiU3g==
+"@rajzik/config-eslint@^2.3.0":
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/@rajzik/config-eslint/-/config-eslint-2.3.0.tgz#50bf988b644cc96cf192427f9f14c8906d876987"
+  integrity sha512-vdYkfCTr+CBGMBwe3026rWTe0BlOyrhvCkM2Q/xsFFFtwMzP83p9JUI2LNsXy8SOSFLc39F7GQmaXYRzP8uX7g==
   dependencies:
     "@beemo/core" "^1.1.6"
     "@beemo/driver-eslint" "^1.2.2"
-    "@rajzik/lumos-common" "^1.9.0"
+    "@rajzik/lumos-common" "^1.10.0"
     "@typescript-eslint/eslint-plugin" "^2.27.0"
     "@typescript-eslint/parser" "^2.27.0"
     babel-eslint "^10.1.0"
@@ -1807,7 +1807,7 @@
     eslint-plugin-promise "^4.2.1"
     eslint-plugin-react "^7.19.0"
     eslint-plugin-react-hooks "^3.0.0"
-    eslint-plugin-testing-library "^3.0.2"
+    eslint-plugin-testing-library "^3.0.3"
     eslint-plugin-unicorn "^18.0.1"
 
 "@rajzik/config-jest@^1.9.3":
@@ -4286,10 +4286,10 @@ eslint-plugin-react@^7.19.0:
     string.prototype.matchall "^4.0.2"
     xregexp "^4.3.0"
 
-eslint-plugin-testing-library@^3.0.2:
-  version "3.0.2"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-testing-library/-/eslint-plugin-testing-library-3.0.2.tgz#e7c451020e4dbb595f2b23f85810404aaa562a32"
-  integrity sha512-bi68ZIjwRZqFVDpcMkkZ0L489UQRroSUegeN9wSxRGWsi3nV7jkM3oNk6CxHRrcn5j8RLt+4Xq9y+5A2Xs5ZIQ==
+eslint-plugin-testing-library@^3.0.3:
+  version "3.0.3"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-testing-library/-/eslint-plugin-testing-library-3.0.3.tgz#521f51b9b9383b31434c185bcef0b497932a20d1"
+  integrity sha512-Lk5p/WC6UA+u9KYJwSUVzDKTbNItGJFP1ozsLVJXWcV5dPPRFcfYX5Q8ntQCKBQVAxri9l4nY4cbr0yz5lIBrw==
 
 eslint-plugin-unicorn@^18.0.1:
   version "18.0.1"
