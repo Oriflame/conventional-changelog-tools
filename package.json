@@ -42,7 +42,7 @@
     "@rajzik/config-typescript": "^1.6.1",
     "@rajzik/conventional-changelog-lint-config-beemo": "^1.0.1",
     "@rajzik/lumos": "^2.1.2",
-    "@types/node": "^13.11.0",
+    "@types/node": "^13.11.1",
     "@types/shelljs": "^0.8.7",
     "conventional-changelog-core": "^4.1.4",
     "conventional-recommended-bump": "^6.0.5",
