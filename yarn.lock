@@ -1782,10 +1782,10 @@
   dependencies:
     "@types/node" ">= 8"
 
-"@rajzik/az-semantic-release-config@^1.0.5":
-  version "1.0.5"
-  resolved "https://registry.yarnpkg.com/@rajzik/az-semantic-release-config/-/az-semantic-release-config-1.0.5.tgz#e804e2e31ef69d9060ab6b854bc01edcb3ffa921"
-  integrity sha512-1/LvaReDFgQR/IAm8Y8vf0ViDYnYY2+2NnJTqLAw4F/Y/kZQv5BAzvTw3r1znA5WYQMtmFBHEiD0EF+PetwIBw==
+"@rajzik/az-semantic-release-config@^1.0.6":
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/@rajzik/az-semantic-release-config/-/az-semantic-release-config-1.0.6.tgz#41ca20e09d5b46dd65b43475ec0ca8dfe4e33e8e"
+  integrity sha512-0nO2t6HgJ6EDljOBl0Q8iuQYgCROEgnws7mDFS37T3h9esuFaDUeg5Sc5IruAj9oJuNSW25pKROIdj8dHB0TeA==
   dependencies:
     "@semantic-release/changelog" "^5.0.1"
     "@semantic-release/commit-analyzer" "^8.0.1"
