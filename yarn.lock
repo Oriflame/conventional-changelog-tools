@@ -1179,12 +1179,12 @@
   dependencies:
     "@boost/event" "^1.3.0"
 
-"@beemo/driver-jest@^1.2.1":
-  version "1.2.1"
-  resolved "https://registry.yarnpkg.com/@beemo/driver-jest/-/driver-jest-1.2.1.tgz#47b253fac5d390bc3dc0841ee96b26f250113744"
-  integrity sha512-5P6SSUQvydn1S0wnwMTfbuQPYdiWb702LPAwtDVUTwbh9T2oRGCDGl3Sr9FQspvR2Ky9mkyHrL89KULr+qHcZw==
+"@beemo/driver-jest@^1.2.2":
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/@beemo/driver-jest/-/driver-jest-1.2.2.tgz#5b55841e029ec48c32729e984fe8c60972b53cfb"
+  integrity sha512-tnoljY01R5x6CRJBbmgYnLvlYpv9xO/fPx/160Kp06uyQv0Ysv12wjuM27e51mSNAlV6mZ0GvZcYl7032LSBiw==
   dependencies:
-    "@jest/types" "^25.1.0"
+    "@jest/types" "^25.4.0"
 
 "@beemo/driver-prettier@^1.3.0":
   version "1.3.0"
@@ -1626,16 +1626,6 @@
     "@types/istanbul-reports" "^1.1.1"
     "@types/yargs" "^13.0.0"
 
-"@jest/types@^25.1.0":
-  version "25.1.0"
-  resolved "https://registry.yarnpkg.com/@jest/types/-/types-25.1.0.tgz#b26831916f0d7c381e11dbb5e103a72aed1b4395"
-  integrity sha512-VpOtt7tCrgvamWZh1reVsGADujKigBUFTi19mlRjqEGsE8qH4r3s+skY33dNdXOwyZIvuftZ5tqdF1IgsMejMA==
-  dependencies:
-    "@types/istanbul-lib-coverage" "^2.0.0"
-    "@types/istanbul-reports" "^1.1.1"
-    "@types/yargs" "^15.0.0"
-    chalk "^3.0.0"
-
 "@jest/types@^25.2.6":
   version "25.2.6"
   resolved "https://registry.yarnpkg.com/@jest/types/-/types-25.2.6.tgz#c12f44af9bed444438091e4b59e7ed05f8659cb6"
@@ -1842,15 +1832,15 @@
     eslint-plugin-testing-library "^3.0.4"
     eslint-plugin-unicorn "^18.0.1"
 
-"@rajzik/config-jest@^1.9.8":
-  version "1.9.8"
-  resolved "https://registry.yarnpkg.com/@rajzik/config-jest/-/config-jest-1.9.8.tgz#969b9e8e8ca08a9eb62b314dc507867850e9a746"
-  integrity sha512-Yg1N+0tFLufPjQVMIxyzEnLEFhh5HOI/iSfmT0zKE6ues9IIG2Eq3ih+gXNZbvKCBV97njtrPlRM6w6eoGhSng==
+"@rajzik/config-jest@^1.9.10":
+  version "1.9.10"
+  resolved "https://registry.yarnpkg.com/@rajzik/config-jest/-/config-jest-1.9.10.tgz#e8c40f4cc7fa4e17ce1bff17ae2098b247fe9359"
+  integrity sha512-2Tm+pYiDTP2/A1LOm/eSauhg5OlpcktXtucaMb0M18UsBBWKCAiHqxNE/mDIdhyCEIZKfXJQ6UTJfW2IYDQTHA==
   dependencies:
     "@babel/core" "^7.9.0"
     "@beemo/core" "^1.1.6"
-    "@beemo/driver-babel" "^1.2.3"
-    "@beemo/driver-jest" "^1.2.1"
+    "@beemo/driver-babel" "^1.2.4"
+    "@beemo/driver-jest" "^1.2.2"
     "@rajzik/lumos-common" "^1.11.2"
     "@types/jest" "^25.2.1"
     airbnb-js-shims "^2.2.1"
