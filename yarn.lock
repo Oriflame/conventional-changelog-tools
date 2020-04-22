@@ -1127,10 +1127,10 @@
   resolved "https://registry.yarnpkg.com/@bcoe/v8-coverage/-/v8-coverage-0.2.3.tgz#75a2e8b51cb758a7553d6804a5932d7aace75c39"
   integrity sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==
 
-"@beemo/cli@^1.0.10":
-  version "1.0.10"
-  resolved "https://registry.yarnpkg.com/@beemo/cli/-/cli-1.0.10.tgz#8600a1dca69cbd48605621702fc7a791a9bd16c8"
-  integrity sha512-qFTPLpr06FppHR+OGMTolVR+j85Xb157NtQsxv3Id276rWQPfyw9j7CNoe/GqtX9KzxRd1f+6bCnrbqMM5AfEA==
+"@beemo/cli@^1.0.11":
+  version "1.0.11"
+  resolved "https://registry.yarnpkg.com/@beemo/cli/-/cli-1.0.11.tgz#1145bb512ba676b047e144c91f3f856379ae959f"
+  integrity sha512-bTxKuIXwvwo4mmlistnnLF/e15NBLMNjPnNGG9BnOw73M1+M1qGmAb07ncbA46RpW60FpohHQnGRmovT4nTZFw==
   dependencies:
     chalk "^3.0.0"
     semver "^6.3.0"
@@ -1888,12 +1888,12 @@
     execa "^4.0.0"
     fast-glob "^3.2.2"
 
-"@rajzik/lumos@^2.2.6":
-  version "2.2.6"
-  resolved "https://registry.yarnpkg.com/@rajzik/lumos/-/lumos-2.2.6.tgz#4dfa153c62bede4115076cf68af663192a5a77ed"
-  integrity sha512-WF7oBj58f/r7W4tJ2YLA/Z5DJ2Oa7KdUPM0tcIYHX1OBCptTispMVDr0tpv3RF8g1Ih526ERjtf/KyogeTH3jg==
+"@rajzik/lumos@^2.2.8":
+  version "2.2.8"
+  resolved "https://registry.yarnpkg.com/@rajzik/lumos/-/lumos-2.2.8.tgz#220d934ce4a13da6068a057b7c2487bc29aced48"
+  integrity sha512-2Ek8B53w+c1Q3Bbf1G0MHo/3O68xrFbcHiP3EVpDJ56A5JvBQpLGA/AFU14wI+WZiu9wjwWPlvFZvBO+/aXkyA==
   dependencies:
-    "@beemo/cli" "^1.0.10"
+    "@beemo/cli" "^1.0.11"
     "@beemo/core" "^1.1.6"
     "@rajzik/conventional-changelog-beemo" "^2.0.1"
     "@rajzik/lumos-common" "^1.11.2"
