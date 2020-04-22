@@ -1165,10 +1165,10 @@
   resolved "https://registry.yarnpkg.com/@beemo/dependency-graph/-/dependency-graph-1.1.0.tgz#5f110fe8ed148acf589bc4fddc538b07f0a4d03f"
   integrity sha512-xBPqNB99Q0icr7NgYZyxH9lmjo1UgzzozZM/gcDe1jYqKBFx2CZ4jkuOG3d7exjAN4jq/+QfWETAJrHnopdAaA==
 
-"@beemo/driver-babel@^1.2.3":
-  version "1.2.3"
-  resolved "https://registry.yarnpkg.com/@beemo/driver-babel/-/driver-babel-1.2.3.tgz#3780ec28fbd5b58e5967100f3133a2f729e8e944"
-  integrity sha512-tOUBR7bSQ8AqBPf0JkEI3mHjyxe+cJaLBeAJYhTZJ/vaLRdMPfLtzx8144dTZ9P0uk+oa8kwUjBLgBzjHNDpqg==
+"@beemo/driver-babel@^1.2.3", "@beemo/driver-babel@^1.2.4":
+  version "1.2.4"
+  resolved "https://registry.yarnpkg.com/@beemo/driver-babel/-/driver-babel-1.2.4.tgz#4d00ea1d63b0da27c53566be42178f7dcf488c8c"
+  integrity sha512-k4RVbbZkNyPCp/iu/NttBZATZQVv04DK2lcMZQAt+B3KtiRclw1K2t+PJgfldJ+xiN1VM+fDk2YhXeiP9JACmw==
   dependencies:
     rimraf "^3.0.2"
 
@@ -1795,10 +1795,10 @@
     "@semantic-release/release-notes-generator" "^9.0.1"
     conventional-changelog-beemo "^1.6.0"
 
-"@rajzik/config-babel@^1.10.2":
-  version "1.10.2"
-  resolved "https://registry.yarnpkg.com/@rajzik/config-babel/-/config-babel-1.10.2.tgz#871dc11776bf6848e7784840cfc3bedd35e2e632"
-  integrity sha512-RYRVdbsIomkqzJ9FqZkl9CAGz15zKoXyTzYM61RV9aoT96M6ku8M6x5BCS2ZXkW/YVrVtwPIiQ85Vbbj9KKrPg==
+"@rajzik/config-babel@^1.10.3":
+  version "1.10.3"
+  resolved "https://registry.yarnpkg.com/@rajzik/config-babel/-/config-babel-1.10.3.tgz#40391a4031f4c1c99e0d5891cd90a7c8865fd06b"
+  integrity sha512-/2YR+VkvNoA4zevcqDMV5jsKm71TQoeR7w8gxmF+XFGCwJwF/+1yQxRtGyHiYHVIboAu5IFPBwBH8Y9Fw7s2Og==
   dependencies:
     "@babel/cli" "^7.8.4"
     "@babel/core" "^7.9.0"
@@ -1811,7 +1811,7 @@
     "@babel/preset-react" "^7.9.4"
     "@babel/preset-typescript" "^7.9.0"
     "@beemo/core" "^1.1.6"
-    "@beemo/driver-babel" "^1.2.3"
+    "@beemo/driver-babel" "^1.2.4"
     "@rajzik/lumos-common" "^1.11.2"
     babel-plugin-graphql-tag "^2.5.0"
     babel-plugin-transform-dev "^2.0.1"
