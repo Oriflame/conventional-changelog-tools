@@ -48,7 +48,7 @@
     "conventional-recommended-bump": "^6.0.5",
     "husky": "^4.2.5",
     "semantic-release": "^17.0.7",
-    "shelljs": "^0.8.3"
+    "shelljs": "^0.8.4"
   },
   "lumos": {
     "drivers": [
