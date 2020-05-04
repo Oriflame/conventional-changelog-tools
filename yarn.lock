@@ -1880,14 +1880,14 @@
     jest "^25.5.4"
     jest-junit "^10.0.0"
 
-"@rajzik/config-prettier@^1.6.22":
-  version "1.6.22"
-  resolved "https://registry.yarnpkg.com/@rajzik/config-prettier/-/config-prettier-1.6.22.tgz#3117df9a22ced798b3f09b1928501cd387aecc2c"
-  integrity sha512-hd62qJyleb+1vBvOD08Fq655rD4r2FnFDFiuzgwUZWEXgklt7bFbP6bB3KtxfyDr8+gLVnJbXPNkMd+ejZJh0A==
+"@rajzik/config-prettier@^1.6.23":
+  version "1.6.23"
+  resolved "https://registry.yarnpkg.com/@rajzik/config-prettier/-/config-prettier-1.6.23.tgz#9ee4a77e3900830f5cef76949b318e850983e537"
+  integrity sha512-Il+Zo4nOT7OdGXa3P5rI/5mPZLUJ6cM4dvRVY5JbkG3WIay/aijk4fSn00u2BIZirzSmjTwTm1I7cuKnkhP4Gg==
   dependencies:
     "@beemo/core" "^1.1.7"
     "@beemo/driver-prettier" "^1.3.1"
-    "@rajzik/lumos-common" "^2.0.5"
+    "@rajzik/lumos-common" "^2.0.6"
     prettier "^2.0.5"
 
 "@rajzik/config-typescript@^1.7.2":
