@@ -1909,25 +1909,25 @@
   resolved "https://registry.yarnpkg.com/@rajzik/conventional-changelog-lint-config-beemo/-/conventional-changelog-lint-config-beemo-1.0.1.tgz#0ace1c7d0377df0ebd150a99ae71418e25bdde66"
   integrity sha512-IMsLXO7VcTSdJM8rGT41HubNsoiO4iE7ZtzyJ0ezSqGSkkz94uhztNnYHiJFzeAJ8MCMOyDAHZiEHBiM68aY6w==
 
-"@rajzik/lumos-common@^2.0.5":
-  version "2.0.5"
-  resolved "https://registry.yarnpkg.com/@rajzik/lumos-common/-/lumos-common-2.0.5.tgz#9efe0f0a35111c464f801192e8944134d4830e0b"
-  integrity sha512-1E6qck5Uk9cNvWPVboYKzaj3lquWK4LDOxSIxNUvy9MsfXGH8dSIjazgnCwij1BtHGjk0nD7mxYVk6j7wHlf1w==
+"@rajzik/lumos-common@^2.0.5", "@rajzik/lumos-common@^2.0.6":
+  version "2.0.6"
+  resolved "https://registry.yarnpkg.com/@rajzik/lumos-common/-/lumos-common-2.0.6.tgz#78623b2329c95bc7f67ab8393aa11924d593036c"
+  integrity sha512-BbxJojB6ZhNbeh+TS1zCm0blkfXyCgrRVxZnoPT5Jdsfh6rHs88uEGMldyq/oTukmFY4rMUs4uaj3NTTcVbhVQ==
   dependencies:
     "@beemo/core" "^1.1.7"
     "@boost/common" "^1.8.5"
     execa "^4.0.0"
     fast-glob "^3.2.2"
 
-"@rajzik/lumos@^3.0.9":
-  version "3.0.9"
-  resolved "https://registry.yarnpkg.com/@rajzik/lumos/-/lumos-3.0.9.tgz#377618071ce93701e6c0b6d27c88f4344b067486"
-  integrity sha512-vi5MvWvr0pLOPvuJPIpLrCHDzq6gY5ZyUvpKONbiqezxHjkCfktJFo0TklUkv7+5sSjTy9VCf34IZrc4k6QoPg==
+"@rajzik/lumos@^3.0.10":
+  version "3.0.10"
+  resolved "https://registry.yarnpkg.com/@rajzik/lumos/-/lumos-3.0.10.tgz#c1d9e60e9a405383c2ccf72b80d49488c553d8b4"
+  integrity sha512-xi/C+RIGew0PSQSETp8I63C/mBDghWK9GhLWd6CpFgWB3ELWzEceD1ngzBeWQnuZLNzWxUUBKWpmY+7qgX/R0g==
   dependencies:
     "@beemo/cli" "^1.0.11"
     "@beemo/core" "^1.1.7"
     "@rajzik/conventional-changelog-beemo" "^2.0.1"
-    "@rajzik/lumos-common" "^2.0.5"
+    "@rajzik/lumos-common" "^2.0.6"
     chalk "^4.0.0"
     check-node-version "^4.0.3"
     cross-env "^7.0.2"
