@@ -1861,10 +1861,10 @@
     eslint-plugin-testing-library "^3.1.0"
     eslint-plugin-unicorn "^19.0.1"
 
-"@rajzik/config-jest@^1.10.9":
-  version "1.10.9"
-  resolved "https://registry.yarnpkg.com/@rajzik/config-jest/-/config-jest-1.10.9.tgz#1f67de242f5561389da737b671c85e8e1d9507e0"
-  integrity sha512-d+BeGQErXhm/GjDluWZ3zsXtbH7IbxvYcsfvVmXN4exsC2yOA+8OJ6cHTkkLALPa7bB69QdxjEE9G+MhgPtlOw==
+"@rajzik/config-jest@^1.10.10":
+  version "1.10.10"
+  resolved "https://registry.yarnpkg.com/@rajzik/config-jest/-/config-jest-1.10.10.tgz#9a71a7f4c8b2eb9b0920f8802553540fcac2be35"
+  integrity sha512-9AysS6SvMTB1uwGw7Ov1qUfeitSxKD0sATMGrfBWOTb4dAyGAciB3QDtVc0bF6xbmAdTMOKBknGttFD0IMTt/w==
   dependencies:
     "@babel/core" "^7.9.0"
     "@beemo/core" "^1.1.7"
@@ -1875,7 +1875,7 @@
     airbnb-js-shims "^2.2.1"
     cross-env "^7.0.2"
     dom-storage "^2.1.0"
-    jest "^26.0.0"
+    jest "^26.0.1"
     jest-junit "^10.0.0"
 
 "@rajzik/config-prettier@^1.6.23":
@@ -6606,7 +6606,7 @@ jest-worker@^26.0.0:
     merge-stream "^2.0.0"
     supports-color "^7.0.0"
 
-jest@^26.0.0:
+jest@^26.0.1:
   version "26.0.1"
   resolved "https://registry.yarnpkg.com/jest/-/jest-26.0.1.tgz#5c51a2e58dff7525b65f169721767173bf832694"
   integrity sha512-29Q54kn5Bm7ZGKIuH2JRmnKl85YRigp0o0asTc6Sb6l2ch1DCXIeZTLLFy9ultJvhkTqbswF5DEx4+RlkmCxWg==
