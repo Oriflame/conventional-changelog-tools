@@ -1917,21 +1917,21 @@
     execa "^4.0.2"
     fast-glob "^3.2.2"
 
-"@rajzik/lumos@^3.0.32":
-  version "3.0.32"
-  resolved "https://registry.yarnpkg.com/@rajzik/lumos/-/lumos-3.0.32.tgz#9d09a600080b25207175439e6e5f4c2e0d105bd4"
-  integrity sha512-TyoALrbIC1qK0TnPzUdX65fB6sYITTN/zALqEjBi8SjQqvQ8oih12T417B0GVYvOgKkgykGC5GNgAKR3sg8RWQ==
+"@rajzik/lumos@^3.0.35":
+  version "3.0.35"
+  resolved "https://registry.yarnpkg.com/@rajzik/lumos/-/lumos-3.0.35.tgz#cf18fd09dd16d00d76fdf6835e7cfc66a9ea6b34"
+  integrity sha512-EAevFIyVeEforUwgdXWEC48l4vWEo7nmxA7/dDraDVsToXdHW3pToy4r1hxeROhtMT+QKw4mKmve+W4gpL96yQ==
   dependencies:
     "@beemo/cli" "^1.0.11"
     "@beemo/core" "^1.1.7"
     "@rajzik/conventional-changelog-beemo" "^2.0.2"
-    "@rajzik/lumos-common" "^2.0.7"
+    "@rajzik/lumos-common" "^2.0.8"
     chalk "^4.0.0"
     check-node-version "^4.0.3"
     cross-env "^7.0.2"
     edit-json-file "^1.4.0"
     enquirer "^2.3.5"
-    execa "^4.0.1"
+    execa "^4.0.2"
 
 "@semantic-release/changelog@^5.0.1":
   version "5.0.1"
@@ -4682,10 +4682,10 @@ execa@^3.2.0, execa@^3.4.0:
     signal-exit "^3.0.2"
     strip-final-newline "^2.0.0"
 
-execa@^4.0.0, execa@^4.0.1:
-  version "4.0.1"
-  resolved "https://registry.yarnpkg.com/execa/-/execa-4.0.1.tgz#988488781f1f0238cd156f7aaede11c3e853b4c1"
-  integrity sha512-SCjM/zlBdOK8Q5TIjOn6iEHZaPHFsMoTxXQ2nvUvtPnuohz3H2dIozSg+etNR98dGoYUp2ENSKLL/XaMmbxVgw==
+execa@^4.0.0, execa@^4.0.2:
+  version "4.0.2"
+  resolved "https://registry.yarnpkg.com/execa/-/execa-4.0.2.tgz#ad87fb7b2d9d564f70d2b62d511bee41d5cbb240"
+  integrity sha512-QI2zLa6CjGWdiQsmSkZoGtDx2N+cQIGb3yNolGTdjSQzydzLgYYf8LRuagp7S7fPimjcrzUDSUFd/MgzELMi4Q==
   dependencies:
     cross-spawn "^7.0.0"
     get-stream "^5.0.0"
