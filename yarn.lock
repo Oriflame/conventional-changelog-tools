@@ -1812,10 +1812,10 @@
     "@semantic-release/release-notes-generator" "^9.0.1"
     conventional-changelog-beemo "^1.6.0"
 
-"@rajzik/config-babel@^1.11.9":
-  version "1.11.9"
-  resolved "https://registry.yarnpkg.com/@rajzik/config-babel/-/config-babel-1.11.9.tgz#68ecd4affefcdf1269a2f1daa3ac5235fc7a4f56"
-  integrity sha512-fVaEQaYUt16RoKcRAtw2KJeXJhk70/H2pYZdwEJ36N1/eyu2B+PeU6PQw1VxpENPzwLTcSN74Tb2UqRpyoMHJw==
+"@rajzik/config-babel@^1.11.10":
+  version "1.11.10"
+  resolved "https://registry.yarnpkg.com/@rajzik/config-babel/-/config-babel-1.11.10.tgz#ded08c91ff23ff9dc81765a1b891dbdb25e3f68f"
+  integrity sha512-mMxng81cWMykHQCBvD5MRPSgtLRhAR+FMqa97gBM9PjY8+2syH8LLgJ4KeochKw4dPDwezDPL4xP+hsWdgEfqA==
   dependencies:
     "@babel/cli" "^7.8.4"
     "@babel/core" "^7.9.6"
@@ -1829,7 +1829,7 @@
     "@babel/preset-typescript" "^7.9.0"
     "@beemo/core" "^1.1.7"
     "@beemo/driver-babel" "^1.2.4"
-    "@rajzik/lumos-common" "^2.0.7"
+    "@rajzik/lumos-common" "^2.0.8"
     babel-plugin-graphql-tag "^2.5.0"
     babel-plugin-module-resolver "^4.0.0"
     babel-plugin-transform-dev "^2.0.1"
@@ -1907,14 +1907,14 @@
   resolved "https://registry.yarnpkg.com/@rajzik/conventional-changelog-lint-config-beemo/-/conventional-changelog-lint-config-beemo-1.0.1.tgz#0ace1c7d0377df0ebd150a99ae71418e25bdde66"
   integrity sha512-IMsLXO7VcTSdJM8rGT41HubNsoiO4iE7ZtzyJ0ezSqGSkkz94uhztNnYHiJFzeAJ8MCMOyDAHZiEHBiM68aY6w==
 
-"@rajzik/lumos-common@^2.0.7":
-  version "2.0.7"
-  resolved "https://registry.yarnpkg.com/@rajzik/lumos-common/-/lumos-common-2.0.7.tgz#3e070928fe51d0ffc1a3c47225397f722f5dd587"
-  integrity sha512-BaID2Ax0vTmmunYQ8Rny8tD0nOXeUeoljeGypMuXmix9q+2YHkKcVpZwbw8Wa4qbYqQplNoDIaMXoImdHLivxQ==
+"@rajzik/lumos-common@^2.0.7", "@rajzik/lumos-common@^2.0.8":
+  version "2.0.8"
+  resolved "https://registry.yarnpkg.com/@rajzik/lumos-common/-/lumos-common-2.0.8.tgz#90fcfd60814db036898300e4fe29369782e00fa2"
+  integrity sha512-yDFFp0aVzd/gI0TG9jT8t3axv4O5qyN0K0lWBEOXFyoiIH4jC+glWxsjoOqvgOtTBQz8vdXH6cS+xVvMZeppDw==
   dependencies:
     "@beemo/core" "^1.1.7"
     "@boost/common" "^1.8.5"
-    execa "^4.0.1"
+    execa "^4.0.2"
     fast-glob "^3.2.2"
 
 "@rajzik/lumos@^3.0.32":
@@ -4686,6 +4686,21 @@ execa@^4.0.0, execa@^4.0.1:
   version "4.0.1"
   resolved "https://registry.yarnpkg.com/execa/-/execa-4.0.1.tgz#988488781f1f0238cd156f7aaede11c3e853b4c1"
   integrity sha512-SCjM/zlBdOK8Q5TIjOn6iEHZaPHFsMoTxXQ2nvUvtPnuohz3H2dIozSg+etNR98dGoYUp2ENSKLL/XaMmbxVgw==
+  dependencies:
+    cross-spawn "^7.0.0"
+    get-stream "^5.0.0"
+    human-signals "^1.1.1"
+    is-stream "^2.0.0"
+    merge-stream "^2.0.0"
+    npm-run-path "^4.0.0"
+    onetime "^5.1.0"
+    signal-exit "^3.0.2"
+    strip-final-newline "^2.0.0"
+
+execa@^4.0.2:
+  version "4.0.2"
+  resolved "https://registry.yarnpkg.com/execa/-/execa-4.0.2.tgz#ad87fb7b2d9d564f70d2b62d511bee41d5cbb240"
+  integrity sha512-QI2zLa6CjGWdiQsmSkZoGtDx2N+cQIGb3yNolGTdjSQzydzLgYYf8LRuagp7S7fPimjcrzUDSUFd/MgzELMi4Q==
   dependencies:
     cross-spawn "^7.0.0"
     get-stream "^5.0.0"
