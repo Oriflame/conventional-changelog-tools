@@ -47,7 +47,7 @@
     "conventional-changelog-core": "^4.1.7",
     "conventional-recommended-bump": "^6.0.9",
     "husky": "^4.2.5",
-    "semantic-release": "^17.0.7",
+    "semantic-release": "^17.0.8",
     "shelljs": "^0.8.4"
   },
   "lumos": {
