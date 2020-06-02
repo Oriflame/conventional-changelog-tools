@@ -1954,10 +1954,10 @@
     babel-plugin-transform-react-remove-prop-types "^0.4.24"
     babel-plugin-typescript-to-proptypes "^1.3.2"
 
-"@rajzik/config-eslint@^2.4.38":
-  version "2.4.38"
-  resolved "https://registry.yarnpkg.com/@rajzik/config-eslint/-/config-eslint-2.4.38.tgz#18faa05742b4e84e7ca94c29f2ca21183b1e3c8d"
-  integrity sha512-fxpdQi8NgZMKBlu7v9qbbR1dN1+yHGPlSi3RiencZoROClKiVIWnsT38Tth0To+ni8g03K2EJNxQvQ63S35w8A==
+"@rajzik/config-eslint@^2.4.39":
+  version "2.4.39"
+  resolved "https://registry.yarnpkg.com/@rajzik/config-eslint/-/config-eslint-2.4.39.tgz#e19f3ef49615e81290a72d60108b195dda7a84b0"
+  integrity sha512-BN1qMDelEF7yhGHJ8ZAtrkMVKF0YbM/dR9pp9hIZ+VWhkfZvWA9xdLHIw864VGWbKYT/7z7m+Lzq0d+TJfRqGg==
   dependencies:
     "@beemo/core" "^1.1.8"
     "@beemo/driver-eslint" "^1.2.3"
