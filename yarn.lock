@@ -2035,10 +2035,10 @@
     execa "^4.0.2"
     fast-glob "^3.2.2"
 
-"@rajzik/lumos@^3.0.54":
-  version "3.0.54"
-  resolved "https://registry.yarnpkg.com/@rajzik/lumos/-/lumos-3.0.54.tgz#807d9d69b0bd9accf1b4947f4a825ffcd746068c"
-  integrity sha512-1MjhB6hRgEboOAiNrPJYigTsSdTDIrmWczSnHADnSZSBDZpRDtPFDLqUfBDeOARvwrBWNo1s+8XyI08ZvRJuwg==
+"@rajzik/lumos@^3.0.55":
+  version "3.0.55"
+  resolved "https://registry.yarnpkg.com/@rajzik/lumos/-/lumos-3.0.55.tgz#4d82a8dec689f180aad8b17238b43420db396fa3"
+  integrity sha512-3lY/0Dxp2ium7ubtgpoL9ZRbfRtLLdFdYa5hC185edcgWlacIk2biGVyhwg6zSoV6Ck00B2Fb1tFHzBOMG2V5Q==
   dependencies:
     "@beemo/cli" "^1.0.11"
     "@beemo/core" "^1.1.8"
