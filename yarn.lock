@@ -2047,25 +2047,25 @@
   resolved "https://registry.yarnpkg.com/@rajzik/conventional-changelog-lint-config-beemo/-/conventional-changelog-lint-config-beemo-1.0.1.tgz#0ace1c7d0377df0ebd150a99ae71418e25bdde66"
   integrity sha512-IMsLXO7VcTSdJM8rGT41HubNsoiO4iE7ZtzyJ0ezSqGSkkz94uhztNnYHiJFzeAJ8MCMOyDAHZiEHBiM68aY6w==
 
-"@rajzik/lumos-common@^2.0.9":
-  version "2.0.9"
-  resolved "https://registry.yarnpkg.com/@rajzik/lumos-common/-/lumos-common-2.0.9.tgz#24de698f44e89f947f3b1263a5bac22416a3bb5e"
-  integrity sha512-1CDIljrp7emF7V+FEEd9MAFro530ut7osohmu9X1evVnSrKSlYSnPtV/5CerAX4Lo03Xw5dGoUuKv5tglC9GHg==
+"@rajzik/lumos-common@^2.0.10", "@rajzik/lumos-common@^2.0.9":
+  version "2.0.10"
+  resolved "https://registry.yarnpkg.com/@rajzik/lumos-common/-/lumos-common-2.0.10.tgz#7f998934521edc886efe0161bdef52fbf9da989b"
+  integrity sha512-2+VWeilLJTKtUXOy0hFsTuTiS5PtbriNdY3oeMXD783qhqZo4J5tYYYAGIWxZNpxPDL/sr6WLx5VmDISfsR84Q==
   dependencies:
     "@beemo/core" "^1.1.8"
     "@boost/common" "^1.8.5"
     execa "^4.0.2"
-    fast-glob "^3.2.2"
+    fast-glob "^3.2.4"
 
-"@rajzik/lumos@^3.0.64":
-  version "3.0.64"
-  resolved "https://registry.yarnpkg.com/@rajzik/lumos/-/lumos-3.0.64.tgz#549621940d6dab7f50cfcba9be7851844995c9cd"
-  integrity sha512-XEMzMJmX6s7PuumkOwTGfY2FedUpHGnewwlODVXW6sPRhX1uASOZ5tDV8BeiRctmYoTjdY0JWnGBSkvA5zIKKA==
+"@rajzik/lumos@^3.0.68":
+  version "3.0.68"
+  resolved "https://registry.yarnpkg.com/@rajzik/lumos/-/lumos-3.0.68.tgz#9e6c57cd09c5219015287ab1268be18f208ffbaf"
+  integrity sha512-f/6lVy4vjSJUv3GSDqs7s0yMMr3fBPgBIRb2SjkaZmL0anFynHdWCK5LQBj417JSM4BvKm2YFu5bGLsp/aVx5w==
   dependencies:
     "@beemo/cli" "^1.0.11"
     "@beemo/core" "^1.1.8"
     "@rajzik/conventional-changelog-beemo" "^2.0.2"
-    "@rajzik/lumos-common" "^2.0.9"
+    "@rajzik/lumos-common" "^2.0.10"
     chalk "^4.1.0"
     check-node-version "^4.0.3"
     cross-env "^7.0.2"
@@ -4968,6 +4968,18 @@ fast-glob@^3.1.1, fast-glob@^3.2.2:
   version "3.2.2"
   resolved "https://registry.yarnpkg.com/fast-glob/-/fast-glob-3.2.2.tgz#ade1a9d91148965d4bf7c51f72e1ca662d32e63d"
   integrity sha512-UDV82o4uQyljznxwMxyVRJgZZt3O5wENYojjzbaGEGZgeOxkLFf+V4cnUD+krzb2F72E18RhamkMZ7AdeggF7A==
+  dependencies:
+    "@nodelib/fs.stat" "^2.0.2"
+    "@nodelib/fs.walk" "^1.2.3"
+    glob-parent "^5.1.0"
+    merge2 "^1.3.0"
+    micromatch "^4.0.2"
+    picomatch "^2.2.1"
+
+fast-glob@^3.2.4:
+  version "3.2.4"
+  resolved "https://registry.yarnpkg.com/fast-glob/-/fast-glob-3.2.4.tgz#d20aefbf99579383e7f3cc66529158c9b98554d3"
+  integrity sha512-kr/Oo6PX51265qeuCYsyGypiO5uJFgBS0jksyG7FUeCyQzNwYnzrNIMR1NXfkZXsMYXYLRAHgISHBz8gQcxKHQ==
   dependencies:
     "@nodelib/fs.stat" "^2.0.2"
     "@nodelib/fs.walk" "^1.2.3"
