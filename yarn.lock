@@ -1950,10 +1950,10 @@
     "@semantic-release/release-notes-generator" "^9.0.1"
     conventional-changelog-beemo "^1.6.0"
 
-"@rajzik/config-babel@^1.11.19":
-  version "1.11.19"
-  resolved "https://registry.yarnpkg.com/@rajzik/config-babel/-/config-babel-1.11.19.tgz#4f940a0bf8fd8bcbf8a9850ef2e01e7dbad774ab"
-  integrity sha512-rLjAQc6H0bgb2Aq6N23EBzift25d9oy09S0+/sjnJsS9GesEl96MP7R1UuuYuoa8FsuQ8zvX7UYT9thRJzW1aA==
+"@rajzik/config-babel@^1.11.20":
+  version "1.11.20"
+  resolved "https://registry.yarnpkg.com/@rajzik/config-babel/-/config-babel-1.11.20.tgz#c2973561d7d63ce7af7f3db7df3c142493cb2765"
+  integrity sha512-pCD5aSPY0bPmFM0OUtHu4l5C6FDUNZyycC9fG8JBP8wiGwGFCA4UNgGo4kqthjrjrVoClJKKPe3SxJ42v5KLSg==
   dependencies:
     "@babel/cli" "^7.10.1"
     "@babel/core" "^7.10.2"
@@ -1968,7 +1968,7 @@
     "@babel/preset-typescript" "^7.10.1"
     "@beemo/core" "^1.1.8"
     "@beemo/driver-babel" "^1.2.5"
-    "@rajzik/lumos-common" "^2.0.9"
+    "@rajzik/lumos-common" "^2.0.10"
     babel-plugin-graphql-tag "^2.5.0"
     babel-plugin-module-resolver "^4.0.0"
     babel-plugin-transform-dev "^2.0.1"
