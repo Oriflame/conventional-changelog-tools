@@ -1356,10 +1356,10 @@
     "@boost/event" "^1.3.1"
     "@types/prettier" "*"
 
-"@beemo/driver-typescript@^1.3.4":
-  version "1.3.4"
-  resolved "https://registry.yarnpkg.com/@beemo/driver-typescript/-/driver-typescript-1.3.4.tgz#8ed2b1d53c53ad2b93cf79c6705f3dcd218f3c91"
-  integrity sha512-enxfaT8J33oZVU0S0MteJPYQg4ImPstM7yGTMv8bQnmorxeJatK1V9qAHkY9Ro06H9mq9lqU+pgfRuzylkXZaQ==
+"@beemo/driver-typescript@^1.4.0":
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/@beemo/driver-typescript/-/driver-typescript-1.4.0.tgz#cd922e9048a0138d5e5a907eed5621ab0ad219df"
+  integrity sha512-832lYhwJ8HLZgSWVvS/GFkKMMJmX6PncM0FIdxgW5menA7gQWFOVp7DA6YBYdHgM9//2ANk0NVJ5FZt7XCJfzA==
   dependencies:
     "@boost/event" "^1.3.1"
     rimraf "^3.0.2"
@@ -2065,13 +2065,13 @@
     "@rajzik/lumos-common" "^2.0.11"
     prettier "^2.0.5"
 
-"@rajzik/config-typescript@^1.7.9":
-  version "1.7.9"
-  resolved "https://registry.yarnpkg.com/@rajzik/config-typescript/-/config-typescript-1.7.9.tgz#59e2e97220c0f35ba7e68523f951dd2def00ac52"
-  integrity sha512-pDnB/MATTS9qz31GP4ydGqzmHL+00OJRID2cgGgdW0XPlLn+cUBKDWea3qJIrDm54353Lw4SwU8vxrHlWAn+mQ==
+"@rajzik/config-typescript@^1.7.10":
+  version "1.7.10"
+  resolved "https://registry.yarnpkg.com/@rajzik/config-typescript/-/config-typescript-1.7.10.tgz#9dc240ab090083b90a64558b4f4b02e6fac110ab"
+  integrity sha512-L0znExYGJggmt98gOXJ9qNHHf7lb4vH/ligp5Wh93BA0jPIevIVNQ3xjrEFK1zASNArTVx6II2IcryVrPnxKZw==
   dependencies:
     "@beemo/core" "^1.1.8"
-    "@beemo/driver-typescript" "^1.3.4"
+    "@beemo/driver-typescript" "^1.4.0"
     typescript "^3.9.5"
 
 "@rajzik/conventional-changelog-beemo@^2.0.2":
