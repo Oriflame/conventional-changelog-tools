@@ -2020,14 +2020,14 @@
     "@rajzik/lumos-common" "^2.0.11"
     prettier "^2.0.5"
 
-"@rajzik/config-typescript@^1.7.10":
-  version "1.7.10"
-  resolved "https://registry.yarnpkg.com/@rajzik/config-typescript/-/config-typescript-1.7.10.tgz#9dc240ab090083b90a64558b4f4b02e6fac110ab"
-  integrity sha512-L0znExYGJggmt98gOXJ9qNHHf7lb4vH/ligp5Wh93BA0jPIevIVNQ3xjrEFK1zASNArTVx6II2IcryVrPnxKZw==
+"@rajzik/config-typescript@^1.7.11":
+  version "1.7.11"
+  resolved "https://registry.yarnpkg.com/@rajzik/config-typescript/-/config-typescript-1.7.11.tgz#7bf944546c27934d03390b76047cc30a2bcab40b"
+  integrity sha512-n1amrF+h21HMqdCpUO0xFRN7x/jhlFSiaGFFsj2KSkO1yI3O1v9x+SfqHRzT2fv+e8MTNOjqdRC6nk9dHzf/aQ==
   dependencies:
     "@beemo/core" "^1.1.8"
     "@beemo/driver-typescript" "^1.4.0"
-    typescript "^3.9.5"
+    typescript "^3.9.6"
 
 "@rajzik/conventional-changelog-beemo@^2.0.2":
   version "2.0.2"
@@ -10908,10 +10908,10 @@ typedarray@^0.0.6:
   resolved "https://registry.npmjs.org/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
 
-typescript@^3.9.5:
-  version "3.9.5"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.9.5.tgz#586f0dba300cde8be52dd1ac4f7e1009c1b13f36"
-  integrity sha512-hSAifV3k+i6lEoCJ2k6R2Z/rp/H3+8sdmcn5NrS3/3kE7+RyZXm9aqvxWqjEXHAd8b0pShatpcdMTvEdvAJltQ==
+typescript@^3.9.6:
+  version "3.9.6"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.9.6.tgz#8f3e0198a34c3ae17091b35571d3afd31999365a"
+  integrity sha512-Pspx3oKAPJtjNwE92YS05HQoY7z2SFyOpHo9MqJor3BXAGNaPUs83CuVp9VISFkSjyRfiTpmKuAYGJB7S7hOxw==
 
 uglify-js@^3.1.4:
   version "3.6.8"
