@@ -1,3 +1,13 @@
+### 2.0.4 - 2020-07-08
+
+#### 📦 Dependencies
+
+- [security] bump npm from 6.14.2 to 6.14.6 (#433) ([6f853d2](https://github.com/rajzik/conventional-changelog-beemo/commit/6f853d2)), closes [#433](https://github.com/rajzik/conventional-changelog-beemo/issues/433)
+
+#### 🛠 Internals
+
+- bump @types/node from 14.0.18 to 14.0.19 (#432) ([ce7f7cd](https://github.com/rajzik/conventional-changelog-beemo/commit/ce7f7cd)), closes [#432](https://github.com/rajzik/conventional-changelog-beemo/issues/432)
+
 ### 2.0.3 - 2020-07-08
 
 #### 📦 Dependencies
