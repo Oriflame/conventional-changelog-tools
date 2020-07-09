@@ -1,3 +1,15 @@
+### 2.0.5 - 2020-07-09
+
+#### 📦 Dependencies
+
+- [security] bump minimist from 1.2.0 to 1.2.5 (#445) ([def1e10](https://github.com/rajzik/conventional-changelog-beemo/commit/def1e10)), closes [#445](https://github.com/rajzik/conventional-changelog-beemo/issues/445)
+
+#### 🛠 Internals
+
+- bump @rajzik/config-eslint from 2.4.65 to 2.4.66 (#436) ([6482838](https://github.com/rajzik/conventional-changelog-beemo/commit/6482838)), closes [#436](https://github.com/rajzik/conventional-changelog-beemo/issues/436)
+- bump @rajzik/config-prettier from 1.6.30 to 1.6.31 (#438) ([9937c95](https://github.com/rajzik/conventional-changelog-beemo/commit/9937c95)), closes [#438](https://github.com/rajzik/conventional-changelog-beemo/issues/438)
+- bump @rajzik/lumos from 3.0.86 to 3.0.91 (#443) ([d9ba3b9](https://github.com/rajzik/conventional-changelog-beemo/commit/d9ba3b9)), closes [#443](https://github.com/rajzik/conventional-changelog-beemo/issues/443)
+
 ### 2.0.4 - 2020-07-08
 
 #### 📦 Dependencies
