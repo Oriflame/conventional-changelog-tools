@@ -2010,14 +2010,14 @@
     jest-environment-jsdom-sixteen "^1.0.3"
     jest-junit "^11.0.1"
 
-"@rajzik/config-prettier@^1.6.30":
-  version "1.6.30"
-  resolved "https://registry.yarnpkg.com/@rajzik/config-prettier/-/config-prettier-1.6.30.tgz#18265386067d36acdc8be2e6912d9ae54c6088d7"
-  integrity sha512-bb/aD9UCpPi/eJ7ZhWSmSLEujvJ0vJQOCHevMXywc8jxRayx/DYVbDYk4Hk5qVz/D16dwIH/9aOZbN6ASJkjRg==
+"@rajzik/config-prettier@^1.6.31":
+  version "1.6.31"
+  resolved "https://registry.yarnpkg.com/@rajzik/config-prettier/-/config-prettier-1.6.31.tgz#01a49f3762513e9c686b63a9d4d7bf842eda22de"
+  integrity sha512-XK95qYMJ5W0Z0HMGI3vkhs51PGPLnB/0BjwqjQhGmpJfmPCYSOTEzav7ugvEH0tn/etQBQlRAFmDXMONPEJCzw==
   dependencies:
     "@beemo/core" "^1.1.8"
     "@beemo/driver-prettier" "^1.3.2"
-    "@rajzik/lumos-common" "^2.0.11"
+    "@rajzik/lumos-common" "^2.0.12"
     prettier "^2.0.5"
 
 "@rajzik/config-typescript@^1.7.11":
@@ -4820,6 +4820,21 @@ execa@^3.2.0, execa@^3.4.0:
     strip-final-newline "^2.0.0"
 
 execa@^4.0.0, execa@^4.0.3:
+  version "4.0.3"
+  resolved "https://registry.yarnpkg.com/execa/-/execa-4.0.3.tgz#0a34dabbad6d66100bd6f2c576c8669403f317f2"
+  integrity sha512-WFDXGHckXPWZX19t1kCsXzOpqX9LWYNqn4C+HqZlk/V0imTkzJZqf87ZBhvpHaftERYknpk0fjSylnXVlVgI0A==
+  dependencies:
+    cross-spawn "^7.0.0"
+    get-stream "^5.0.0"
+    human-signals "^1.1.1"
+    is-stream "^2.0.0"
+    merge-stream "^2.0.0"
+    npm-run-path "^4.0.0"
+    onetime "^5.1.0"
+    signal-exit "^3.0.2"
+    strip-final-newline "^2.0.0"
+
+execa@^4.0.3:
   version "4.0.3"
   resolved "https://registry.yarnpkg.com/execa/-/execa-4.0.3.tgz#0a34dabbad6d66100bd6f2c576c8669403f317f2"
   integrity sha512-WFDXGHckXPWZX19t1kCsXzOpqX9LWYNqn4C+HqZlk/V0imTkzJZqf87ZBhvpHaftERYknpk0fjSylnXVlVgI0A==
