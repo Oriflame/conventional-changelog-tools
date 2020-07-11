@@ -1930,10 +1930,10 @@
   dependencies:
     "@types/node" ">= 8"
 
-"@rajzik/az-semantic-release-config@^1.0.6":
-  version "1.0.6"
-  resolved "https://registry.yarnpkg.com/@rajzik/az-semantic-release-config/-/az-semantic-release-config-1.0.6.tgz#41ca20e09d5b46dd65b43475ec0ca8dfe4e33e8e"
-  integrity sha512-0nO2t6HgJ6EDljOBl0Q8iuQYgCROEgnws7mDFS37T3h9esuFaDUeg5Sc5IruAj9oJuNSW25pKROIdj8dHB0TeA==
+"@rajzik/az-semantic-release-config@^1.0.8":
+  version "1.0.8"
+  resolved "https://registry.yarnpkg.com/@rajzik/az-semantic-release-config/-/az-semantic-release-config-1.0.8.tgz#378333823281358983c8729df767ad3da6281be2"
+  integrity sha512-6my4pvvyazpe2SJiNief8OPkip1AIUmLi4vki/5N6Z4CzXltCPoKN5k+qNSnB+HQqRtiQrnK062+Od1LdpvzdA==
   dependencies:
     "@semantic-release/changelog" "^5.0.1"
     "@semantic-release/commit-analyzer" "^8.0.1"
