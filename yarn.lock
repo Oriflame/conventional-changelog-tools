@@ -1967,10 +1967,10 @@
     babel-plugin-transform-react-remove-prop-types "^0.4.24"
     babel-plugin-typescript-to-proptypes "^1.3.2"
 
-"@rajzik/config-eslint@^2.4.66":
-  version "2.4.66"
-  resolved "https://registry.yarnpkg.com/@rajzik/config-eslint/-/config-eslint-2.4.66.tgz#7e1ce7962c3026f90bbaaaccbb453af08bcac91c"
-  integrity sha512-nZfgW89GPjYVGhq6Dx+REIDzoyBxMHDNq/7Lq2xXqbZMZ0G+Vqp4lpv5vsqqxeKff/QY6TEyKd4WA2XNWZCEjw==
+"@rajzik/config-eslint@^2.4.67":
+  version "2.4.67"
+  resolved "https://registry.yarnpkg.com/@rajzik/config-eslint/-/config-eslint-2.4.67.tgz#2bff4438a1880dc0c8717cfb9b1c7fb39019bff5"
+  integrity sha512-hVQ4CP4fCZFpafjXWo0W9+RRsqwsekFKX4kpWBLqxZ0w0s6mr60FCsdt6N79Yjafl51AT9qNtsc006JXlvcOTQ==
   dependencies:
     "@beemo/core" "^1.1.8"
     "@beemo/driver-eslint" "^1.2.3"
@@ -1988,7 +1988,7 @@
     eslint-plugin-prettier "^3.1.4"
     eslint-plugin-promise "^4.2.1"
     eslint-plugin-react "^7.20.3"
-    eslint-plugin-react-hooks "^4.0.6"
+    eslint-plugin-react-hooks "^4.0.7"
     eslint-plugin-testing-library "^3.3.1"
     eslint-plugin-unicorn "^20.1.0"
 
@@ -4588,10 +4588,10 @@ eslint-plugin-promise@^4.2.1:
   resolved "https://registry.npmjs.org/eslint-plugin-promise/-/eslint-plugin-promise-4.2.1.tgz#845fd8b2260ad8f82564c1222fce44ad71d9418a"
   integrity sha512-VoM09vT7bfA7D+upt+FjeBO5eHIJQBUWki1aPvB+vbNiHS3+oGIJGIeyBtKQTME6UPXXy3vV07OL1tHd3ANuDw==
 
-eslint-plugin-react-hooks@^4.0.6:
-  version "4.0.6"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-react-hooks/-/eslint-plugin-react-hooks-4.0.6.tgz#4027ae451b5cd219928edd0ff9eab54a8ea82901"
-  integrity sha512-RDrsUR/BjwCECcWS+5bc7mWiU/M1IOizKt40Zuei5mn0Eydubiooh87aSCiZ/BGMSUF7P8AqyMEqQL0RsAihmw==
+eslint-plugin-react-hooks@^4.0.7:
+  version "4.0.7"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-react-hooks/-/eslint-plugin-react-hooks-4.0.7.tgz#19f9e3d07dd3a0fb9e6f0f07153707feedea8108"
+  integrity sha512-5PuW2OMHQyMLr/+MqTluYN3/NeJJ1RuvmEp5TR9Xl2gXKxvcusUZuMz8XBUtbELNaiRYWs693LQs0cljKuuHRQ==
 
 eslint-plugin-react@^7.20.3:
   version "7.20.3"
