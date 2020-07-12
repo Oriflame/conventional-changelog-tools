@@ -2029,10 +2029,10 @@
     "@beemo/driver-typescript" "^1.4.0"
     typescript "^3.9.6"
 
-"@rajzik/conventional-changelog-beemo@^2.0.2":
-  version "2.0.2"
-  resolved "https://registry.yarnpkg.com/@rajzik/conventional-changelog-beemo/-/conventional-changelog-beemo-2.0.2.tgz#50d172dcdef3b29bb482961f808c3b95f41b331a"
-  integrity sha512-qQxH312ThK60hHi606AYK7dy/dcFe9ZeRLMy/XVfs/p8/2Wq7Zi/sCEw2wa/MsD75kPnX00pw6MmKmkqWadWNQ==
+"@rajzik/conventional-changelog-beemo@^2.0.5":
+  version "2.0.5"
+  resolved "https://registry.yarnpkg.com/@rajzik/conventional-changelog-beemo/-/conventional-changelog-beemo-2.0.5.tgz#5a65b65c451d5026a784d777b8f1acd143947d57"
+  integrity sha512-v7Nioi7EKo7vM3IcoCCkoBiGqScxA7u6zpSD6FhYdJ4P4yJme6kifCqGtmt6U9KvBso9y3Sy9NfBiN7iga4Tkg==
 
 "@rajzik/conventional-changelog-lint-config-beemo@^1.0.2":
   version "1.0.2"
@@ -2049,14 +2049,14 @@
     execa "^4.0.3"
     fast-glob "^3.2.4"
 
-"@rajzik/lumos@^3.0.91":
-  version "3.0.91"
-  resolved "https://registry.yarnpkg.com/@rajzik/lumos/-/lumos-3.0.91.tgz#0024be8b8edbcf7bfb205792777563b952823d12"
-  integrity sha512-6eVkZ4i4D+3c6qxW7Gnubb+bxWYzCLdQ1pX+mHKNjnAmADbcVxxgMu9T/BWADZU7mtfB60LOZ0pEn6Vtlx0B1w==
+"@rajzik/lumos@^3.0.94":
+  version "3.0.94"
+  resolved "https://registry.yarnpkg.com/@rajzik/lumos/-/lumos-3.0.94.tgz#02d652072476c0741b14cb3b1c9414c0eb5fdb3f"
+  integrity sha512-n64smIKmLGobNN+gaR3nrX8todyhSuEYnD+hAj63g2YbEhe1ldisR+Y/LAecwmugdbZyV66wtJozyeyOgDA11Q==
   dependencies:
     "@beemo/cli" "^1.0.11"
     "@beemo/core" "^1.1.8"
-    "@rajzik/conventional-changelog-beemo" "^2.0.2"
+    "@rajzik/conventional-changelog-beemo" "^2.0.5"
     "@rajzik/lumos-common" "^2.0.12"
     chalk "^4.1.0"
     check-node-version "^4.0.3"
