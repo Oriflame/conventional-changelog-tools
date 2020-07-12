@@ -1992,16 +1992,16 @@
     eslint-plugin-testing-library "^3.3.1"
     eslint-plugin-unicorn "^20.1.0"
 
-"@rajzik/config-jest@^1.10.27":
-  version "1.10.27"
-  resolved "https://registry.yarnpkg.com/@rajzik/config-jest/-/config-jest-1.10.27.tgz#5b8519ccae8ef9c7cd18bbf3ec942ea1b9081d68"
-  integrity sha512-tbzfpSmrhGg2P/Xik3SNDkpYa+3q3xOXJWPjZ9g0fjRQYuMzUy7ard1WMhT1TDCjdimsEXZCJpdhjAeKfS6JhA==
+"@rajzik/config-jest@^1.10.28":
+  version "1.10.28"
+  resolved "https://registry.yarnpkg.com/@rajzik/config-jest/-/config-jest-1.10.28.tgz#79005c382c1e5c1423cad74e66ab3ed7ba6ca1c8"
+  integrity sha512-ZjVt6N+NxRs5eNq8HjWA3R+etKkzGXJc9dUoqxdxjh1j4PW547srn5wMyCmgffSR2cDhsStcJB1YO8OzRZ2XUQ==
   dependencies:
     "@babel/core" "^7.10.4"
     "@beemo/core" "^1.1.8"
     "@beemo/driver-babel" "^1.2.5"
     "@beemo/driver-jest" "^1.2.3"
-    "@rajzik/lumos-common" "^2.0.11"
+    "@rajzik/lumos-common" "^2.0.12"
     "@types/jest" "^26.0.4"
     airbnb-js-shims "^2.2.1"
     cross-env "^7.0.2"
@@ -2039,7 +2039,7 @@
   resolved "https://registry.yarnpkg.com/@rajzik/conventional-changelog-lint-config-beemo/-/conventional-changelog-lint-config-beemo-1.0.2.tgz#d14f0b87c758a7deb45cda15a077e134348df76d"
   integrity sha512-wIsY2yAU2Q/dC+FZO7d2eYlyUwu0YaCr73Tk1BtSbAksjaf43oe1P8pWAe0GRqLrMuwpWTBWQ/tVZNYoejsytQ==
 
-"@rajzik/lumos-common@^2.0.11", "@rajzik/lumos-common@^2.0.12":
+"@rajzik/lumos-common@^2.0.12":
   version "2.0.12"
   resolved "https://registry.yarnpkg.com/@rajzik/lumos-common/-/lumos-common-2.0.12.tgz#a760d0c71d6780f252dd529b6cad8efd23d2f4ec"
   integrity sha512-TR0FKKsM/WVkaNKA8fZ2a35AEyscyjv8RPxD3oFzX+KIsSpWRYGl1TVWWCK5O/GSs69QSG/7SxkO8uQ6WFHSYw==
