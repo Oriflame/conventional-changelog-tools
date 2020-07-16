@@ -1,3 +1,21 @@
+### 2.0.6 - 2020-07-16
+
+#### 📦 Dependencies
+
+- [security] bump lodash from 4.17.15 to 4.17.19 (#462) ([28889c3](https://github.com/rajzik/conventional-changelog-beemo/commit/28889c3)), closes [#462](https://github.com/rajzik/conventional-changelog-beemo/issues/462)
+
+#### 🛠 Internals
+
+- bump @commitlint/cli from 9.0.1 to 9.1.1 (#451) ([2880464](https://github.com/rajzik/conventional-changelog-beemo/commit/2880464)), closes [#451](https://github.com/rajzik/conventional-changelog-beemo/issues/451)
+- bump @rajzik/az-semantic-release-config from 1.0.6 to 1.0.8 (#442) ([b1ae119](https://github.com/rajzik/conventional-changelog-beemo/commit/b1ae119)), closes [#442](https://github.com/rajzik/conventional-changelog-beemo/issues/442)
+- bump @rajzik/config-babel from 1.11.24 to 1.11.25 (#439) ([46679f1](https://github.com/rajzik/conventional-changelog-beemo/commit/46679f1)), closes [#439](https://github.com/rajzik/conventional-changelog-beemo/issues/439)
+- bump @rajzik/config-eslint from 2.4.66 to 2.4.67 (#450) ([bc9f03c](https://github.com/rajzik/conventional-changelog-beemo/commit/bc9f03c)), closes [#450](https://github.com/rajzik/conventional-changelog-beemo/issues/450)
+- bump @rajzik/config-jest from 1.10.27 to 1.10.28 (#440) ([b040bb1](https://github.com/rajzik/conventional-changelog-beemo/commit/b040bb1)), closes [#440](https://github.com/rajzik/conventional-changelog-beemo/issues/440)
+- bump @rajzik/lumos from 3.0.91 to 3.0.94 (#449) ([014565b](https://github.com/rajzik/conventional-changelog-beemo/commit/014565b)), closes [#449](https://github.com/rajzik/conventional-changelog-beemo/issues/449)
+- bump @types/node from 14.0.19 to 14.0.20 (#444) ([f61c634](https://github.com/rajzik/conventional-changelog-beemo/commit/f61c634)), closes [#444](https://github.com/rajzik/conventional-changelog-beemo/issues/444)
+- bump @types/node from 14.0.20 to 14.0.22 (#448) ([bacd0d1](https://github.com/rajzik/conventional-changelog-beemo/commit/bacd0d1)), closes [#448](https://github.com/rajzik/conventional-changelog-beemo/issues/448)
+- bump @types/node from 14.0.22 to 14.0.23 (#452) ([bc53f6c](https://github.com/rajzik/conventional-changelog-beemo/commit/bc53f6c)), closes [#452](https://github.com/rajzik/conventional-changelog-beemo/issues/452)
+
 ### 2.0.5 - 2020-07-09
 
 #### 📦 Dependencies
