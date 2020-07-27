@@ -2013,10 +2013,10 @@
     babel-plugin-transform-react-remove-prop-types "^0.4.24"
     babel-plugin-typescript-to-proptypes "^1.4.0"
 
-"@rajzik/config-eslint@^2.4.72":
-  version "2.4.72"
-  resolved "https://registry.yarnpkg.com/@rajzik/config-eslint/-/config-eslint-2.4.72.tgz#c93a9111216ee4b1f272dfa8378004a31338d873"
-  integrity sha512-DLn/7twYY2PlfeSlHkQL+vU4W/5bN8aM3AUcIzjcuu59f0t1Ph1/fmO5UWRG5Q8QfKi/woor+xcPDJqGI6GkJg==
+"@rajzik/config-eslint@^2.4.74":
+  version "2.4.74"
+  resolved "https://registry.yarnpkg.com/@rajzik/config-eslint/-/config-eslint-2.4.74.tgz#300b1f2ac3131a59dd064dd057bc1927a05b9f35"
+  integrity sha512-jaT9+PZE+/cyy2xFGiMz6vnmtyGlHgW6gkh2IuXzQEtUwuhCfOASXG5oWli7LNOUxHmVbqpesOjAs5aVKf46BA==
   dependencies:
     "@beemo/core" "^1.1.8"
     "@beemo/driver-eslint" "^1.2.3"
@@ -2029,11 +2029,11 @@
     eslint-config-prettier "^6.11.0"
     eslint-import-resolver-typescript "^2.0.0"
     eslint-plugin-import "^2.22.0"
-    eslint-plugin-jest "^23.18.0"
+    eslint-plugin-jest "^23.18.2"
     eslint-plugin-jsx-a11y "^6.3.1"
     eslint-plugin-prettier "^3.1.4"
     eslint-plugin-promise "^4.2.1"
-    eslint-plugin-react "^7.20.3"
+    eslint-plugin-react "^7.20.4"
     eslint-plugin-react-hooks "^4.0.8"
     eslint-plugin-testing-library "^3.3.2"
     eslint-plugin-unicorn "^21.0.0"
@@ -4599,10 +4599,10 @@ eslint-plugin-import@^2.22.0:
     resolve "^1.17.0"
     tsconfig-paths "^3.9.0"
 
-eslint-plugin-jest@^23.18.0:
-  version "23.18.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-jest/-/eslint-plugin-jest-23.18.0.tgz#4813eacb181820ed13c5505f400956d176b25af8"
-  integrity sha512-wLPM/Rm1SGhxrFQ2TKM/BYsYPhn7ch6ZEK92S2o/vGkAAnDXM0I4nTIo745RIX+VlCRMFgBuJEax6XfTHMdeKg==
+eslint-plugin-jest@^23.18.2:
+  version "23.18.2"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-jest/-/eslint-plugin-jest-23.18.2.tgz#9cebb2c93729ccabc1d01cf45c59e9ee6afec80d"
+  integrity sha512-afVOE47F0PENnRlnePUHgrDbv1tsDlTAVrjL051oUETB2ImzBwa5GfmUAUhDjAEuxH+xkE6DsmEpZ8obXzUMqQ==
   dependencies:
     "@typescript-eslint/experimental-utils" "^2.5.0"
 
@@ -4640,10 +4640,10 @@ eslint-plugin-react-hooks@^4.0.8:
   resolved "https://registry.yarnpkg.com/eslint-plugin-react-hooks/-/eslint-plugin-react-hooks-4.0.8.tgz#a9b1e3d57475ccd18276882eff3d6cba00da7a56"
   integrity sha512-6SSb5AiMCPd8FDJrzah+Z4F44P2CdOaK026cXFV+o/xSRzfOiV1FNFeLl2z6xm3yqWOQEZ5OfVgiec90qV2xrQ==
 
-eslint-plugin-react@^7.20.3:
-  version "7.20.3"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-react/-/eslint-plugin-react-7.20.3.tgz#0590525e7eb83890ce71f73c2cf836284ad8c2f1"
-  integrity sha512-txbo090buDeyV0ugF3YMWrzLIUqpYTsWSDZV9xLSmExE1P/Kmgg9++PD931r+KEWS66O1c9R4srLVVHmeHpoAg==
+eslint-plugin-react@^7.20.4:
+  version "7.20.4"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-react/-/eslint-plugin-react-7.20.4.tgz#c14d2631221ec694ddd84557d7152f44b66e4aa0"
+  integrity sha512-y4DOQ0LrzuDQFEAnYFGjJMRHQQqfTco02qiWI00eGQYikHTzC15S5aRHGWSffnThv8sBpsmFBLky3K5keniAJg==
   dependencies:
     array-includes "^3.1.1"
     array.prototype.flatmap "^1.2.3"
