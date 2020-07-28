@@ -2038,23 +2038,23 @@
     eslint-plugin-testing-library "^3.3.2"
     eslint-plugin-unicorn "^21.0.0"
 
-"@rajzik/config-jest@^1.10.32":
-  version "1.10.32"
-  resolved "https://registry.yarnpkg.com/@rajzik/config-jest/-/config-jest-1.10.32.tgz#8835a1f0fea2cb6f8f45eab396449fb0b5aabaf9"
-  integrity sha512-8u1FhFk0sEeobDFKoWVPDVZYZvmPF2gaGwbFrEQhEvAnCNvJ8UjpHPRBQyYIppe60S3/ut4rGAkNOdBFxeXmwQ==
+"@rajzik/config-jest@^1.10.34":
+  version "1.10.34"
+  resolved "https://registry.yarnpkg.com/@rajzik/config-jest/-/config-jest-1.10.34.tgz#84e5f39e3c868eabd845fdf58d5546912e4adfb7"
+  integrity sha512-Z02H0YWy4smi306GoCHYJYoDR9z0agZ1YMK2ZPePX3W8zql/OfCl4eFDKcfNzMqR2DqcsHUnLOcE5XzRLuushQ==
   dependencies:
     "@babel/core" "^7.10.5"
     "@beemo/core" "^1.1.8"
     "@beemo/driver-babel" "^1.2.5"
     "@beemo/driver-jest" "^1.2.3"
     "@rajzik/lumos-common" "^2.0.13"
-    "@types/jest" "^26.0.6"
+    "@types/jest" "^26.0.7"
     airbnb-js-shims "^2.2.1"
     cross-env "^7.0.2"
     dom-storage "^2.1.0"
     jest "^26.1.0"
     jest-environment-jsdom-sixteen "^1.0.3"
-    jest-junit "^11.0.1"
+    jest-junit "^11.1.0"
 
 "@rajzik/config-prettier@^1.6.32":
   version "1.6.32"
@@ -2329,10 +2329,10 @@
     "@types/istanbul-lib-coverage" "*"
     "@types/istanbul-lib-report" "*"
 
-"@types/jest@^26.0.6":
-  version "26.0.6"
-  resolved "https://registry.yarnpkg.com/@types/jest/-/jest-26.0.6.tgz#b9f5ef7ba7e0e45a0c482667a0cf314f0a6ed6b3"
-  integrity sha512-XhJCNf+oPyA90jyPhOT3yZo6xR8R7auyUAibzRewPwbOb649AOPXX/JSjbafcbxJrxs/+BymBmHSETM8VpGMOw==
+"@types/jest@^26.0.7":
+  version "26.0.7"
+  resolved "https://registry.yarnpkg.com/@types/jest/-/jest-26.0.7.tgz#495cb1d1818c1699dbc3b8b046baf1c86ef5e324"
+  integrity sha512-+x0077/LoN6MjqBcVOe1y9dpryWnfDZ+Xfo3EqGeBcfPRJlQp3Lw62RvNlWxuGv7kOEwlHriAa54updi3Jvvwg==
   dependencies:
     jest-diff "^25.2.1"
     pretty-format "^25.2.1"
@@ -6630,10 +6630,10 @@ jest-jasmine2@^26.1.0:
     pretty-format "^26.1.0"
     throat "^5.0.0"
 
-jest-junit@^11.0.1:
-  version "11.0.1"
-  resolved "https://registry.yarnpkg.com/jest-junit/-/jest-junit-11.0.1.tgz#944b997b7318efd1f021b4f0fce4937f8d66f392"
-  integrity sha512-stgc0mBoiSg/F9qWd4KkmR3K7Nk2u+M/dc1oup7gxz9mrzGcEaU2YL9/0QscVqqg3IOaA1P5ZXtozG/XR6j6nw==
+jest-junit@^11.1.0:
+  version "11.1.0"
+  resolved "https://registry.yarnpkg.com/jest-junit/-/jest-junit-11.1.0.tgz#79cd53948e44d62b2b30fa23ea0d7a899d2c8d7a"
+  integrity sha512-c2LFOyKY7+ZxL5zSu+WHmHfsJ2wqbOpeYJ4Uu26yMhFxny2J2NQj6AVS7M+Eaxji9Q/oIDDK5tQy0DGzDp9xOw==
   dependencies:
     mkdirp "^1.0.4"
     strip-ansi "^5.2.0"
