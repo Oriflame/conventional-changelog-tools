@@ -44,7 +44,7 @@
     "@rajzik/lumos": "^3.0.134",
     "@types/node": "^14.6.0",
     "@types/shelljs": "^0.8.8",
-    "conventional-changelog-core": "^4.1.7",
+    "conventional-changelog-core": "^4.2.0",
     "conventional-recommended-bump": "^6.0.10",
     "husky": "^4.2.5",
     "semantic-release": "^17.1.1",
