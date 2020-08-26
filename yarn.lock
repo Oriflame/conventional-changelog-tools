@@ -1379,12 +1379,13 @@
     optimal "^4.2.0"
     pretty-ms "^5.1.0"
 
-"@boost/common@^2.0.0":
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/@boost/common/-/common-2.0.0.tgz#3a9ecc961e547266695a7b26ed39cf6a0b7528b5"
-  integrity sha512-j4LOWX+3CC+2llmERThc+iU+iuqQ9vgSWsmKQta2go2LlK0m3cZMWQZWI7bAMuoeqd0a1i+MpIgTvO18Dsxnww==
+"@boost/common@^2.2.0":
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/@boost/common/-/common-2.2.0.tgz#b663298c83e0437ed2dabb3e0292afa97d6c8f5b"
+  integrity sha512-QyDUt1ncwwkreQiXxq5vMUxGeMkXukGQxdJqOvt3I7CVKkxeQuujGGZqGTIPdJnn66meC30ltpSdV+98h57U0g==
   dependencies:
-    "@boost/internal" "^2.0.0"
+    "@boost/decorators" "^2.0.0"
+    "@boost/internal" "^2.1.0"
     fast-glob "^3.2.4"
     json5 "^2.1.3"
     optimal "^4.2.0"
@@ -1431,6 +1432,11 @@
     execa "^3.4.0"
     fast-glob "^3.2.2"
 
+"@boost/decorators@^2.0.0":
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/@boost/decorators/-/decorators-2.0.0.tgz#2831ccabf576fc626803e0a06e6bcbb9992ce711"
+  integrity sha512-T+3O+nidXjo6983KZVCgeLrhwh26Ki0gz7ZWV66xl4noOminiTBxGBNyfIJGNu9CbLKq8iA7g7KVGeMxMdbV9Q==
+
 "@boost/event@^1.3.1":
   version "1.3.1"
   resolved "https://registry.yarnpkg.com/@boost/event/-/event-1.3.1.tgz#0f12d7a6accd06531c56faaf5580e3e6cb57d529"
@@ -1446,12 +1452,11 @@
     chalk "^3.0.0"
     debug "^4.1.1"
 
-"@boost/internal@^2.0.0":
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/@boost/internal/-/internal-2.0.0.tgz#4fc15b4321f1ade579c7628b71b679117fc9a544"
-  integrity sha512-RQn1iRM+7k0VzJJvaofx28YYpvJWWCUVMoYGI91q1tELEWobNR6v3udps0QW/QSHOoUvM4j6aCkT57hd+ojzQw==
+"@boost/internal@^2.1.0":
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/@boost/internal/-/internal-2.1.0.tgz#0f94e78ea9a108479491d72957fb08bf1e8f9124"
+  integrity sha512-0ZLyuo9plqOHRp/00epTvdQO+xvk7WSiHt9f7j7r2XBkjPvcjk99oE8Ufm1SuQlGWeiKDUH1fWG1pzoRRHPLQA==
   dependencies:
-    chalk "^4.1.0"
     debug "^4.1.1"
 
 "@boost/log@^1.2.0":
@@ -2085,29 +2090,29 @@
   resolved "https://registry.yarnpkg.com/@rajzik/conventional-changelog-lint-config-beemo/-/conventional-changelog-lint-config-beemo-1.0.3.tgz#f5582db6cc80496df2da32a48318ff86e6541f19"
   integrity sha512-R5NzNjRw2wk745jGs+25C3tZ7/SE9dcigYORHLUVIGJXmLRgT6OzL/u9NJ36QtWQdT4iDAn27zxWo3ZKx/U7BA==
 
-"@rajzik/lumos-common@^2.0.13":
-  version "2.0.13"
-  resolved "https://registry.yarnpkg.com/@rajzik/lumos-common/-/lumos-common-2.0.13.tgz#db68c577b6ada5289a165908f07efd479327ac3d"
-  integrity sha512-N0D7PuNlSFwZwXCHevjGk424oyam9BS8aixspiZh5WWaF2fioO9xkZ2Gx4c7gZloZ1yb5AtYD4nqD2DGI3sCzw==
+"@rajzik/lumos-common@^2.0.13", "@rajzik/lumos-common@^2.0.15":
+  version "2.0.15"
+  resolved "https://registry.yarnpkg.com/@rajzik/lumos-common/-/lumos-common-2.0.15.tgz#3d12129d891c19bb9a5e85bd6248e7d8d91a7558"
+  integrity sha512-tKf6nYr7836mB3jFL7WnxHdWGR2abi7jvyaLXqD04quqa3XMuzy8gtuGmox1ZZeaz2vgOBEHHCvpkI9RwSmUfQ==
   dependencies:
     "@beemo/core" "^1.1.8"
-    "@boost/common" "^2.0.0"
+    "@boost/common" "^2.2.0"
     execa "^4.0.3"
     fast-glob "^3.2.4"
 
-"@rajzik/lumos@^3.0.108":
-  version "3.0.108"
-  resolved "https://registry.yarnpkg.com/@rajzik/lumos/-/lumos-3.0.108.tgz#3565b7c17a55dc1799e839bff9d00c5120638a7c"
-  integrity sha512-ZKlzrThElgLMdMXXiNjROfq9o4w5LlmhmiHDVwn8LIL4Pp4KOZR4mAu4GYGxsBkZHKF2SvohCrRyAc65HAVotQ==
+"@rajzik/lumos@^3.0.134":
+  version "3.0.134"
+  resolved "https://registry.yarnpkg.com/@rajzik/lumos/-/lumos-3.0.134.tgz#0dcdb85a8acaf0a995d4c0c9c62bc94b5043066c"
+  integrity sha512-3MoqeXBeWNPZiU8Ns+DV72gIRlNgN69mtyLY6CmBbVbeCtoWjHiHTP4N4ZaRZgtHaoDI48k9ufCVSw2lIygksg==
   dependencies:
     "@beemo/cli" "^1.0.11"
     "@beemo/core" "^1.1.8"
     "@rajzik/conventional-changelog-beemo" "^2.0.6"
-    "@rajzik/lumos-common" "^2.0.13"
+    "@rajzik/lumos-common" "^2.0.15"
     chalk "^4.1.0"
     check-node-version "^4.0.3"
     cross-env "^7.0.2"
-    edit-json-file "^1.4.0"
+    edit-json-file "^1.4.1"
     enquirer "^2.3.6"
     execa "^4.0.3"
 
@@ -4292,10 +4297,10 @@ ecc-jsbn@~0.1.1:
     jsbn "~0.1.0"
     safer-buffer "^2.1.0"
 
-edit-json-file@^1.4.0:
-  version "1.4.0"
-  resolved "https://registry.yarnpkg.com/edit-json-file/-/edit-json-file-1.4.0.tgz#bb244abf7fc47a23f3dfb7c106a80f2ef83c39c3"
-  integrity sha512-QS2UtS5sbGbufsZPAvL67kq1xUndVgEJv2cusf7sY+T1c0uqxaRTGD/PrUlkZWkeybiEhrRPSfuCyrj6jRMcag==
+edit-json-file@^1.4.1:
+  version "1.4.1"
+  resolved "https://registry.yarnpkg.com/edit-json-file/-/edit-json-file-1.4.1.tgz#a2f00f482c65922da61087d48bf91c90a63d0477"
+  integrity sha512-YqnKYc2+F+j4Y0qGVKY36Qzb7zusQnQU3JFyqDAZU+vVdtPPqrFtVytsTsCC2kMej5I0BkUCCfPMQq6w5j+cBg==
   dependencies:
     find-value "^1.0.3"
     iterate-object "^1.3.2"
