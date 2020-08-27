@@ -2046,17 +2046,17 @@
   dependencies:
     "@types/node" ">= 8"
 
-"@rajzik/az-semantic-release-config@^1.0.9":
-  version "1.0.9"
-  resolved "https://registry.yarnpkg.com/@rajzik/az-semantic-release-config/-/az-semantic-release-config-1.0.9.tgz#0152b0a540e72c22833113b3217b04f421e82b34"
-  integrity sha512-LV/FjpgTySbpgS5/XhqnHNg96Kh3wb3/6dA8BTqSOigz24ggMsFMjKIl6nCBILzL14pmruKS6nhR2567ZBrSxg==
+"@rajzik/az-semantic-release-config@^1.1.1":
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/@rajzik/az-semantic-release-config/-/az-semantic-release-config-1.1.1.tgz#a054b8bd984609393f1d053fb5d1da0daa085abd"
+  integrity sha512-+n6jzxVZLv8YN0XcSPnlTbKThDh66NQVkOXPYnM/TKE10j49tfj1yEKGlTwD/x1ut5ApPnoIkT9NRV2wphwR6g==
   dependencies:
+    "@rajzik/conventional-changelog-beemo" "^2.1.0"
     "@semantic-release/changelog" "^5.0.1"
     "@semantic-release/commit-analyzer" "^8.0.1"
     "@semantic-release/git" "^9.0.0"
     "@semantic-release/npm" "^7.0.5"
     "@semantic-release/release-notes-generator" "^9.0.1"
-    conventional-changelog-beemo "^2.0.0"
 
 "@rajzik/config-babel@^1.11.36":
   version "1.11.36"
@@ -2145,10 +2145,10 @@
     "@beemo/driver-typescript" "^1.4.0"
     typescript "^4.0.2"
 
-"@rajzik/conventional-changelog-beemo@^2.0.6":
-  version "2.0.6"
-  resolved "https://registry.yarnpkg.com/@rajzik/conventional-changelog-beemo/-/conventional-changelog-beemo-2.0.6.tgz#2f0cf5acff232e52ccf8fb23b542bd200bbcc28a"
-  integrity sha512-d7Oy4b+sRRVAMcrGKfW58yqY5l0y6/JbRe8klEA4JMGsSbIknGDbFxSUl3y95Qy+gK018OeypWQl715XHsgAqA==
+"@rajzik/conventional-changelog-beemo@^2.0.6", "@rajzik/conventional-changelog-beemo@^2.1.0":
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/@rajzik/conventional-changelog-beemo/-/conventional-changelog-beemo-2.1.0.tgz#cd46998f50db2d00793d473827bf5355925a2828"
+  integrity sha512-SzH/lMLLe7DLvEz5SD1MLA6+FCG2sZvlL+Tu9Ymn8HwrQjuc90TglcQW9ikbO0ioUV6F785AllFaYXu4Nm4cMQ==
 
 "@rajzik/conventional-changelog-lint-config-beemo@^1.0.3":
   version "1.0.3"
@@ -3857,11 +3857,6 @@ conventional-changelog-angular@^5.0.0:
   dependencies:
     compare-func "^1.3.1"
     q "^1.5.1"
-
-conventional-changelog-beemo@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/conventional-changelog-beemo/-/conventional-changelog-beemo-2.0.0.tgz#5e3abafbfa5575c967fda4083a60cffd826e7a85"
-  integrity sha512-MxGP174QRoHmOI98/01K86e5Cg1aaY9LLoEk/IkAKTsOdKa6SNaYxyNb6un6mc8ssBvrrlg98+qGNEYK7R50JQ==
 
 conventional-changelog-core@^4.2.0:
   version "4.2.0"
