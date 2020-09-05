@@ -2126,15 +2126,15 @@
     jest-environment-jsdom-sixteen "^1.0.3"
     jest-junit "^11.1.0"
 
-"@rajzik/config-prettier@^1.6.35":
-  version "1.6.35"
-  resolved "https://registry.yarnpkg.com/@rajzik/config-prettier/-/config-prettier-1.6.35.tgz#8da64cfbf361916cd902dc18f8cdf963be7b3f37"
-  integrity sha512-UDXDXREliDeDr95qRuWXEbEygcelEwJg5xMQ/bUmsiE0xu6rgNotyiWtJ0frBYcfcuZpLbH63Jil4WWFkrpIkA==
+"@rajzik/config-prettier@^1.6.38":
+  version "1.6.38"
+  resolved "https://registry.yarnpkg.com/@rajzik/config-prettier/-/config-prettier-1.6.38.tgz#b79137f2944d6876444cb401582feac9049efa20"
+  integrity sha512-t8bKhn/OuxH1ehyDvVQhyfyQKS546kJwx9VQQjn/vRwuHyDcHNMwn5bpk5JHTPHlwdXULMzZ1qoHYdJAOj8f3w==
   dependencies:
     "@beemo/core" "^1.1.8"
     "@beemo/driver-prettier" "^1.3.2"
-    "@rajzik/lumos-common" "^2.0.15"
-    prettier "^2.1.0"
+    "@rajzik/lumos-common" "^2.1.0"
+    prettier "^2.1.1"
 
 "@rajzik/config-typescript@^1.7.13":
   version "1.7.13"
@@ -2155,10 +2155,10 @@
   resolved "https://registry.yarnpkg.com/@rajzik/conventional-changelog-lint-config-beemo/-/conventional-changelog-lint-config-beemo-1.0.3.tgz#f5582db6cc80496df2da32a48318ff86e6541f19"
   integrity sha512-R5NzNjRw2wk745jGs+25C3tZ7/SE9dcigYORHLUVIGJXmLRgT6OzL/u9NJ36QtWQdT4iDAn27zxWo3ZKx/U7BA==
 
-"@rajzik/lumos-common@^2.0.15":
-  version "2.0.15"
-  resolved "https://registry.yarnpkg.com/@rajzik/lumos-common/-/lumos-common-2.0.15.tgz#3d12129d891c19bb9a5e85bd6248e7d8d91a7558"
-  integrity sha512-tKf6nYr7836mB3jFL7WnxHdWGR2abi7jvyaLXqD04quqa3XMuzy8gtuGmox1ZZeaz2vgOBEHHCvpkI9RwSmUfQ==
+"@rajzik/lumos-common@^2.0.15", "@rajzik/lumos-common@^2.1.0":
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/@rajzik/lumos-common/-/lumos-common-2.1.0.tgz#0c7da8bfc404a58e8b0e8a1c41ad8de72b2f6d70"
+  integrity sha512-Gk9hBCEf/JtkNmPpL63l25UTyWsK+vtEiDEFttP8wDUocyehgLu0ZChOtvEthy4gQnNVSeoKiosXcih3mvbrDA==
   dependencies:
     "@beemo/core" "^1.1.8"
     "@boost/common" "^2.2.0"
@@ -9166,7 +9166,7 @@ prettier-linter-helpers@^1.0.0:
   dependencies:
     fast-diff "^1.1.2"
 
-prettier@^2.1.0:
+prettier@^2.1.1:
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.1.1.tgz#d9485dd5e499daa6cb547023b87a6cf51bee37d6"
   integrity sha512-9bY+5ZWCfqj3ghYBLxApy2zf6m+NJo5GzmLTpr9FsApsfjriNnS2dahWReHMi7qNPhhHl9SYHJs2cHZLgexNIw==
