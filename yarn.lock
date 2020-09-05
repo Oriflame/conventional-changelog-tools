@@ -1330,6 +1330,15 @@
     lodash "^4.17.19"
     to-fast-properties "^2.0.0"
 
+"@babel/types@^7.11.5":
+  version "7.11.5"
+  resolved "https://registry.yarnpkg.com/@babel/types/-/types-7.11.5.tgz#d9de577d01252d77c6800cee039ee64faf75662d"
+  integrity sha512-bvM7Qz6eKnJVFIn+1LPtjlBFPVN5jNDc1XmN15vWe7Q3DPBufWWsLiIvUu7xW87uTG6QoggpIDnUgLQvPheU+Q==
+  dependencies:
+    "@babel/helper-validator-identifier" "^7.10.4"
+    lodash "^4.17.19"
+    to-fast-properties "^2.0.0"
+
 "@babel/types@^7.3.3":
   version "7.9.6"
   resolved "https://registry.yarnpkg.com/@babel/types/-/types-7.9.6.tgz#2c5502b427251e9de1bd2dff95add646d95cc9f7"
@@ -2108,17 +2117,17 @@
     eslint-plugin-testing-library "^3.7.0"
     eslint-plugin-unicorn "^21.0.0"
 
-"@rajzik/config-jest@^1.10.46":
-  version "1.10.46"
-  resolved "https://registry.yarnpkg.com/@rajzik/config-jest/-/config-jest-1.10.46.tgz#66097c4b025a7c0a808d98834cedcdde884fe6db"
-  integrity sha512-sCYQKxv0qyuiN4qyzpLxYC7iXAO6FJ4BQ7j/Hx2mUaDBWN6zWWzZNAXkhRhu1cqYEAIcmgNzC3uiLUSBgjP71g==
+"@rajzik/config-jest@^1.10.50":
+  version "1.10.50"
+  resolved "https://registry.yarnpkg.com/@rajzik/config-jest/-/config-jest-1.10.50.tgz#a8c29de9ab36e9192721969fd32998bf0cb9608f"
+  integrity sha512-UEeud+Wfz933S5zKH+hR3GZbNy8pyUQPUYCNElmM5ZcWgP13TtHYVb2rTYBaFADEd4xulfXwmQBFV4aVy9RKfQ==
   dependencies:
-    "@babel/core" "^7.11.4"
+    "@babel/core" "^7.11.6"
     "@beemo/core" "^1.1.8"
-    "@beemo/driver-babel" "^1.2.5"
+    "@beemo/driver-babel" "^1.2.6"
     "@beemo/driver-jest" "^1.2.3"
-    "@rajzik/lumos-common" "^2.0.15"
-    "@types/jest" "^26.0.10"
+    "@rajzik/lumos-common" "^2.1.0"
+    "@types/jest" "^26.0.13"
     airbnb-js-shims "^2.2.1"
     cross-env "^7.0.2"
     dom-storage "^2.1.0"
@@ -2406,10 +2415,10 @@
   dependencies:
     "@types/istanbul-lib-report" "*"
 
-"@types/jest@^26.0.10":
-  version "26.0.10"
-  resolved "https://registry.yarnpkg.com/@types/jest/-/jest-26.0.10.tgz#8faf7e9756c033c39014ae76a7329efea00ea607"
-  integrity sha512-i2m0oyh8w/Lum7wWK/YOZJakYF8Mx08UaKA1CtbmFeDquVhAEdA7znacsVSf2hJ1OQ/OfVMGN90pw/AtzF8s/Q==
+"@types/jest@^26.0.13":
+  version "26.0.13"
+  resolved "https://registry.yarnpkg.com/@types/jest/-/jest-26.0.13.tgz#5a7b9d5312f5dd521a38329c38ee9d3802a0b85e"
+  integrity sha512-sCzjKow4z9LILc6DhBvn5AkIfmQzDZkgtVVKmGwVrs5tuid38ws281D4l+7x1kP487+FlKDh5kfMZ8WSPAdmdA==
   dependencies:
     jest-diff "^25.2.1"
     pretty-format "^25.2.1"
