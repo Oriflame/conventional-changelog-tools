@@ -46,7 +46,7 @@
     "@types/shelljs": "^0.8.8",
     "conventional-changelog-core": "^4.2.0",
     "conventional-recommended-bump": "^6.0.10",
-    "husky": "^4.2.5",
+    "husky": "^4.3.0",
     "semantic-release": "^17.1.1",
     "shelljs": "^0.8.4"
   },
