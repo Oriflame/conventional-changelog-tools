@@ -33,7 +33,7 @@
     "posttest": "yarn run eslint"
   },
   "devDependencies": {
-    "@commitlint/cli": "^9.1.2",
+    "@commitlint/cli": "^11.0.0",
     "@rajzik/az-semantic-release-config": "^1.1.2",
     "@rajzik/config-babel": "^1.11.41",
     "@rajzik/config-eslint": "^2.4.92",
