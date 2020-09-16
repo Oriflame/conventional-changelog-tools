@@ -2203,16 +2203,16 @@
     eslint-plugin-testing-library "^3.7.0"
     eslint-plugin-unicorn "^21.0.0"
 
-"@rajzik/config-jest@^1.10.50":
-  version "1.10.50"
-  resolved "https://registry.yarnpkg.com/@rajzik/config-jest/-/config-jest-1.10.50.tgz#a8c29de9ab36e9192721969fd32998bf0cb9608f"
-  integrity sha512-UEeud+Wfz933S5zKH+hR3GZbNy8pyUQPUYCNElmM5ZcWgP13TtHYVb2rTYBaFADEd4xulfXwmQBFV4aVy9RKfQ==
+"@rajzik/config-jest@^2.1.0":
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/@rajzik/config-jest/-/config-jest-2.1.0.tgz#43be2b33a53ad2376508d1faf730ff9fe53f9e2b"
+  integrity sha512-iR0sg5g5+Q1cAEDNO9FcjzhiE8kfNAiW4PHnyfQyNZsXL9onUPXUHASnpMfwd/Bkyx71md9kAXezxB4chwcBhw==
   dependencies:
     "@babel/core" "^7.11.6"
     "@beemo/core" "^1.1.8"
     "@beemo/driver-babel" "^1.2.6"
     "@beemo/driver-jest" "^1.2.3"
-    "@rajzik/lumos-common" "^2.1.0"
+    "@rajzik/lumos-common" "^3.1.0"
     "@types/jest" "^26.0.13"
     airbnb-js-shims "^2.2.1"
     cross-env "^7.0.2"
