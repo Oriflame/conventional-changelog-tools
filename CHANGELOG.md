@@ -1,3 +1,33 @@
+### 2.1.1 - 2020-09-17
+
+#### 📦 Dependencies
+
+- [security] bump node-fetch from 2.6.0 to 2.6.1 (#599) ([4cb60b7](https://github.com/rajzik/conventional-changelog-beemo/commit/4cb60b7)), closes [#599](https://github.com/rajzik/conventional-changelog-beemo/issues/599)
+
+#### 📋 Misc
+
+- bump @rajzik/config-jest from 1.10.46 to 1.10.50 ([d83690d](https://github.com/rajzik/conventional-changelog-beemo/commit/d83690d))
+
+#### 🛠 Internals
+
+- bump @commitlint/cli from 9.1.2 to 11.0.0 (#608) ([f9f4a3e](https://github.com/rajzik/conventional-changelog-beemo/commit/f9f4a3e)), closes [#608](https://github.com/rajzik/conventional-changelog-beemo/issues/608)
+- bump @rajzik/az-semantic-release-config from 1.0.9 to 1.1.1 (#552) ([78cef2a](https://github.com/rajzik/conventional-changelog-beemo/commit/78cef2a)), closes [#552](https://github.com/rajzik/conventional-changelog-beemo/issues/552)
+- bump @rajzik/az-semantic-release-config from 1.1.1 to 1.1.2 (#582) ([5e46d1d](https://github.com/rajzik/conventional-changelog-beemo/commit/5e46d1d)), closes [#582](https://github.com/rajzik/conventional-changelog-beemo/issues/582)
+- bump @rajzik/config-babel from 1.11.36 to 1.11.41 (#575) ([2770c4c](https://github.com/rajzik/conventional-changelog-beemo/commit/2770c4c)), closes [#575](https://github.com/rajzik/conventional-changelog-beemo/issues/575)
+- bump @rajzik/config-babel from 1.11.41 to 2.1.1 (#609) ([2ff973b](https://github.com/rajzik/conventional-changelog-beemo/commit/2ff973b)), closes [#609](https://github.com/rajzik/conventional-changelog-beemo/issues/609)
+- bump @rajzik/config-jest from 1.10.46 to 1.10.50 ([1731d12](https://github.com/rajzik/conventional-changelog-beemo/commit/1731d12))
+- bump @rajzik/config-jest from 1.10.50 to 2.1.0 (#595) ([16442b2](https://github.com/rajzik/conventional-changelog-beemo/commit/16442b2)), closes [#595](https://github.com/rajzik/conventional-changelog-beemo/issues/595)
+- bump @rajzik/config-prettier from 1.6.35 to 1.6.38 (#574) ([53e528d](https://github.com/rajzik/conventional-changelog-beemo/commit/53e528d)), closes [#574](https://github.com/rajzik/conventional-changelog-beemo/issues/574)
+- bump @rajzik/config-typescript from 1.7.13 to 1.7.14 (#579) ([786172a](https://github.com/rajzik/conventional-changelog-beemo/commit/786172a)), closes [#579](https://github.com/rajzik/conventional-changelog-beemo/issues/579)
+- bump @rajzik/config-typescript from 1.7.14 to 2.2.0 (#596) ([c4d4d5f](https://github.com/rajzik/conventional-changelog-beemo/commit/c4d4d5f)), closes [#596](https://github.com/rajzik/conventional-changelog-beemo/issues/596)
+- bump @rajzik/lumos from 3.0.134 to 3.1.2 (#578) ([be0bba0](https://github.com/rajzik/conventional-changelog-beemo/commit/be0bba0)), closes [#578](https://github.com/rajzik/conventional-changelog-beemo/issues/578)
+- bump @rajzik/lumos from 3.1.2 to 3.1.3 (#580) ([833447d](https://github.com/rajzik/conventional-changelog-beemo/commit/833447d)), closes [#580](https://github.com/rajzik/conventional-changelog-beemo/issues/580)
+- bump @rajzik/lumos from 3.1.3 to 4.1.8 (#611) ([a5a931f](https://github.com/rajzik/conventional-changelog-beemo/commit/a5a931f)), closes [#611](https://github.com/rajzik/conventional-changelog-beemo/issues/611)
+- bump @types/node from 14.10.2 to 14.10.3 (#616) ([2aa6995](https://github.com/rajzik/conventional-changelog-beemo/commit/2aa6995)), closes [#616](https://github.com/rajzik/conventional-changelog-beemo/issues/616)
+- bump @types/node from 14.6.0 to 14.6.4 (#568) ([fec34ae](https://github.com/rajzik/conventional-changelog-beemo/commit/fec34ae)), closes [#568](https://github.com/rajzik/conventional-changelog-beemo/issues/568)
+- bump @types/node from 14.6.4 to 14.10.2 (#612) ([3ee36d8](https://github.com/rajzik/conventional-changelog-beemo/commit/3ee36d8)), closes [#612](https://github.com/rajzik/conventional-changelog-beemo/issues/612)
+- bump husky from 4.2.5 to 4.3.0 (#583) ([131a9eb](https://github.com/rajzik/conventional-changelog-beemo/commit/131a9eb)), closes [#583](https://github.com/rajzik/conventional-changelog-beemo/issues/583)
+
 ## 2.1.0 - 2020-08-26
 
 #### 🚀 Updates
