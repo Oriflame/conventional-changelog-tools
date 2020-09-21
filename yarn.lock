@@ -2245,10 +2245,10 @@
   resolved "https://registry.yarnpkg.com/@rajzik/conventional-changelog-beemo/-/conventional-changelog-beemo-2.1.1.tgz#ac265588fa4f3623e954187a2e526cf930fd6865"
   integrity sha512-+MkX7catYy0oi5C9nHMGLaP+4NMyjn03pBSWExBJTJ1Msr3wSKbWZaSWPWp2I9kl6IBisEJ8+e+CpOvWekgFGQ==
 
-"@rajzik/conventional-changelog-lint-config-beemo@^1.0.3":
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/@rajzik/conventional-changelog-lint-config-beemo/-/conventional-changelog-lint-config-beemo-1.0.3.tgz#f5582db6cc80496df2da32a48318ff86e6541f19"
-  integrity sha512-R5NzNjRw2wk745jGs+25C3tZ7/SE9dcigYORHLUVIGJXmLRgT6OzL/u9NJ36QtWQdT4iDAn27zxWo3ZKx/U7BA==
+"@rajzik/conventional-changelog-lint-config-beemo@^1.0.4":
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/@rajzik/conventional-changelog-lint-config-beemo/-/conventional-changelog-lint-config-beemo-1.0.4.tgz#d21eb110dae6bcd5f83563f41284ea7d86b716f3"
+  integrity sha512-sGiP7NJM+Ainx+/A5mCGw/0rnG32FHOUkhFEUDTgLuCeIlyLKEBHDRIB5b8VrdN1hXz4mSKkHKHXRWqq1EmK+g==
 
 "@rajzik/lumos-common@^2.0.15", "@rajzik/lumos-common@^2.1.0":
   version "2.1.0"
