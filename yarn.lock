@@ -2142,12 +2142,12 @@
   dependencies:
     "@types/node" ">= 8"
 
-"@rajzik/az-semantic-release-config@^1.1.2":
-  version "1.1.2"
-  resolved "https://registry.yarnpkg.com/@rajzik/az-semantic-release-config/-/az-semantic-release-config-1.1.2.tgz#94d211442bd99596f25eb9b8f0199c92d5b4dcef"
-  integrity sha512-ekdUFzM8zdbGHzqSNDrSKZIQTeQe02i11osXyOsqWyp13GISCSpDkvxE+JAdo3Q25SxKkdDS8+9iZ+qfKz21mg==
+"@rajzik/az-semantic-release-config@^1.1.3":
+  version "1.1.3"
+  resolved "https://registry.yarnpkg.com/@rajzik/az-semantic-release-config/-/az-semantic-release-config-1.1.3.tgz#f5091d082f9b79a6c92664e462c155232f95cb97"
+  integrity sha512-f6H56ms03+FF2yYwWwqwiosTjTZCODZ7/OxmrwrwccWWRNNGRjpHrIhEk/DLL2q9M4jM6gmw+vvSfOp2Cy57SQ==
   dependencies:
-    "@rajzik/conventional-changelog-beemo" "^2.1.0"
+    "@rajzik/conventional-changelog-beemo" "^2.1.1"
     "@semantic-release/changelog" "^5.0.1"
     "@semantic-release/commit-analyzer" "^8.0.1"
     "@semantic-release/git" "^9.0.0"
@@ -2240,10 +2240,10 @@
     "@beemo/driver-typescript" "^1.4.1"
     typescript "^4.0.2"
 
-"@rajzik/conventional-changelog-beemo@^2.1.0":
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/@rajzik/conventional-changelog-beemo/-/conventional-changelog-beemo-2.1.0.tgz#cd46998f50db2d00793d473827bf5355925a2828"
-  integrity sha512-SzH/lMLLe7DLvEz5SD1MLA6+FCG2sZvlL+Tu9Ymn8HwrQjuc90TglcQW9ikbO0ioUV6F785AllFaYXu4Nm4cMQ==
+"@rajzik/conventional-changelog-beemo@^2.1.0", "@rajzik/conventional-changelog-beemo@^2.1.1":
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/@rajzik/conventional-changelog-beemo/-/conventional-changelog-beemo-2.1.1.tgz#ac265588fa4f3623e954187a2e526cf930fd6865"
+  integrity sha512-+MkX7catYy0oi5C9nHMGLaP+4NMyjn03pBSWExBJTJ1Msr3wSKbWZaSWPWp2I9kl6IBisEJ8+e+CpOvWekgFGQ==
 
 "@rajzik/conventional-changelog-lint-config-beemo@^1.0.3":
   version "1.0.3"
