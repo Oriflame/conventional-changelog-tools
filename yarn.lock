@@ -2244,14 +2244,14 @@
     "@rajzik/lumos-common" "^2.1.0"
     prettier "^2.1.1"
 
-"@rajzik/config-typescript@^2.2.0":
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/@rajzik/config-typescript/-/config-typescript-2.2.0.tgz#1d24bf68818a6cb84dcfc695077d5e5863186e6f"
-  integrity sha512-9ZEmt0oJyzCwAIofwy20pha1UyOCSeC+aO4BPClJho8ft8zFJXBy+DrM2sKoPIo6bMmHhUgbB6RhB7wbgJZqAQ==
+"@rajzik/config-typescript@^2.2.1":
+  version "2.2.1"
+  resolved "https://registry.yarnpkg.com/@rajzik/config-typescript/-/config-typescript-2.2.1.tgz#c678565be2fd7bc150aadf4661f05cc982b898cd"
+  integrity sha512-6nHtGjE/QEuSaur3VlNUmYkNCaII5zlpIQ/P5OLaTIYgnJWuInx/Q6kx3CQbHkIljGfHz9XozGCjlfpBhXYEzg==
   dependencies:
     "@beemo/core" "^1.1.8"
     "@beemo/driver-typescript" "^1.4.1"
-    typescript "^4.0.2"
+    typescript "^4.0.3"
 
 "@rajzik/conventional-changelog-beemo@^2.1.1":
   version "2.1.1"
@@ -11215,10 +11215,10 @@ typedarray@^0.0.6:
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
 
-typescript@^4.0.2:
-  version "4.0.2"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.0.2.tgz#7ea7c88777c723c681e33bf7988be5d008d05ac2"
-  integrity sha512-e4ERvRV2wb+rRZ/IQeb3jm2VxBsirQLpQhdxplZ2MEzGvDkkMmPglecnNDfSUBivMjP93vRbngYYDQqQ/78bcQ==
+typescript@^4.0.3:
+  version "4.0.3"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.0.3.tgz#153bbd468ef07725c1df9c77e8b453f8d36abba5"
+  integrity sha512-tEu6DGxGgRJPb/mVPIZ48e69xCn2yRmCgYmDugAVwmJ6o+0u1RI18eO7E7WBTLYLaEVVOhwQmcdhQHweux/WPg==
 
 uglify-js@^3.1.4:
   version "3.6.8"
