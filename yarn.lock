@@ -2310,27 +2310,27 @@
     execa "^4.0.3"
     fast-glob "^3.2.4"
 
-"@rajzik/lumos-common@^3.1.0", "@rajzik/lumos-common@^3.1.1":
-  version "3.1.1"
-  resolved "https://registry.yarnpkg.com/@rajzik/lumos-common/-/lumos-common-3.1.1.tgz#966ab6f632cf0b3a72c12f6adb5342f6ddff2116"
-  integrity sha512-CTairuVu0K/jidXFfBIh6qfESKuEpy8oSDIzX77xOnqQ22CiL0lUuFBiuTjwC6ctT5jocLCAjZQZ5Uf8Y2XQ1Q==
+"@rajzik/lumos-common@^3.1.0", "@rajzik/lumos-common@^3.1.1", "@rajzik/lumos-common@^3.2.0":
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/@rajzik/lumos-common/-/lumos-common-3.2.0.tgz#8f8cb26bfd7c0ac49b649640810a0d96cf3404e8"
+  integrity sha512-U85KhsIhNwEjFtVI8YNau8TbLGnZJ4VYHKqMKd6GMv1a+1ahTM8c4tMqxwc+NpLm26OURAm2tIww29riTmPcHg==
   dependencies:
     "@beemo/core" "^1.1.8"
     "@boost/common" "^2.2.1"
     execa "^4.0.3"
     fast-glob "^3.2.4"
 
-"@rajzik/lumos@^4.1.17":
-  version "4.1.17"
-  resolved "https://registry.yarnpkg.com/@rajzik/lumos/-/lumos-4.1.17.tgz#e73cf2a384e6d77c8d2b4abc739da890fa8caf31"
-  integrity sha512-ku/pWYWmQiHsQdkXBBD2JQMngMQTm41LMHjF6AuHcEMNLe+iBTjL2LNVDzykwHJB9hBv1nfQHr+Kg/Z3oIrwYQ==
+"@rajzik/lumos@^4.1.23":
+  version "4.1.23"
+  resolved "https://registry.yarnpkg.com/@rajzik/lumos/-/lumos-4.1.23.tgz#76036029733bd37bbd4f3d35a7d9f948e1e33440"
+  integrity sha512-QHD64cLruZXqawME5WO/8kCo+eP8CEgcGoTpMD9ncZi5yFafIZCCxT4Xo/YqJKjykYQmm8NRLI/N8P2zgxLzcA==
   dependencies:
     "@actions/core" "^1.2.5"
     "@actions/github" "^4.0.0"
     "@beemo/cli" "^1.0.11"
     "@beemo/core" "^1.1.8"
     "@rajzik/conventional-changelog-beemo" "^2.1.1"
-    "@rajzik/lumos-common" "^3.1.1"
+    "@rajzik/lumos-common" "^3.2.0"
     chalk "^4.1.0"
     check-node-version "^4.0.3"
     cross-env "^7.0.2"
