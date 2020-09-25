@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@actions/core@^1.2.5":
-  version "1.2.5"
-  resolved "https://registry.yarnpkg.com/@actions/core/-/core-1.2.5.tgz#fa57bf8c07a38191e243beb9ea9d8368c1cb02c8"
-  integrity sha512-mwpoNjHSWWh0IiALdDEQi3tru124JKn0yVNziIBzTME8QRv7thwoghVuT1jBRjFvdtoHsqD58IRHy1nf86paRg==
+"@actions/core@^1.2.6":
+  version "1.2.6"
+  resolved "https://registry.yarnpkg.com/@actions/core/-/core-1.2.6.tgz#a78d49f41a4def18e88ce47c2cac615d5694bf09"
+  integrity sha512-ZQYitnqiyBc3D+k7LsgSBmMDVkOVidaagDG7j3fOym77jNunWRuYx7VSHa9GNfFZh+zh61xsCjRj4JxMZlDqTA==
 
 "@actions/github@^4.0.0":
   version "4.0.0"
@@ -2310,7 +2310,7 @@
     execa "^4.0.3"
     fast-glob "^3.2.4"
 
-"@rajzik/lumos-common@^3.1.0", "@rajzik/lumos-common@^3.1.1", "@rajzik/lumos-common@^3.2.0":
+"@rajzik/lumos-common@^3.1.0", "@rajzik/lumos-common@^3.2.0":
   version "3.2.0"
   resolved "https://registry.yarnpkg.com/@rajzik/lumos-common/-/lumos-common-3.2.0.tgz#8f8cb26bfd7c0ac49b649640810a0d96cf3404e8"
   integrity sha512-U85KhsIhNwEjFtVI8YNau8TbLGnZJ4VYHKqMKd6GMv1a+1ahTM8c4tMqxwc+NpLm26OURAm2tIww29riTmPcHg==
@@ -2320,12 +2320,12 @@
     execa "^4.0.3"
     fast-glob "^3.2.4"
 
-"@rajzik/lumos@^4.1.23":
-  version "4.1.23"
-  resolved "https://registry.yarnpkg.com/@rajzik/lumos/-/lumos-4.1.23.tgz#76036029733bd37bbd4f3d35a7d9f948e1e33440"
-  integrity sha512-QHD64cLruZXqawME5WO/8kCo+eP8CEgcGoTpMD9ncZi5yFafIZCCxT4Xo/YqJKjykYQmm8NRLI/N8P2zgxLzcA==
+"@rajzik/lumos@^4.1.24":
+  version "4.1.24"
+  resolved "https://registry.yarnpkg.com/@rajzik/lumos/-/lumos-4.1.24.tgz#5e6714a805f4c9160783d52cf50ffe016421d189"
+  integrity sha512-qLqdsigvtD/iAE+on8P+hYjLOTdo60JkP7xmnEOU8xQuCdTIkeNPxTglqJAcp7QF5cputrPQvLdBfNIrwEsX8w==
   dependencies:
-    "@actions/core" "^1.2.5"
+    "@actions/core" "^1.2.6"
     "@actions/github" "^4.0.0"
     "@beemo/cli" "^1.0.11"
     "@beemo/core" "^1.1.8"
