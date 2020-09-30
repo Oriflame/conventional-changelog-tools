@@ -37,7 +37,7 @@
     "@rajzik/az-semantic-release-config": "^1.1.3",
     "@rajzik/config-babel": "^2.2.2",
     "@rajzik/config-eslint": "^2.4.92",
-    "@rajzik/config-jest": "^2.1.0",
+    "@rajzik/config-jest": "^3.0.0",
     "@rajzik/config-prettier": "^1.6.38",
     "@rajzik/config-typescript": "^2.2.1",
     "@rajzik/conventional-changelog-lint-config-beemo": "^1.0.4",
