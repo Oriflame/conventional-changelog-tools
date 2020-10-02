@@ -1,4 +1,4 @@
-/* eslint-disable jest/expect-expect, jest/no-test-callback, import/no-extraneous-dependencies */
+/* eslint-disable jest/expect-expect, import/no-extraneous-dependencies */
 
 import conventionalChangelogCore from 'conventional-changelog-core';
 import conventionalRecommendedBump from 'conventional-recommended-bump';
@@ -7,7 +7,7 @@ import shell from 'shelljs';
 import Stream from 'stream';
 import { config } from '../src';
 
-function gitDummyCommit(msg: string | string[], silent: boolean = true) {
+function gitDummyCommit(msg: string | string[], silent = true) {
   const args: string[] = ['--allow-empty', '--no-gpg-sign'];
 
   if (Array.isArray(msg)) {
@@ -296,7 +296,7 @@ describe('conventional-changelog-beemo', () => {
           {
             ...commonConfig,
           },
-          (error: Error | null, result: object) => {
+          (error: Error | null, result: Record<string, unknown>) => {
             expect(error).toBeNull();
             expect(result).toEqual({
               level: 0,
@@ -318,7 +318,7 @@ describe('conventional-changelog-beemo', () => {
           {
             ...commonConfig,
           },
-          (error: Error | null, result: object) => {
+          (error: Error | null, result: Record<string, unknown>) => {
             expect(error).toBeNull();
             expect(result).toEqual({
               level: 1,
@@ -341,7 +341,7 @@ describe('conventional-changelog-beemo', () => {
             ...commonConfig,
             ignoreReverted: false,
           },
-          (error: Error | null, result: object) => {
+          (error: Error | null, result: Record<string, unknown>) => {
             expect(error).toBeNull();
             expect(result).toEqual({
               level: 2,
@@ -363,7 +363,7 @@ describe('conventional-changelog-beemo', () => {
           {
             ...commonConfig,
           },
-          (error: Error | null, result: object) => {
+          (error: Error | null, result: Record<string, unknown>) => {
             expect(error).toBeNull();
             expect(result).toEqual({
               level: null,
@@ -383,7 +383,7 @@ describe('conventional-changelog-beemo', () => {
         {
           ...commonConfig,
         },
-        (error: Error | null, result: object) => {
+        (error: Error | null, result: Record<string, unknown>) => {
           expect(error).toBeNull();
           expect(result).toEqual({
             level: null,
