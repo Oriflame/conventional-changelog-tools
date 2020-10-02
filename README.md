@@ -1,9 +1,4 @@
-# conventional-changelog-beemo
-
-Original repo [beemo preset](https://github.com/beemojs/beemo)
-
-<!-- [![npm version](https://badge.fury.io/js/conventional-changelog-beemo.svg)](https://www.npmjs.com/package/conventional-changelog-beemo)
-[![npm deps](https://david-dm.org/beemojs/conventional-changelog-beemo.svg)](https://www.npmjs.com/package/conventional-changelog-beemo) -->
+# conventional-changelog-ori
 
 Beemo's commit message guidelines and changelog structure. _Now with more emojis!_
 
@@ -58,7 +53,7 @@ to target a specific feature or module within the project, for example:
 `new(Button): Add a new Button component`.
 
 Scopes will appear in the changelog before each line item and accept the following characters:
-`a-z`, `0-9`, `-`, `.`, `,`, and spaces.
+`A-Z`, `a-z`, `0-9`, `-`, `.`, `,`, and spaces.
 
 ### Message
 
