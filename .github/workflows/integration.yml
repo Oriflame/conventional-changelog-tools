@@ -1,0 +1,15 @@
+name: Primary code validation
+
+on:
+  push:
+    branches-ignore:
+      - master
+
+jobs:
+  primary_code_validation:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v1
+      - run: yarn install --frozen-lockfile --ignore-engines # will run `yarn install` command - uses: borales/actions-yarn@v2.0.0
+      - run: yarn test
