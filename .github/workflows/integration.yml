@@ -10,6 +10,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+        with:
+          token: ${{ secrets.GH_TOKEN }}
+          fetch-depth: '0'
       - uses: actions/setup-node@v1
       - run: yarn install --frozen-lockfile --ignore-engines # will run `yarn install` command - uses: borales/actions-yarn@v2.0.0
       - run: yarn test
