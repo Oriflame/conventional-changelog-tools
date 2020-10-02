@@ -1,14 +1,14 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`conventional-changelog-beemo doesnt replace @username if wrapped in backticks 1`] = `
+exports[`conventional-changelog-ori doesnt replace @username if wrapped in backticks 1`] = `
 "### 1.0.0 - 2019-02-26
 
 #### 📦 Dependencies
 
-- Updated \`@types\` packages. ([a1b2c3d](https://github.com/rajzik/conventional-changelog-beemo/commit/a1b2c3d))"
+- Updated \\\\\`@types\\\\\` packages. ([a1b2c3d](https://github.com/rajzik/conventional-changelog-beemo/commit/a1b2c3d))"
 `;
 
-exports[`conventional-changelog-beemo handles merge commits 1`] = `
+exports[`conventional-changelog-ori handles merge commits 1`] = `
 "### 1.0.0 - 2019-02-26
 
 #### 🐞 Fixes
@@ -16,7 +16,7 @@ exports[`conventional-changelog-beemo handles merge commits 1`] = `
 - use yarn ([a1b2c3d](https://github.com/rajzik/conventional-changelog-beemo/commit/a1b2c3d))"
 `;
 
-exports[`conventional-changelog-beemo handles multiple notes 1`] = `
+exports[`conventional-changelog-ori handles multiple notes 1`] = `
 "# 1.0.0 - 2019-02-26
 
 Button is more buttony
@@ -32,7 +32,7 @@ Made a lot of changes
 - **[button]** Made button changes ([a1b2c3d](https://github.com/rajzik/conventional-changelog-beemo/commit/a1b2c3d))"
 `;
 
-exports[`conventional-changelog-beemo handles revert type 1`] = `
+exports[`conventional-changelog-ori handles revert type 1`] = `
 "### 1.0.0 - 2019-02-26
 
 #### ↩️ Reverts
@@ -40,7 +40,7 @@ exports[`conventional-changelog-beemo handles revert type 1`] = `
 - **[foo]** undo this ([a1b2c3d](https://github.com/rajzik/conventional-changelog-beemo/commit/a1b2c3d))"
 `;
 
-exports[`conventional-changelog-beemo links commits/issues to deep repositories correctly 1`] = `
+exports[`conventional-changelog-ori links commits/issues to deep repositories correctly 1`] = `
 "## 1.0.0 - 2019-02-26
 
 #### 🚀 Updates
@@ -48,7 +48,7 @@ exports[`conventional-changelog-beemo links commits/issues to deep repositories 
 - supports sub-package links ([a1b2c3d](https://github.com/rajzik/conventional-changelog-beemo/commit/a1b2c3d)), closes [#10](https://github.com/rajzik/conventional-changelog-beemo/issues/10)"
 `;
 
-exports[`conventional-changelog-beemo only replaces with link to user if it is an username 1`] = `
+exports[`conventional-changelog-ori only replaces with link to user if it is an username 1`] = `
 "### 1.0.0 - 2019-02-26
 
 #### 🐞 Fixes
@@ -60,7 +60,7 @@ exports[`conventional-changelog-beemo only replaces with link to user if it is a
 - **[deps]** bump @dummy/package from 7.1.2 to 8.0.0 ([a1b2c3d](https://github.com/rajzik/conventional-changelog-beemo/commit/a1b2c3d))"
 `;
 
-exports[`conventional-changelog-beemo replaces #[0-9]+ with issue URL 1`] = `
+exports[`conventional-changelog-ori replaces #[0-9]+ with issue URL 1`] = `
 "## 1.0.0 - 2019-02-26
 
 #### 🚀 Updates
@@ -68,7 +68,7 @@ exports[`conventional-changelog-beemo replaces #[0-9]+ with issue URL 1`] = `
 - **[awesome]** fix #88 ([a1b2c3d](https://github.com/rajzik/conventional-changelog-beemo/commit/a1b2c3d)), closes [#88](https://github.com/rajzik/conventional-changelog-beemo/issues/88)"
 `;
 
-exports[`conventional-changelog-beemo replaces @username with GitHub user URL 1`] = `
+exports[`conventional-changelog-ori replaces @username with GitHub user URL 1`] = `
 "## 1.0.0 - 2019-02-26
 
 #### 🚀 Updates
@@ -76,7 +76,7 @@ exports[`conventional-changelog-beemo replaces @username with GitHub user URL 1`
 - **[awesome]** issue brought up by [@bcoe](https://github.com/bcoe)! on Friday ([a1b2c3d](https://github.com/rajzik/conventional-changelog-beemo/commit/a1b2c3d))"
 `;
 
-exports[`conventional-changelog-beemo supports all types at once 1`] = `
+exports[`conventional-changelog-ori supports all types at once 1`] = `
 "# 1.0.0 - 2019-02-26
 
 New build system.
@@ -95,10 +95,12 @@ They are easier now!
 
 - **[core]** settings refactor ([a1b2c3d](https://github.com/rajzik/conventional-changelog-beemo/commit/a1b2c3d))
 - **[modal, button]** added accessibility ([a1b2c3d](https://github.com/rajzik/conventional-changelog-beemo/commit/a1b2c3d)), closes [#1](https://github.com/rajzik/conventional-changelog-beemo/issues/1) [#2](https://github.com/rajzik/conventional-changelog-beemo/issues/2)
+- **[Test]** Hello darkness my old friend ([a1b2c3d](https://github.com/rajzik/conventional-changelog-beemo/commit/a1b2c3d))
 - amazing new module ([a1b2c3d](https://github.com/rajzik/conventional-changelog-beemo/commit/a1b2c3d))
 
 #### 🐞 Fixes
 
+- Type of lastAddedCustomerOrderIds ([a1b2c3d](https://github.com/rajzik/conventional-changelog-beemo/commit/a1b2c3d))
 - **[router]** Fix params ([a1b2c3d](https://github.com/rajzik/conventional-changelog-beemo/commit/a1b2c3d))
 - updated i18n ([a1b2c3d](https://github.com/rajzik/conventional-changelog-beemo/commit/a1b2c3d))
 
@@ -130,7 +132,7 @@ They are easier now!
 - **[travis]** fixed yaml config ([a1b2c3d](https://github.com/rajzik/conventional-changelog-beemo/commit/a1b2c3d))"
 `;
 
-exports[`conventional-changelog-beemo supports non public GitHub repository locations 1`] = `
+exports[`conventional-changelog-ori supports non public GitHub repository locations 1`] = `
 "## 3.0.0 - 2019-02-26
 
 #### 🚀 Updates
@@ -139,7 +141,7 @@ exports[`conventional-changelog-beemo supports non public GitHub repository loca
 - **[events]** implementing #5 by [@dlmr](https://github.internal.example.com/dlmr) ([a1b2c3d](https://github.internal.example.com/conventional-changelog/internal/commit/a1b2c3d)), closes [#5](https://github.internal.example.com/conventional-changelog/internal/issues/5) [#10](https://github.internal.example.com/conventional-changelog/internal/issues/10)"
 `;
 
-exports[`conventional-changelog-beemo uses h1 for major versions 1`] = `
+exports[`conventional-changelog-ori uses h1 for major versions 1`] = `
 "# 1.0.0 - 2019-02-26
 
 #### 🎉 Release
@@ -155,7 +157,7 @@ exports[`conventional-changelog-beemo uses h1 for major versions 1`] = `
 - just a patch ([a1b2c3d](https://github.com/rajzik/conventional-changelog-beemo/commit/a1b2c3d))"
 `;
 
-exports[`conventional-changelog-beemo uses h2 for minor versions 1`] = `
+exports[`conventional-changelog-ori uses h2 for minor versions 1`] = `
 "## 1.0.0 - 2019-02-26
 
 #### 🚀 Updates
@@ -169,7 +171,7 @@ exports[`conventional-changelog-beemo uses h2 for minor versions 1`] = `
 - just a patch ([a1b2c3d](https://github.com/rajzik/conventional-changelog-beemo/commit/a1b2c3d))"
 `;
 
-exports[`conventional-changelog-beemo uses h3 for patch versions 1`] = `
+exports[`conventional-changelog-ori uses h3 for patch versions 1`] = `
 "### 1.0.0 - 2019-02-26
 
 #### 🐞 Fixes
@@ -181,7 +183,7 @@ exports[`conventional-changelog-beemo uses h3 for patch versions 1`] = `
 - add a manual ([a1b2c3d](https://github.com/rajzik/conventional-changelog-beemo/commit/a1b2c3d))"
 `;
 
-exports[`conventional-changelog-beemo works if there is a semver tag 1`] = `
+exports[`conventional-changelog-ori works if there is a semver tag 1`] = `
 "## 1.0.0 - 2019-02-26
 
 #### 🚀 Updates
@@ -189,7 +191,7 @@ exports[`conventional-changelog-beemo works if there is a semver tag 1`] = `
 - some more features ([a1b2c3d](https://github.com/rajzik/conventional-changelog-beemo/commit/a1b2c3d))"
 `;
 
-exports[`conventional-changelog-beemo works if there is no semver tag 1`] = `
+exports[`conventional-changelog-ori works if there is no semver tag 1`] = `
 "## 1.0.0 - 2019-02-26
 
 New build system.
@@ -197,10 +199,12 @@ New build system.
 #### 🚀 Updates
 
 - **[ngOptions]** make it faster ([a1b2c3d](https://github.com/rajzik/conventional-changelog-beemo/commit/a1b2c3d)), closes [#1](https://github.com/rajzik/conventional-changelog-beemo/issues/1) [#2](https://github.com/rajzik/conventional-changelog-beemo/issues/2)
+- **[Test]** Hello darkness my old friend ([a1b2c3d](https://github.com/rajzik/conventional-changelog-beemo/commit/a1b2c3d))
 - amazing new module ([a1b2c3d](https://github.com/rajzik/conventional-changelog-beemo/commit/a1b2c3d))
 
 #### 🐞 Fixes
 
+- Type of lastAddedCustomerOrderIds ([a1b2c3d](https://github.com/rajzik/conventional-changelog-beemo/commit/a1b2c3d))
 - **[compile]** avoid a bug ([a1b2c3d](https://github.com/rajzik/conventional-changelog-beemo/commit/a1b2c3d))
 
 #### ⚙️ Types
@@ -218,7 +222,7 @@ New build system.
 - first build setup ([a1b2c3d](https://github.com/rajzik/conventional-changelog-beemo/commit/a1b2c3d))"
 `;
 
-exports[`conventional-changelog-beemo works with unknown host 1`] = `
+exports[`conventional-changelog-ori works with unknown host 1`] = `
 "### 1.0.0 - 2019-02-26
 
 #### 📘 Docs

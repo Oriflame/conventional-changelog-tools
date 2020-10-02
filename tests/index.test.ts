@@ -37,7 +37,7 @@ function captureStreamOutput(stream: Stream.Readable, done: jest.DoneCallback) {
     });
 }
 
-describe('conventional-changelog-beemo', () => {
+describe('conventional-changelog-ori', () => {
   const commonConfig = {
     config,
     pkg: {
@@ -79,6 +79,8 @@ describe('conventional-changelog-beemo', () => {
     gitDummyCommit('deps(babel,jest): Bumped to latest');
     gitDummyCommit(['patch(router): Fix params']);
     gitDummyCommit('types: Removed any');
+    gitDummyCommit('Merged PR 21884: fix: Type of lastAddedCustomerOrderIds');
+    gitDummyCommit('Merged PR 21884: new(Test): Hello darkness my old friend');
 
     captureStreamOutput(
       conventionalChangelogCore({
@@ -98,6 +100,8 @@ describe('conventional-changelog-beemo', () => {
     gitDummyCommit('fix(*): oops');
     gitDummyCommit('type: Added unknown');
     gitDummyCommit('tests: Added before hooks');
+    gitDummyCommit('Merged PR 21884: fix: Type of lastAddedCustomerOrderIds');
+    gitDummyCommit('Merged PR 21884: new(Test): Hello darkness my old friend');
 
     captureStreamOutput(
       conventionalChangelogCore({
@@ -300,7 +304,28 @@ describe('conventional-changelog-beemo', () => {
             expect(error).toBeNull();
             expect(result).toEqual({
               level: 0,
-              reason: 'There are 2 breaking changes and 0 new features',
+              reason: 'There are 2 breaking changes and 0 new features, also 0 fixes',
+              releaseType: 'major',
+            });
+            done();
+          },
+        );
+      });
+    });
+    ['break', 'breaking', 'release'].forEach(major => {
+      it(`bumps major version for ${major} with azure devops prefix`, done => {
+        gitDummyCommit(`Merged PR 21884: ${major}: new stuff`);
+        gitDummyCommit(`Merged PR 21884: ${major}(todo): with scope`);
+
+        conventionalRecommendedBump(
+          {
+            ...commonConfig,
+          },
+          (error: Error | null, result: Record<string, unknown>) => {
+            expect(error).toBeNull();
+            expect(result).toEqual({
+              level: 0,
+              reason: 'There are 2 breaking changes and 0 new features, also 0 fixes',
               releaseType: 'major',
             });
             done();
@@ -322,7 +347,29 @@ describe('conventional-changelog-beemo', () => {
             expect(error).toBeNull();
             expect(result).toEqual({
               level: 1,
-              reason: 'There are 0 breaking changes and 2 new features',
+              reason: 'There are 0 breaking changes and 2 new features, also 0 fixes',
+              releaseType: 'minor',
+            });
+            done();
+          },
+        );
+      });
+    });
+
+    ['new', 'update', 'feature'].forEach(minor => {
+      it(`bumps minor version for ${minor} with azure devops prefix`, done => {
+        gitDummyCommit(`Merged PR 21884: ${minor}: new stuff`);
+        gitDummyCommit(`Merged PR 21884: ${minor}(todo): with scope`);
+
+        conventionalRecommendedBump(
+          {
+            ...commonConfig,
+          },
+          (error: Error | null, result: Record<string, unknown>) => {
+            expect(error).toBeNull();
+            expect(result).toEqual({
+              level: 1,
+              reason: 'There are 0 breaking changes and 2 new features, also 0 fixes',
               releaseType: 'minor',
             });
             done();
@@ -345,7 +392,30 @@ describe('conventional-changelog-beemo', () => {
             expect(error).toBeNull();
             expect(result).toEqual({
               level: 2,
-              reason: 'There are 0 breaking changes and 0 new features',
+              reason: 'There are 0 breaking changes and 0 new features, also 2 fixes',
+              releaseType: 'patch',
+            });
+            done();
+          },
+        );
+      });
+    });
+
+    ['fix', 'deps', 'style', 'security', 'revert', 'misc', 'type', 'types'].forEach(patch => {
+      it(`bumps patch version for ${patch} with devops prefix`, done => {
+        gitDummyCommit(`Merged PR 21884: ${patch}: new stuff`);
+        gitDummyCommit(`Merged PR 21884: ${patch}(todo): with scope`);
+
+        conventionalRecommendedBump(
+          {
+            ...commonConfig,
+            ignoreReverted: false,
+          },
+          (error: Error | null, result: Record<string, unknown>) => {
+            expect(error).toBeNull();
+            expect(result).toEqual({
+              level: 2,
+              reason: 'There are 0 breaking changes and 0 new features, also 2 fixes',
               releaseType: 'patch',
             });
             done();
@@ -355,7 +425,7 @@ describe('conventional-changelog-beemo', () => {
     });
 
     ['docs', 'ci', 'build', 'test', 'tests', 'internal'].forEach(minor => {
-      it(`doesnt bump version for ${minor}`, done => {
+      it(`doesn't bump version for ${minor}`, done => {
         gitDummyCommit(`${minor}: new stuff`);
         gitDummyCommit(`${minor}(todo): with scope`);
 
@@ -367,7 +437,28 @@ describe('conventional-changelog-beemo', () => {
             expect(error).toBeNull();
             expect(result).toEqual({
               level: null,
-              reason: 'There are 0 breaking changes and 0 new features',
+              reason: 'There are 0 breaking changes and 0 new features, also 0 fixes',
+            });
+            done();
+          },
+        );
+      });
+    });
+
+    ['docs', 'ci', 'build', 'test', 'tests', 'internal'].forEach(minor => {
+      it(`doesn't bump version for ${minor} with devops prefix`, done => {
+        gitDummyCommit(`Merged PR 21884: ${minor}: new stuff`);
+        gitDummyCommit(`Merged PR 21884: ${minor}(todo): with scope`);
+
+        conventionalRecommendedBump(
+          {
+            ...commonConfig,
+          },
+          (error: Error | null, result: Record<string, unknown>) => {
+            expect(error).toBeNull();
+            expect(result).toEqual({
+              level: null,
+              reason: 'There are 0 breaking changes and 0 new features, also 0 fixes',
             });
             done();
           },
@@ -387,7 +478,7 @@ describe('conventional-changelog-beemo', () => {
           expect(error).toBeNull();
           expect(result).toEqual({
             level: null,
-            reason: 'There are 0 breaking changes and 0 new features',
+            reason: 'There are 0 breaking changes and 0 new features, also 0 fixes',
           });
           done();
         },

@@ -1,17 +1,19 @@
-import { COMMIT_FORMAT_PREFIX } from './constants';
+import { AZURE_DEVOPS_PREFIX, COMMIT_FORMAT_PREFIX } from './constants';
 import { CommitType } from './types';
 
 export default function checkCommitFormat(
   commit: string,
 ): null | { scope: string; type: CommitType } {
-  const match = commit.match(COMMIT_FORMAT_PREFIX);
+  const match = commit.match(
+    new RegExp(`${AZURE_DEVOPS_PREFIX.source}${COMMIT_FORMAT_PREFIX.source}`, 'u'),
+  );
 
   if (!match) {
     return null;
   }
-
+  const [, , , type, scope] = match;
   return {
-    scope: match[2] || '',
-    type: match[1] as CommitType,
+    scope: scope || '',
+    type: type as CommitType,
   };
 }
