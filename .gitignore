@@ -33,3 +33,4 @@ tsconfig.json
 webpack.config.js
 tsconfig.eslint.json
 prettier.config.js
+TEST-RESULTS.xml
