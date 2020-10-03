@@ -22,7 +22,7 @@
     "prepare": "lumos create-config --silent",
     "build": "lumos typescript",
     "coverage": "yarn run jest --coverage",
-    "eslint": "lumos eslint",
+    "lint": "lumos eslint",
     "jest": "lumos jest -i",
     "prettier": "lumos prettier",
     "release": "semantic-release",
