@@ -8,14 +8,12 @@ const options: Partial<ParserOptions> = {
     `${AZURE_DEVOPS_PREFIX.source}${COMMIT_FORMAT_PREFIX.source} (.*)$`,
     'u',
   ),
-  // mergeCorrespondence: ['pr', 'type', 'scope', 'message'],
-  mergeCorrespondence: ['pr', 'source'],
-  // mergePattern: new RegExp(`^Merged? PR (\\d+): ${COMMIT_FORMAT_PREFIX.source} (.*)$`, 'u'),
-  mergePattern: /^Merged? pull request #(\d+) from (.*)/u,
+  mergeCorrespondence: ['source'],
+  mergePattern: /^Merged? branch '(.*)' into (.*)/u,
 
   noteKeywords: ['BREAKING CHANGE', 'BREAKING CHANGES', 'Note'],
-  revertCorrespondence: ['header', 'hash'],
-  revertPattern: /^Revert\s"([\s\S]*)"\s*Reverted commit `(\w*)`/u,
+  revertCorrespondence: ['header'],
+  revertPattern: /^Revert\s"(.*)"?/u,
 };
 
 export default options;
