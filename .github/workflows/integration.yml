@@ -13,6 +13,7 @@ jobs:
         with:
           token: ${{ secrets.GH_TOKEN }}
           fetch-depth: '0'
+      - run: git fetch --depth=1 origin +refs/tags/*:refs/tags/*
       - uses: actions/setup-node@v1
       - run: yarn install --frozen-lockfile --ignore-engines # will run `yarn install` command - uses: borales/actions-yarn@v2.0.0
       - run: yarn test
