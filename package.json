@@ -30,7 +30,7 @@
     "prerelease": "yarn test && yarn run build",
     "pretest": "yarn run type",
     "test": "yarn run jest",
-    "posttest": "yarn run eslint"
+    "posttest": "yarn run lint"
   },
   "devDependencies": {
     "@commitlint/cli": "^11.0.0",
