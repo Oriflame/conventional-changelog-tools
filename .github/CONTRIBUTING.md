@@ -6,7 +6,7 @@ To contribute to Lumos, begin by cloning the repository, installing dependencies
 initial files.
 
 ```bash
-git clone git@github.com:Oriflame/lumos.git && cd ./lumos
+git clone git@github.com:Oriflame/conventional-changelog-ori.git && cd ./conventional-changelog-ori
 yarn install
 yarn run build
 ```
@@ -18,14 +18,14 @@ management layer.
 ### Workflow
 
 - `yarn run build` will build applicable packages.
-- `yarn run eslint` will run lint all source and test files.
+- `yarn run lint` will run lint all source and test files.
 - `yarn run jest` will run the test suite.
 - `yarn run prettier` will format code.
-- `yarn test` will test, lint, and build.
+- `yarn test` will test, lint.
 
 ## Reporting bugs
 
-Please report all bugs as [an issue](https://github.com/Oriflame/lumos/issues/new) on the Lumos
+Please report all bugs as [an issue](https://github.com/Oriflame/conventional-changelog-ori/issues/new) on the Lumos
 repository. Before filing a new issue, try to make sure your problem doesn’t already exist.
 
 ## Requesting new features
@@ -38,7 +38,7 @@ Otherwise, we will not be accepting new features from individuals outside of Lum
 ## Releasing and versioning
 
 Lumos uses [conventional commits](https://www.conventionalcommits.org) and
-[Lerna](https://github.com/lerna/lerna) to automatically release and publish new package versions
+[semantic-release](https://github.com/semantic-release/semantic-release) to automatically release and publish new package versions
 for every commit that merges to master. To ensure versions are bumped correctly, we use the
 [conventional-changelog-ori][conventional-changelog-ori] preset, coupled with PR titles and
 squash merging to achieve this.
