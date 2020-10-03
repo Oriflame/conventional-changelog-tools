@@ -18,7 +18,7 @@ Merged PR 1: <type>(<scope>): <message>
 Merged PR 1: <type>: <message>
 ```
 
-> [!NOTE]
+> ⚠️
 > Azure devops message format is allowed but not required.
 
 ### Type
