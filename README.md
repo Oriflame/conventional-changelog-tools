@@ -1,6 +1,10 @@
 # conventional-changelog-ori
 
-Beemo's commit message guidelines and changelog structure. _Now with more emojis!_
+Oriflame's commit message guidelines and changelog structure. _Now with more emojis!_
+
+## Azure devops prefix
+
+This changelog accounts with azure devops PR message format. And will release accordingly to the following documentation.
 
 ## Commit Message Format
 
@@ -10,7 +14,12 @@ The commit message format consists of a **type**, optional **scope** in parenthe
 ```
 <type>: <message>
 <type>(<scope>): <message>
+Merged PR 1: <type>(<scope>): <message>
+Merged PR 1: <type>: <message>
 ```
+
+> [!NOTE]
+> Azure devops message format is allowed but not required.
 
 ### Type
 
