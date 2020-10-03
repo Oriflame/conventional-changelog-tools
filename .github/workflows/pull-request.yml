@@ -13,9 +13,8 @@ jobs:
         with:
           token: ${{ secrets.GH_TOKEN }}
           fetch-depth: '0'
-      - run: git fetch --depth=1 origin +refs/tags/*:refs/tags/*
-      - uses: actions/setup-node@v1
+      - uses: actions/setup-node@v2-beta
       - run: yarn install --frozen-lockfile --ignore-engines
-      - run: yarn beemo run-script pull-request-checks-github
+      - run: yarn lumos run-script pull-request-checks-github
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

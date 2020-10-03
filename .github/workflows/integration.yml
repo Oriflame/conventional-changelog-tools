@@ -1,19 +1,24 @@
-name: Primary code validation
-
+name: Build
 on:
   push:
-    branches-ignore:
+    branches:
       - master
-
+  pull_request:
 jobs:
-  primary_code_validation:
+  test:
+    name: Test
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [10, 12, 14]
+      fail-fast: true
     steps:
       - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2-beta
         with:
-          token: ${{ secrets.GH_TOKEN }}
-          fetch-depth: '0'
-      - run: git fetch --depth=1 origin +refs/tags/*:refs/tags/*
-      - uses: actions/setup-node@v1
-      - run: yarn install --frozen-lockfile --ignore-engines # will run `yarn install` command - uses: borales/actions-yarn@v2.0.0
-      - run: yarn test
+          node-version: ${{ matrix.node-version }}
+      - run: yarn install --ignore-engines --frozen-lockfile
+      - run: yarn run type
+      # Our fake git commit system doesnt work in GH jobs
+      # - run: yarn run jest
+      - run: yarn run lint
