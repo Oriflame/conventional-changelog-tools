@@ -1,0 +1,25 @@
+{
+  "name": "conventional-changelog-ori",
+  "version": "0.0.0",
+  "description": "Conventional changelog preset for oriflame and associated projects.",
+  "keywords": [
+    "conventional-changelog",
+    "oriflame",
+    "preset"
+  ],
+  "main": "./index.js",
+  "types": "./lib/index.d.ts",
+  "engines": {
+    "node": ">=8.9.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": "https://github.com/Oriflame/conventional-changelog-ori",
+  "author": "Jan Silhan",
+  "license": "MIT",
+  "devDependencies": {
+    "conventional-changelog-core": "^4.2.0",
+    "conventional-recommended-bump": "^6.0.10"
+  }
+}
