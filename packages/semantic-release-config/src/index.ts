@@ -1,5 +1,4 @@
 /* eslint-disable no-template-curly-in-string */
-// import {} from 'semantic-release';
 
 import { SemanticReleaseConfig } from './types';
 
