@@ -1,0 +1,35 @@
+{
+  "name": "semantic-release-config-ori",
+  "version": "0.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Oriflame/conventional-changelog-tools",
+  "license": "MIT",
+  "engines": {
+    "node": ">=12"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "azure",
+    "beemo",
+    "azure devops",
+    "conventional-changelog",
+    "release",
+    "semantic-release",
+    "semantic-release-config",
+    "version",
+    "oriflame"
+  ],
+  "dependencies": {
+    "@semantic-release/changelog": "^5.0.1",
+    "@semantic-release/commit-analyzer": "^8.0.1",
+    "@semantic-release/git": "^9.0.0",
+    "@semantic-release/npm": "^7.0.6",
+    "@semantic-release/release-notes-generator": "^9.0.1",
+    "conventional-changelog-ori": "^0.0.0"
+  },
+  "peerDependencies": {
+    "semantic-release": ">=17"
+  }
+}
