@@ -19,6 +19,6 @@ jobs:
           node-version: ${{ matrix.node-version }}
       - run: yarn install --ignore-engines --frozen-lockfile
       - run: yarn run type
-      # Our fake git commit system doesnt work in GH jobs
+      # Our fake git commit system doesn't work in GH jobs
       # - run: yarn run jest
       - run: yarn run lint
