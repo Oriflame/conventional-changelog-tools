@@ -1,55 +1,32 @@
 {
-  "name": "conventional-changelog-ori",
+  "private": true,
+  "name": "conventional-changelog-tools",
   "version": "0.0.0",
-  "description": "Conventional changelog preset for oriflame and associated projects.",
-  "keywords": [
-    "conventional-changelog",
-    "oriflame",
-    "preset"
-  ],
-  "main": "./index.js",
-  "types": "./lib/index.d.ts",
-  "engines": {
-    "node": ">=8.9.0"
+  "repository": "https://github.com/Oriflame/conventional-changelog-tools",
+  "author": {
+    "name": "Jan Silhan",
+    "email": "silhanu@gmail.com"
   },
-  "publishConfig": {
-    "access": "public"
-  },
-  "repository": "https://github.com/Oriflame/conventional-changelog-ori",
-  "author": "Jan Silhan",
   "license": "MIT",
   "scripts": {
     "prepare": "lumos create-config --silent",
-    "build": "lumos typescript",
+    "build": "lumos typescript --build --reference-workspaces",
     "coverage": "yarn run jest --coverage",
     "lint": "lumos eslint",
     "jest": "lumos jest -i",
     "prettier": "lumos prettier",
-    "release": "semantic-release",
-    "type": "lumos typescript --noEmit",
+    "type": "yarn run build",
     "prerelease": "yarn test && yarn run build",
     "pretest": "yarn run type",
     "test": "yarn run jest",
-    "posttest": "yarn run lint"
+    "posttest": "yarn run lint",
+    "release": "git reset --hard && lumos run-script auto-release",
+    "link-packages": "lerna exec -- yarn link",
+    "unlink-packages": "lerna exec -- yarn unlink"
   },
-  "devDependencies": {
-    "@commitlint/cli": "^11.0.0",
-    "@rajzik/az-semantic-release-config": "^1.1.3",
-    "@rajzik/config-babel": "^3.0.0",
-    "@rajzik/config-eslint": "^4.1.0",
-    "@rajzik/config-jest": "^3.0.0",
-    "@rajzik/config-prettier": "^2.1.4",
-    "@rajzik/config-typescript": "^3.0.0",
-    "@rajzik/conventional-changelog-lint-config-beemo": "^1.0.4",
-    "@rajzik/lumos": "^5.0.3",
-    "@types/node": "^14.11.2",
-    "@types/shelljs": "^0.8.8",
-    "conventional-changelog-core": "^4.2.0",
-    "conventional-recommended-bump": "^6.0.10",
-    "husky": "^4.3.0",
-    "semantic-release": "^17.1.2",
-    "shelljs": "^0.8.4"
-  },
+  "workspaces": [
+    "./packages/*"
+  ],
   "lumos": {
     "drivers": [
       "babel",
@@ -62,5 +39,20 @@
       "node": true,
       "library": true
     }
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^11.0.0",
+    "@rajzik/config-babel": "^3.0.0",
+    "@rajzik/config-eslint": "^4.1.0",
+    "@rajzik/config-jest": "^3.0.0",
+    "@rajzik/config-prettier": "^2.1.4",
+    "@rajzik/config-typescript": "^3.0.0",
+    "@rajzik/conventional-changelog-lint-config-beemo": "^1.0.4",
+    "@rajzik/lumos": "^5.0.3",
+    "@types/node": "^14.11.2",
+    "@types/shelljs": "^0.8.8",
+    "husky": "^4.3.0",
+    "lerna": "^3.22.1",
+    "shelljs": "^0.8.4"
   }
 }
