@@ -27,4 +27,4 @@ const config: SemanticReleaseConfig = {
   ],
 };
 
-export default config;
+export = config;
