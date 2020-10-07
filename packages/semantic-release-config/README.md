@@ -1,10 +1,11 @@
-# semantic-release-config-ori
+# @oriflame/semantic-release-config
 
-Main usage of this package is around my project. This package is used with azure devops.
+Semantic release config used inside Oriflame and mainly focused on azure DevOps.
+With conventional [**Oriflame changelog**](../conventional-changelog).
 
 [**semantic-release**](https://github.com/semantic-release/semantic-release) shareable config to publish npm packages with [GitHub](https://github.com).
 
-## Plugins
+## Plugins used
 
 This [shareable configuration](https://github.com/jedmao/semantic-release-npm-github-config/blob/master/.releaserc.json) uses the following plugins:
 
@@ -17,7 +18,7 @@ This [shareable configuration](https://github.com/jedmao/semantic-release-npm-gi
 ## Install
 
 ```bash
-npm install --save-dev semantic-release semantic-release-config-ori
+npm install --save-dev semantic-release @oriflame/semantic-release-config
 ```
 
 ## Usage
@@ -26,7 +27,7 @@ The shareable config can be configured in the [**semantic-release** configuratio
 
 ```json
 {
-  "extends": "semantic-release-config-ori",
+  "extends": "@oriflame/semantic-release-config",
   "branch": "master"
 }
 ```

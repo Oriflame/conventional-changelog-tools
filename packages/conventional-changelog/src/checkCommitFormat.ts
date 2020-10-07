@@ -1,4 +1,4 @@
-import { CommitType } from 'oriflame-conventional-changelog-types';
+import { CommitType } from '@oriflame/conventional-changelog-types';
 import { AZURE_DEVOPS_PREFIX, COMMIT_FORMAT_PREFIX } from './constants';
 
 export default function checkCommitFormat(

@@ -8,7 +8,7 @@ import {
   GROUPS,
   Reference,
   WriterOptions,
-} from 'oriflame-conventional-changelog-types';
+} from '@oriflame/conventional-changelog-types';
 
 import getTypeGroup from './getTypeGroup';
 

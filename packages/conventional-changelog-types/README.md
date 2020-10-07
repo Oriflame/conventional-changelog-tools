@@ -1,1 +1,1 @@
-# oriflame-conventional-changelog-types
+# @oriflame/conventional-changelog-types

@@ -1,4 +1,4 @@
-# conventional-changelog-lint-config-oriflame
+# @oriflame/conventional-changelog-lint-config
 
 Config for [oriflame preset](../conventional-changelog).
 
@@ -6,12 +6,12 @@ Config for [oriflame preset](../conventional-changelog).
 
 ```sh
 # Install commitlint cli and conventional config
-npm install --save-dev @commitlint/cli conventional-changelog-lint-config-oriflame
+npm install --save-dev @commitlint/cli @oriflame/conventional-changelog-lint-config
 # Or use yarn
-yarn add --dev @commitlint/cli conventional-changelog-lint-config-oriflame
+yarn add --dev @commitlint/cli @oriflame/conventional-changelog-lint-config
 
 # Configure commitlint to use conventional config
-echo "module.exports = {extends: ['conventional-changelog-lint-config-oriflame']}" > commitlint.config.js
+echo "module.exports = {extends: ['@oriflame/conventional-changelog-lint-config']}" > commitlint.config.js
 ```
 
 To lint commits before they are created you can use Husky's 'commit-msg' hook:

@@ -1,5 +1,5 @@
 {
-  "name": "oriflame-conventional-changelog-types",
+  "name": "@oriflame/conventional-changelog-types",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
   "version": "0.0.0",

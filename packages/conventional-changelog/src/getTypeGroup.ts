@@ -1,4 +1,4 @@
-import { GROUPS, CommitType, Group } from 'oriflame-conventional-changelog-types';
+import { GROUPS, CommitType, Group } from '@oriflame/conventional-changelog-types';
 
 export default function getTypeGroup(type: CommitType): Group {
   const group = GROUPS.find(g => g.types.includes(type));

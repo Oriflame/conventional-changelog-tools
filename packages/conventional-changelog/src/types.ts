@@ -1,4 +1,4 @@
-import { Commit, ParserOptions, SemverLevel } from 'oriflame-conventional-changelog-types';
+import { Commit, ParserOptions, SemverLevel } from '@oriflame/conventional-changelog-types';
 
 export interface BumpOptions {
   parserOpts: Partial<ParserOptions>;

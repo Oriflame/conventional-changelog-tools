@@ -1,4 +1,4 @@
-import { GROUPS } from 'oriflame-conventional-changelog-types';
+import { GROUPS } from '@oriflame/conventional-changelog-types';
 
 export = {
   rules: {

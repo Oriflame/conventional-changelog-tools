@@ -1,4 +1,4 @@
-import { ParserOptions } from 'oriflame-conventional-changelog-types';
+import { ParserOptions } from '@oriflame/conventional-changelog-types';
 import { COMMIT_FORMAT_PREFIX, AZURE_DEVOPS_PREFIX } from './constants';
 
 const options: Partial<ParserOptions> = {

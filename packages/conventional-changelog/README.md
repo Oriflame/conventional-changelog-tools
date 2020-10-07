@@ -1,4 +1,4 @@
-# conventional-changelog-ori
+# @oriflame/conventional-changelog
 
 Oriflame's commit message guidelines and changelog structure. _Now with more emojis!_
 
