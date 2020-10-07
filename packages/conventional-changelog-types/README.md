@@ -1,0 +1,1 @@
+# oriflame-conventional-changelog-types
