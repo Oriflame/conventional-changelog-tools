@@ -1,6 +1,6 @@
+/* eslint-disable import/prefer-default-export */
 import { Group } from './types';
 
-/* eslint-disable import/prefer-default-export */
 export const GROUPS: Group[] = [
   {
     bump: 'major',

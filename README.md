@@ -1,6 +1,10 @@
-# Contributing
+# Conventional changelog tools
 
-## Developer setup
+Oriflame tools for conventional changelog used within azure DevOps.
+
+## Contributing
+
+### Developer setup
 
 To contribute to conventional-changelog-tools, begin by cloning the repository, installing dependencies, and building
 initial files.
@@ -15,7 +19,7 @@ conventional-changelog-tools uses [Yarn workspaces](https://yarnpkg.com/lang/en/
 packages as a monorepo, and [Lumos](https://github.com/Oriflame/lumos) as the configuration and
 management layer.
 
-### Workflow
+#### Workflow
 
 - `yarn run build` will build applicable packages.
 - `yarn run lint` will run lint all source and test files.
@@ -23,19 +27,19 @@ management layer.
 - `yarn run prettier` will format code.
 - `yarn test` will test, lint, and build.
 
-## Reporting bugs
+### Reporting bugs
 
 Please report all bugs as [an issue](https://github.com/Oriflame/conventional-changelog-tools/issues/new) on the conventional-changelog-tools
 repository. Before filing a new issue, try to make sure your problem doesn’t already exist.
 
-## Requesting new features
+### Requesting new features
 
 If you work for Oriflame, please create an issue and start a discussion about the feature you want
 added to conventional-changelog-tools, and why.
 
 Otherwise, we will not be accepting new features from individuals outside of conventional-changelog-tools.
 
-## Releasing and versioning
+### Releasing and versioning
 
 conventional-changelog-tools uses [conventional commits](https://www.conventionalcommits.org) and
 [Lerna](https://github.com/lerna/lerna) to automatically release and publish new package versions
@@ -45,14 +49,14 @@ merging to achieve this.
 
 If your PR title does not match the specification, a DangerJS status check will fail.
 
-## Code formatting
+### Code formatting
 
 We use an automatic code formatter called [Prettier](https://prettier.io/). Run `yarn run prettier`
 after making any changes to the code, or setup your editor to automatically format on save.
 
 Our linter will catch most issues that may exist in your code.
 
-## Updating dependencies
+### Updating dependencies
 
 Most of the dependencies are updated automatically with dependabot.
 
