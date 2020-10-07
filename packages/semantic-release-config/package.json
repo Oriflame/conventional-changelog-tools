@@ -2,7 +2,10 @@
   "name": "@oriflame/semantic-release-config",
   "version": "0.0.0",
   "main": "./lib/index.js",
-  "repository": "https://github.com/Oriflame/conventional-changelog-tools",
+  "repository": {
+    "url": "https://github.com/Oriflame/conventional-changelog-tools",
+    "directory": "packages/semantic-release-config"
+  },
   "license": "MIT",
   "engines": {
     "node": ">=12"

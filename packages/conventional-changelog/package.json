@@ -15,7 +15,10 @@
   "publishConfig": {
     "access": "public"
   },
-  "repository": "https://github.com/Oriflame/conventional-changelog-tools",
+  "repository": {
+    "url": "https://github.com/Oriflame/conventional-changelog-tools",
+    "directory": "packages/conventional-changelog"
+  },
   "author": "Jan Silhan",
   "license": "MIT",
   "dependencies": {

@@ -12,7 +12,10 @@
   "files": [
     "lib"
   ],
-  "repository": "https://github.com/Oriflame/conventional-changelog-tools",
+  "repository": {
+    "url": "https://github.com/Oriflame/conventional-changelog-tools",
+    "directory": "packages/conventional-changelog-types"
+  },
   "author": "Jan Silhan",
   "license": "MIT"
 }
