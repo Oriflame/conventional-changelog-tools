@@ -63,7 +63,7 @@ arrow keys.
 
 However, there are a few caveats and requirements to follow when updating.
 
-1. Dependencies should be updated in isolation per package (workspace), and commited to git
+1. Dependencies should be updated in isolation per package (workspace), and committed to git
    separately. For example, only dependencies within the `@oriflame/conventional-changelog` package should be
    updated within a single commit.
    - This allows packages to update and version independently from each other.
@@ -74,7 +74,7 @@ However, there are a few caveats and requirements to follow when updating.
    `deps: Update plugins to latest.` or `deps(ESLint): Update to v6.`. This message format follows
    the [@oriflame/conventional-changelog][@oriflame/conventional-changelog] spec.
 3. Commit all dependency updates in the same branch, so they can be grouped under the same PR. Once
-   the PR has been approved, normal merge (_not a squash or rebase merge_) the PR so all commits and
+   the PR has been approved, merge the PR in standard way (_do non-fast-forward merge or squash_) the PR so all commits and
    their formatted messages are sent to master. This will trigger an auto-release with the correct
    version bumps.
 
