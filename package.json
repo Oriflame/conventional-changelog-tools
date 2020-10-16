@@ -48,7 +48,7 @@
     "@rajzik/config-prettier": "^2.1.4",
     "@rajzik/config-typescript": "^3.0.0",
     "@oriflame/conventional-changelog-lint-config": "^0.0.0",
-    "@rajzik/lumos": "^5.0.3",
+    "@rajzik/lumos": "^6.0.3",
     "@types/node": "^14.11.2",
     "@types/shelljs": "^0.8.8",
     "husky": "^4.3.0",
