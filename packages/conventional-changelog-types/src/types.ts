@@ -127,7 +127,7 @@ export interface WriterOptions {
   }>;
   commitPartial: string;
   commitsSort: Sorter<Commit>;
-  debug: () => void;
+  debug(): void;
   doFlush: boolean;
   finalizeContext:
     | ((context: Context, options: WriterOptions, commits: Commit[], keyCommit: Commit) => Context)
@@ -148,12 +148,7 @@ export interface WriterOptions {
   notesSort: Sorter<Note>;
   partials: { [key: string]: unknown };
   reverse: boolean;
-  transform: (commit: Commit, context: Context) => Commit | undefined;
+  transform(commit: Commit, context: Context): Commit | undefined;
 }
 
 export type SemverLevel = 0 | 1 | 2 | null; // major | minor | patch
-
-export interface BumpOptions {
-  parserOpts: Partial<ParserOptions>;
-  whatBump: (commits: Commit[]) => { level: SemverLevel; reason: string };
-}

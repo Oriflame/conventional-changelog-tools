@@ -1,0 +1,17 @@
+{
+  "version": "independent",
+  "npmClient": "yarn",
+  "useWorkspaces": true,
+  "command": {
+    "publish": {
+      "ignoreChanges": [
+        "./.github/**",
+        "./.dependabot/**",
+        "./types/**",
+        "*.md",
+        "*.test*"
+      ],
+      "message": "ci: Release [ci skip]"
+    }
+  }
+}

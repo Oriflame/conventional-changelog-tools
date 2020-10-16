@@ -1,6 +1,7 @@
+import { SemverLevel, Group } from '@oriflame/conventional-changelog-types';
 import parserOpts from './parserOpts';
 import getTypeGroup from './getTypeGroup';
-import { BumpOptions, SemverLevel, Group } from './types';
+import { BumpOptions } from './types';
 
 const options: BumpOptions = {
   parserOpts,
@@ -9,6 +10,7 @@ const options: BumpOptions = {
     let level: SemverLevel = null;
     let breakings = 0;
     let features = 0;
+    let fixes = 0;
 
     commits.forEach(commit => {
       let group: Group;
@@ -28,6 +30,7 @@ const options: BumpOptions = {
           level = 1;
         }
       } else if (group.bump === 'patch') {
+        fixes += 1;
         if (level === null) {
           level = 2;
         }
@@ -36,7 +39,7 @@ const options: BumpOptions = {
 
     return {
       level,
-      reason: `There are ${breakings} breaking changes and ${features} new features`,
+      reason: `There are ${breakings} breaking changes and ${features} new features, also ${fixes} fixes`,
     };
   },
 };

@@ -46,4 +46,27 @@ describe('checkCommitFormat()', () => {
       scope: 'Foo, Bar Baz',
     });
   });
+
+  it('supports azure devops format', () => {
+    expect(checkCommitFormat('Merged PR 21884: fix: Type of lastAddedCustomerOrderIds.')).toEqual({
+      type: 'fix',
+      scope: '',
+    });
+    expect(
+      checkCommitFormat(
+        'Merged PR 21884: breaking(test-scope): Type of lastAddedCustomerOrderIds.',
+      ),
+    ).toEqual({
+      type: 'breaking',
+      scope: 'test-scope',
+    });
+    expect(
+      checkCommitFormat(
+        'Merged PR 21884: new(test-scope, Test): Type of lastAddedCustomerOrderIds.',
+      ),
+    ).toEqual({
+      type: 'new',
+      scope: 'test-scope, Test',
+    });
+  });
 });

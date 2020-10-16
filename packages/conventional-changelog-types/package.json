@@ -1,0 +1,21 @@
+{
+  "name": "@oriflame/conventional-changelog-types",
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
+  "version": "0.0.0",
+  "engines": {
+    "node": ">=12"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "url": "https://github.com/Oriflame/conventional-changelog-tools",
+    "directory": "packages/conventional-changelog-types"
+  },
+  "author": "Jan Silhan",
+  "license": "MIT"
+}

@@ -2,9 +2,15 @@
 
 import fs from 'fs';
 import path from 'path';
-import { GROUPS } from './constants';
+import {
+  CommitGroupLabel,
+  Context,
+  GROUPS,
+  Reference,
+  WriterOptions,
+} from '@oriflame/conventional-changelog-types';
+
 import getTypeGroup from './getTypeGroup';
-import { CommitGroupLabel, Context, Reference, WriterOptions } from './types';
 
 type GroupMap<T> = { [K in CommitGroupLabel]: T };
 

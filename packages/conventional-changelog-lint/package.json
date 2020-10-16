@@ -1,0 +1,31 @@
+{
+  "name": "@oriflame/conventional-changelog-lint-config",
+  "version": "0.0.0",
+  "description": "Conventional changelog lint config oriflame",
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
+  "repository": {
+    "url": "https://github.com/Oriflame/conventional-changelog-tools",
+    "directory": "packages/conventional-changelog-lint"
+  },
+  "author": "Jan Šilhan <silhanu@gmail.com>",
+  "license": "MIT",
+  "files": [
+    "lib"
+  ],
+  "keywords": [
+    "conventional-changelog",
+    "oriflame",
+    "preset",
+    "commitlint"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@oriflame/conventional-changelog-types": "^0.0.0"
+  },
+  "peerDependencies": {
+    "@commitlint/cli": "^11.0.0"
+  }
+}
