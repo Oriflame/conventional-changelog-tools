@@ -1,3 +1,8 @@
+/**
+ * @copyright   2020, Oriflame Software
+ * @license     https://opensource.org/licenses/MIT
+ */
+
 import { GROUPS } from '@oriflame/conventional-changelog-types';
 
 export = {

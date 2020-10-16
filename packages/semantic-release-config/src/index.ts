@@ -1,3 +1,7 @@
+/**
+ * @copyright   2020, Oriflame Software
+ * @license     https://opensource.org/licenses/MIT
+ */
 /* eslint-disable no-template-curly-in-string */
 
 import { SemanticReleaseConfig } from './types';
