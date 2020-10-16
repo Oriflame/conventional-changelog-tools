@@ -1,6 +1,6 @@
 {
   "name": "@oriflame/conventional-changelog-lint-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Conventional changelog lint config oriflame",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
@@ -23,7 +23,7 @@
     "access": "public"
   },
   "dependencies": {
-    "@oriflame/conventional-changelog-types": "^1.0.0"
+    "@oriflame/conventional-changelog-types": "^1.0.1"
   },
   "peerDependencies": {
     "@commitlint/cli": "^11.0.0"
