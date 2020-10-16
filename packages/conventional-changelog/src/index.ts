@@ -1,5 +1,5 @@
 /**
- * @copyright   2020, Silhan Jan
+ * @copyright   2020, Oriflame Software
  * @license     https://opensource.org/licenses/MIT
  */
 
