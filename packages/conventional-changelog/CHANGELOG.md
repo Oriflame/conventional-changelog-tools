@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 1.0.3 - 2020-10-16
+
+#### 🐞 Fixes
+
+- Update semantic release config. ([3d84bde](https://github.com/Oriflame/conventional-changelog-tools/commit/3d84bde))
+
+**Note:** Version bump only for package @oriflame/conventional-changelog
+
+
+
+
+
 ### 1.0.2 - 2020-10-16
 
 #### 🐞 Fixes
