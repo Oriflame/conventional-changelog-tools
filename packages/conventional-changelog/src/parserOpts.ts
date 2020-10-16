@@ -1,15 +1,12 @@
 import { ParserOptions } from '@oriflame/conventional-changelog-types';
-import { COMMIT_FORMAT_PREFIX, AZURE_DEVOPS_PREFIX } from './constants';
+import { COMMIT_FORMAT_PREFIX } from './constants';
 
 const options: Partial<ParserOptions> = {
-  headerCorrespondence: ['azurePrefix', 'pr', 'type', 'scope', 'message'],
+  headerCorrespondence: ['azure', 'type', 'scope', 'message'],
   // Keep in sync with checkCommitFormat
-  headerPattern: new RegExp(
-    `${AZURE_DEVOPS_PREFIX.source}${COMMIT_FORMAT_PREFIX.source} (.*)$`,
-    'u',
-  ),
-  mergeCorrespondence: ['source'],
-  mergePattern: /^Merged? branch '(.*)' into (.*)/u,
+  headerPattern: new RegExp(`^(Merged? PR \\d+: )?${COMMIT_FORMAT_PREFIX.source} (.*)$`, 'u'),
+  mergeCorrespondence: ['id', 'source'],
+  mergePattern: new RegExp(`^Merge pull request #(\\d+) from (.*)`, 'u'),
 
   noteKeywords: ['BREAKING CHANGE', 'BREAKING CHANGES', 'Note'],
   revertCorrespondence: ['header'],

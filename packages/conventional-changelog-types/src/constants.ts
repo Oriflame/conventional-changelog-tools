@@ -28,7 +28,7 @@ export const GROUPS: Group[] = [
   {
     emoji: '🛠',
     label: 'Internals',
-    types: ['ci', 'build', 'test', 'tests', 'internal'],
+    types: ['ci', 'cd', 'build', 'test', 'tests', 'internal'],
   },
   {
     bump: 'patch',
