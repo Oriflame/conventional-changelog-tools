@@ -4,6 +4,7 @@
  */
 /* eslint-disable no-template-curly-in-string */
 
+import parserOpts from '@oriflame/conventional-changelog/lib/parserOpts';
 import { SemanticReleaseConfig } from './types';
 
 const config: SemanticReleaseConfig = {
@@ -12,6 +13,7 @@ const config: SemanticReleaseConfig = {
       '@semantic-release/commit-analyzer',
       {
         config: '@oriflame/conventional-changelog',
+        parserOpts,
       },
     ],
     [

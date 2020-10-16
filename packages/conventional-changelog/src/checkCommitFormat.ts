@@ -1,5 +1,4 @@
-import { CommitType } from '@oriflame/conventional-changelog-types';
-import { COMMIT_FORMAT_PREFIX } from './constants';
+import { CommitType, COMMIT_FORMAT_PREFIX } from '@oriflame/conventional-changelog-types';
 
 export default function checkCommitFormat(
   commit: string,
