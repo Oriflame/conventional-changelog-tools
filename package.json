@@ -43,7 +43,7 @@
   "devDependencies": {
     "@commitlint/cli": "^11.0.0",
     "@rajzik/config-babel": "^3.0.0",
-    "@rajzik/config-eslint": "^4.1.0",
+    "@rajzik/config-eslint": "^4.2.0",
     "@rajzik/config-jest": "^3.0.0",
     "@rajzik/config-prettier": "^2.1.4",
     "@rajzik/config-typescript": "^3.0.0",
