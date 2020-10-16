@@ -11,13 +11,13 @@ const config: SemanticReleaseConfig = {
     [
       '@semantic-release/commit-analyzer',
       {
-        config: 'conventional-changelog-ori',
+        config: '@oriflame/conventional-changelog',
       },
     ],
     [
       '@semantic-release/release-notes-generator',
       {
-        config: 'conventional-changelog-ori',
+        config: '@oriflame/conventional-changelog',
       },
     ],
     '@semantic-release/changelog',
