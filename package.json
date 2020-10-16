@@ -16,7 +16,6 @@
     "jest": "lumos jest -i",
     "prettier": "lumos prettier",
     "type": "yarn run build",
-    "prerelease": "yarn run build",
     "pretest": "yarn run type",
     "test": "yarn run jest",
     "posttest": "yarn run lint",
