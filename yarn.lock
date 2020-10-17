@@ -3139,18 +3139,6 @@
     "@oriflame/lumos-common" "^1.0.1"
     typescript "^4.0.3"
 
-"@oriflame/conventional-changelog-types@^0.1.0":
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/@oriflame/conventional-changelog-types/-/conventional-changelog-types-0.1.0.tgz#d57e79ee6035d434366d880903461caac17a5a42"
-  integrity sha512-VAaIfOOAM5YdVydMcxK+RBOyiuRmrbLuSSEc8Xsrs92k7JZybcPAsbjEE120XIWnpbqsKEctij8iSp2FvcuwEA==
-
-"@oriflame/conventional-changelog@^0.1.0":
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/@oriflame/conventional-changelog/-/conventional-changelog-0.1.0.tgz#09eb660e9b19bda685710be583eeae3c4117a7ec"
-  integrity sha512-4w8DvMBFThHHc/Kqk9p2BxAmxU8oVn00dl3nDiZzBf7Cykw6+zTME+Pocm503q1bSu2smziOg6q4CL+Zy77LTQ==
-  dependencies:
-    "@oriflame/conventional-changelog-types" "^0.1.0"
-
 "@oriflame/lumos-common@^1.0.1":
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/@oriflame/lumos-common/-/lumos-common-1.0.1.tgz#9bce96419fe9c748ca5e0e76789f40d9c5df520c"
@@ -3161,16 +3149,16 @@
     execa "^4.0.3"
     fast-glob "^3.2.4"
 
-"@oriflame/lumos@^1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@oriflame/lumos/-/lumos-1.0.1.tgz#dfbdcb32b894abaa0dfe00939886253dcddad904"
-  integrity sha512-NF8hSibS5gUOXv1yMhw4CKBhyUlvI2SGlO6eCt5I0/DZD9GpK8zG5Bcg1CTBfH631WukI+XLTClCdPwZMuylXw==
+"@oriflame/lumos@^1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@oriflame/lumos/-/lumos-1.0.2.tgz#ceb6497c6b74ed1212e89da456e9254eca05afa1"
+  integrity sha512-4bt8YREDLydiByTNzBcmj8AsR4CV/BClnSySWt/FffmS4a/7hi3w9w3kcJ6f7k+w23L6Kz2as7IZDEi+k+cU+Q==
   dependencies:
     "@actions/core" "^1.2.6"
     "@actions/github" "^4.0.0"
     "@beemo/cli" "^1.0.11"
     "@beemo/core" "^1.1.8"
-    "@oriflame/conventional-changelog" "^0.1.0"
+    "@oriflame/conventional-changelog" "^1.0.4"
     "@oriflame/lumos-common" "^1.0.1"
     chalk "^4.1.0"
     check-node-version "^4.0.3"
