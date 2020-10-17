@@ -3119,10 +3119,10 @@
   optionalDependencies:
     "@testing-library/react" ">=11"
 
-"@oriflame/config-prettier@^1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@oriflame/config-prettier/-/config-prettier-1.0.1.tgz#0af2c1c396f7a4f0a60fd8c3bb295cec7bf4c262"
-  integrity sha512-fOUHpoOTF1NetSVqarCAhHpYLDWdjFLU+GacFO2d4ipyFDn2Rmv+YsC/YSV+G3EWOmw5Z6jXomQO2xvylS/bRw==
+"@oriflame/config-prettier@^1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@oriflame/config-prettier/-/config-prettier-1.0.2.tgz#9cbfaf24509692ee12f91c2fb94dfc915598d0e5"
+  integrity sha512-04R6IbyVAhFIeuGOOZdU/J6kyI/kyPP1JAlFilkF6KJTrqhXRPGqHs3g8p7xzb9ufJvFTsHQQQhlShT2x94nVg==
   dependencies:
     "@beemo/core" "^1.1.8"
     "@beemo/driver-prettier" "^1.3.2"
