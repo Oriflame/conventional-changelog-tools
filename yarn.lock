@@ -3124,14 +3124,14 @@
   optionalDependencies:
     "@testing-library/react" ">=11"
 
-"@oriflame/config-prettier@^1.0.2":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@oriflame/config-prettier/-/config-prettier-1.0.2.tgz#9cbfaf24509692ee12f91c2fb94dfc915598d0e5"
-  integrity sha512-04R6IbyVAhFIeuGOOZdU/J6kyI/kyPP1JAlFilkF6KJTrqhXRPGqHs3g8p7xzb9ufJvFTsHQQQhlShT2x94nVg==
+"@oriflame/config-prettier@^1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@oriflame/config-prettier/-/config-prettier-1.0.3.tgz#811cab2f2cecf47a767c8ef6361c70992da94568"
+  integrity sha512-7D+Fr/rF2qvy0uUvGderWj0p5E1uBzf7idPd8KGY9pxoCEeVWw7y14xqLtcQeBcg05xa//BfjyI7TVv4xArmtA==
   dependencies:
     "@beemo/core" "^1.1.8"
     "@beemo/driver-prettier" "^1.3.2"
-    "@oriflame/lumos-common" "^1.0.1"
+    "@oriflame/lumos-common" "^2.0.0"
     prettier "^2.1.2"
 
 "@oriflame/config-typescript@^1.0.1":
@@ -3148,6 +3148,16 @@
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/@oriflame/lumos-common/-/lumos-common-1.0.1.tgz#9bce96419fe9c748ca5e0e76789f40d9c5df520c"
   integrity sha512-/pfVj9GgG8Bfj0UVv+A4qtrXAEyUz1YbsYN7nBA9xrwH4CMMUpXjOGUzDDN5tYmD8BxnDyvnIfsj4lkBoGkMdA==
+  dependencies:
+    "@beemo/core" "^1.1.8"
+    "@boost/common" "^2.3.0"
+    execa "^4.0.3"
+    fast-glob "^3.2.4"
+
+"@oriflame/lumos-common@^2.0.0":
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/@oriflame/lumos-common/-/lumos-common-2.0.0.tgz#420444e89f716071dd970d695fd4d932364af6cd"
+  integrity sha512-wX3dIQH8BoMY27MG8cT5gM91wE9nYVipvq3ADykgIiBb6soqN6l0qDJhQDS5OilBF6DdnSGJMiX2eCzBWmJWxQ==
   dependencies:
     "@beemo/core" "^1.1.8"
     "@boost/common" "^2.3.0"
