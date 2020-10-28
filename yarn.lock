@@ -3134,15 +3134,15 @@
     "@oriflame/lumos-common" "^1.0.1"
     prettier "^2.1.2"
 
-"@oriflame/config-typescript@^1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@oriflame/config-typescript/-/config-typescript-1.0.1.tgz#c224ce5c696e09946cc45f4328471375fa9a592c"
-  integrity sha512-enM1r8mnv+GkxnIfCUWZ9tkwUpOz+DJ1GEhu8068OVuaMW1xfrB9sVp2Ae+dOPMiL5PMqYSaIL/CB+XzWOT38g==
+"@oriflame/config-typescript@^1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@oriflame/config-typescript/-/config-typescript-1.0.3.tgz#461ecf70ecca30a1f6b10aaf488027a2f362d843"
+  integrity sha512-jlUnBSjPO5r3WalZckGTZpkgARs6Km2erolrFpvUv/T0oKzWDL8SopQqredGmsar5B85YsJ3m9GVzclAAYPXZA==
   dependencies:
     "@beemo/core" "^1.1.8"
     "@beemo/driver-typescript" "^1.4.1"
-    "@oriflame/lumos-common" "^1.0.1"
-    typescript "^4.0.3"
+    "@oriflame/lumos-common" "^2.0.1"
+    typescript "^4.0.5"
 
 "@oriflame/lumos-common@^1.0.1":
   version "1.0.1"
@@ -3152,6 +3152,16 @@
     "@beemo/core" "^1.1.8"
     "@boost/common" "^2.3.0"
     execa "^4.0.3"
+    fast-glob "^3.2.4"
+
+"@oriflame/lumos-common@^2.0.1":
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/@oriflame/lumos-common/-/lumos-common-2.0.1.tgz#ea799d2436b993ba8d5bc73ca7c68faa653c43d0"
+  integrity sha512-HlIhXvl8ZNCAyUWzvSQXNbSHQQ3emiunca9OvRDSZY0yfeysw11XUHifnZdxBiMyv7uiLl8r1K4as7WjqdKEtQ==
+  dependencies:
+    "@beemo/core" "^1.1.8"
+    "@boost/common" "^2.3.0"
+    execa "^4.1.0"
     fast-glob "^3.2.4"
 
 "@oriflame/lumos@^1.0.2":
@@ -6258,6 +6268,21 @@ execa@^4.0.0, execa@^4.0.3:
   version "4.0.3"
   resolved "https://registry.yarnpkg.com/execa/-/execa-4.0.3.tgz#0a34dabbad6d66100bd6f2c576c8669403f317f2"
   integrity sha512-WFDXGHckXPWZX19t1kCsXzOpqX9LWYNqn4C+HqZlk/V0imTkzJZqf87ZBhvpHaftERYknpk0fjSylnXVlVgI0A==
+  dependencies:
+    cross-spawn "^7.0.0"
+    get-stream "^5.0.0"
+    human-signals "^1.1.1"
+    is-stream "^2.0.0"
+    merge-stream "^2.0.0"
+    npm-run-path "^4.0.0"
+    onetime "^5.1.0"
+    signal-exit "^3.0.2"
+    strip-final-newline "^2.0.0"
+
+execa@^4.1.0:
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/execa/-/execa-4.1.0.tgz#4e5491ad1572f2f17a77d388c6c857135b22847a"
+  integrity sha512-j5W0//W7f8UxAn8hXVnwG8tLwdiUy4FJLcSupCg6maBYZDpyBvTApK7KyuI4bKj8KOh1r2YH+6ucuYtJv1bTZA==
   dependencies:
     cross-spawn "^7.0.0"
     get-stream "^5.0.0"
@@ -12546,10 +12571,10 @@ typedarray@^0.0.6:
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
 
-typescript@^4.0.3:
-  version "4.0.3"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.0.3.tgz#153bbd468ef07725c1df9c77e8b453f8d36abba5"
-  integrity sha512-tEu6DGxGgRJPb/mVPIZ48e69xCn2yRmCgYmDugAVwmJ6o+0u1RI18eO7E7WBTLYLaEVVOhwQmcdhQHweux/WPg==
+typescript@^4.0.5:
+  version "4.0.5"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.0.5.tgz#ae9dddfd1069f1cb5beb3ef3b2170dd7c1332389"
+  integrity sha512-ywmr/VrTVCmNTJ6iV2LwIrfG1P+lv6luD8sUJs+2eI9NLGigaN+nUQc13iHqisq7bra9lnmUSYqbJvegraBOPQ==
 
 uglify-js@^3.1.4:
   version "3.6.8"
