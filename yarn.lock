@@ -3154,23 +3154,33 @@
     execa "^4.0.3"
     fast-glob "^3.2.4"
 
-"@oriflame/lumos@^1.0.2":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@oriflame/lumos/-/lumos-1.0.2.tgz#ceb6497c6b74ed1212e89da456e9254eca05afa1"
-  integrity sha512-4bt8YREDLydiByTNzBcmj8AsR4CV/BClnSySWt/FffmS4a/7hi3w9w3kcJ6f7k+w23L6Kz2as7IZDEi+k+cU+Q==
+"@oriflame/lumos-common@^2.0.1":
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/@oriflame/lumos-common/-/lumos-common-2.0.1.tgz#ea799d2436b993ba8d5bc73ca7c68faa653c43d0"
+  integrity sha512-HlIhXvl8ZNCAyUWzvSQXNbSHQQ3emiunca9OvRDSZY0yfeysw11XUHifnZdxBiMyv7uiLl8r1K4as7WjqdKEtQ==
+  dependencies:
+    "@beemo/core" "^1.1.8"
+    "@boost/common" "^2.3.0"
+    execa "^4.1.0"
+    fast-glob "^3.2.4"
+
+"@oriflame/lumos@^2.0.3":
+  version "2.0.3"
+  resolved "https://registry.yarnpkg.com/@oriflame/lumos/-/lumos-2.0.3.tgz#2c5d8602462830d9f073851decaccbf15e3a2c66"
+  integrity sha512-DY5PO4bYGrsobvBHbhuSwhpi8+HYHdB+sMo4If13sk5TxMtZqVczwj+zQ1j2Aakrlr5pf82xAbsoVbKJtMQA1A==
   dependencies:
     "@actions/core" "^1.2.6"
     "@actions/github" "^4.0.0"
     "@beemo/cli" "^1.0.11"
     "@beemo/core" "^1.1.8"
     "@oriflame/conventional-changelog" "^1.0.4"
-    "@oriflame/lumos-common" "^1.0.1"
+    "@oriflame/lumos-common" "^2.0.1"
     chalk "^4.1.0"
     check-node-version "^4.0.3"
     cross-env "^7.0.2"
     edit-json-file "^1.5.0"
     enquirer "^2.3.6"
-    execa "^4.0.3"
+    execa "^4.1.0"
 
 "@semantic-release/changelog@^5.0.1":
   version "5.0.1"
@@ -6254,10 +6264,10 @@ execa@^3.2.0, execa@^3.4.0:
     signal-exit "^3.0.2"
     strip-final-newline "^2.0.0"
 
-execa@^4.0.0, execa@^4.0.3:
-  version "4.0.3"
-  resolved "https://registry.yarnpkg.com/execa/-/execa-4.0.3.tgz#0a34dabbad6d66100bd6f2c576c8669403f317f2"
-  integrity sha512-WFDXGHckXPWZX19t1kCsXzOpqX9LWYNqn4C+HqZlk/V0imTkzJZqf87ZBhvpHaftERYknpk0fjSylnXVlVgI0A==
+execa@^4.0.0, execa@^4.0.3, execa@^4.1.0:
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/execa/-/execa-4.1.0.tgz#4e5491ad1572f2f17a77d388c6c857135b22847a"
+  integrity sha512-j5W0//W7f8UxAn8hXVnwG8tLwdiUy4FJLcSupCg6maBYZDpyBvTApK7KyuI4bKj8KOh1r2YH+6ucuYtJv1bTZA==
   dependencies:
     cross-spawn "^7.0.0"
     get-stream "^5.0.0"
