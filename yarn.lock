@@ -3035,14 +3035,14 @@
   optionalDependencies:
     "@testing-library/react" ">=11"
 
-"@oriflame/config-prettier@^1.0.2":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@oriflame/config-prettier/-/config-prettier-1.0.2.tgz#9cbfaf24509692ee12f91c2fb94dfc915598d0e5"
-  integrity sha512-04R6IbyVAhFIeuGOOZdU/J6kyI/kyPP1JAlFilkF6KJTrqhXRPGqHs3g8p7xzb9ufJvFTsHQQQhlShT2x94nVg==
+"@oriflame/config-prettier@^1.0.5":
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/@oriflame/config-prettier/-/config-prettier-1.0.5.tgz#c351d7e968493018f0ce88a97a02b6cbf20bada2"
+  integrity sha512-f68d7AzxVpPJqJMWZOSZy4pfHd6sbEzjiSPNX0KTY5aFCaw3/HLaMhzFPgtV7bNzjDeGNXX46Gqq0F0y0pcg1g==
   dependencies:
     "@beemo/core" "^1.1.8"
     "@beemo/driver-prettier" "^1.3.2"
-    "@oriflame/lumos-common" "^1.0.1"
+    "@oriflame/lumos-common" "^2.0.2"
     prettier "^2.1.2"
 
 "@oriflame/config-typescript@^1.0.1":
