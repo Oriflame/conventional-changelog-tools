@@ -3045,15 +3045,15 @@
     "@oriflame/lumos-common" "^1.0.1"
     prettier "^2.1.2"
 
-"@oriflame/config-typescript@^1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@oriflame/config-typescript/-/config-typescript-1.0.1.tgz#c224ce5c696e09946cc45f4328471375fa9a592c"
-  integrity sha512-enM1r8mnv+GkxnIfCUWZ9tkwUpOz+DJ1GEhu8068OVuaMW1xfrB9sVp2Ae+dOPMiL5PMqYSaIL/CB+XzWOT38g==
+"@oriflame/config-typescript@^1.0.4":
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/@oriflame/config-typescript/-/config-typescript-1.0.4.tgz#b43b578759d0bab52bc9a776f3897cf5aa3701b3"
+  integrity sha512-TNMBpH4YlRlvaYnZzd0s8h7oLwHgej4wn6XA2pvUhQ0IV50quP8iS6/hiYuJYdkkbsbBLruT8lJ97bX5apj4LA==
   dependencies:
     "@beemo/core" "^1.1.8"
     "@beemo/driver-typescript" "^1.4.1"
-    "@oriflame/lumos-common" "^1.0.1"
-    typescript "^4.0.3"
+    "@oriflame/lumos-common" "^2.0.2"
+    typescript "^4.0.5"
 
 "@oriflame/lumos-common@^1.0.1":
   version "1.0.1"
@@ -12477,10 +12477,10 @@ typedarray@^0.0.6:
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
 
-typescript@^4.0.3:
-  version "4.0.3"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.0.3.tgz#153bbd468ef07725c1df9c77e8b453f8d36abba5"
-  integrity sha512-tEu6DGxGgRJPb/mVPIZ48e69xCn2yRmCgYmDugAVwmJ6o+0u1RI18eO7E7WBTLYLaEVVOhwQmcdhQHweux/WPg==
+typescript@^4.0.5:
+  version "4.0.5"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.0.5.tgz#ae9dddfd1069f1cb5beb3ef3b2170dd7c1332389"
+  integrity sha512-ywmr/VrTVCmNTJ6iV2LwIrfG1P+lv6luD8sUJs+2eI9NLGigaN+nUQc13iHqisq7bra9lnmUSYqbJvegraBOPQ==
 
 uglify-js@^3.1.4:
   version "3.6.8"
