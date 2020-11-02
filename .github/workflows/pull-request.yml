@@ -12,7 +12,9 @@ jobs:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v1
       - run: yarn install --frozen-lockfile --ignore-engines
-      - name: Danger JS Action
-        uses: danger/danger-js@9.1.8
+      - run: yarn danger ci --use-github-checks
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          DANGER_FAKE_CI: GitHub
+          DANGER_TEST_REPO: oriflame/conventional-changelog-tools
+          DANGER_TEST_PR: ${{ github.event.number }}
