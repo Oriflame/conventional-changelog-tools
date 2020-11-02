@@ -15,6 +15,6 @@ jobs:
           fetch-depth: '0'
       - uses: actions/setup-node@v2-beta
       - run: yarn install --frozen-lockfile --ignore-engines
-      - run: yarn lumos run-script pull-request-checks-github
+      - run: npx lumos run-script pull-request-checks-github
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
