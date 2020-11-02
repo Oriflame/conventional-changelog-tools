@@ -13,9 +13,6 @@ jobs:
       - uses: actions/setup-node@v1
       - run: yarn install --frozen-lockfile --ignore-engines
       - run: yarn build
-      - run: yarn beemo run-script pull-request-checks-github
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - run: yarn danger ci --use-github-checks
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
