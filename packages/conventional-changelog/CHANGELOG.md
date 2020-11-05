@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 1.0.6 - 2020-11-05
+
+#### 🛠 Internals
+
+- bump conventional-changelog-core from 4.2.0 to 4.2.1 (#121) ([1087606](https://github.com/Oriflame/conventional-changelog-tools/commit/1087606)), closes [#121](https://github.com/Oriflame/conventional-changelog-tools/issues/121)
+
+**Note:** Version bump only for package @oriflame/conventional-changelog
+
+
+
+
+
 ### 1.0.5 - 2020-11-05
 
 #### 🛠 Internals
