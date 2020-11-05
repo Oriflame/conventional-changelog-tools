@@ -26,6 +26,6 @@
   },
   "devDependencies": {
     "conventional-changelog-core": "^4.2.0",
-    "conventional-recommended-bump": "^6.0.10"
+    "conventional-recommended-bump": "^6.0.11"
   }
 }
