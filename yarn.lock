@@ -2618,17 +2618,17 @@
     eslint-plugin-testing-library "^3.10.1"
     eslint-plugin-unicorn "^23.0.0"
 
-"@oriflame/config-jest@^1.0.7":
-  version "1.0.7"
-  resolved "https://registry.yarnpkg.com/@oriflame/config-jest/-/config-jest-1.0.7.tgz#4303c2e2ac8132a432c5fcce0863e50d5b558948"
-  integrity sha512-B+S0bN5bMgD4z44f9FsMhEcnwi1y4U3Oh0xK1OzVq85ImWjBcwTLBx19cMZH1Z098nlLCNaS0kNj8rAJky5khg==
+"@oriflame/config-jest@^1.0.10":
+  version "1.0.10"
+  resolved "https://registry.yarnpkg.com/@oriflame/config-jest/-/config-jest-1.0.10.tgz#10afcd38fc89746e3ca197a8eb4d3e62514692ea"
+  integrity sha512-ySpoLhllgbTE7xwkpOAM3cZOXtXcwB58BAkLjoxPtrxJEPRrAK5xreeQCyXvjupJn2SQ14eT02x3bA9wcmvX+w==
   dependencies:
     "@babel/core" "^7.12.3"
     "@beemo/core" "^1.1.8"
     "@beemo/driver-babel" "^1.2.6"
     "@beemo/driver-jest" "^1.2.3"
-    "@oriflame/lumos-common" "^2.0.2"
-    "@testing-library/jest-dom" "^5.11.5"
+    "@oriflame/lumos-common" "^2.0.4"
+    "@testing-library/jest-dom" "^5.11.6"
     "@types/jest" "^26.0.15"
     airbnb-js-shims "^2.2.1"
     cross-env "^7.0.2"
@@ -2791,10 +2791,10 @@
     lz-string "^1.4.4"
     pretty-format "^26.4.2"
 
-"@testing-library/jest-dom@^5.11.5":
-  version "5.11.5"
-  resolved "https://registry.yarnpkg.com/@testing-library/jest-dom/-/jest-dom-5.11.5.tgz#44010f37f4b1e15f9d433963b515db0b05182fc8"
-  integrity sha512-XI+ClHR864i6p2kRCEyhvpVejuer+ObVUF4cjCvRSF88eOMIfqw7RoS9+qoRhyigGswMfT64L6Nt0Ufotxbwtg==
+"@testing-library/jest-dom@^5.11.6":
+  version "5.11.6"
+  resolved "https://registry.yarnpkg.com/@testing-library/jest-dom/-/jest-dom-5.11.6.tgz#782940e82e5cd17bc0a36f15156ba16f3570ac81"
+  integrity sha512-cVZyUNRWwUKI0++yepYpYX7uhrP398I+tGz4zOlLVlUYnZS+Svuxv4fwLeCIy7TnBYKXUaOlQr3vopxL8ZfEnA==
   dependencies:
     "@babel/runtime" "^7.9.2"
     "@types/testing-library__jest-dom" "^5.9.1"
