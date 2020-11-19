@@ -1127,10 +1127,10 @@
     pretty-ms "^5.1.0"
     yaml "^1.9.2"
 
-"@boost/common@^2.3.0":
-  version "2.3.0"
-  resolved "https://registry.yarnpkg.com/@boost/common/-/common-2.3.0.tgz#0b71a0a65b1bdefc2a6de61b79ef3d130a620a37"
-  integrity sha512-H8XZebnek4fSfJS4Oy9lAIlWftZpZT42BvHirV64PT28aNpqxfQnE/3p1jX0qL9ZBygw+bVw2XPkI5cTo2NOLQ==
+"@boost/common@^2.4.0":
+  version "2.4.0"
+  resolved "https://registry.yarnpkg.com/@boost/common/-/common-2.4.0.tgz#c2ab1f0f97bef936913172dfd068480936185a72"
+  integrity sha512-0rU9SfVJb7d1zQpRo3/aN3mCnuh3vz6w0QRIPnlJw+uV3CI0SjK/jbtnqorJzMqCSllbwu6fH4AOkDA1abQdpg==
   dependencies:
     "@boost/decorators" "^2.0.0"
     "@boost/internal" "^2.1.1"
@@ -2638,14 +2638,14 @@
   optionalDependencies:
     "@testing-library/react" ">=11"
 
-"@oriflame/config-prettier@^1.0.5":
-  version "1.0.5"
-  resolved "https://registry.yarnpkg.com/@oriflame/config-prettier/-/config-prettier-1.0.5.tgz#c351d7e968493018f0ce88a97a02b6cbf20bada2"
-  integrity sha512-f68d7AzxVpPJqJMWZOSZy4pfHd6sbEzjiSPNX0KTY5aFCaw3/HLaMhzFPgtV7bNzjDeGNXX46Gqq0F0y0pcg1g==
+"@oriflame/config-prettier@^1.0.7":
+  version "1.0.7"
+  resolved "https://registry.yarnpkg.com/@oriflame/config-prettier/-/config-prettier-1.0.7.tgz#d7301b196c079f327b395a27dd1474105fd886c4"
+  integrity sha512-1aASgcOVc2PLt+ZsHy8Fr6jBXYZNoIYK0LKUBsdmYgVLIz02cWzfP1BqjbdJQceMTeesEzd8+QfgDJuEd7Ra/A==
   dependencies:
     "@beemo/core" "^1.1.8"
     "@beemo/driver-prettier" "^1.3.2"
-    "@oriflame/lumos-common" "^2.0.2"
+    "@oriflame/lumos-common" "^2.0.4"
     prettier "^2.1.2"
 
 "@oriflame/config-typescript@^1.0.4":
@@ -2658,13 +2658,13 @@
     "@oriflame/lumos-common" "^2.0.2"
     typescript "^4.0.5"
 
-"@oriflame/lumos-common@^2.0.2":
-  version "2.0.2"
-  resolved "https://registry.yarnpkg.com/@oriflame/lumos-common/-/lumos-common-2.0.2.tgz#b0984f91c1ddb594545bf174369aabd5bf3568c4"
-  integrity sha512-Y0GX70p5IXgHKNxNdK3uYeNg3NSIvEIbteQahyZ6NSryeNFp0OYZuxDEssZTQT30miUze01W/BwK+uFT37jWbg==
+"@oriflame/lumos-common@^2.0.2", "@oriflame/lumos-common@^2.0.4":
+  version "2.0.4"
+  resolved "https://registry.yarnpkg.com/@oriflame/lumos-common/-/lumos-common-2.0.4.tgz#4aa4b2a7099a686dc9378843e10595a644a54494"
+  integrity sha512-iapm2uVODGGkVplV5Mma6hN/JeUlk95BTK5vZzKl0Q2KzEltHbx9fb1g6iGNR25lE6z4JvdK2C6M/2Eboo6NCQ==
   dependencies:
     "@beemo/core" "^1.1.8"
-    "@boost/common" "^2.3.0"
+    "@boost/common" "^2.4.0"
     execa "^4.1.0"
     fast-glob "^3.2.4"
 
