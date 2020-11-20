@@ -2654,15 +2654,15 @@
   optionalDependencies:
     "@testing-library/react" ">=11"
 
-"@oriflame/config-prettier@^1.0.7":
-  version "1.0.7"
-  resolved "https://registry.yarnpkg.com/@oriflame/config-prettier/-/config-prettier-1.0.7.tgz#d7301b196c079f327b395a27dd1474105fd886c4"
-  integrity sha512-1aASgcOVc2PLt+ZsHy8Fr6jBXYZNoIYK0LKUBsdmYgVLIz02cWzfP1BqjbdJQceMTeesEzd8+QfgDJuEd7Ra/A==
+"@oriflame/config-prettier@^1.0.8":
+  version "1.0.8"
+  resolved "https://registry.yarnpkg.com/@oriflame/config-prettier/-/config-prettier-1.0.8.tgz#5c64dd3db019dde604dae21b3c746ebc48dad0ec"
+  integrity sha512-b9h5N5Ecr43v/XuaGXMlR1T/cX/DR3w3fbp67JHUNj8ewKv83Ttk1ysFb0nInXW51GUSaSqUAvY9IfbqV/WiWA==
   dependencies:
     "@beemo/core" "^1.1.8"
     "@beemo/driver-prettier" "^1.3.2"
     "@oriflame/lumos-common" "^2.0.4"
-    prettier "^2.1.2"
+    prettier "^2.2.0"
 
 "@oriflame/config-typescript@^1.0.4":
   version "1.0.4"
@@ -10113,10 +10113,10 @@ prettier-linter-helpers@^1.0.0:
   dependencies:
     fast-diff "^1.1.2"
 
-prettier@^2.1.2:
-  version "2.1.2"
-  resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.1.2.tgz#3050700dae2e4c8b67c4c3f666cdb8af405e1ce5"
-  integrity sha512-16c7K+x4qVlJg9rEbXl7HEGmQyZlG4R9AgP+oHKRMsMsuk8s+ATStlf1NpDqyBI1HpVyfjLOeMhH2LvuNvV5Vg==
+prettier@^2.2.0:
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.2.0.tgz#8a03c7777883b29b37fb2c4348c66a78e980418b"
+  integrity sha512-yYerpkvseM4iKD/BXLYUkQV5aKt4tQPqaGW6EsZjzyu0r7sVZZNPJW4Y8MyKmicp6t42XUPcBVA+H6sB3gqndw==
 
 pretty-format@^26.0.0, pretty-format@^26.4.2, pretty-format@^26.6.1:
   version "26.6.1"
