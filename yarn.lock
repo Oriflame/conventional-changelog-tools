@@ -2684,17 +2684,17 @@
     execa "^4.1.0"
     fast-glob "^3.2.4"
 
-"@oriflame/lumos@^2.0.7":
-  version "2.0.7"
-  resolved "https://registry.yarnpkg.com/@oriflame/lumos/-/lumos-2.0.7.tgz#3acf954fc6aad246a6b614e59c252a0cb5c2f47e"
-  integrity sha512-AQleKYPxKQRYc0ZbbRys5KIZhwsXCAsq597QQ1InrWWe3MBuesTgSra7qEf2FJdK4cvT21qRMqfzmppYmo1VSg==
+"@oriflame/lumos@^2.1.2":
+  version "2.1.2"
+  resolved "https://registry.yarnpkg.com/@oriflame/lumos/-/lumos-2.1.2.tgz#2401950ad12542cb2bada01da1819635a2ec037d"
+  integrity sha512-mttxLjCva9OmVO4Esy3yPcpBpVCmaH8WUyN47HrUQRDe2WZ5nIq8M3LKCE1trglCEX0VCFryIusimqZXa4QPCg==
   dependencies:
     "@actions/core" "^1.2.6"
     "@actions/github" "^4.0.0"
     "@beemo/cli" "^1.0.11"
     "@beemo/core" "^1.1.8"
-    "@oriflame/conventional-changelog" "^1.0.4"
-    "@oriflame/lumos-common" "^2.0.2"
+    "@oriflame/conventional-changelog" "^1.0.6"
+    "@oriflame/lumos-common" "^2.0.4"
     chalk "^4.1.0"
     check-node-version "^4.0.3"
     cross-env "^7.0.2"
