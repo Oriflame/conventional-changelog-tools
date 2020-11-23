@@ -43,7 +43,7 @@
     "@commitlint/cli": "^11.0.0",
     "@oriflame/config-babel": "^1.0.10",
     "@oriflame/config-danger": "1.0.5",
-    "@oriflame/config-eslint": "^1.0.17",
+    "@oriflame/config-eslint": "^1.1.2",
     "@oriflame/config-jest": "^1.0.7",
     "@oriflame/config-prettier": "^1.0.7",
     "@oriflame/config-typescript": "^1.0.4",

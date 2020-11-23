@@ -2609,18 +2609,18 @@
     "@oriflame/conventional-changelog" "^1.0.6"
     danger "^10.5.1"
 
-"@oriflame/config-eslint@^1.0.17":
-  version "1.0.17"
-  resolved "https://registry.yarnpkg.com/@oriflame/config-eslint/-/config-eslint-1.0.17.tgz#8444a395d00091f69e3d600596188273670bd304"
-  integrity sha512-rn5z/WFAM2UoHUZWqAolHqjFclDexUBJTVjhYN8nWHOsE//KqDDDNUHS2I9ammF8AlNCxaU+SkJn8QZFGD0jKQ==
+"@oriflame/config-eslint@^1.1.2":
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/@oriflame/config-eslint/-/config-eslint-1.1.2.tgz#7c1aea9afd473ab9d39b837f69b1e29a70f36d6a"
+  integrity sha512-lPmgUhL0qdBzDx0egA4r4zf/NMbNONwTrJF3LBjdG9OaTFWalHkYgEHmPrtTWNtcSMY8KEGEmfhp1GuSNra3BA==
   dependencies:
     "@beemo/core" "^1.1.8"
     "@beemo/driver-eslint" "^1.2.3"
-    "@oriflame/lumos-common" "^2.0.4"
+    "@oriflame/lumos-common" "^2.1.0"
     "@typescript-eslint/eslint-plugin" "^4.8.1"
     "@typescript-eslint/parser" "^4.8.1"
     babel-eslint "^10.1.0"
-    eslint "^7.13.0"
+    eslint "^7.14.0"
     eslint-config-airbnb "^18.2.1"
     eslint-config-prettier "^6.15.0"
     eslint-import-resolver-typescript "^2.3.0"
@@ -2674,10 +2674,10 @@
     "@oriflame/lumos-common" "^2.0.2"
     typescript "^4.0.5"
 
-"@oriflame/lumos-common@^2.0.2", "@oriflame/lumos-common@^2.0.4":
-  version "2.0.4"
-  resolved "https://registry.yarnpkg.com/@oriflame/lumos-common/-/lumos-common-2.0.4.tgz#4aa4b2a7099a686dc9378843e10595a644a54494"
-  integrity sha512-iapm2uVODGGkVplV5Mma6hN/JeUlk95BTK5vZzKl0Q2KzEltHbx9fb1g6iGNR25lE6z4JvdK2C6M/2Eboo6NCQ==
+"@oriflame/lumos-common@^2.0.2", "@oriflame/lumos-common@^2.0.4", "@oriflame/lumos-common@^2.1.0":
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/@oriflame/lumos-common/-/lumos-common-2.1.0.tgz#59ddb1c997e5ed023f7ae7e7d66ebe872c3656bf"
+  integrity sha512-NAECKnHsce05AHIHNUPJyVQUkuZqeNwvcfd/XNS97vqgIkQf+XgAS4I0K8gfqFTDhjWxkffj5G9t7kMBycl+3w==
   dependencies:
     "@beemo/core" "^1.1.8"
     "@boost/common" "^2.4.0"
@@ -5538,10 +5538,10 @@ eslint-visitor-keys@^2.0.0:
   resolved "https://registry.yarnpkg.com/eslint-visitor-keys/-/eslint-visitor-keys-2.0.0.tgz#21fdc8fbcd9c795cc0321f0563702095751511a8"
   integrity sha512-QudtT6av5WXels9WjIM7qz1XD1cWGvX4gGXvp/zBn9nXG02D0utdU3Em2m/QjTnrsk6bBjmCygl3rmj118msQQ==
 
-eslint@^7.13.0:
-  version "7.13.0"
-  resolved "https://registry.yarnpkg.com/eslint/-/eslint-7.13.0.tgz#7f180126c0dcdef327bfb54b211d7802decc08da"
-  integrity sha512-uCORMuOO8tUzJmsdRtrvcGq5qposf7Rw0LwkTJkoDbOycVQtQjmnhZSuLQnozLE4TmAzlMVV45eCHmQ1OpDKUQ==
+eslint@^7.14.0:
+  version "7.14.0"
+  resolved "https://registry.yarnpkg.com/eslint/-/eslint-7.14.0.tgz#2d2cac1d28174c510a97b377f122a5507958e344"
+  integrity sha512-5YubdnPXrlrYAFCKybPuHIAH++PINe1pmKNc5wQRB9HSbqIK1ywAnntE3Wwua4giKu0bjligf1gLF6qxMGOYRA==
   dependencies:
     "@babel/code-frame" "^7.0.0"
     "@eslint/eslintrc" "^0.2.1"
