@@ -2674,27 +2674,27 @@
     "@oriflame/lumos-common" "^2.0.2"
     typescript "^4.0.5"
 
-"@oriflame/lumos-common@^2.0.2", "@oriflame/lumos-common@^2.0.4":
-  version "2.0.4"
-  resolved "https://registry.yarnpkg.com/@oriflame/lumos-common/-/lumos-common-2.0.4.tgz#4aa4b2a7099a686dc9378843e10595a644a54494"
-  integrity sha512-iapm2uVODGGkVplV5Mma6hN/JeUlk95BTK5vZzKl0Q2KzEltHbx9fb1g6iGNR25lE6z4JvdK2C6M/2Eboo6NCQ==
+"@oriflame/lumos-common@^2.0.2", "@oriflame/lumos-common@^2.0.4", "@oriflame/lumos-common@^2.1.0":
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/@oriflame/lumos-common/-/lumos-common-2.1.0.tgz#59ddb1c997e5ed023f7ae7e7d66ebe872c3656bf"
+  integrity sha512-NAECKnHsce05AHIHNUPJyVQUkuZqeNwvcfd/XNS97vqgIkQf+XgAS4I0K8gfqFTDhjWxkffj5G9t7kMBycl+3w==
   dependencies:
     "@beemo/core" "^1.1.8"
     "@boost/common" "^2.4.0"
     execa "^4.1.0"
     fast-glob "^3.2.4"
 
-"@oriflame/lumos@^2.0.7":
-  version "2.0.7"
-  resolved "https://registry.yarnpkg.com/@oriflame/lumos/-/lumos-2.0.7.tgz#3acf954fc6aad246a6b614e59c252a0cb5c2f47e"
-  integrity sha512-AQleKYPxKQRYc0ZbbRys5KIZhwsXCAsq597QQ1InrWWe3MBuesTgSra7qEf2FJdK4cvT21qRMqfzmppYmo1VSg==
+"@oriflame/lumos@^2.1.5":
+  version "2.1.5"
+  resolved "https://registry.yarnpkg.com/@oriflame/lumos/-/lumos-2.1.5.tgz#0284bbd04586375f09884e822e23a170336c31d2"
+  integrity sha512-xB75bea9PiwwWXw2Hf7wGw8l7cxfBDbt1pjI3k8kP0N4rK/SH+f1KByp84IlL/fJX78IDjFsUYi6b+0M4CdV0Q==
   dependencies:
     "@actions/core" "^1.2.6"
     "@actions/github" "^4.0.0"
     "@beemo/cli" "^1.0.11"
     "@beemo/core" "^1.1.8"
-    "@oriflame/conventional-changelog" "^1.0.4"
-    "@oriflame/lumos-common" "^2.0.2"
+    "@oriflame/conventional-changelog" "^1.0.6"
+    "@oriflame/lumos-common" "^2.1.0"
     chalk "^4.1.0"
     check-node-version "^4.0.3"
     cross-env "^7.0.2"
