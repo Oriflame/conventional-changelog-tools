@@ -53,7 +53,7 @@
   resolved "https://registry.yarnpkg.com/@babel/compat-data/-/compat-data-7.12.7.tgz#9329b4782a7d6bbd7eef57e11addf91ee3ef1e41"
   integrity sha512-YaxPMGs/XIWtYqrdEOZOCPsVWfEoriXopnsz3/i7apYPXQ3698UFhS6dVT1KN5qOsWmVgw/FOrmQgpRaZayGsw==
 
-"@babel/core@^7.1.0", "@babel/core@^7.12.3", "@babel/core@^7.12.9", "@babel/core@^7.7.5":
+"@babel/core@^7.1.0", "@babel/core@^7.12.9", "@babel/core@^7.7.5":
   version "7.12.9"
   resolved "https://registry.yarnpkg.com/@babel/core/-/core-7.12.9.tgz#fd450c4ec10cdbb980e2928b7aa7a28484593fc8"
   integrity sha512-gTXYh3M5wb7FRXQy+FErKFAv90BnlOuNn1QkCK2lREoPAjrQCO49+HVSrFoe5uakFAF5eenS75KbO2vQiLrTMQ==
@@ -2731,7 +2731,7 @@
     "@oriflame/lumos-common" "^2.1.0"
     typescript "^4.1.2"
 
-"@oriflame/lumos-common@^2.0.2", "@oriflame/lumos-common@^2.1.0":
+"@oriflame/lumos-common@^2.1.0":
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/@oriflame/lumos-common/-/lumos-common-2.1.0.tgz#59ddb1c997e5ed023f7ae7e7d66ebe872c3656bf"
   integrity sha512-NAECKnHsce05AHIHNUPJyVQUkuZqeNwvcfd/XNS97vqgIkQf+XgAS4I0K8gfqFTDhjWxkffj5G9t7kMBycl+3w==
@@ -2741,10 +2741,10 @@
     execa "^4.1.0"
     fast-glob "^3.2.4"
 
-"@oriflame/lumos@^2.1.5":
-  version "2.1.5"
-  resolved "https://registry.yarnpkg.com/@oriflame/lumos/-/lumos-2.1.5.tgz#0284bbd04586375f09884e822e23a170336c31d2"
-  integrity sha512-xB75bea9PiwwWXw2Hf7wGw8l7cxfBDbt1pjI3k8kP0N4rK/SH+f1KByp84IlL/fJX78IDjFsUYi6b+0M4CdV0Q==
+"@oriflame/lumos@^2.1.7":
+  version "2.1.7"
+  resolved "https://registry.yarnpkg.com/@oriflame/lumos/-/lumos-2.1.7.tgz#51c408549974d77bf498a8cc46e621ea61bf92fd"
+  integrity sha512-dJ4dgAdmIn0ILax1pHHDVDNx0RU8AzCV4pquDjEEA/nLyaa3xtCyUq0h+0+gG6T0S/tQB75sHGAg+T/Owm4JDg==
   dependencies:
     "@actions/core" "^1.2.6"
     "@actions/github" "^4.0.0"
