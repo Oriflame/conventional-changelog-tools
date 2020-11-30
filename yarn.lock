@@ -2631,10 +2631,10 @@
   dependencies:
     "@types/node" ">= 8"
 
-"@oriflame/config-babel@^1.0.15":
-  version "1.0.15"
-  resolved "https://registry.yarnpkg.com/@oriflame/config-babel/-/config-babel-1.0.15.tgz#e05c2cfde9e9f803ce2ff4a018f415dfdfa47284"
-  integrity sha512-bp799UE4PHE86c4CcnYNhg6nKINuHaezlU1fafgx5VfQlAaXtHAeg/wivxBZWkZbKsLJZd4O+jsMDhJQl3kgrQ==
+"@oriflame/config-babel@^1.0.16":
+  version "1.0.16"
+  resolved "https://registry.yarnpkg.com/@oriflame/config-babel/-/config-babel-1.0.16.tgz#63ab289b5a1fb4770bde1c1e0f9cc9f8ce5cfb7f"
+  integrity sha512-hHnnCDnnrzYMFhedgwH9q7a4gNQ7mp6yijmrjN8lOqFxjZ8b6NBxMtTgu1cKso0qNunQj1Mptu33vt+ftA2G3g==
   dependencies:
     "@babel/cli" "^7.12.8"
     "@babel/core" "^7.12.9"
@@ -2649,7 +2649,7 @@
     "@babel/preset-typescript" "^7.12.7"
     "@beemo/core" "^1.1.8"
     "@beemo/driver-babel" "^1.2.6"
-    "@oriflame/lumos-common" "^2.1.0"
+    "@oriflame/lumos-common" "^2.1.1"
     babel-plugin-graphql-tag "^3.1.0"
     babel-plugin-module-resolver "^4.0.0"
     babel-plugin-optimize-clsx "^2.6.1"
