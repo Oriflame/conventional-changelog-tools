@@ -2666,14 +2666,14 @@
     "@oriflame/conventional-changelog" "^1.0.6"
     danger "^10.5.3"
 
-"@oriflame/config-eslint@^1.1.4":
-  version "1.1.4"
-  resolved "https://registry.yarnpkg.com/@oriflame/config-eslint/-/config-eslint-1.1.4.tgz#f11ce7ea5d6972f8b85340f21369cad7035e2077"
-  integrity sha512-peV91/ie0LT/y3li1Jyx1i+qnKAFo3MMG4BZhP7Plo9XYpOo65bjq/AEt2uYK2INHuZSWgN6ul3HFfN/AaAbWQ==
+"@oriflame/config-eslint@^1.1.5":
+  version "1.1.5"
+  resolved "https://registry.yarnpkg.com/@oriflame/config-eslint/-/config-eslint-1.1.5.tgz#25803d68bda5b4e449ce4e5ab63ed24e96a9fb0d"
+  integrity sha512-yGNHFGcfTfqJtCPCTqG8bXral8FGHF0WHoy7LNCCZ/Zwu9HoUgiU2QFGa16U+3bMpLGxGJ96Y64xQwKfu8ca4Q==
   dependencies:
     "@beemo/core" "^1.1.8"
     "@beemo/driver-eslint" "^1.2.3"
-    "@oriflame/lumos-common" "^2.1.0"
+    "@oriflame/lumos-common" "^2.1.1"
     "@typescript-eslint/eslint-plugin" "^4.8.2"
     "@typescript-eslint/parser" "^4.8.2"
     babel-eslint "^10.1.0"
