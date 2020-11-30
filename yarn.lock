@@ -2691,16 +2691,16 @@
     eslint-plugin-testing-library "^3.10.1"
     eslint-plugin-unicorn "^23.0.0"
 
-"@oriflame/config-jest@^1.0.14":
-  version "1.0.14"
-  resolved "https://registry.yarnpkg.com/@oriflame/config-jest/-/config-jest-1.0.14.tgz#78d6df64ca1696c11121945def2118fa494cb728"
-  integrity sha512-91hm2IooV97EbwsOBsD1b5gYqS8fSEdm77KtP2Tty6NBy320BBq+qX0TdbU6rEVSj96a8tpPNOCbU9uLIN/P3g==
+"@oriflame/config-jest@^1.0.15":
+  version "1.0.15"
+  resolved "https://registry.yarnpkg.com/@oriflame/config-jest/-/config-jest-1.0.15.tgz#aef91084ff3ae142331e31987226858b1d0c191b"
+  integrity sha512-rHA56ZCdqo7aCKjPBFJE4i8Op1kWjgXzoODDzWwGWNXtQCq0YwlzMCjg3ynIjRb2ImC7nq6cpEyuesL/kAGYsg==
   dependencies:
     "@babel/core" "^7.12.9"
     "@beemo/core" "^1.1.8"
     "@beemo/driver-babel" "^1.2.6"
     "@beemo/driver-jest" "^1.2.3"
-    "@oriflame/lumos-common" "^2.1.0"
+    "@oriflame/lumos-common" "^2.1.1"
     "@testing-library/jest-dom" "^5.11.6"
     "@types/jest" "^26.0.15"
     airbnb-js-shims "^2.2.1"
