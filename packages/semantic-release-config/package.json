@@ -1,6 +1,6 @@
 {
   "name": "@oriflame/semantic-release-config",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "main": "./lib/index.js",
   "repository": {
     "url": "https://github.com/Oriflame/conventional-changelog-tools",
