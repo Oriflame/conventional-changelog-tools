@@ -2731,33 +2731,33 @@
     "@oriflame/lumos-common" "^2.1.1"
     typescript "^4.1.2"
 
-"@oriflame/lumos-common@^2.1.0", "@oriflame/lumos-common@^2.1.1":
-  version "2.1.1"
-  resolved "https://registry.yarnpkg.com/@oriflame/lumos-common/-/lumos-common-2.1.1.tgz#f67fb3ef32c86765bb07c7c585759d0357f8af6a"
-  integrity sha512-YEBzDvaeoukASFofalGakrhfgg9Qn6skjirRoLVcmqVpxEdlFO/aiEUDN3I9LZjIEOcwpHXe4zo6VCTGedyPoQ==
+"@oriflame/lumos-common@^2.1.0", "@oriflame/lumos-common@^2.1.1", "@oriflame/lumos-common@^2.3.0":
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/@oriflame/lumos-common/-/lumos-common-2.3.0.tgz#9d5e2d2feb89329a4690d630c7f401756bcad323"
+  integrity sha512-Al3dxQfgEnK4Bofy59yH3qg0VshJHJCzj3USC7bAf8wrQ0cJ4BthUi13lv1UyMZXVJrm+RnIhp3GsC1ME3RGtg==
   dependencies:
     "@beemo/core" "^1.1.8"
     "@boost/common" "^2.4.1"
-    execa "^4.1.0"
+    execa "^5.0.0"
     fast-glob "^3.2.4"
 
-"@oriflame/lumos@^2.1.8":
-  version "2.1.8"
-  resolved "https://registry.yarnpkg.com/@oriflame/lumos/-/lumos-2.1.8.tgz#4292d2baacd93bb13945413bc2e5621b6cfe9ac9"
-  integrity sha512-Vp2MUtlZ7RqkRwLy9XlIkqO+8j8QFoes3b5Amz7olCk6Y5TR4EUSE6eoDjwoQMUapGcl5tubSAPEy9CmP5QxIg==
+"@oriflame/lumos@^2.3.3":
+  version "2.3.3"
+  resolved "https://registry.yarnpkg.com/@oriflame/lumos/-/lumos-2.3.3.tgz#cab9d6eb2ed852138e78b01ad16cba57d9a87a35"
+  integrity sha512-DufTuafgj/Tj2kya0WbDMpH0q/Njg9WWXsh5EDlJ8lsEBSabIVO8N5loqOaHcAci+Up7ACQKC8wtGfSLqQpbAw==
   dependencies:
     "@actions/core" "^1.2.6"
     "@actions/github" "^4.0.0"
     "@beemo/cli" "^1.0.11"
     "@beemo/core" "^1.1.8"
     "@oriflame/conventional-changelog" "^1.0.6"
-    "@oriflame/lumos-common" "^2.1.0"
+    "@oriflame/lumos-common" "^2.3.0"
     chalk "^4.1.0"
     check-node-version "^4.0.3"
-    cross-env "^7.0.2"
+    cross-env "^7.0.3"
     edit-json-file "^1.5.0"
     enquirer "^2.3.6"
-    execa "^4.1.0"
+    execa "^5.0.0"
 
 "@semantic-release/changelog@^5.0.1":
   version "5.0.1"
@@ -4705,10 +4705,10 @@ create-error-class@^3.0.0:
   dependencies:
     capture-stack-trace "^1.0.0"
 
-cross-env@^7.0.2:
-  version "7.0.2"
-  resolved "https://registry.yarnpkg.com/cross-env/-/cross-env-7.0.2.tgz#bd5ed31339a93a3418ac4f3ca9ca3403082ae5f9"
-  integrity sha512-KZP/bMEOJEDCkDQAyRhu3RL2ZO/SUVrxQVI0G3YEQ+OLbRA3c6zgixe8Mq8a/z7+HKlNEjo8oiLUs8iRijY2Rw==
+cross-env@^7.0.2, cross-env@^7.0.3:
+  version "7.0.3"
+  resolved "https://registry.yarnpkg.com/cross-env/-/cross-env-7.0.3.tgz#865264b29677dc015ba8418918965dd232fc54cf"
+  integrity sha512-+/HKd6EgcQCJGh2PSjZuUitQBQynKor4wrFbRg4DtAgS1aWO+gU52xpH7M9ScGgXSYmAVS9bIJ8EzuaGw0oNAw==
   dependencies:
     cross-spawn "^7.0.1"
 
@@ -5725,7 +5725,7 @@ execa@^3.2.0, execa@^3.4.0:
     signal-exit "^3.0.2"
     strip-final-newline "^2.0.0"
 
-execa@^4.0.0, execa@^4.1.0:
+execa@^4.0.0:
   version "4.1.0"
   resolved "https://registry.yarnpkg.com/execa/-/execa-4.1.0.tgz#4e5491ad1572f2f17a77d388c6c857135b22847a"
   integrity sha512-j5W0//W7f8UxAn8hXVnwG8tLwdiUy4FJLcSupCg6maBYZDpyBvTApK7KyuI4bKj8KOh1r2YH+6ucuYtJv1bTZA==
