@@ -2721,17 +2721,17 @@
     "@oriflame/lumos-common" "^2.1.0"
     prettier "^2.2.0"
 
-"@oriflame/config-typescript@^1.1.2":
-  version "1.1.2"
-  resolved "https://registry.yarnpkg.com/@oriflame/config-typescript/-/config-typescript-1.1.2.tgz#9a2b0395213e9716e6b819ca53e4101d7bb20558"
-  integrity sha512-m0b2oNOeYFwtB9M5LqMy+nftB7o7+c26p4LnAS/AOC99wt7JNujX/Jm3Quf92HUdgtUUCiduzcOEzV54mv2wRg==
+"@oriflame/config-typescript@^1.1.5":
+  version "1.1.5"
+  resolved "https://registry.yarnpkg.com/@oriflame/config-typescript/-/config-typescript-1.1.5.tgz#d917087032f4d9ab546cd2d3d2d08091a8a7e056"
+  integrity sha512-nBdX7o1crHpy7Y74j9XXiKD2fCRApyGExuZs/o212C4Kqqi4m+4qm/L7q3oTiAvEBhgMAAUhoSrVFlSkB8884w==
   dependencies:
     "@beemo/core" "^1.1.8"
     "@beemo/driver-typescript" "^1.4.1"
-    "@oriflame/lumos-common" "^2.1.1"
+    "@oriflame/lumos-common" "^2.3.0"
     typescript "^4.1.2"
 
-"@oriflame/lumos-common@^2.1.0", "@oriflame/lumos-common@^2.1.1", "@oriflame/lumos-common@^2.3.0":
+"@oriflame/lumos-common@^2.1.0", "@oriflame/lumos-common@^2.3.0":
   version "2.3.0"
   resolved "https://registry.yarnpkg.com/@oriflame/lumos-common/-/lumos-common-2.3.0.tgz#9d5e2d2feb89329a4690d630c7f401756bcad323"
   integrity sha512-Al3dxQfgEnK4Bofy59yH3qg0VshJHJCzj3USC7bAf8wrQ0cJ4BthUi13lv1UyMZXVJrm+RnIhp3GsC1ME3RGtg==
@@ -4705,7 +4705,7 @@ create-error-class@^3.0.0:
   dependencies:
     capture-stack-trace "^1.0.0"
 
-cross-env@^7.0.2, cross-env@^7.0.3:
+cross-env@^7.0.3:
   version "7.0.3"
   resolved "https://registry.yarnpkg.com/cross-env/-/cross-env-7.0.3.tgz#865264b29677dc015ba8418918965dd232fc54cf"
   integrity sha512-+/HKd6EgcQCJGh2PSjZuUitQBQynKor4wrFbRg4DtAgS1aWO+gU52xpH7M9ScGgXSYmAVS9bIJ8EzuaGw0oNAw==
