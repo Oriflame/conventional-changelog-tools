@@ -2658,10 +2658,10 @@
     babel-plugin-typescript-to-proptypes "^1.4.2"
     react-refresh "^0.9.0"
 
-"@oriflame/config-danger@1.0.11":
-  version "1.0.11"
-  resolved "https://registry.yarnpkg.com/@oriflame/config-danger/-/config-danger-1.0.11.tgz#c1cad92c7dc510d5821ba0674cc53913483af4f7"
-  integrity sha512-NSO4OqVhuw06uEkOKoTKHQ7Dtb0d9xVPEGLmzvSkMhGx86UlRByXYR9ph81Nn9iMyKAYjQvbzQbIid7BkHtD9w==
+"@oriflame/config-danger@1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@oriflame/config-danger/-/config-danger-1.1.0.tgz#df793e4d435c5f98a0cf9076b5da4f857c6ff1a9"
+  integrity sha512-vhaGiLwhnF9zddO2no5rLthCCyCXbAlcAtjLfHtAbcdeGIbcJoT2WsJTU/TcrLyqOs4OrkilbCC82NSD+fSIkw==
   dependencies:
     "@oriflame/conventional-changelog" "^1.0.6"
     danger "^10.5.4"
