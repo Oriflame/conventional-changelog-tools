@@ -2741,10 +2741,10 @@
     execa "^5.0.0"
     fast-glob "^3.2.4"
 
-"@oriflame/lumos@^2.3.3":
-  version "2.3.3"
-  resolved "https://registry.yarnpkg.com/@oriflame/lumos/-/lumos-2.3.3.tgz#cab9d6eb2ed852138e78b01ad16cba57d9a87a35"
-  integrity sha512-DufTuafgj/Tj2kya0WbDMpH0q/Njg9WWXsh5EDlJ8lsEBSabIVO8N5loqOaHcAci+Up7ACQKC8wtGfSLqQpbAw==
+"@oriflame/lumos@^2.3.5":
+  version "2.3.5"
+  resolved "https://registry.yarnpkg.com/@oriflame/lumos/-/lumos-2.3.5.tgz#9da9dc4905149f3a8d3cb21349425e0900fb89a2"
+  integrity sha512-FEVAgTtQDSmCHNEIMyubC2iX3LuGRBSzNfEXW+kIp1tH2bdrlVDP8rlGQz7Ed+hwp0QhvZfjdFbq9/dhJsB0BQ==
   dependencies:
     "@actions/core" "^1.2.6"
     "@actions/github" "^4.0.0"
@@ -4705,7 +4705,7 @@ create-error-class@^3.0.0:
   dependencies:
     capture-stack-trace "^1.0.0"
 
-cross-env@^7.0.2, cross-env@^7.0.3:
+cross-env@^7.0.3:
   version "7.0.3"
   resolved "https://registry.yarnpkg.com/cross-env/-/cross-env-7.0.3.tgz#865264b29677dc015ba8418918965dd232fc54cf"
   integrity sha512-+/HKd6EgcQCJGh2PSjZuUitQBQynKor4wrFbRg4DtAgS1aWO+gU52xpH7M9ScGgXSYmAVS9bIJ8EzuaGw0oNAw==
