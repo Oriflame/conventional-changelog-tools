@@ -2658,10 +2658,10 @@
     babel-plugin-typescript-to-proptypes "^1.4.2"
     react-refresh "^0.9.0"
 
-"@oriflame/config-danger@1.1.0":
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/@oriflame/config-danger/-/config-danger-1.1.0.tgz#df793e4d435c5f98a0cf9076b5da4f857c6ff1a9"
-  integrity sha512-vhaGiLwhnF9zddO2no5rLthCCyCXbAlcAtjLfHtAbcdeGIbcJoT2WsJTU/TcrLyqOs4OrkilbCC82NSD+fSIkw==
+"@oriflame/config-danger@1.1.1":
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/@oriflame/config-danger/-/config-danger-1.1.1.tgz#92323d6cb397ee23c6e2aa87f180b08801d8f32d"
+  integrity sha512-Ryy/cDoCbzzvFy2XOgX5WkKi3wLs1JQn3oJ48t1tEq94hHQdgCx5kZfS3vdaBmqFnsYxMBfqeR8KgCM5FKE5zw==
   dependencies:
     "@oriflame/conventional-changelog" "^1.0.6"
     danger "^10.5.4"
@@ -4705,7 +4705,7 @@ create-error-class@^3.0.0:
   dependencies:
     capture-stack-trace "^1.0.0"
 
-cross-env@^7.0.2, cross-env@^7.0.3:
+cross-env@^7.0.3:
   version "7.0.3"
   resolved "https://registry.yarnpkg.com/cross-env/-/cross-env-7.0.3.tgz#865264b29677dc015ba8418918965dd232fc54cf"
   integrity sha512-+/HKd6EgcQCJGh2PSjZuUitQBQynKor4wrFbRg4DtAgS1aWO+gU52xpH7M9ScGgXSYmAVS9bIJ8EzuaGw0oNAw==
