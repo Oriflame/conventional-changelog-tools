@@ -2691,10 +2691,10 @@
     eslint-plugin-testing-library "^3.10.1"
     eslint-plugin-unicorn "^23.0.0"
 
-"@oriflame/config-jest@^1.1.2":
-  version "1.1.2"
-  resolved "https://registry.yarnpkg.com/@oriflame/config-jest/-/config-jest-1.1.2.tgz#dab5fb53a019c6219033e6e0cf4b6af03ed7cd0b"
-  integrity sha512-+pp+ildFCyJgMQuIVLzKA60euN0GeeHfQiBme66FngVFszsmykm6gu0akvQw5jvKHl8DfUyEayZAPvmIhTwO9g==
+"@oriflame/config-jest@^1.1.5":
+  version "1.1.5"
+  resolved "https://registry.yarnpkg.com/@oriflame/config-jest/-/config-jest-1.1.5.tgz#4809a76b0475537a626109c3258233f2cff56f9c"
+  integrity sha512-RDPnyMwck2mjWrY6IBq0ASdgB4slfTsdtF4Gy+LT68F/u7w2YfkDfr5PhSnprtVnaBp5XfIg3bOuDJhnqO239g==
   dependencies:
     "@babel/core" "^7.12.9"
     "@beemo/core" "^1.1.8"
@@ -2702,7 +2702,7 @@
     "@beemo/driver-jest" "^1.2.3"
     "@oriflame/lumos-common" "^2.3.0"
     "@testing-library/jest-dom" "^5.11.6"
-    "@types/jest" "^26.0.16"
+    "@types/jest" "^26.0.19"
     airbnb-js-shims "^2.2.1"
     cross-env "^7.0.3"
     dom-storage "^2.1.0"
@@ -2976,10 +2976,10 @@
   dependencies:
     "@types/istanbul-lib-report" "*"
 
-"@types/jest@*", "@types/jest@^26.0.16":
-  version "26.0.16"
-  resolved "https://registry.yarnpkg.com/@types/jest/-/jest-26.0.16.tgz#b47abd50f6ed0503f589db8e126fc8eb470cf87c"
-  integrity sha512-Gp12+7tmKCgv9JjtltxUXokohCAEZfpJaEW5tn871SGRp8I+bRWBonQO7vW5NHwnAHe5dd50+Q4zyKuN35i09g==
+"@types/jest@*", "@types/jest@^26.0.19":
+  version "26.0.19"
+  resolved "https://registry.yarnpkg.com/@types/jest/-/jest-26.0.19.tgz#e6fa1e3def5842ec85045bd5210e9bb8289de790"
+  integrity sha512-jqHoirTG61fee6v6rwbnEuKhpSKih0tuhqeFbCmMmErhtu3BYlOZaXWjffgOstMM4S/3iQD31lI5bGLTrs97yQ==
   dependencies:
     jest-diff "^26.0.0"
     pretty-format "^26.0.0"

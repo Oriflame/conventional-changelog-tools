@@ -44,7 +44,7 @@
     "@oriflame/config-babel": "^1.0.15",
     "@oriflame/config-danger": "1.1.0",
     "@oriflame/config-eslint": "^1.1.4",
-    "@oriflame/config-jest": "^1.1.2",
+    "@oriflame/config-jest": "^1.1.5",
     "@oriflame/config-prettier": "^1.0.9",
     "@oriflame/config-typescript": "^1.1.2",
     "@oriflame/lumos": "^2.3.3",
