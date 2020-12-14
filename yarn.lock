@@ -2721,17 +2721,17 @@
     "@oriflame/lumos-common" "^2.1.0"
     prettier "^2.2.0"
 
-"@oriflame/config-typescript@^1.1.2":
-  version "1.1.2"
-  resolved "https://registry.yarnpkg.com/@oriflame/config-typescript/-/config-typescript-1.1.2.tgz#9a2b0395213e9716e6b819ca53e4101d7bb20558"
-  integrity sha512-m0b2oNOeYFwtB9M5LqMy+nftB7o7+c26p4LnAS/AOC99wt7JNujX/Jm3Quf92HUdgtUUCiduzcOEzV54mv2wRg==
+"@oriflame/config-typescript@^1.1.6":
+  version "1.1.6"
+  resolved "https://registry.yarnpkg.com/@oriflame/config-typescript/-/config-typescript-1.1.6.tgz#a725fd3353754a132132fcb971b1fc85eb95ee53"
+  integrity sha512-b1y8A/PLkaaCTuZzQGyndUUAG4bjMD8Kq6qBIFLyUin+S6X320CFpw46DhLlwzlvRapNqMJp41Z7h5M0tnm6wQ==
   dependencies:
     "@beemo/core" "^1.1.8"
     "@beemo/driver-typescript" "^1.4.1"
-    "@oriflame/lumos-common" "^2.1.1"
-    typescript "^4.1.2"
+    "@oriflame/lumos-common" "^2.3.0"
+    typescript "^4.1.3"
 
-"@oriflame/lumos-common@^2.1.0", "@oriflame/lumos-common@^2.1.1", "@oriflame/lumos-common@^2.3.0":
+"@oriflame/lumos-common@^2.1.0", "@oriflame/lumos-common@^2.3.0":
   version "2.3.0"
   resolved "https://registry.yarnpkg.com/@oriflame/lumos-common/-/lumos-common-2.3.0.tgz#9d5e2d2feb89329a4690d630c7f401756bcad323"
   integrity sha512-Al3dxQfgEnK4Bofy59yH3qg0VshJHJCzj3USC7bAf8wrQ0cJ4BthUi13lv1UyMZXVJrm+RnIhp3GsC1ME3RGtg==
@@ -12044,10 +12044,10 @@ typedarray@^0.0.6:
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
 
-typescript@^4.1.2:
-  version "4.1.2"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.1.2.tgz#6369ef22516fe5e10304aae5a5c4862db55380e9"
-  integrity sha512-thGloWsGH3SOxv1SoY7QojKi0tc+8FnOmiarEGMbd/lar7QOEd3hvlx3Fp5y6FlDUGl9L+pd4n2e+oToGMmhRQ==
+typescript@^4.1.3:
+  version "4.1.3"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.1.3.tgz#519d582bd94cba0cf8934c7d8e8467e473f53bb7"
+  integrity sha512-B3ZIOf1IKeH2ixgHhj6la6xdwR9QrLC5d1VKeCSY4tvkqhF2eqd9O7txNlS0PO3GrBAFIdr3L1ndNwteUbZLYg==
 
 uglify-js@^3.1.4:
   version "3.11.4"
