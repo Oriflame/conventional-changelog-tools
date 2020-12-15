@@ -2741,10 +2741,10 @@
     execa "^5.0.0"
     fast-glob "^3.2.4"
 
-"@oriflame/lumos@^2.3.3":
-  version "2.3.3"
-  resolved "https://registry.yarnpkg.com/@oriflame/lumos/-/lumos-2.3.3.tgz#cab9d6eb2ed852138e78b01ad16cba57d9a87a35"
-  integrity sha512-DufTuafgj/Tj2kya0WbDMpH0q/Njg9WWXsh5EDlJ8lsEBSabIVO8N5loqOaHcAci+Up7ACQKC8wtGfSLqQpbAw==
+"@oriflame/lumos@^2.3.10":
+  version "2.3.10"
+  resolved "https://registry.yarnpkg.com/@oriflame/lumos/-/lumos-2.3.10.tgz#aa0b79b1c6e341f91a7c4085a4d8c5a8542bacd7"
+  integrity sha512-h2qrACZ6iSNmWlMypYJ+loo9vriMY8zPsYhJq1QMCKPtNCgsnvZ9ZnqTAmHEthP3Kxua/p0hMgCY9Q5O1Q2DzA==
   dependencies:
     "@actions/core" "^1.2.6"
     "@actions/github" "^4.0.0"
