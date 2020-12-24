@@ -66,7 +66,7 @@ function createLink(paths: string[], context: Context, reference: Partial<Refere
     'blob',
     // bitbucket
     'src',
-  ].forEach(browsePart => {
+  ].forEach((browsePart) => {
     if (base.includes(`/${browsePart}/`)) {
       [base] = base.split(`/${browsePart}/`);
     }
@@ -138,7 +138,7 @@ const options: Partial<WriterOptions> = {
     // Pre-generate links instead of doing it in handlebars
     commit.hashLink = createLink([context.commit, commit.hash], context);
 
-    commit.references.forEach(reference => {
+    commit.references.forEach((reference) => {
       reference.issueLink = createLink([context.issue, reference.issue], context, reference);
 
       let source = `${reference.repository ?? ''}#${reference.issue}`;
@@ -154,7 +154,7 @@ const options: Partial<WriterOptions> = {
     if (context.host) {
       commit.message = commit.message.replace(
         /\B@([a-z0-9](?:-?[a-z0-9/]){0,38})/gu,
-        (match, username, index) => {
+        (match, username: string, index) => {
           if (
             username.includes('/') ||
             // Avoid when wrapped in backticks (inline code)
