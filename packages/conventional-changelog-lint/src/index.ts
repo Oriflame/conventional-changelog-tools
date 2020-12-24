@@ -11,6 +11,6 @@ export = {
     'scope-case': [0, 'never', 'start-case'],
     'subject-full-stop': [2, 'always', '.'],
     'subject-case': [2, 'always', 'sentence-case'],
-    'type-enum': [2, 'always', GROUPS.flatMap(current => current.types)],
+    'type-enum': [2, 'always', GROUPS.flatMap((current) => current.types)],
   },
 };

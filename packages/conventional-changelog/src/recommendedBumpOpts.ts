@@ -12,7 +12,7 @@ const options: BumpOptions = {
     let features = 0;
     let fixes = 0;
 
-    commits.forEach(commit => {
+    commits.forEach((commit) => {
       let group: Group;
 
       try {
