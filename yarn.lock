@@ -2819,10 +2819,10 @@
     execa "^5.0.0"
     fast-glob "^3.2.4"
 
-"@oriflame/lumos@^2.3.20":
-  version "2.3.20"
-  resolved "https://registry.yarnpkg.com/@oriflame/lumos/-/lumos-2.3.20.tgz#8cce7c4f5a805213e6d051419a10b674b274fd1a"
-  integrity sha512-aXTe/b7wgEe6n3A94F6GcJeNN/iGt7u2qRJtShzQKf9anBOcIrFrQ5UqLz/pghVUiRWTRsN/SbBrsPjm9h7DCg==
+"@oriflame/lumos@^2.3.25":
+  version "2.3.25"
+  resolved "https://registry.yarnpkg.com/@oriflame/lumos/-/lumos-2.3.25.tgz#d5f99393b31e3b98b320a219bbeb08b3c783531f"
+  integrity sha512-WNk/8NLChdqU/RGRpcnfoTU49Nk/5WJHOoggRz8kcI03kWc3eQhpcogz1QSDL9uZCfA6JlcC6uQfAQdOta+ecw==
   dependencies:
     "@actions/core" "^1.2.6"
     "@actions/github" "^4.0.0"
