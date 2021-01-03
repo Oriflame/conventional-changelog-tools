@@ -2819,16 +2819,16 @@
     execa "^5.0.0"
     fast-glob "^3.2.4"
 
-"@oriflame/lumos@^2.3.20":
-  version "2.3.20"
-  resolved "https://registry.yarnpkg.com/@oriflame/lumos/-/lumos-2.3.20.tgz#8cce7c4f5a805213e6d051419a10b674b274fd1a"
-  integrity sha512-aXTe/b7wgEe6n3A94F6GcJeNN/iGt7u2qRJtShzQKf9anBOcIrFrQ5UqLz/pghVUiRWTRsN/SbBrsPjm9h7DCg==
+"@oriflame/lumos@^2.3.28":
+  version "2.3.28"
+  resolved "https://registry.yarnpkg.com/@oriflame/lumos/-/lumos-2.3.28.tgz#b83338e6d8e5feb0664248e4589cb206781922ee"
+  integrity sha512-KHk/LkLpP4hpD9EIDuroXgmILnvVWRA13TM0Y7vkVjNLR4aP3W3YH/RLplCi5unqKlzVoEUktLcpfswRWzBZ0Q==
   dependencies:
     "@actions/core" "^1.2.6"
     "@actions/github" "^4.0.0"
     "@beemo/cli" "^1.0.11"
     "@beemo/core" "^1.1.8"
-    "@oriflame/conventional-changelog" "^1.0.7"
+    "@oriflame/conventional-changelog" "^1.0.8"
     "@oriflame/lumos-common" "^2.3.0"
     chalk "^4.1.0"
     check-node-version "^4.0.3"
