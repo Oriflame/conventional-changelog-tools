@@ -801,21 +801,12 @@
   dependencies:
     "@babel/helper-plugin-utils" "^7.10.4"
 
-"@babel/plugin-transform-react-jsx-development@^7.12.12":
+"@babel/plugin-transform-react-jsx-development@^7.12.12", "@babel/plugin-transform-react-jsx-development@^7.12.7":
   version "7.12.12"
   resolved "https://registry.yarnpkg.com/@babel/plugin-transform-react-jsx-development/-/plugin-transform-react-jsx-development-7.12.12.tgz#bccca33108fe99d95d7f9e82046bfe762e71f4e7"
   integrity sha512-i1AxnKxHeMxUaWVXQOSIco4tvVvvCxMSfeBMnMM06mpaJt3g+MpxYQQrDfojUQldP1xxraPSJYSMEljoWM/dCg==
   dependencies:
     "@babel/plugin-transform-react-jsx" "^7.12.12"
-
-"@babel/plugin-transform-react-jsx-development@^7.12.7":
-  version "7.12.11"
-  resolved "https://registry.yarnpkg.com/@babel/plugin-transform-react-jsx-development/-/plugin-transform-react-jsx-development-7.12.11.tgz#078aa7e1f5f75a68ee9598ebed90000fcb11092f"
-  integrity sha512-5MvsGschXeXJsbzQGR/BH89ATMzCsM7rx95n+R7/852cGoK2JgMbacDw/A9Pmrfex4tArdMab0L5SBV4SB/Nxg==
-  dependencies:
-    "@babel/helper-builder-react-jsx-experimental" "^7.12.11"
-    "@babel/helper-plugin-utils" "^7.10.4"
-    "@babel/plugin-syntax-jsx" "^7.12.1"
 
 "@babel/plugin-transform-react-jsx-self@^7.12.1":
   version "7.12.1"
@@ -2709,10 +2700,10 @@
   dependencies:
     "@types/node" ">= 8"
 
-"@oriflame/config-babel@^1.0.21":
-  version "1.0.21"
-  resolved "https://registry.yarnpkg.com/@oriflame/config-babel/-/config-babel-1.0.21.tgz#b32c1df01b2d248449c5c0e34c40549236e398b3"
-  integrity sha512-oVRqYWGqQlieO/gM/fhzKlpG+v313DxbH0noA3yBhDu1atuER7McRPeRxONt1gGtJmE+Hmvm77mJTKQt/SNN3g==
+"@oriflame/config-babel@^1.0.22":
+  version "1.0.22"
+  resolved "https://registry.yarnpkg.com/@oriflame/config-babel/-/config-babel-1.0.22.tgz#96f93e59e4a4949773e351d6163e793accd381c5"
+  integrity sha512-dHUWKLBWmKBxwUSSAMKP/LCDhbH+LkqP6E62BxCKlODOlUnw63hBGOBeLg02/1j77XSJ0K7gtoeXXYN6SsoE8A==
   dependencies:
     "@babel/cli" "^7.12.10"
     "@babel/core" "^7.12.10"
@@ -2727,7 +2718,7 @@
     "@babel/preset-typescript" "^7.12.7"
     "@beemo/core" "^1.1.8"
     "@beemo/driver-babel" "^1.2.6"
-    "@oriflame/lumos-common" "^2.3.0"
+    "@oriflame/lumos-common" "^2.4.0"
     babel-plugin-graphql-tag "^3.1.0"
     babel-plugin-module-resolver "^4.1.0"
     babel-plugin-optimize-clsx "^2.6.1"
@@ -2809,10 +2800,10 @@
     "@oriflame/lumos-common" "^2.3.0"
     typescript "^4.1.3"
 
-"@oriflame/lumos-common@^2.3.0":
-  version "2.3.0"
-  resolved "https://registry.yarnpkg.com/@oriflame/lumos-common/-/lumos-common-2.3.0.tgz#9d5e2d2feb89329a4690d630c7f401756bcad323"
-  integrity sha512-Al3dxQfgEnK4Bofy59yH3qg0VshJHJCzj3USC7bAf8wrQ0cJ4BthUi13lv1UyMZXVJrm+RnIhp3GsC1ME3RGtg==
+"@oriflame/lumos-common@^2.3.0", "@oriflame/lumos-common@^2.4.0":
+  version "2.4.0"
+  resolved "https://registry.yarnpkg.com/@oriflame/lumos-common/-/lumos-common-2.4.0.tgz#7979a508667f752aa42485a3c3e0b10ddc3ebc1e"
+  integrity sha512-coZd9E1KEVXzjcye5Vc0Ulh/RCM3n2v6HFZMeY9bRi9HDrotUhAGxl/8ZHCkkq4jhGmrV1taCggnGHxPXbQSNw==
   dependencies:
     "@beemo/core" "^1.1.8"
     "@boost/common" "^2.4.1"
