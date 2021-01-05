@@ -2799,20 +2799,20 @@
     "@oriflame/lumos-common" "^2.3.0"
     prettier "^2.2.1"
 
-"@oriflame/config-typescript@^1.1.6":
-  version "1.1.6"
-  resolved "https://registry.yarnpkg.com/@oriflame/config-typescript/-/config-typescript-1.1.6.tgz#a725fd3353754a132132fcb971b1fc85eb95ee53"
-  integrity sha512-b1y8A/PLkaaCTuZzQGyndUUAG4bjMD8Kq6qBIFLyUin+S6X320CFpw46DhLlwzlvRapNqMJp41Z7h5M0tnm6wQ==
+"@oriflame/config-typescript@^1.1.7":
+  version "1.1.7"
+  resolved "https://registry.yarnpkg.com/@oriflame/config-typescript/-/config-typescript-1.1.7.tgz#7c6a124002926e41c0f2592da48d756c736ee64a"
+  integrity sha512-R+MbpQ2/iL8LopjlQcCy6Q/ZfVGUJSlK7TIor2fRdvTtHSGxJkfrCmFDfUc57BWCf69vj8uR82bHc1iuv+NRUw==
   dependencies:
     "@beemo/core" "^1.1.8"
     "@beemo/driver-typescript" "^1.4.1"
-    "@oriflame/lumos-common" "^2.3.0"
+    "@oriflame/lumos-common" "^2.4.0"
     typescript "^4.1.3"
 
-"@oriflame/lumos-common@^2.3.0":
-  version "2.3.0"
-  resolved "https://registry.yarnpkg.com/@oriflame/lumos-common/-/lumos-common-2.3.0.tgz#9d5e2d2feb89329a4690d630c7f401756bcad323"
-  integrity sha512-Al3dxQfgEnK4Bofy59yH3qg0VshJHJCzj3USC7bAf8wrQ0cJ4BthUi13lv1UyMZXVJrm+RnIhp3GsC1ME3RGtg==
+"@oriflame/lumos-common@^2.3.0", "@oriflame/lumos-common@^2.4.0":
+  version "2.4.0"
+  resolved "https://registry.yarnpkg.com/@oriflame/lumos-common/-/lumos-common-2.4.0.tgz#7979a508667f752aa42485a3c3e0b10ddc3ebc1e"
+  integrity sha512-coZd9E1KEVXzjcye5Vc0Ulh/RCM3n2v6HFZMeY9bRi9HDrotUhAGxl/8ZHCkkq4jhGmrV1taCggnGHxPXbQSNw==
   dependencies:
     "@beemo/core" "^1.1.8"
     "@boost/common" "^2.4.1"
