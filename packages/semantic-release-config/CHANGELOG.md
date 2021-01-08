@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 2.0.0 - 2021-01-08
+
+#### 💥 Breaking
+
+- Change behavior of generating changelog and releases to git. ([ffaf52f](https://github.com/Oriflame/conventional-changelog-tools/commit/ffaf52f))
+
+**Note:** Version bump only for package @oriflame/semantic-release-config
+
+
+
+
+
 ### 1.0.12 - 2021-01-08
 
 #### 🐞 Fixes
