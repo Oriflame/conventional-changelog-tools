@@ -1,6 +1,6 @@
 {
   "name": "@oriflame/conventional-changelog",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "Conventional changelog preset for oriflame and associated projects.",
   "keywords": [
     "conventional-changelog",

@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 1.0.12 - 2021-01-08
+
+#### 🐞 Fixes
+
+- Remove release notes from semantic release config. (#294) ([66291f5](https://github.com/Oriflame/conventional-changelog-tools/commit/66291f5)), closes [#294](https://github.com/Oriflame/conventional-changelog-tools/issues/294)
+
+**Note:** Version bump only for package @oriflame/semantic-release-config
+
+
+
+
+
 ### 1.0.11 - 2021-01-01
 
 **Note:** Version bump only for package @oriflame/semantic-release-config
