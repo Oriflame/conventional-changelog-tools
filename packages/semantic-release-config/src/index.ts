@@ -43,7 +43,7 @@ const config: SemanticReleaseConfig = {
     [
       '@semantic-release/git',
       {
-        message: 'ci(release): V${nextRelease.version} [ci skip].\n\n${nextRelease.notes}',
+        message: 'ci(release): V${nextRelease.version} [ci skip].',
       },
     ],
   ],
