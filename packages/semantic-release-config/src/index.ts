@@ -6,6 +6,8 @@
 
 import { SemanticReleaseConfig } from './types';
 
+const branchName = process.env.BUILD_SOURCEBRANCHNAME;
+
 const config: SemanticReleaseConfig = {
   plugins: [
     [
@@ -38,15 +40,24 @@ const config: SemanticReleaseConfig = {
         config: '@oriflame/conventional-changelog',
       },
     ],
-    '@semantic-release/changelog',
     '@semantic-release/npm',
-    [
-      '@semantic-release/git',
-      {
-        message: 'ci(release): V${nextRelease.version} [ci skip].',
-      },
-    ],
   ],
 };
+
+const generateChangelog = config.branches?.some((branch) => {
+  if (typeof branch === 'string') {
+    return branch === branchName;
+  }
+  return branch.name === branchName && !branch.prerelease;
+});
+
+if (generateChangelog) {
+  config?.plugins?.push('@semantic-release/changelog', [
+    '@semantic-release/git',
+    {
+      message: 'ci(release): V${nextRelease.version} [ci skip].',
+    },
+  ]);
+}
 
 export = config;
