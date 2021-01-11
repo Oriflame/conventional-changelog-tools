@@ -2744,10 +2744,10 @@
     "@oriflame/conventional-changelog" "^1.0.8"
     danger "^10.6.0"
 
-"@oriflame/config-eslint@^2.0.3":
-  version "2.0.3"
-  resolved "https://registry.yarnpkg.com/@oriflame/config-eslint/-/config-eslint-2.0.3.tgz#370722ef3b9aee20e570dabd9e2168891c57df0f"
-  integrity sha512-Wc5W0qL4MQQJ5/N0D8f/DlyalX0wtrk3x4si2TH6ZQoXqisEVmSkQxpiXam7ejuRXpb4UxTwgQlcAUcpxP/ohw==
+"@oriflame/config-eslint@^2.0.4":
+  version "2.0.4"
+  resolved "https://registry.yarnpkg.com/@oriflame/config-eslint/-/config-eslint-2.0.4.tgz#8b24df746db139c39543a9542851c79ff694a792"
+  integrity sha512-jQWRm9T+79FknOhhT8bXi6cdQlwJ5bjlx2IJojVYCTCAYMFShXTkY7iqgsjnAiHS/4HZQ5xyK1wbAFeWefAXDg==
   dependencies:
     "@beemo/core" "^1.1.8"
     "@beemo/driver-eslint" "^1.2.3"
