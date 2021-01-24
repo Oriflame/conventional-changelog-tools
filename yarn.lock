@@ -1268,13 +1268,13 @@
     pretty-ms "^5.1.0"
     yaml "^1.9.2"
 
-"@boost/common@^2.4.1":
-  version "2.4.1"
-  resolved "https://registry.yarnpkg.com/@boost/common/-/common-2.4.1.tgz#4294d5d45a3b30afa6b4fa471c34d393a2fdf701"
-  integrity sha512-CMkbTqYWU7p5Gi0hUA734ZE5XvlXXFVivOsbprtEG3//mF+CVEF6v/Hagk5lp/B7z1B4CyVMYzqSB0ts4oQ7mA==
+"@boost/common@^2.5.0":
+  version "2.5.0"
+  resolved "https://registry.yarnpkg.com/@boost/common/-/common-2.5.0.tgz#963e38ab78bcdfeb5b6f434f03edbb3d5aea5f34"
+  integrity sha512-1yTR4/JFEy/NUfp9O6+KROWlK+d4oZDt95nPb1YEiN0vgo7sTYE92kYl9UoCD75HMoOoMdeIDDI4cp/yn+29YQ==
   dependencies:
-    "@boost/decorators" "^2.0.0"
-    "@boost/internal" "^2.1.2"
+    "@boost/decorators" "^2.1.0"
+    "@boost/internal" "^2.2.0"
     fast-glob "^3.2.4"
     json5 "^2.1.3"
     optimal "^4.2.0"
@@ -1321,10 +1321,10 @@
     execa "^3.4.0"
     fast-glob "^3.2.2"
 
-"@boost/decorators@^2.0.0":
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/@boost/decorators/-/decorators-2.0.0.tgz#2831ccabf576fc626803e0a06e6bcbb9992ce711"
-  integrity sha512-T+3O+nidXjo6983KZVCgeLrhwh26Ki0gz7ZWV66xl4noOminiTBxGBNyfIJGNu9CbLKq8iA7g7KVGeMxMdbV9Q==
+"@boost/decorators@^2.1.0":
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/@boost/decorators/-/decorators-2.1.0.tgz#644b0d2175cb1e4120048cbe448764aec22e1836"
+  integrity sha512-cnd/E51wCO7xDfK7EQvUtzGP8+a7fFz7GXxU3LtHCIejqtI8BENf7Fvhr82jsSsOCNK515a/05FeJBJQBNylfw==
 
 "@boost/event@^1.3.1":
   version "1.3.1"
@@ -1341,10 +1341,10 @@
     chalk "^3.0.0"
     debug "^4.1.1"
 
-"@boost/internal@^2.1.2":
-  version "2.1.2"
-  resolved "https://registry.yarnpkg.com/@boost/internal/-/internal-2.1.2.tgz#2db512142e7487a2f346404fd3f714f4f2c38e6f"
-  integrity sha512-mECFtFJMHp6g10vJ25cx9utlIlrmtRZ72IlO6PQPPO+0Pldtnp/tQiEDjmp4g0l7S+wO8UxYrG30dEWqAIhclA==
+"@boost/internal@^2.2.0":
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/@boost/internal/-/internal-2.2.0.tgz#032fd689b48f9c439cf10eebc3fbd20bf9d07a62"
+  integrity sha512-ROxYncJERvEYnPrXZB+rSzdfyqYyYDMcOmQhgRytlT3wcWKlxENcsCiMpbWvA85dSmid3PCEsoISxSLv/ESTsA==
   dependencies:
     debug "^4.3.1"
 
@@ -2809,27 +2809,27 @@
     "@oriflame/lumos-common" "^2.4.0"
     typescript "^4.1.3"
 
-"@oriflame/lumos-common@^2.4.0":
-  version "2.4.0"
-  resolved "https://registry.yarnpkg.com/@oriflame/lumos-common/-/lumos-common-2.4.0.tgz#7979a508667f752aa42485a3c3e0b10ddc3ebc1e"
-  integrity sha512-coZd9E1KEVXzjcye5Vc0Ulh/RCM3n2v6HFZMeY9bRi9HDrotUhAGxl/8ZHCkkq4jhGmrV1taCggnGHxPXbQSNw==
+"@oriflame/lumos-common@^2.4.0", "@oriflame/lumos-common@^2.4.1":
+  version "2.4.1"
+  resolved "https://registry.yarnpkg.com/@oriflame/lumos-common/-/lumos-common-2.4.1.tgz#17474fae9d798773aa6af240f872c82cdd40314e"
+  integrity sha512-aGx9YNFi828puOZD7jdFMfSapqGbQqJPk9VTAB7yhJHGYiw9dnpXMDJUKDKqvf9kAWgDc7/mN59dlbsVyDSh5g==
   dependencies:
     "@beemo/core" "^1.1.8"
-    "@boost/common" "^2.4.1"
+    "@boost/common" "^2.5.0"
     execa "^5.0.0"
-    fast-glob "^3.2.4"
+    fast-glob "^3.2.5"
 
-"@oriflame/lumos@^2.4.0":
-  version "2.4.0"
-  resolved "https://registry.yarnpkg.com/@oriflame/lumos/-/lumos-2.4.0.tgz#0f9766778c54c57b62e5f296a08664e3b2261c38"
-  integrity sha512-ivXSD3EjUl9HlsE69ZjKj1DgyfbxqKu0K1FE0YiTyUvjQPAw2VWQpfFd613xHd7DHXx60KWTIlFcs9xQt87URw==
+"@oriflame/lumos@^2.4.11":
+  version "2.4.11"
+  resolved "https://registry.yarnpkg.com/@oriflame/lumos/-/lumos-2.4.11.tgz#2c3730788c934cbb4de3107b8b72c5a198cd43f0"
+  integrity sha512-qI1khDl7Fch+Ep6jo7gpCxzeS0xo/XSk8m65BhLaXI1a9/tqp4HEsWd0Yb+opqfd1gEiQxGs9SuQ9tU6kW2AcA==
   dependencies:
     "@actions/core" "^1.2.6"
     "@actions/github" "^4.0.0"
     "@beemo/cli" "^1.0.11"
     "@beemo/core" "^1.1.8"
-    "@oriflame/conventional-changelog" "^1.0.8"
-    "@oriflame/lumos-common" "^2.4.0"
+    "@oriflame/conventional-changelog" "^1.0.9"
+    "@oriflame/lumos-common" "^2.4.1"
     chalk "^4.1.0"
     check-node-version "^4.0.3"
     cross-env "^7.0.3"
@@ -5985,6 +5985,18 @@ fast-glob@^3.0.4, fast-glob@^3.1.1, fast-glob@^3.2.2, fast-glob@^3.2.4:
   version "3.2.4"
   resolved "https://registry.yarnpkg.com/fast-glob/-/fast-glob-3.2.4.tgz#d20aefbf99579383e7f3cc66529158c9b98554d3"
   integrity sha512-kr/Oo6PX51265qeuCYsyGypiO5uJFgBS0jksyG7FUeCyQzNwYnzrNIMR1NXfkZXsMYXYLRAHgISHBz8gQcxKHQ==
+  dependencies:
+    "@nodelib/fs.stat" "^2.0.2"
+    "@nodelib/fs.walk" "^1.2.3"
+    glob-parent "^5.1.0"
+    merge2 "^1.3.0"
+    micromatch "^4.0.2"
+    picomatch "^2.2.1"
+
+fast-glob@^3.2.5:
+  version "3.2.5"
+  resolved "https://registry.yarnpkg.com/fast-glob/-/fast-glob-3.2.5.tgz#7939af2a656de79a4f1901903ee8adcaa7cb9661"
+  integrity sha512-2DtFcgT68wiTTiwZ2hNdJfcHNke9XOfnwmBRWXhmeKM8rF0TGwmC/Qto3S7RoZKp5cilZbxzO5iTNTQsJ+EeDg==
   dependencies:
     "@nodelib/fs.stat" "^2.0.2"
     "@nodelib/fs.walk" "^1.2.3"
