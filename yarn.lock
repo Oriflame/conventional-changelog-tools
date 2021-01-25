@@ -801,21 +801,12 @@
   dependencies:
     "@babel/helper-plugin-utils" "^7.10.4"
 
-"@babel/plugin-transform-react-jsx-development@^7.12.12":
+"@babel/plugin-transform-react-jsx-development@^7.12.12", "@babel/plugin-transform-react-jsx-development@^7.12.7":
   version "7.12.12"
   resolved "https://registry.yarnpkg.com/@babel/plugin-transform-react-jsx-development/-/plugin-transform-react-jsx-development-7.12.12.tgz#bccca33108fe99d95d7f9e82046bfe762e71f4e7"
   integrity sha512-i1AxnKxHeMxUaWVXQOSIco4tvVvvCxMSfeBMnMM06mpaJt3g+MpxYQQrDfojUQldP1xxraPSJYSMEljoWM/dCg==
   dependencies:
     "@babel/plugin-transform-react-jsx" "^7.12.12"
-
-"@babel/plugin-transform-react-jsx-development@^7.12.7":
-  version "7.12.11"
-  resolved "https://registry.yarnpkg.com/@babel/plugin-transform-react-jsx-development/-/plugin-transform-react-jsx-development-7.12.11.tgz#078aa7e1f5f75a68ee9598ebed90000fcb11092f"
-  integrity sha512-5MvsGschXeXJsbzQGR/BH89ATMzCsM7rx95n+R7/852cGoK2JgMbacDw/A9Pmrfex4tArdMab0L5SBV4SB/Nxg==
-  dependencies:
-    "@babel/helper-builder-react-jsx-experimental" "^7.12.11"
-    "@babel/helper-plugin-utils" "^7.10.4"
-    "@babel/plugin-syntax-jsx" "^7.12.1"
 
 "@babel/plugin-transform-react-jsx-self@^7.12.1":
   version "7.12.1"
@@ -1268,13 +1259,13 @@
     pretty-ms "^5.1.0"
     yaml "^1.9.2"
 
-"@boost/common@^2.4.1":
-  version "2.4.1"
-  resolved "https://registry.yarnpkg.com/@boost/common/-/common-2.4.1.tgz#4294d5d45a3b30afa6b4fa471c34d393a2fdf701"
-  integrity sha512-CMkbTqYWU7p5Gi0hUA734ZE5XvlXXFVivOsbprtEG3//mF+CVEF6v/Hagk5lp/B7z1B4CyVMYzqSB0ts4oQ7mA==
+"@boost/common@^2.5.0":
+  version "2.5.0"
+  resolved "https://registry.yarnpkg.com/@boost/common/-/common-2.5.0.tgz#963e38ab78bcdfeb5b6f434f03edbb3d5aea5f34"
+  integrity sha512-1yTR4/JFEy/NUfp9O6+KROWlK+d4oZDt95nPb1YEiN0vgo7sTYE92kYl9UoCD75HMoOoMdeIDDI4cp/yn+29YQ==
   dependencies:
-    "@boost/decorators" "^2.0.0"
-    "@boost/internal" "^2.1.2"
+    "@boost/decorators" "^2.1.0"
+    "@boost/internal" "^2.2.0"
     fast-glob "^3.2.4"
     json5 "^2.1.3"
     optimal "^4.2.0"
@@ -1321,10 +1312,10 @@
     execa "^3.4.0"
     fast-glob "^3.2.2"
 
-"@boost/decorators@^2.0.0":
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/@boost/decorators/-/decorators-2.0.0.tgz#2831ccabf576fc626803e0a06e6bcbb9992ce711"
-  integrity sha512-T+3O+nidXjo6983KZVCgeLrhwh26Ki0gz7ZWV66xl4noOminiTBxGBNyfIJGNu9CbLKq8iA7g7KVGeMxMdbV9Q==
+"@boost/decorators@^2.1.0":
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/@boost/decorators/-/decorators-2.1.0.tgz#644b0d2175cb1e4120048cbe448764aec22e1836"
+  integrity sha512-cnd/E51wCO7xDfK7EQvUtzGP8+a7fFz7GXxU3LtHCIejqtI8BENf7Fvhr82jsSsOCNK515a/05FeJBJQBNylfw==
 
 "@boost/event@^1.3.1":
   version "1.3.1"
@@ -1341,10 +1332,10 @@
     chalk "^3.0.0"
     debug "^4.1.1"
 
-"@boost/internal@^2.1.2":
-  version "2.1.2"
-  resolved "https://registry.yarnpkg.com/@boost/internal/-/internal-2.1.2.tgz#2db512142e7487a2f346404fd3f714f4f2c38e6f"
-  integrity sha512-mECFtFJMHp6g10vJ25cx9utlIlrmtRZ72IlO6PQPPO+0Pldtnp/tQiEDjmp4g0l7S+wO8UxYrG30dEWqAIhclA==
+"@boost/internal@^2.2.0":
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/@boost/internal/-/internal-2.2.0.tgz#032fd689b48f9c439cf10eebc3fbd20bf9d07a62"
+  integrity sha512-ROxYncJERvEYnPrXZB+rSzdfyqYyYDMcOmQhgRytlT3wcWKlxENcsCiMpbWvA85dSmid3PCEsoISxSLv/ESTsA==
   dependencies:
     debug "^4.3.1"
 
@@ -2709,10 +2700,10 @@
   dependencies:
     "@types/node" ">= 8"
 
-"@oriflame/config-babel@^1.0.22":
-  version "1.0.22"
-  resolved "https://registry.yarnpkg.com/@oriflame/config-babel/-/config-babel-1.0.22.tgz#96f93e59e4a4949773e351d6163e793accd381c5"
-  integrity sha512-dHUWKLBWmKBxwUSSAMKP/LCDhbH+LkqP6E62BxCKlODOlUnw63hBGOBeLg02/1j77XSJ0K7gtoeXXYN6SsoE8A==
+"@oriflame/config-babel@^1.0.23":
+  version "1.0.23"
+  resolved "https://registry.yarnpkg.com/@oriflame/config-babel/-/config-babel-1.0.23.tgz#882723332a54592b143a5b8cbbcd53173bada6e7"
+  integrity sha512-8LAEv8xHg8dszNv50fl0xAuee+50YAM3THQdtI9nSd3M9TDGTHs4jWpDWu4OA6DyoJONNJ/w/mbB/9zqYxeFBA==
   dependencies:
     "@babel/cli" "^7.12.10"
     "@babel/core" "^7.12.10"
@@ -2727,7 +2718,7 @@
     "@babel/preset-typescript" "^7.12.7"
     "@beemo/core" "^1.1.8"
     "@beemo/driver-babel" "^1.2.6"
-    "@oriflame/lumos-common" "^2.4.0"
+    "@oriflame/lumos-common" "^2.4.1"
     babel-plugin-graphql-tag "^3.1.0"
     babel-plugin-module-resolver "^4.1.0"
     babel-plugin-optimize-clsx "^2.6.1"
@@ -2809,15 +2800,15 @@
     "@oriflame/lumos-common" "^2.4.0"
     typescript "^4.1.3"
 
-"@oriflame/lumos-common@^2.4.0":
-  version "2.4.0"
-  resolved "https://registry.yarnpkg.com/@oriflame/lumos-common/-/lumos-common-2.4.0.tgz#7979a508667f752aa42485a3c3e0b10ddc3ebc1e"
-  integrity sha512-coZd9E1KEVXzjcye5Vc0Ulh/RCM3n2v6HFZMeY9bRi9HDrotUhAGxl/8ZHCkkq4jhGmrV1taCggnGHxPXbQSNw==
+"@oriflame/lumos-common@^2.4.0", "@oriflame/lumos-common@^2.4.1":
+  version "2.4.1"
+  resolved "https://registry.yarnpkg.com/@oriflame/lumos-common/-/lumos-common-2.4.1.tgz#17474fae9d798773aa6af240f872c82cdd40314e"
+  integrity sha512-aGx9YNFi828puOZD7jdFMfSapqGbQqJPk9VTAB7yhJHGYiw9dnpXMDJUKDKqvf9kAWgDc7/mN59dlbsVyDSh5g==
   dependencies:
     "@beemo/core" "^1.1.8"
-    "@boost/common" "^2.4.1"
+    "@boost/common" "^2.5.0"
     execa "^5.0.0"
-    fast-glob "^3.2.4"
+    fast-glob "^3.2.5"
 
 "@oriflame/lumos@^2.4.0":
   version "2.4.0"
@@ -5980,6 +5971,18 @@ fast-glob@^3.0.4, fast-glob@^3.1.1, fast-glob@^3.2.2, fast-glob@^3.2.4:
   version "3.2.4"
   resolved "https://registry.yarnpkg.com/fast-glob/-/fast-glob-3.2.4.tgz#d20aefbf99579383e7f3cc66529158c9b98554d3"
   integrity sha512-kr/Oo6PX51265qeuCYsyGypiO5uJFgBS0jksyG7FUeCyQzNwYnzrNIMR1NXfkZXsMYXYLRAHgISHBz8gQcxKHQ==
+  dependencies:
+    "@nodelib/fs.stat" "^2.0.2"
+    "@nodelib/fs.walk" "^1.2.3"
+    glob-parent "^5.1.0"
+    merge2 "^1.3.0"
+    micromatch "^4.0.2"
+    picomatch "^2.2.1"
+
+fast-glob@^3.2.5:
+  version "3.2.5"
+  resolved "https://registry.yarnpkg.com/fast-glob/-/fast-glob-3.2.5.tgz#7939af2a656de79a4f1901903ee8adcaa7cb9661"
+  integrity sha512-2DtFcgT68wiTTiwZ2hNdJfcHNke9XOfnwmBRWXhmeKM8rF0TGwmC/Qto3S7RoZKp5cilZbxzO5iTNTQsJ+EeDg==
   dependencies:
     "@nodelib/fs.stat" "^2.0.2"
     "@nodelib/fs.walk" "^1.2.3"
