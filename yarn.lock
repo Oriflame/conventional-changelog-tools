@@ -1259,15 +1259,15 @@
     pretty-ms "^5.1.0"
     yaml "^1.9.2"
 
-"@boost/common@^2.5.0":
-  version "2.5.0"
-  resolved "https://registry.yarnpkg.com/@boost/common/-/common-2.5.0.tgz#963e38ab78bcdfeb5b6f434f03edbb3d5aea5f34"
-  integrity sha512-1yTR4/JFEy/NUfp9O6+KROWlK+d4oZDt95nPb1YEiN0vgo7sTYE92kYl9UoCD75HMoOoMdeIDDI4cp/yn+29YQ==
+"@boost/common@^2.5.1":
+  version "2.5.1"
+  resolved "https://registry.yarnpkg.com/@boost/common/-/common-2.5.1.tgz#460c3dc4dccf87e7555017de9af2a0b10d17e499"
+  integrity sha512-JpeyYJZhUC2B1lBtEzFljnxZPoalU9EixKcIVQtT7fTcw0Zq3Co3uYarVVCTP310NkMHbbfxUAcPn/rieJi1+w==
   dependencies:
-    "@boost/decorators" "^2.1.0"
-    "@boost/internal" "^2.2.0"
+    "@boost/decorators" "^2.1.1"
+    "@boost/internal" "^2.2.1"
     fast-glob "^3.2.4"
-    json5 "^2.1.3"
+    json5 "^2.2.0"
     optimal "^4.2.0"
     pretty-ms "^7.0.1"
     yaml "^1.10.0"
@@ -1312,10 +1312,10 @@
     execa "^3.4.0"
     fast-glob "^3.2.2"
 
-"@boost/decorators@^2.1.0":
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/@boost/decorators/-/decorators-2.1.0.tgz#644b0d2175cb1e4120048cbe448764aec22e1836"
-  integrity sha512-cnd/E51wCO7xDfK7EQvUtzGP8+a7fFz7GXxU3LtHCIejqtI8BENf7Fvhr82jsSsOCNK515a/05FeJBJQBNylfw==
+"@boost/decorators@^2.1.1":
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/@boost/decorators/-/decorators-2.1.1.tgz#2a6f2fb74bf4db7bb64fc00f0eb05ef02e947eb3"
+  integrity sha512-RacAODPQoyRkkvlhWmGteO6UzDYI9mFEst44EB+Nae3DiW+3gPmv5Pq6LfsReyT0X+j+Xqa/De6oQbblman+Sw==
 
 "@boost/event@^1.3.1":
   version "1.3.1"
@@ -1332,10 +1332,10 @@
     chalk "^3.0.0"
     debug "^4.1.1"
 
-"@boost/internal@^2.2.0":
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/@boost/internal/-/internal-2.2.0.tgz#032fd689b48f9c439cf10eebc3fbd20bf9d07a62"
-  integrity sha512-ROxYncJERvEYnPrXZB+rSzdfyqYyYDMcOmQhgRytlT3wcWKlxENcsCiMpbWvA85dSmid3PCEsoISxSLv/ESTsA==
+"@boost/internal@^2.2.1":
+  version "2.2.1"
+  resolved "https://registry.yarnpkg.com/@boost/internal/-/internal-2.2.1.tgz#73f83edf06c57790cfa2df9a0da176220ed6e447"
+  integrity sha512-5EdmMMRoZAA7cDXMHQ8S0w1sU7+0HdUemnRhFy+jJbJOtwKlU2HXdLFQKphNX3f/NFKHt14Xtt4oIDRBTMXT0g==
   dependencies:
     debug "^4.3.1"
 
@@ -2780,14 +2780,14 @@
   optionalDependencies:
     "@testing-library/react" ">=11"
 
-"@oriflame/config-prettier@^1.1.5":
-  version "1.1.5"
-  resolved "https://registry.yarnpkg.com/@oriflame/config-prettier/-/config-prettier-1.1.5.tgz#7525ff0356e8592ec878c21f6bd8e923d6fb6b48"
-  integrity sha512-TxpgpxRkY5wOeu4dvyYNP/1LMOEHpxfNkO6+GHx+VpxPvltnLWZuMzEJp6rGsuXdAqTMno5nsisi5nbTzIr21A==
+"@oriflame/config-prettier@^1.1.7":
+  version "1.1.7"
+  resolved "https://registry.yarnpkg.com/@oriflame/config-prettier/-/config-prettier-1.1.7.tgz#67ea2af49fef872975b669750ecee632f7cd3414"
+  integrity sha512-HjZgcvJX20Dw2q+77ixdih2uXGXKfsFm5OMmMRHgr+UQYxi+iNbRg1LAAAebTjh3QiN/SyVDf9EQIfIjrrs2tg==
   dependencies:
     "@beemo/core" "^1.1.8"
     "@beemo/driver-prettier" "^1.3.2"
-    "@oriflame/lumos-common" "^2.4.1"
+    "@oriflame/lumos-common" "^2.4.2"
     prettier "^2.2.1"
 
 "@oriflame/config-typescript@^1.1.8":
@@ -2800,13 +2800,13 @@
     "@oriflame/lumos-common" "^2.4.1"
     typescript "^4.1.3"
 
-"@oriflame/lumos-common@^2.4.1":
-  version "2.4.1"
-  resolved "https://registry.yarnpkg.com/@oriflame/lumos-common/-/lumos-common-2.4.1.tgz#17474fae9d798773aa6af240f872c82cdd40314e"
-  integrity sha512-aGx9YNFi828puOZD7jdFMfSapqGbQqJPk9VTAB7yhJHGYiw9dnpXMDJUKDKqvf9kAWgDc7/mN59dlbsVyDSh5g==
+"@oriflame/lumos-common@^2.4.1", "@oriflame/lumos-common@^2.4.2":
+  version "2.4.2"
+  resolved "https://registry.yarnpkg.com/@oriflame/lumos-common/-/lumos-common-2.4.2.tgz#9675205e73d5e35db7d490db180b542872d6f7e9"
+  integrity sha512-v4GOHmLn1XzXK+H2rspWiicqYkKYPsFvEugxJYgKc1UPTynqP50ZcA9uT+R2n4APx1pFqNeLyssZvBi66P60ww==
   dependencies:
     "@beemo/core" "^1.1.8"
-    "@boost/common" "^2.5.0"
+    "@boost/common" "^2.5.1"
     execa "^5.0.0"
     fast-glob "^3.2.5"
 
@@ -8021,6 +8021,13 @@ json5@^1.0.1:
   integrity sha512-aKS4WQjPenRxiQsC93MNfjx+nbF4PAdYzmd/1JIj8HYzqfbu86beTuNgXDzPknWk0n0uARlyewZo4s++ES36Ow==
   dependencies:
     minimist "^1.2.0"
+
+json5@^2.2.0:
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/json5/-/json5-2.2.0.tgz#2dfefe720c6ba525d9ebd909950f0515316c89a3"
+  integrity sha512-f+8cldu7X/y7RAJurMEJmdoKXGB/X550w2Nr3tTbezL6RwEE/iMcm+tZnXeoZtKuOq6ft8+CqzEkrIgx1fPoQA==
+  dependencies:
+    minimist "^1.2.5"
 
 jsonfile@^4.0.0:
   version "4.0.0"
