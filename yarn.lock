@@ -2727,13 +2727,13 @@
     babel-plugin-typescript-to-proptypes "^1.4.2"
     react-refresh "^0.9.0"
 
-"@oriflame/config-danger@1.1.11":
-  version "1.1.11"
-  resolved "https://registry.yarnpkg.com/@oriflame/config-danger/-/config-danger-1.1.11.tgz#3e85498a85eecad751c72019e50b4240dd57aece"
-  integrity sha512-Qyk1Xpj6EqjKs3SYIqMFCjQtUqDrJSuWMhr8q0aQJ86Esbc7RSq+ZAYCbRWWG/iSeVWSf0FFuQu4jAZka34jRg==
+"@oriflame/config-danger@1.1.14":
+  version "1.1.14"
+  resolved "https://registry.yarnpkg.com/@oriflame/config-danger/-/config-danger-1.1.14.tgz#fffe5531dbf1a10809a378c9772aec47f50e7ba9"
+  integrity sha512-OCi1/AYy59V6hq4h7Je1Cofc0whwWNpU8ENdHqp5Z5CD4wpLUBq2LfYRwIqd+FJb9XtK1OPEfNmy0U30qcP/Ug==
   dependencies:
     "@oriflame/conventional-changelog" "^1.0.9"
-    danger "^10.6.1"
+    danger "^10.6.2"
 
 "@oriflame/config-eslint@^2.0.12":
   version "2.0.12"
@@ -4875,10 +4875,10 @@ damerau-levenshtein@^1.0.6:
   resolved "https://registry.yarnpkg.com/damerau-levenshtein/-/damerau-levenshtein-1.0.6.tgz#143c1641cb3d85c60c32329e26899adea8701791"
   integrity sha512-JVrozIeElnj3QzfUIt8tB8YMluBJom4Vw9qTPpjGYQ9fYlB3D/rb6OordUxf3xeFB35LKWs0xqcO5U6ySvBtug==
 
-danger@^10.6.1:
-  version "10.6.1"
-  resolved "https://registry.yarnpkg.com/danger/-/danger-10.6.1.tgz#b19bd8f15f764b13a4bc3c1cb5b3a74e199f93c4"
-  integrity sha512-uoAhEziWafPq9oCHFFr4d3gMcAmiLaybUT73c1ZEWnATGlwPthGKDOE9DE0TNpr2yMeV9GgpruOD5URivP8LBw==
+danger@^10.6.2:
+  version "10.6.2"
+  resolved "https://registry.yarnpkg.com/danger/-/danger-10.6.2.tgz#9d5f471a33a5f092253f694ecee832b3dfbd853b"
+  integrity sha512-EVMone2dJsFzm7VbSspIsV9mOFIjLVdW7WxSO2PMnOCYYoDRKPT3mqgE8pfMWg0xclPjtfJJ7k3AZGirvNWWHQ==
   dependencies:
     "@babel/polyfill" "^7.2.5"
     "@octokit/rest" "^16.43.1"
