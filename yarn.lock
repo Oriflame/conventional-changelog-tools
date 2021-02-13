@@ -60,7 +60,7 @@
   resolved "https://registry.yarnpkg.com/@babel/compat-data/-/compat-data-7.12.13.tgz#27e19e0ed3726ccf54067ced4109501765e7e2e8"
   integrity sha512-U/hshG5R+SIoW7HVWIdmy1cB7s3ki+r3FpyEZiCgpi4tFgPnX/vynY80ZGSASOIrUM6O7VxOgCZgdt7h97bUGg==
 
-"@babel/core@^7.1.0", "@babel/core@^7.12.10", "@babel/core@^7.12.13", "@babel/core@^7.7.5":
+"@babel/core@^7.1.0", "@babel/core@^7.12.10", "@babel/core@^7.12.16", "@babel/core@^7.7.5":
   version "7.12.16"
   resolved "https://registry.yarnpkg.com/@babel/core/-/core-7.12.16.tgz#8c6ba456b23b680a6493ddcfcd9d3c3ad51cab7c"
   integrity sha512-t/hHIB504wWceOeaOoONOhu+gX+hpjfeN6YRBT209X/4sibZQfSF1I0HFRRlBe97UZZosGx5XwUg1ZgNbelmNw==
@@ -975,7 +975,7 @@
     core-js "^2.6.5"
     regenerator-runtime "^0.13.4"
 
-"@babel/preset-env@^7.12.13":
+"@babel/preset-env@^7.12.16":
   version "7.12.16"
   resolved "https://registry.yarnpkg.com/@babel/preset-env/-/preset-env-7.12.16.tgz#16710e3490e37764b2f41886de0a33bc4ae91082"
   integrity sha512-BXCAXy8RE/TzX416pD2hsVdkWo0G+tYd16pwnRV4Sc0fRwTLRS/Ssv8G5RLXUGQv7g4FG7TXkdDJxCjQ5I+Zjg==
@@ -2700,20 +2700,20 @@
   dependencies:
     "@types/node" ">= 8"
 
-"@oriflame/config-babel@^1.0.29":
-  version "1.0.29"
-  resolved "https://registry.yarnpkg.com/@oriflame/config-babel/-/config-babel-1.0.29.tgz#2fa744220051ef5de82fb7f6349b4c75e826ec96"
-  integrity sha512-o2LZMJBM7TjFq/myLA60/PJOiQLowAkXwBFBCIuI2io9aD4+Xy/xRKbG0ntYt8bFapNvTLtnOC6nmslraaRuHg==
+"@oriflame/config-babel@^1.0.31":
+  version "1.0.31"
+  resolved "https://registry.yarnpkg.com/@oriflame/config-babel/-/config-babel-1.0.31.tgz#9640d8c1b2e8bd384252696871aa9e025c107b67"
+  integrity sha512-4q7nhubrJyGXHZpCyubKL8nv72cZDHn1O219hXaEJTooamjCRIP44swkt4tZzTLjTXTsH1uWqcWKHtkmoDGqRA==
   dependencies:
     "@babel/cli" "^7.12.16"
-    "@babel/core" "^7.12.13"
+    "@babel/core" "^7.12.16"
     "@babel/plugin-proposal-decorators" "^7.12.13"
     "@babel/plugin-proposal-private-property-in-object" "^7.12.13"
     "@babel/plugin-transform-react-jsx-development" "^7.12.16"
     "@babel/plugin-transform-react-jsx-self" "^7.12.13"
     "@babel/plugin-transform-react-jsx-source" "^7.12.13"
     "@babel/plugin-transform-runtime" "^7.12.15"
-    "@babel/preset-env" "^7.12.13"
+    "@babel/preset-env" "^7.12.16"
     "@babel/preset-react" "^7.12.13"
     "@babel/preset-typescript" "^7.12.16"
     "@beemo/core" "^1.1.8"
