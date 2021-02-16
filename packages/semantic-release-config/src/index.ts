@@ -6,7 +6,8 @@
 
 import { SemanticReleaseConfig } from './types';
 
-const branchName = process.env.BUILD_SOURCEBRANCHNAME;
+// Get env variable from env
+const generateChangelog = Boolean(process.env.GENERATE_CHANGELOG);
 
 const config: SemanticReleaseConfig = {
   plugins: [
@@ -44,18 +45,12 @@ const config: SemanticReleaseConfig = {
   ],
 };
 
-const generateChangelog = config.branches?.some((branch) => {
-  if (typeof branch === 'string') {
-    return branch === branchName;
-  }
-  return branch.name === branchName && !branch.prerelease;
-});
-
+// Add changelog and git plugin when generate changelog is enabled
 if (generateChangelog) {
   config?.plugins?.push('@semantic-release/changelog', [
     '@semantic-release/git',
     {
-      message: 'ci(release): V${nextRelease.version} [ci skip].',
+      message: 'internal(release): V${nextRelease.version} [ci skip].',
     },
   ]);
 }

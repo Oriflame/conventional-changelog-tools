@@ -31,3 +31,7 @@ The shareable config can be configured in the [**semantic-release** configuratio
   "branch": "master"
 }
 ```
+
+## Generating changelog
+
+To enable changelog generation set env variable `GENERATE_CHANGELOG` to true;
