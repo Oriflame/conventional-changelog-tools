@@ -7,7 +7,13 @@
 import { SemanticReleaseConfig } from './types';
 
 // Get env variable from env
-const generateChangelog = Boolean(process.env.GENERATE_CHANGELOG);
+let generateChangelog: string | boolean | undefined = process.env.GENERATE_CHANGELOG;
+
+if (typeof generateChangelog === 'string') {
+  generateChangelog = generateChangelog.toLowerCase() === 'true';
+} else {
+  generateChangelog = Boolean(generateChangelog);
+}
 
 const config: SemanticReleaseConfig = {
   plugins: [
