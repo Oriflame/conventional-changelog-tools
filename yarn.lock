@@ -1259,10 +1259,10 @@
     pretty-ms "^5.1.0"
     yaml "^1.9.2"
 
-"@boost/common@^2.6.0":
-  version "2.6.0"
-  resolved "https://registry.yarnpkg.com/@boost/common/-/common-2.6.0.tgz#385b8fb563f040745f69390e79e2605fe6bbd725"
-  integrity sha512-fCSBVxTF91U2MdTblrBui0hrrM8k4hpYJw1XubZ7wnD5mthwOQ5t1yOb1ni2yjI61vuITyve1TuziBtyHud84w==
+"@boost/common@^2.7.0":
+  version "2.7.0"
+  resolved "https://registry.yarnpkg.com/@boost/common/-/common-2.7.0.tgz#62e9717d8811a25f515ace6fc4c9e6b6d2a55d8d"
+  integrity sha512-zUUuZWlAzCpbr2vuL5Lkke8U0Kj0V8adh55t3gItqZm9Ucc9oqQg+cET1lcaM1XLGcjic55qa7cfRkNk7ESrDQ==
   dependencies:
     "@boost/decorators" "^2.1.1"
     "@boost/internal" "^2.2.1"
@@ -1271,6 +1271,8 @@
     optimal "^4.2.1"
     pretty-ms "^7.0.1"
     yaml "^1.10.0"
+  optionalDependencies:
+    typescript "^4.0.0"
 
 "@boost/core@^1.18.6":
   version "1.18.7"
@@ -2780,14 +2782,14 @@
   optionalDependencies:
     "@testing-library/react" ">=11"
 
-"@oriflame/config-prettier@^1.1.5":
-  version "1.1.5"
-  resolved "https://registry.yarnpkg.com/@oriflame/config-prettier/-/config-prettier-1.1.5.tgz#7525ff0356e8592ec878c21f6bd8e923d6fb6b48"
-  integrity sha512-TxpgpxRkY5wOeu4dvyYNP/1LMOEHpxfNkO6+GHx+VpxPvltnLWZuMzEJp6rGsuXdAqTMno5nsisi5nbTzIr21A==
+"@oriflame/config-prettier@^1.1.10":
+  version "1.1.10"
+  resolved "https://registry.yarnpkg.com/@oriflame/config-prettier/-/config-prettier-1.1.10.tgz#4e079e1a0f49eda2fc9e876106c7fa8cba4f5ce8"
+  integrity sha512-vqgumJ1UafDYQjO3DXwH7GQnUt0G4BAY7WD1zeO3/5mcCiiGyGeS1hXuHDXJb0akrSLL99C1k/0xj2GEvBTkcw==
   dependencies:
     "@beemo/core" "^1.1.8"
     "@beemo/driver-prettier" "^1.3.2"
-    "@oriflame/lumos-common" "^2.4.1"
+    "@oriflame/lumos-common" "^2.4.4"
     prettier "^2.2.1"
 
 "@oriflame/config-typescript@^1.1.8":
@@ -2800,13 +2802,13 @@
     "@oriflame/lumos-common" "^2.4.1"
     typescript "^4.1.3"
 
-"@oriflame/lumos-common@^2.4.1", "@oriflame/lumos-common@^2.4.3":
-  version "2.4.3"
-  resolved "https://registry.yarnpkg.com/@oriflame/lumos-common/-/lumos-common-2.4.3.tgz#a8c8a9835b7b421084139c2604e89ef3586adf15"
-  integrity sha512-7DmPkISeBN/V+F82d0EQDs3+WSV7e3nbpYXX22IQZcvnU6pxrJFvaQFH2fFwr7+2fU5s3N56lnlw9hTu03CBNQ==
+"@oriflame/lumos-common@^2.4.1", "@oriflame/lumos-common@^2.4.3", "@oriflame/lumos-common@^2.4.4":
+  version "2.4.4"
+  resolved "https://registry.yarnpkg.com/@oriflame/lumos-common/-/lumos-common-2.4.4.tgz#37487e667723500c3f724afff360d425aca3cb4d"
+  integrity sha512-9KSDF7k7RH2WHMkJ78sIEetNeXuJqoj44KDoJhk5Bv+XTbXs6N9a2HjBb3q9dDrEpbQyGGyh9dxXhe2uTO1F+g==
   dependencies:
     "@beemo/core" "^1.1.8"
-    "@boost/common" "^2.6.0"
+    "@boost/common" "^2.7.0"
     execa "^5.0.0"
     fast-glob "^3.2.5"
 
@@ -12095,6 +12097,11 @@ typedarray@^0.0.6:
   version "0.0.6"
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
+
+typescript@^4.0.0:
+  version "4.1.5"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.1.5.tgz#123a3b214aaff3be32926f0d8f1f6e704eb89a72"
+  integrity sha512-6OSu9PTIzmn9TCDiovULTnET6BgXtDYL4Gg4szY+cGsc3JP1dQL8qvE8kShTRx1NIw4Q9IBHlwODjkjWEtMUyA==
 
 typescript@^4.1.3:
   version "4.1.3"
