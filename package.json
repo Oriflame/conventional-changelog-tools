@@ -41,7 +41,7 @@
   },
   "devDependencies": {
     "@commitlint/cli": "^11.0.0",
-    "@oriflame/config-babel": "^1.0.29",
+    "@oriflame/config-babel": "^1.0.34",
     "@oriflame/config-danger": "1.1.11",
     "@oriflame/config-eslint": "^2.0.12",
     "@oriflame/config-jest": "^1.1.11",
