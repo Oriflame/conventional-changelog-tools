@@ -2786,15 +2786,15 @@
     "@oriflame/conventional-changelog" "^1.0.9"
     danger "^10.6.1"
 
-"@oriflame/config-eslint@^2.1.6":
-  version "2.1.6"
-  resolved "https://registry.yarnpkg.com/@oriflame/config-eslint/-/config-eslint-2.1.6.tgz#0681a33e6fd927f4dfe79a881f2404aec81b2447"
-  integrity sha512-nGYXHSRhaBS//9IbAnUKKqgAOhMzOVBMSOuLAD10lk66hyyKEU5qSSzI/072/B3S/gqQPDZIN2csA/Sv4gq7pQ==
+"@oriflame/config-eslint@^2.1.7":
+  version "2.1.7"
+  resolved "https://registry.yarnpkg.com/@oriflame/config-eslint/-/config-eslint-2.1.7.tgz#fe2d1e41c8296be4612d24f66f05750324678b7f"
+  integrity sha512-b0N2oxfj9UbIxMOUkp7e6KYPy+pikHdR6Aw4xePR3KwS0xpf4Q+fi+7i9EKOwQu9Y0cxUcYbls9RVLXxjyyrFg==
   dependencies:
     "@beemo/core" "^1.1.8"
     "@beemo/driver-eslint" "^1.2.3"
     "@oriflame/lumos-common" "^2.4.5"
-    "@typescript-eslint/eslint-plugin" "^4.15.2"
+    "@typescript-eslint/eslint-plugin" "^4.16.1"
     "@typescript-eslint/parser" "^4.16.1"
     babel-eslint "^10.1.0"
     eslint "^7.21.0"
@@ -3188,7 +3188,7 @@
   dependencies:
     "@types/yargs-parser" "*"
 
-"@typescript-eslint/eslint-plugin@^4.15.2":
+"@typescript-eslint/eslint-plugin@^4.16.1":
   version "4.16.1"
   resolved "https://registry.yarnpkg.com/@typescript-eslint/eslint-plugin/-/eslint-plugin-4.16.1.tgz#2caf6a79dd19c3853b8d39769a27fccb24e4e651"
   integrity sha512-SK777klBdlkUZpZLC1mPvyOWk9yAFCWmug13eAjVQ4/Q1LATE/NbcQL1xDHkptQkZOLnPmLUA1Y54m8dqYwnoQ==
