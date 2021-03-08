@@ -2786,15 +2786,15 @@
     "@oriflame/conventional-changelog" "^1.0.9"
     danger "^10.6.1"
 
-"@oriflame/config-eslint@^2.1.6":
-  version "2.1.6"
-  resolved "https://registry.yarnpkg.com/@oriflame/config-eslint/-/config-eslint-2.1.6.tgz#0681a33e6fd927f4dfe79a881f2404aec81b2447"
-  integrity sha512-nGYXHSRhaBS//9IbAnUKKqgAOhMzOVBMSOuLAD10lk66hyyKEU5qSSzI/072/B3S/gqQPDZIN2csA/Sv4gq7pQ==
+"@oriflame/config-eslint@^2.1.10":
+  version "2.1.10"
+  resolved "https://registry.yarnpkg.com/@oriflame/config-eslint/-/config-eslint-2.1.10.tgz#e6720b9d38ce1469d66d779c0e845097c9a00389"
+  integrity sha512-fThA527aelbb9WdtiC6TiWPDp4SWrMpIs8ocW5iRDGwJuvzMic5+Eq1ARyPRRWEmb6dXT8U49OBiCdJz1ciT7w==
   dependencies:
     "@beemo/core" "^1.1.8"
     "@beemo/driver-eslint" "^1.2.3"
     "@oriflame/lumos-common" "^2.4.5"
-    "@typescript-eslint/eslint-plugin" "^4.15.2"
+    "@typescript-eslint/eslint-plugin" "^4.16.1"
     "@typescript-eslint/parser" "^4.16.1"
     babel-eslint "^10.1.0"
     eslint "^7.21.0"
@@ -2802,7 +2802,7 @@
     eslint-config-prettier "^8.1.0"
     eslint-import-resolver-typescript "^2.4.0"
     eslint-plugin-import "^2.22.1"
-    eslint-plugin-jest "^24.1.5"
+    eslint-plugin-jest "^24.1.9"
     eslint-plugin-jsx-a11y "^6.4.1"
     eslint-plugin-prettier "^3.3.1"
     eslint-plugin-promise "^4.3.1"
@@ -3188,7 +3188,7 @@
   dependencies:
     "@types/yargs-parser" "*"
 
-"@typescript-eslint/eslint-plugin@^4.15.2":
+"@typescript-eslint/eslint-plugin@^4.16.1":
   version "4.16.1"
   resolved "https://registry.yarnpkg.com/@typescript-eslint/eslint-plugin/-/eslint-plugin-4.16.1.tgz#2caf6a79dd19c3853b8d39769a27fccb24e4e651"
   integrity sha512-SK777klBdlkUZpZLC1mPvyOWk9yAFCWmug13eAjVQ4/Q1LATE/NbcQL1xDHkptQkZOLnPmLUA1Y54m8dqYwnoQ==
@@ -5568,10 +5568,10 @@ eslint-plugin-import@^2.22.1:
     resolve "^1.17.0"
     tsconfig-paths "^3.9.0"
 
-eslint-plugin-jest@^24.1.5:
-  version "24.1.5"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-jest/-/eslint-plugin-jest-24.1.5.tgz#1e866a9f0deac587d0a3d5d7cefe99815a580de2"
-  integrity sha512-FIP3lwC8EzEG+rOs1y96cOJmMVpdFNreoDJv29B5vIupVssRi8zrSY3QadogT0K3h1Y8TMxJ6ZSAzYUmFCp2hg==
+eslint-plugin-jest@^24.1.9:
+  version "24.1.9"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-jest/-/eslint-plugin-jest-24.1.9.tgz#b8ccd3e3d1cc429ce14821dafd5bcc39766eafd1"
+  integrity sha512-dobHZxHQGiwpNuI/CNU69Q0T8oBWfJjhroOPD0vBUBbAuKzzjcflT7dqKj6NBvhNs5TfdBofX9GGswmQL2iKzQ==
   dependencies:
     "@typescript-eslint/experimental-utils" "^4.0.1"
 
