@@ -67,7 +67,7 @@
   resolved "https://registry.yarnpkg.com/@babel/compat-data/-/compat-data-7.13.8.tgz#5b783b9808f15cef71547f1b691f34f8ff6003a6"
   integrity sha512-EaI33z19T4qN3xLXsGf48M2cDqa6ei9tPZlfLdb2HC+e/cFtREiRd8hdSqDbwdLB0/+gLwqJmCYASH0z2bUdog==
 
-"@babel/core@^7.1.0", "@babel/core@^7.12.10", "@babel/core@^7.13.10", "@babel/core@^7.7.5":
+"@babel/core@^7.1.0", "@babel/core@^7.13.10", "@babel/core@^7.7.5":
   version "7.13.10"
   resolved "https://registry.yarnpkg.com/@babel/core/-/core-7.13.10.tgz#07de050bbd8193fcd8a3c27918c0890613a94559"
   integrity sha512-bfIYcT0BdKeAZrovpMqX2Mx5NrgAckGbwT982AkdS5GNfn3KMGiprlBAtmBcFZRUmpaufS6WZFP8trvx8ptFDw==
@@ -2905,16 +2905,16 @@
     eslint-plugin-testing-library "^3.10.1"
     eslint-plugin-unicorn "^28.0.2"
 
-"@oriflame/config-jest@^1.1.11":
-  version "1.1.11"
-  resolved "https://registry.yarnpkg.com/@oriflame/config-jest/-/config-jest-1.1.11.tgz#24a8019b9cd54f7878aa62355fdbd58ca0f2a645"
-  integrity sha512-CJOxuxJAJc+s71QXGCGfIibo/8f4ZH9bfV4FGBx/iUzQUtyqVAKcqafuTMzJ/T+/0gmr/MsDpitBEE5wmczeMA==
+"@oriflame/config-jest@^1.1.21":
+  version "1.1.21"
+  resolved "https://registry.yarnpkg.com/@oriflame/config-jest/-/config-jest-1.1.21.tgz#d66160fdd6ce46b9126b48a3e0b1efb82ff683a8"
+  integrity sha512-81N/ZjTnh/pl5/5R/tTyycifQCNCob3ZxVp3NMaKwm6HBMQ3t1JBZD9p+iNi6Z1YIO2vvueogqrk/bORcbFNQQ==
   dependencies:
-    "@babel/core" "^7.12.10"
+    "@babel/core" "^7.13.10"
     "@beemo/core" "^1.1.8"
     "@beemo/driver-babel" "^1.2.6"
     "@beemo/driver-jest" "^1.2.3"
-    "@oriflame/lumos-common" "^2.4.1"
+    "@oriflame/lumos-common" "^2.4.5"
     "@testing-library/jest-dom" "^5.11.9"
     "@types/jest" "^26.0.20"
     airbnb-js-shims "^2.2.1"
