@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 2.1.2 - 2021-03-15
+
+#### 📦 Dependencies
+
+- bump @semantic-release/release-notes-generator from 9.0.1 to 9.0.2 (#481) ([dbdef47](https://github.com/Oriflame/conventional-changelog-tools/commit/dbdef47)), closes [#481](https://github.com/Oriflame/conventional-changelog-tools/issues/481)
+
+**Note:** Version bump only for package @oriflame/semantic-release-config
+
+
+
+
+
 ### 2.1.1 - 2021-02-16
 
 #### 🐞 Fixes
