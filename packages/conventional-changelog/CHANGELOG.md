@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.1.0 - 2021-03-24
+
+#### 🚀 Updates
+
+- Update conventional change to support azure devops. ([c746017](https://github.com/Oriflame/conventional-changelog-tools/commit/c746017c74a9b70cd54e0716f58e8cd4b483a263))
+
+#### 🛠 Internals
+
+- release [ci skip]. ([a021506](https://github.com/Oriflame/conventional-changelog-tools/commit/a0215067f88c95884383e784459ef392c77b5715))
+
+**Note:** Version bump only for package @oriflame/conventional-changelog
+
+
+
+
+
 ### 1.0.9 - 2021-01-08
 
 #### 🛠 Internals
