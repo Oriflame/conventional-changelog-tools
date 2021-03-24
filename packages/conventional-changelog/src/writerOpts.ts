@@ -130,13 +130,13 @@ const options: Partial<WriterOptions> = {
       context.isMinor = true;
     }
 
+    // Pre-generate links instead of doing it in handlebars
+    commit.hashLink = createLink([context.commit, commit.hash], context);
+
     // Use shorthand hashes
     if (typeof commit.hash === 'string') {
       commit.hash = commit.hash.slice(0, 7);
     }
-
-    // Pre-generate links instead of doing it in handlebars
-    commit.hashLink = createLink([context.commit, commit.hash], context);
 
     commit.references.forEach((reference) => {
       reference.issueLink = createLink([context.issue, reference.issue], context, reference);

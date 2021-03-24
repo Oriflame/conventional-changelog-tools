@@ -45,7 +45,7 @@ exports[`conventional-changelog-ori links commits/issues to deep repositories co
 
 #### 🚀 Updates
 
-- supports sub-package links ([a1b2c3d](https://github.com/rajzik/conventional-changelog-beemo/commit/a1b2c3d)), closes [#10](https://github.com/rajzik/conventional-changelog-beemo/issues/10)"
+- supports sub-package links ([a1b2c3d](https://github.com/rajzik/conventional-changelog-beemo/commit/a1b2c3d)), closes  _#10_"
 `;
 
 exports[`conventional-changelog-ori only replaces with link to user if it is an username 1`] = `
@@ -65,7 +65,7 @@ exports[`conventional-changelog-ori replaces #[0-9]+ with issue URL 1`] = `
 
 #### 🚀 Updates
 
-- **[awesome]** fix #88 ([a1b2c3d](https://github.com/rajzik/conventional-changelog-beemo/commit/a1b2c3d)), closes [#88](https://github.com/rajzik/conventional-changelog-beemo/issues/88)"
+- **[awesome]** fix #88 ([a1b2c3d](https://github.com/rajzik/conventional-changelog-beemo/commit/a1b2c3d)), closes  _#88_"
 `;
 
 exports[`conventional-changelog-ori replaces @username with GitHub user URL 1`] = `
@@ -94,7 +94,9 @@ They are easier now!
 #### 🚀 Updates
 
 - **[core]** settings refactor ([a1b2c3d](https://github.com/rajzik/conventional-changelog-beemo/commit/a1b2c3d))
-- **[modal, button]** added accessibility ([a1b2c3d](https://github.com/rajzik/conventional-changelog-beemo/commit/a1b2c3d)), closes [#1](https://github.com/rajzik/conventional-changelog-beemo/issues/1) [#2](https://github.com/rajzik/conventional-changelog-beemo/issues/2)
+- **[modal, button]** added accessibility ([a1b2c3d](https://github.com/rajzik/conventional-changelog-beemo/commit/a1b2c3d)), closes  _#1_
+  _#2_
+
 - **[Test]** Hello darkness my old friend ([a1b2c3d](https://github.com/rajzik/conventional-changelog-beemo/commit/a1b2c3d))
 - amazing new module ([a1b2c3d](https://github.com/rajzik/conventional-changelog-beemo/commit/a1b2c3d))
 
@@ -106,7 +108,8 @@ They are easier now!
 
 #### 🔑 Security
 
-- **[auth]** improved logic ([a1b2c3d](https://github.com/rajzik/conventional-changelog-beemo/commit/a1b2c3d)), closes [#3](https://github.com/rajzik/conventional-changelog-beemo/issues/3)
+- **[auth]** improved logic ([a1b2c3d](https://github.com/rajzik/conventional-changelog-beemo/commit/a1b2c3d)), closes  _#3_
+
 
 #### ⚙️ Types
 
@@ -138,7 +141,8 @@ exports[`conventional-changelog-ori supports non public GitHub repository locati
 #### 🚀 Updates
 
 - why this work? ([a1b2c3d](https://github.internal.example.com/conventional-changelog/internal/commit/a1b2c3d))
-- **[events]** implementing #5 by [@dlmr](https://github.internal.example.com/dlmr) ([a1b2c3d](https://github.internal.example.com/conventional-changelog/internal/commit/a1b2c3d)), closes [#5](https://github.internal.example.com/conventional-changelog/internal/issues/5) [#10](https://github.internal.example.com/conventional-changelog/internal/issues/10)"
+- **[events]** implementing #5 by [@dlmr](https://github.internal.example.com/dlmr) ([a1b2c3d](https://github.internal.example.com/conventional-changelog/internal/commit/a1b2c3d)), closes  _#5_
+  _#10_"
 `;
 
 exports[`conventional-changelog-ori uses h1 for major versions 1`] = `
@@ -198,7 +202,9 @@ New build system.
 
 #### 🚀 Updates
 
-- **[ngOptions]** make it faster ([a1b2c3d](https://github.com/rajzik/conventional-changelog-beemo/commit/a1b2c3d)), closes [#1](https://github.com/rajzik/conventional-changelog-beemo/issues/1) [#2](https://github.com/rajzik/conventional-changelog-beemo/issues/2)
+- **[ngOptions]** make it faster ([a1b2c3d](https://github.com/rajzik/conventional-changelog-beemo/commit/a1b2c3d)), closes  _#1_
+  _#2_
+
 - **[Test]** Hello darkness my old friend ([a1b2c3d](https://github.com/rajzik/conventional-changelog-beemo/commit/a1b2c3d))
 - amazing new module ([a1b2c3d](https://github.com/rajzik/conventional-changelog-beemo/commit/a1b2c3d))
 
