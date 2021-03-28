@@ -1360,20 +1360,18 @@
     pretty-ms "^5.1.0"
     yaml "^1.9.2"
 
-"@boost/common@^2.7.1":
-  version "2.7.1"
-  resolved "https://registry.yarnpkg.com/@boost/common/-/common-2.7.1.tgz#ef121eef2bfcd7a41235c1c5404cb1169e4a37e5"
-  integrity sha512-GE5rH3RlpB4sqRvmR1qPIpVpVv0VUSZYjU+beLSe1jZgSVQgHwx2+1w6nfiS5tqdDx+ZJGIC5u9QinkGkMq0Hw==
+"@boost/common@^2.7.2":
+  version "2.7.2"
+  resolved "https://registry.yarnpkg.com/@boost/common/-/common-2.7.2.tgz#cc38f1dc0fd6d49738f3468b961d08e789f672fa"
+  integrity sha512-HlWs91P/8n9ShNkLocpIhvOzFELkWArc+/jgdDlpIGlwy2ZUMDIxUuzMJDltzJXN5SR+w7MD9y9G/TaecGpFvg==
   dependencies:
-    "@boost/decorators" "^2.1.1"
-    "@boost/internal" "^2.2.1"
+    "@boost/decorators" "^2.1.2"
+    "@boost/internal" "^2.2.2"
     fast-glob "^3.2.4"
     json5 "^2.2.0"
     optimal "^4.3.0"
     pretty-ms "^7.0.1"
-    yaml "^1.10.0"
-  optionalDependencies:
-    typescript "^4.0.0"
+    yaml "^1.10.2"
 
 "@boost/core@^1.18.6":
   version "1.18.7"
@@ -1415,10 +1413,10 @@
     execa "^3.4.0"
     fast-glob "^3.2.2"
 
-"@boost/decorators@^2.1.1":
-  version "2.1.1"
-  resolved "https://registry.yarnpkg.com/@boost/decorators/-/decorators-2.1.1.tgz#2a6f2fb74bf4db7bb64fc00f0eb05ef02e947eb3"
-  integrity sha512-RacAODPQoyRkkvlhWmGteO6UzDYI9mFEst44EB+Nae3DiW+3gPmv5Pq6LfsReyT0X+j+Xqa/De6oQbblman+Sw==
+"@boost/decorators@^2.1.2":
+  version "2.1.2"
+  resolved "https://registry.yarnpkg.com/@boost/decorators/-/decorators-2.1.2.tgz#060813e1e8c1a4a5bba622e5f9e33fe067193e8c"
+  integrity sha512-XHUYInAFHeHZg9576vprRp8zYp58hPCFUEqh+WiWfyXi7UB3EFEzz6Cr0geB/c4FJzic3gvU8pqBx0VrULY3VA==
 
 "@boost/event@^1.3.1":
   version "1.3.1"
@@ -1435,10 +1433,10 @@
     chalk "^3.0.0"
     debug "^4.1.1"
 
-"@boost/internal@^2.2.1":
-  version "2.2.1"
-  resolved "https://registry.yarnpkg.com/@boost/internal/-/internal-2.2.1.tgz#73f83edf06c57790cfa2df9a0da176220ed6e447"
-  integrity sha512-5EdmMMRoZAA7cDXMHQ8S0w1sU7+0HdUemnRhFy+jJbJOtwKlU2HXdLFQKphNX3f/NFKHt14Xtt4oIDRBTMXT0g==
+"@boost/internal@^2.2.2":
+  version "2.2.2"
+  resolved "https://registry.yarnpkg.com/@boost/internal/-/internal-2.2.2.tgz#e1b02f45da6bbae9781c9ab9e95fece88f679b4a"
+  integrity sha512-9Uw1L/tuVtNvqQUboqAhhAHxeFU5XEIQMa5CvrV6q6irePFhsreyreldV0lFiOLpJcPnh7woynKkrgpJxt4O8w==
   dependencies:
     debug "^4.3.1"
 
@@ -2945,31 +2943,31 @@
     "@oriflame/lumos-common" "^2.4.5"
     typescript "^4.2.3"
 
-"@oriflame/lumos-common@^2.4.5":
-  version "2.4.5"
-  resolved "https://registry.yarnpkg.com/@oriflame/lumos-common/-/lumos-common-2.4.5.tgz#2b51ece5ffabe88684e1651110e52d3382b6965a"
-  integrity sha512-x6XUM5giIhPxg4kDbh1MANgRVkrUtuNa6F332ioNXsco8/lFTsUOwC04I3jo6vZQztSQGC4xb6kQYDuysW1/xA==
+"@oriflame/lumos-common@^2.4.5", "@oriflame/lumos-common@^2.4.6":
+  version "2.4.6"
+  resolved "https://registry.yarnpkg.com/@oriflame/lumos-common/-/lumos-common-2.4.6.tgz#f7d2093647fc12969b4af9f7f2b998adecac619d"
+  integrity sha512-nFsf2JZHUIXAF/1nSDWvlR25kszZxWp2XttaQu/3tFq6q5yMQXp3NS/WcrFZ480XEjXy4ncGk0FF3kI1ImqA5g==
   dependencies:
     "@beemo/core" "^1.1.8"
-    "@boost/common" "^2.7.1"
+    "@boost/common" "^2.7.2"
     execa "^5.0.0"
     fast-glob "^3.2.5"
 
-"@oriflame/lumos@^2.4.66":
-  version "2.4.66"
-  resolved "https://registry.yarnpkg.com/@oriflame/lumos/-/lumos-2.4.66.tgz#e2380fadb4e09e8fd4690c82cdcf964c17751c56"
-  integrity sha512-Yc6+m9WVxhUYVma9LmDd/qqVDb8C6zvrDvtkyYNq0TATTZ5Urdctpd4XxIP1BxVQhBbrs6nSfcGMq/85EAr8Fg==
+"@oriflame/lumos@^2.4.88":
+  version "2.4.88"
+  resolved "https://registry.yarnpkg.com/@oriflame/lumos/-/lumos-2.4.88.tgz#c1a473e3e29dd7bb61cc9abea597b49fe1cc69d5"
+  integrity sha512-UmdaUAtjNA5699sU3RPgMnwHXZ7MBcBRKrg4saa0f8BL28eGO25paU478+x5QevSXbrn9bmfW4mlBNijwZVSaA==
   dependencies:
     "@actions/core" "^1.2.6"
     "@actions/github" "^4.0.0"
     "@beemo/cli" "^1.0.11"
     "@beemo/core" "^1.1.8"
-    "@oriflame/conventional-changelog" "^1.0.9"
-    "@oriflame/lumos-common" "^2.4.5"
+    "@oriflame/conventional-changelog" "^1.1.0"
+    "@oriflame/lumos-common" "^2.4.6"
     chalk "^4.1.0"
     check-node-version "^4.1.0"
     cross-env "^7.0.3"
-    edit-json-file "^1.5.0"
+    edit-json-file "^1.6.0"
     enquirer "^2.3.6"
     execa "^5.0.0"
 
@@ -5377,10 +5375,10 @@ ecdsa-sig-formatter@1.0.11:
   dependencies:
     safe-buffer "^5.0.1"
 
-edit-json-file@^1.5.0:
-  version "1.5.0"
-  resolved "https://registry.yarnpkg.com/edit-json-file/-/edit-json-file-1.5.0.tgz#da7c69640a5d4a31de3cd7c367bb69bc999a84d4"
-  integrity sha512-YysmqOok2zzUAF6g/nydRZ+o6W8Iol1nQxkdqxwNt4k7MRjTIydrt9fWSzJ0wC14t651z0ofRjQkTjip66re2g==
+edit-json-file@^1.6.0:
+  version "1.6.0"
+  resolved "https://registry.yarnpkg.com/edit-json-file/-/edit-json-file-1.6.0.tgz#ff51a1648e40ab7613c912f33a2d1079d9b03f63"
+  integrity sha512-m2l38nUbRLxE4rfKC03PYujSGsjpGlF9PyenteiT/rXCGdk7CVoSS2BJEiGUBoAPfGSsiZv8yA5x81WAoQJbuQ==
   dependencies:
     find-value "^1.0.3"
     iterate-object "^1.3.2"
@@ -12432,7 +12430,7 @@ typedarray@^0.0.6:
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
 
-typescript@^4.0.0, typescript@^4.2.3:
+typescript@^4.2.3:
   version "4.2.3"
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.2.3.tgz#39062d8019912d43726298f09493d598048c1ce3"
   integrity sha512-qOcYwxaByStAWrBf4x0fibwZvMRG+r4cQoTjbPtUlrWjBHbmCAww1i448U0GJ+3cNNEtebDteo/cHOR3xJ4wEw==
@@ -12984,6 +12982,11 @@ yaml@^1.10.0, yaml@^1.9.2:
   version "1.10.0"
   resolved "https://registry.yarnpkg.com/yaml/-/yaml-1.10.0.tgz#3b593add944876077d4d683fee01081bd9fff31e"
   integrity sha512-yr2icI4glYaNG+KWONODapy2/jDdMSDnrONSjblABjD9B4Z5LgiircSt8m8sRZFNi08kG9Sm0uSHtEmP3zaEGg==
+
+yaml@^1.10.2:
+  version "1.10.2"
+  resolved "https://registry.yarnpkg.com/yaml/-/yaml-1.10.2.tgz#2301c5ffbf12b467de8da2333a459e29e7920e4b"
+  integrity sha512-r3vXyErRCYJ7wg28yvBY5VSoAF8ZvlcW9/BwUzEtUsjvX/DKs24dIkuwjtuprwJJHsbyUbLApepYTR1BN4uHrg==
 
 yargs-parser@10.x:
   version "10.1.0"
