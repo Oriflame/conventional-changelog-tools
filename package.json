@@ -46,7 +46,7 @@
     "@oriflame/config-eslint": "^2.1.6",
     "@oriflame/config-jest": "^1.1.21",
     "@oriflame/config-prettier": "^1.1.12",
-    "@oriflame/config-typescript": "^1.1.17",
+    "@oriflame/config-typescript": "^1.1.21",
     "@oriflame/lumos": "^2.4.66",
     "@types/node": "^14.14.34",
     "@types/shelljs": "^0.8.8",
