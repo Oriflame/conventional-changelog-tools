@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 2.1.4 - 2021-04-10
+
+#### 📦 Dependencies
+
+- bump @semantic-release/npm from 7.0.10 to 7.1.1 (#564) ([6528cb6](https://github.com/Oriflame/conventional-changelog-tools/commit/6528cb65ed14dce83540ae5d590d69ee7bacb86d)), closes  _#564_
+
+**Note:** Version bump only for package @oriflame/semantic-release-config
+
+
+
+
+
 ### 2.1.3 - 2021-03-24
 
 **Note:** Version bump only for package @oriflame/semantic-release-config
