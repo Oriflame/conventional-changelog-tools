@@ -5,7 +5,7 @@
   "major": {
     "enabled": true
   },
-  "rangeStrategy": "auto",
+  "rangeStrategy": "bump",
   "semanticCommitType": "deps",
   "prCreation": "immediate",
   "npm": {
@@ -20,6 +20,18 @@
     {
       "matchPackagePrefixes": ["@oriflame/"],
       "groupName": "Oriflame dependencies"
+    },
+    {
+      "matchDepTypes": ["peerDependencies"],
+      "rangeStrategy": "widen"
+    },
+    {
+      "matchDepTypes": ["devDependencies"],
+      "rangeStrategy": "bump"
+    },
+    {
+      "matchDepTypes": ["dependencies"],
+      "rangeStrategy": "bump"
     }
   ]
 }
