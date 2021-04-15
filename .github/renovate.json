@@ -1,11 +1,6 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": ["config:base", ":semanticCommitScopeDisabled"],
-  "commitMessageSuffix": ".",
-  "major": {
-    "enabled": true
-  },
-  "rangeStrategy": "bump",
   "semanticCommitType": "deps",
   "prCreation": "immediate",
   "npm": {
