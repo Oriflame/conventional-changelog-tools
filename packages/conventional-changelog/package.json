@@ -10,7 +10,7 @@
   "main": "./index.js",
   "types": "./lib/index.d.ts",
   "engines": {
-    "node": ">=12"
+    "node": ">=v12.22.1"
   },
   "publishConfig": {
     "access": "public"

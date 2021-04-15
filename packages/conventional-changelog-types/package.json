@@ -4,7 +4,7 @@
   "types": "./lib/index.d.ts",
   "version": "1.0.3",
   "engines": {
-    "node": ">=12"
+    "node": ">=v12.22.1"
   },
   "publishConfig": {
     "access": "public"
