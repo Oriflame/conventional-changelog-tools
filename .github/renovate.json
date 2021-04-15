@@ -5,7 +5,7 @@
   "major": {
     "enabled": true
   },
-  "rangeStrategy": "bump",
+  "rangeStrategy": "auto",
   "semanticCommitType": "deps",
   "prCreation": "immediate",
   "npm": {
