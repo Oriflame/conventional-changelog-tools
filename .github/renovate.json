@@ -14,19 +14,23 @@
   "packageRules": [
     {
       "matchPackagePrefixes": ["@oriflame/"],
-      "groupName": "Oriflame dependencies"
+      "groupName": "Oriflame dependencies",
+      "semanticCommitType": "build"
     },
     {
       "matchDepTypes": ["peerDependencies"],
-      "rangeStrategy": "widen"
+      "rangeStrategy": "widen",
+      "semanticCommitType": "deps"
     },
     {
       "matchDepTypes": ["devDependencies"],
-      "rangeStrategy": "bump"
+      "rangeStrategy": "bump",
+      "semanticCommitType": "build"
     },
     {
       "matchDepTypes": ["dependencies"],
-      "rangeStrategy": "bump"
+      "rangeStrategy": "bump",
+      "semanticCommitType": "deps"
     }
   ]
 }
