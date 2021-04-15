@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.1.0 - 2021-04-15
+
+#### 🚀 Updates
+
+- Update commitlint/cli range. ([d42ebbf](https://github.com/Oriflame/conventional-changelog-tools/commit/d42ebbfb91c1d6683eb47d13a402f75591845f11))
+
+#### 🛠 Internals
+
+- release [ci skip]. ([c19fdc9](https://github.com/Oriflame/conventional-changelog-tools/commit/c19fdc92a143fb7ddaa75d5ccd4179c1b515d444))
+
+**Note:** Version bump only for package @oriflame/conventional-changelog-lint-config
+
+
+
+
+
 ### 1.0.4 - 2020-12-24
 
 #### 📦 Dependencies
