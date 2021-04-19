@@ -2637,10 +2637,10 @@
     babel-plugin-typescript-to-proptypes "^1.4.2"
     react-refresh "^0.10.0"
 
-"@oriflame/config-danger@1.1.26":
-  version "1.1.26"
-  resolved "https://registry.yarnpkg.com/@oriflame/config-danger/-/config-danger-1.1.26.tgz#882793040b78dd3f1759ee9e3c8e8086e459c3fa"
-  integrity sha512-yQ0OUH+KRznuWL55IBab3BhYY4iRFyM5nj7389bAf//p5xY61NkywgldHccg/NtNJpGBFWFF2QPAtJswC917JA==
+"@oriflame/config-danger@1.1.27":
+  version "1.1.27"
+  resolved "https://registry.yarnpkg.com/@oriflame/config-danger/-/config-danger-1.1.27.tgz#f913443c64dc55ec9b685ee5b1905fbe8607ff3d"
+  integrity sha512-rW9yXZq60NnggSQtAZjB4GZacnVW7JvzbcDVq9r80WFMlRSkdm8XZvju9xUwWq98coBaVc+J4GWzEy4TzxlmYA==
   dependencies:
     "@oriflame/conventional-changelog" "^1.1.0"
     danger "^10.6.4"
@@ -2720,7 +2720,7 @@
     execa "^5.0.0"
     fast-glob "^3.2.5"
 
-"@oriflame/lumos@^2.4.110":
+"@oriflame/lumos@^2.4.111":
   version "2.4.111"
   resolved "https://registry.yarnpkg.com/@oriflame/lumos/-/lumos-2.4.111.tgz#3cfe2a9d4d9ccad53655774ea56d19819fed8799"
   integrity sha512-fPTaHHxLOLYd3hKCYhTXmCQgOa9cxqta/MDVfkkuUQ125Vl/PjygU7bUhpScVIjNfG3LDPfhk0F8yZVzCJDhiQ==
