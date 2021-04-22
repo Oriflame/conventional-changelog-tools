@@ -55,7 +55,6 @@ function createLink(paths: string[], context: Context, reference: Partial<Refere
   } else {
     url.push(context.repoUrl);
   }
-
   let base = url.join('/');
 
   // If deep linking to a sub-folder (monorepo project, etc),
@@ -130,8 +129,13 @@ const options: Partial<WriterOptions> = {
       context.isMinor = true;
     }
 
-    // Pre-generate links instead of doing it in handlebars
-    commit.hashLink = createLink([context.commit, commit.hash], context);
+    if (!context.commit.endsWith('s')) {
+      // Pre-generate links instead of doing it in handlebars
+      commit.hashLink = createLink([context.commit, commit.hash], context);
+    } else {
+      // Workaround for azure devops
+      commit.hashLink = createLink(['commit', commit.hash], context);
+    }
 
     // Use shorthand hashes
     if (typeof commit.hash === 'string') {
