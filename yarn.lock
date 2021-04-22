@@ -2793,10 +2793,10 @@
     execa "^5.0.0"
     fast-glob "^3.2.5"
 
-"@oriflame/lumos@^2.4.114":
-  version "2.4.114"
-  resolved "https://registry.yarnpkg.com/@oriflame/lumos/-/lumos-2.4.114.tgz#163537a24060b7f42d260efee48c3a21d78e9026"
-  integrity sha512-xjedO5y9cPYzbeiu+bhZPP0SHc94XLrUigFFBNDkDeHCFWvSrzljHTAlE+CE78Th1LLpGN8UKNNyFehp7SGubg==
+"@oriflame/lumos@^2.4.115":
+  version "2.4.115"
+  resolved "https://registry.yarnpkg.com/@oriflame/lumos/-/lumos-2.4.115.tgz#1bc3a71a8d420fa9a280bbe89a2f58eb969f88e0"
+  integrity sha512-3A5MIsqGpzboK1igfoAPTQ3Q52SGIDW2pjUKa3XxIqYfZaGKiHXaPprg2bGb8sh1TM4/3z47YGwPGzPhCcTGXA==
   dependencies:
     "@actions/core" "^1.2.7"
     "@actions/github" "^4.0.0"
@@ -2805,7 +2805,7 @@
     "@octokit/rest" "^16.43.2"
     "@oriflame/conventional-changelog" "^1.1.0"
     "@oriflame/lumos-common" "^3.0.0"
-    chalk "^4.1.0"
+    chalk "^4.1.1"
     check-node-version "^4.1.0"
     cross-env "^7.0.3"
     edit-json-file "^1.6.0"
@@ -4093,6 +4093,14 @@ chalk@^4.0.0, chalk@^4.1.0:
   version "4.1.0"
   resolved "https://registry.yarnpkg.com/chalk/-/chalk-4.1.0.tgz#4e14870a618d9e2edd97dd8345fd9d9dc315646a"
   integrity sha512-qwx12AxXe2Q5xQ43Ac//I6v5aXTipYrSESdOgzrN+9XjgEpyjpKuvSGaN4qE93f7TQTlerQQ8S+EQ0EyDoVL1A==
+  dependencies:
+    ansi-styles "^4.1.0"
+    supports-color "^7.1.0"
+
+chalk@^4.1.1:
+  version "4.1.1"
+  resolved "https://registry.yarnpkg.com/chalk/-/chalk-4.1.1.tgz#c80b3fab28bf6371e6863325eee67e618b77e6ad"
+  integrity sha512-diHzdDKxcU+bAsUboHLPEDQiw0qEe0qd7SYUn3HgcFlWgbDcfLGswOHYeGrHKzG9z6UYf01d9VFMfZxPM1xZSg==
   dependencies:
     ansi-styles "^4.1.0"
     supports-color "^7.1.0"
