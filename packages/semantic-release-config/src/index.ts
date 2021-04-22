@@ -2,12 +2,12 @@
  * @copyright   2020, Oriflame Software
  * @license     https://opensource.org/licenses/MIT
  */
-/* eslint-disable no-template-curly-in-string */
+/* eslint-disable no-template-curly-in-string -- Needed for semantic release */
 
 import { SemanticReleaseConfig } from './types';
 
 // Get env variable from env
-let generateChangelog: string | boolean | undefined = process.env.GENERATE_CHANGELOG;
+let generateChangelog: boolean | string | undefined = process.env.GENERATE_CHANGELOG;
 
 if (typeof generateChangelog === 'string') {
   generateChangelog = generateChangelog.toLowerCase() === 'true';
@@ -53,7 +53,7 @@ const config: SemanticReleaseConfig = {
 
 // Add changelog and git plugin when generate changelog is enabled
 if (generateChangelog) {
-  config?.plugins?.push('@semantic-release/changelog', [
+  config.plugins?.push('@semantic-release/changelog', [
     '@semantic-release/git',
     {
       message: 'internal(release): V${nextRelease.version} [ci skip].',

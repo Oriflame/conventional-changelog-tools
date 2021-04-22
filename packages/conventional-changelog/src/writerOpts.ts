@@ -1,7 +1,5 @@
-/* eslint-disable no-param-reassign */
+/* eslint-disable no-param-reassign -- needed */
 
-import fs from 'fs';
-import path from 'path';
 import {
   CommitGroupLabel,
   Context,
@@ -9,6 +7,8 @@ import {
   Reference,
   WriterOptions,
 } from '@oriflame/conventional-changelog-types';
+import fs from 'fs';
+import path from 'path';
 
 import getTypeGroup from './getTypeGroup';
 
@@ -101,6 +101,7 @@ const options: Partial<WriterOptions> = {
   transform(commit, context) {
     context.groupEmojis = groupEmojis;
 
+    // eslint-disable-next-line @typescript-eslint/no-unnecessary-condition -- false positive
     if (!commit.type) {
       return undefined;
     }
@@ -158,7 +159,7 @@ const options: Partial<WriterOptions> = {
     if (context.host) {
       commit.message = commit.message.replace(
         /\B@([a-z0-9](?:-?[a-z0-9/]){0,38})/gu,
-        (match, username: string, index) => {
+        (match, username: string, index: number) => {
           if (
             username.includes('/') ||
             // Avoid when wrapped in backticks (inline code)

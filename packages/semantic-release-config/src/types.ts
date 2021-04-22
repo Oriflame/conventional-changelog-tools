@@ -1,14 +1,14 @@
 type PluginWithSetting = [string, Record<string, unknown>];
 
-type BranchObject = {
+interface BranchObject {
   name: string;
   prerelease?: boolean;
   channel?: string;
-};
+}
 
-type Plugin = string | PluginWithSetting;
+type Plugin = PluginWithSetting | string;
 
-type Branch = string | BranchObject;
+type Branch = BranchObject | string;
 
 export interface SemanticReleaseConfig {
   branches?: Branch[];

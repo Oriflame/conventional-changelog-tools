@@ -2,5 +2,5 @@ import { Commit, ParserOptions, SemverLevel } from '@oriflame/conventional-chang
 
 export interface BumpOptions {
   parserOpts: Partial<ParserOptions>;
-  whatBump(commits: Commit[]): { level: SemverLevel; reason: string };
+  whatBump: (commits: Commit[]) => { level: SemverLevel; reason: string };
 }

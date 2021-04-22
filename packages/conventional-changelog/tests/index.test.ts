@@ -1,14 +1,18 @@
-/* eslint-disable @typescript-eslint/no-unsafe-call */
-/* eslint-disable jest/expect-expect, import/no-extraneous-dependencies */
+/* eslint-disable @typescript-eslint/no-unsafe-argument -- false positive */
+/* eslint-disable jest/no-done-callback -- false positive */
+/* eslint-disable node/no-extraneous-import -- false positive */
+/* eslint-disable @typescript-eslint/no-unsafe-call -- needed */
+/* eslint-disable jest/expect-expect, import/no-extraneous-dependencies -- needed */
 
 import conventionalChangelogCore from 'conventional-changelog-core';
 import conventionalRecommendedBump from 'conventional-recommended-bump';
 import path from 'path';
 import shell from 'shelljs';
 import Stream from 'stream';
+
 import { config } from '../src';
 
-function gitDummyCommit(msg: string | string[], silent = true) {
+function gitDummyCommit(msg: string[] | string, silent = true) {
   const args: string[] = ['--allow-empty', '--no-gpg-sign'];
 
   if (Array.isArray(msg)) {
@@ -47,7 +51,7 @@ describe('conventional-changelog-ori', () => {
   };
 
   beforeEach(() => {
-    // eslint-disable-next-line @typescript-eslint/no-unsafe-member-access, @typescript-eslint/no-explicit-any
+    // eslint-disable-next-line @typescript-eslint/no-unsafe-member-access, @typescript-eslint/no-explicit-any -- needed
     (shell.config as any).resetForTesting();
     shell.cd(__dirname);
     shell.mkdir('tmp');
