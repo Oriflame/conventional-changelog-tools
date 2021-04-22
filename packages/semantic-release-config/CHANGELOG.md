@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 2.1.5 - 2021-04-22
+
+#### 🛠 Internals
+
+- release [ci skip]. ([a276cbc](https://github.com/Oriflame/conventional-changelog-tools/commit/a276cbc3d8cf9099643b809b855ea2658e40ba49))
+
+**Note:** Version bump only for package @oriflame/semantic-release-config
+
+
+
+
+
 ### 2.1.4 - 2021-04-10
 
 #### 📦 Dependencies
