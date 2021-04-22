@@ -4,6 +4,7 @@
  */
 
 import { COMMIT_FORMAT_PREFIX } from '@oriflame/conventional-changelog-types';
+
 import checkCommitFormat from './checkCommitFormat';
 import conventionalChangelog from './conventionalChangelog';
 import getTypeGroup from './getTypeGroup';

@@ -233,5 +233,5 @@ exports[`conventional-changelog-ori works with unknown host 1`] = `
 
 #### 📘 Docs
 
-- add manual ([a1b2c3d](http://unknown/commits/a1b2c3d))"
+- add manual ([a1b2c3d](http://unknown/commit/a1b2c3d))"
 `;

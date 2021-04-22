@@ -18,44 +18,44 @@ export interface Reference {
 export type CommitType =
   | 'break'
   | 'breaking'
-  | 'release'
-  | 'new'
-  | 'update'
-  | 'feature'
-  | 'fix'
+  | 'build'
+  | 'cd'
+  | 'ci'
   | 'deps'
   | 'docs'
+  | 'feature'
+  | 'fix'
+  | 'internal'
+  | 'misc'
+  | 'new'
   | 'patch'
+  | 'release'
+  | 'revert'
+  | 'security'
   | 'style'
   | 'styles'
-  | 'security'
-  | 'revert'
-  | 'ci'
-  | 'cd'
-  | 'build'
   | 'test'
   | 'tests'
   | 'type'
   | 'types'
-  | 'internal'
-  | 'misc';
+  | 'update';
 
 export type CommitGroupLabel =
   | 'Breaking'
-  | 'Release'
-  | 'Updates'
-  | 'Fixes'
   | 'Dependencies'
   | 'Docs'
-  | 'Styles'
-  | 'Security'
-  | 'Reverts'
-  | 'Types'
+  | 'Fixes'
   | 'Internals'
-  | 'Misc';
+  | 'Misc'
+  | 'Release'
+  | 'Reverts'
+  | 'Security'
+  | 'Styles'
+  | 'Types'
+  | 'Updates';
 
 export interface Group {
-  bump?: 'patch' | 'minor' | 'major';
+  bump?: 'major' | 'minor' | 'patch';
   emoji: string;
   label: CommitGroupLabel;
   types: CommitType[];
@@ -101,21 +101,21 @@ export interface Context {
   groupEmojis?: { [K in CommitGroupLabel]: string };
 }
 
-export type Pattern = string | RegExp | null;
+export type Pattern = RegExp | string | null;
 
-export type Correspondence = string | string[];
+export type Correspondence = string[] | string;
 
-export type Sorter<T> = string | string[] | ((a: T, b: T) => number);
+export type Sorter<T> = string[] | string | ((a: T, b: T) => number);
 
 export interface ParserOptions {
   fieldPattern: Pattern;
   headerPattern: Pattern;
   headerCorrespondence: Correspondence;
-  issuePrefixes: string | string[];
+  issuePrefixes: string[] | string;
   mergePattern: Pattern;
   mergeCorrespondence: Correspondence;
-  noteKeywords: string | string[];
-  referenceActions: string | string[] | null;
+  noteKeywords: string[] | string;
+  referenceActions: string[] | string | null;
   revertPattern: Pattern;
   revertCorrespondence: Correspondence;
   warn: boolean | (() => void);
@@ -128,15 +128,15 @@ export interface WriterOptions {
   }>;
   commitPartial: string;
   commitsSort: Sorter<Commit>;
-  debug(): void;
+  debug: () => void;
   doFlush: boolean;
   finalizeContext:
     | ((context: Context, options: WriterOptions, commits: Commit[], keyCommit: Commit) => Context)
     | undefined;
   footerPartial: string;
   generateOn:
-    | ((commit: Commit, commits: Commit[], context: Context, options: WriterOptions) => unknown)
-    | string;
+    | string
+    | ((commit: Commit, commits: Commit[], context: Context, options: WriterOptions) => unknown);
   groupBy: string;
   headerPartial: string;
   ignoreReverted: boolean;
@@ -149,7 +149,7 @@ export interface WriterOptions {
   notesSort: Sorter<Note>;
   partials: { [key: string]: unknown };
   reverse: boolean;
-  transform(commit: Commit, context: Context): Commit | undefined;
+  transform: (commit: Commit, context: Context) => Commit | undefined;
 }
 
 export type SemverLevel = 0 | 1 | 2 | null; // major | minor | patch
