@@ -130,12 +130,12 @@ const options: Partial<WriterOptions> = {
       context.isMinor = true;
     }
 
-    if (!context.commit.endsWith('s')) {
-      // Pre-generate links instead of doing it in handlebars
-      commit.hashLink = createLink([context.commit, commit.hash], context);
-    } else {
+    if (context.commit.endsWith('s')) {
       // Workaround for azure devops
       commit.hashLink = createLink(['commit', commit.hash], context);
+    } else {
+      // Pre-generate links instead of doing it in handlebars
+      commit.hashLink = createLink([context.commit, commit.hash], context);
     }
 
     // Use shorthand hashes

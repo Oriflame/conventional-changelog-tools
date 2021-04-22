@@ -78,7 +78,7 @@ export interface Commit {
   pr: string;
   scope: string;
   source: string;
-  type?: CommitType;
+  type: CommitType;
 }
 
 export interface Context {

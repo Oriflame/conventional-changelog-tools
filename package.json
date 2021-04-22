@@ -9,7 +9,7 @@
   },
   "license": "MIT",
   "scripts": {
-    "prepare": "lumos create-config",
+    "prepare": "lumos create-config && husky install",
     "build": "lumos typescript --build --reference-workspaces",
     "coverage": "yarn run jest --coverage",
     "lint": "lumos eslint",
