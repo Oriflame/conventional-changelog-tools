@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 1.0.4 - 2021-04-22
+
+#### 🐞 Fixes
+
+- update dependency @oriflame/config-eslint to v3 (#592) ([edb04fc](https://github.com/Oriflame/conventional-changelog-tools/commit/edb04fcc5fd2cffa78d68de3624d26e757000191)), closes  _#592_
+
+
+#### 🛠 Internals
+
+- release [ci skip]. ([6780870](https://github.com/Oriflame/conventional-changelog-tools/commit/6780870cf82be0dd6d9829b3c78692709e3fa8b8))
+
+**Note:** Version bump only for package @oriflame/conventional-changelog-types
+
+
+
+
+
 ### 1.0.3 - 2020-10-16
 
 #### 🐞 Fixes

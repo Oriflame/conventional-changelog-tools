@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 2.1.6 - 2021-04-22
+
+#### 🐞 Fixes
+
+- update dependency @oriflame/config-eslint to v3 (#592) ([edb04fc](https://github.com/Oriflame/conventional-changelog-tools/commit/edb04fcc5fd2cffa78d68de3624d26e757000191)), closes  _#592_
+
+**Note:** Version bump only for package @oriflame/semantic-release-config
+
+
+
+
+
 ### 2.1.5 - 2021-04-22
 
 #### 🛠 Internals
