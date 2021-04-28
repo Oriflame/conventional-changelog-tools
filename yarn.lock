@@ -2785,10 +2785,10 @@
     execa "^5.0.0"
     fast-glob "^3.2.5"
 
-"@oriflame/lumos@^2.4.120":
-  version "2.4.120"
-  resolved "https://registry.yarnpkg.com/@oriflame/lumos/-/lumos-2.4.120.tgz#328c99d75518a2525e378befe515c245ecdbfe0a"
-  integrity sha512-WA6rgrLh9U5X864rC/TzReEWtTKyJLFsUWY/oDwYBvjkhSEsBI+DfW1iCTltL+CSmZZHQvk4YFBq7FZbKrP/7Q==
+"@oriflame/lumos@^2.4.122":
+  version "2.4.122"
+  resolved "https://registry.yarnpkg.com/@oriflame/lumos/-/lumos-2.4.122.tgz#b1ad940e8e2e8749f3e89d3922c948c276986c4f"
+  integrity sha512-JbIUDqXtTdHGul6/6i3gxHxqW8+sJJRZZre/7ZGQkhJtlyh1TZ5AXFqIhqYHOZE9XDNXjXToZdyMh3SaD3NzbQ==
   dependencies:
     "@actions/core" "^1.2.7"
     "@actions/github" "^4.0.0"
@@ -4049,15 +4049,7 @@ chalk@^3.0.0:
     ansi-styles "^4.1.0"
     supports-color "^7.1.0"
 
-chalk@^4.0.0, chalk@^4.1.0:
-  version "4.1.0"
-  resolved "https://registry.yarnpkg.com/chalk/-/chalk-4.1.0.tgz#4e14870a618d9e2edd97dd8345fd9d9dc315646a"
-  integrity sha512-qwx12AxXe2Q5xQ43Ac//I6v5aXTipYrSESdOgzrN+9XjgEpyjpKuvSGaN4qE93f7TQTlerQQ8S+EQ0EyDoVL1A==
-  dependencies:
-    ansi-styles "^4.1.0"
-    supports-color "^7.1.0"
-
-chalk@^4.1.1:
+chalk@^4.0.0, chalk@^4.1.0, chalk@^4.1.1:
   version "4.1.1"
   resolved "https://registry.yarnpkg.com/chalk/-/chalk-4.1.1.tgz#c80b3fab28bf6371e6863325eee67e618b77e6ad"
   integrity sha512-diHzdDKxcU+bAsUboHLPEDQiw0qEe0qd7SYUn3HgcFlWgbDcfLGswOHYeGrHKzG9z6UYf01d9VFMfZxPM1xZSg==
