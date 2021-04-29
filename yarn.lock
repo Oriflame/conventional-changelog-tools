@@ -2706,14 +2706,14 @@
     "@oriflame/conventional-changelog" "^1.1.2"
     danger "^10.6.4"
 
-"@oriflame/config-eslint@^3.0.3":
-  version "3.0.3"
-  resolved "https://registry.yarnpkg.com/@oriflame/config-eslint/-/config-eslint-3.0.3.tgz#be5d2e59009916840a2a0fb88ad2255d2213df23"
-  integrity sha512-yNVqvtjVra38nQcRDv78Bo8PxiOFgp9Ygfkt2ldO59XZkg5cP3edcbQxkOhdLBc/DcK492t8NmXBskyRZ9v20Q==
+"@oriflame/config-eslint@^3.1.0":
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/@oriflame/config-eslint/-/config-eslint-3.1.0.tgz#00670fcccb4eb02806b145ad358f9eb82d29390b"
+  integrity sha512-2zANxeE0fAMJdfrVmKpsgfTmojBuzaCq+TtIQtvWGbT2X7ndGoU2G5Mv6DADzIRd1X0seY0bmT/vEY1+AvtJRw==
   dependencies:
     "@beemo/core" "^1.1.8"
     "@beemo/driver-eslint" "^1.2.3"
-    "@oriflame/lumos-common" "^3.0.0"
+    "@oriflame/lumos-common" "^3.0.1"
     "@typescript-eslint/eslint-plugin" "^4.22.0"
     "@typescript-eslint/parser" "^4.22.0"
     babel-eslint "^10.1.0"
@@ -2723,7 +2723,7 @@
     eslint-import-resolver-typescript "^2.4.0"
     eslint-plugin-eslint-comments "^3.2.0"
     eslint-plugin-import "^2.22.1"
-    eslint-plugin-jest "^24.3.5"
+    eslint-plugin-jest "^24.3.6"
     eslint-plugin-jsx-a11y "^6.4.1"
     eslint-plugin-node "^11.1.0"
     eslint-plugin-prettier "^3.4.0"
@@ -2775,10 +2775,10 @@
     "@oriflame/lumos-common" "^3.0.0"
     typescript "^4.2.4"
 
-"@oriflame/lumos-common@^3.0.0":
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/@oriflame/lumos-common/-/lumos-common-3.0.0.tgz#68073983a1bbf9873d077c4144be0b63d4cdc958"
-  integrity sha512-f4o8nB7WDWSTEj9FE6T0iKfUB8/jyhjSERRAFSxlp9r4tZK/5XEnEbLTtwWQ1x6hpcbgLEnSnKmW1m+qxZ8tAA==
+"@oriflame/lumos-common@^3.0.0", "@oriflame/lumos-common@^3.0.1":
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/@oriflame/lumos-common/-/lumos-common-3.0.1.tgz#4099039ba192ff20598173cf8d7c405c78ed7635"
+  integrity sha512-szjgMbbFq/pG880LNGtr0oFOALWJCIB287JRZOFdaYwU3awAdp3V0pz+cWFKiPG2SA4JauPNl14KzhJXZs3dQA==
   dependencies:
     "@beemo/core" "^1.1.8"
     "@boost/common" "^2.7.2"
@@ -5219,10 +5219,10 @@ eslint-plugin-import@^2.22.1:
     resolve "^1.17.0"
     tsconfig-paths "^3.9.0"
 
-eslint-plugin-jest@^24.3.5:
-  version "24.3.5"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-jest/-/eslint-plugin-jest-24.3.5.tgz#71f0b580f87915695c286c3f0eb88cf23664d044"
-  integrity sha512-XG4rtxYDuJykuqhsOqokYIR84/C8pRihRtEpVskYLbIIKGwPNW2ySxdctuVzETZE+MbF/e7wmsnbNVpzM0rDug==
+eslint-plugin-jest@^24.3.6:
+  version "24.3.6"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-jest/-/eslint-plugin-jest-24.3.6.tgz#5f0ca019183c3188c5ad3af8e80b41de6c8e9173"
+  integrity sha512-WOVH4TIaBLIeCX576rLcOgjNXqP+jNlCiEmRgFTfQtJ52DpwnIQKAVGlGPAN7CZ33bW6eNfHD6s8ZbEUTQubJg==
   dependencies:
     "@typescript-eslint/experimental-utils" "^4.0.1"
 
