@@ -2671,10 +2671,10 @@
   dependencies:
     "@octokit/openapi-types" "^6.0.0"
 
-"@oriflame/config-babel@^1.0.60":
-  version "1.0.60"
-  resolved "https://registry.yarnpkg.com/@oriflame/config-babel/-/config-babel-1.0.60.tgz#52f021437dfe5974722ededca2b3088be57b96a7"
-  integrity sha512-UEnm9Fd9/xpExtfWivdoJzrO5R5gkBMIu7qTbhj0nYKxbZcQDky5ZMgRSVhmr7wKKe9I1ZXXZfIbZxLfuuL36A==
+"@oriflame/config-babel@^1.0.61":
+  version "1.0.61"
+  resolved "https://registry.yarnpkg.com/@oriflame/config-babel/-/config-babel-1.0.61.tgz#681fdb08729031749cf7118c298861766c48c09b"
+  integrity sha512-RkCQtuN2cNUnBG1OyobnY2kyW0JctDoowRXEusJ0trR7iFLcs/jNrHpwxgDbJLfBr5lhujfD4ac3fM2IldzT+g==
   dependencies:
     "@babel/cli" "^7.13.16"
     "@babel/core" "^7.13.16"
@@ -2689,7 +2689,7 @@
     "@babel/preset-typescript" "^7.13.0"
     "@beemo/core" "^1.1.8"
     "@beemo/driver-babel" "^1.2.6"
-    "@oriflame/lumos-common" "^3.0.0"
+    "@oriflame/lumos-common" "^3.0.1"
     babel-plugin-graphql-tag "^3.2.0"
     babel-plugin-module-resolver "^4.1.0"
     babel-plugin-optimize-clsx "^2.6.1"
@@ -2698,22 +2698,22 @@
     babel-plugin-typescript-to-proptypes "^1.4.2"
     react-refresh "^0.10.0"
 
-"@oriflame/config-danger@1.1.29":
-  version "1.1.29"
-  resolved "https://registry.yarnpkg.com/@oriflame/config-danger/-/config-danger-1.1.29.tgz#a4123861e47433096ac01f781e6bc1c45c67b816"
-  integrity sha512-9la2YNIBWYVmlvB1jOn8z8Tinax3LiG4edjc4nSBGb2lp6UF1Gv/ihTFXvA7iEcHumN0LTW2aQYbjXfOmHtCTA==
+"@oriflame/config-danger@1.1.31":
+  version "1.1.31"
+  resolved "https://registry.yarnpkg.com/@oriflame/config-danger/-/config-danger-1.1.31.tgz#79a1803e1edea1d0c7a5b396853f60e2da8b35ea"
+  integrity sha512-TD+ZRCBpsEPNNCDvAfQCz5pajiQxBT/AQE0eefDfavQTkXAoV0CHAbUXKNY1Wupnun+C+eFFEJ2EPF04KTrFGg==
   dependencies:
     "@oriflame/conventional-changelog" "^1.1.2"
     danger "^10.6.4"
 
-"@oriflame/config-eslint@^3.0.3":
-  version "3.0.3"
-  resolved "https://registry.yarnpkg.com/@oriflame/config-eslint/-/config-eslint-3.0.3.tgz#be5d2e59009916840a2a0fb88ad2255d2213df23"
-  integrity sha512-yNVqvtjVra38nQcRDv78Bo8PxiOFgp9Ygfkt2ldO59XZkg5cP3edcbQxkOhdLBc/DcK492t8NmXBskyRZ9v20Q==
+"@oriflame/config-eslint@^3.1.0":
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/@oriflame/config-eslint/-/config-eslint-3.1.0.tgz#00670fcccb4eb02806b145ad358f9eb82d29390b"
+  integrity sha512-2zANxeE0fAMJdfrVmKpsgfTmojBuzaCq+TtIQtvWGbT2X7ndGoU2G5Mv6DADzIRd1X0seY0bmT/vEY1+AvtJRw==
   dependencies:
     "@beemo/core" "^1.1.8"
     "@beemo/driver-eslint" "^1.2.3"
-    "@oriflame/lumos-common" "^3.0.0"
+    "@oriflame/lumos-common" "^3.0.1"
     "@typescript-eslint/eslint-plugin" "^4.22.0"
     "@typescript-eslint/parser" "^4.22.0"
     babel-eslint "^10.1.0"
@@ -2723,7 +2723,7 @@
     eslint-import-resolver-typescript "^2.4.0"
     eslint-plugin-eslint-comments "^3.2.0"
     eslint-plugin-import "^2.22.1"
-    eslint-plugin-jest "^24.3.5"
+    eslint-plugin-jest "^24.3.6"
     eslint-plugin-jsx-a11y "^6.4.1"
     eslint-plugin-node "^11.1.0"
     eslint-plugin-prettier "^3.4.0"
@@ -2733,18 +2733,18 @@
     eslint-plugin-testing-library "^4.1.2"
     eslint-plugin-unicorn "^31.0.0"
 
-"@oriflame/config-jest@^1.1.31":
-  version "1.1.31"
-  resolved "https://registry.yarnpkg.com/@oriflame/config-jest/-/config-jest-1.1.31.tgz#250b0fe252e357c1c74bf98f3abfba08cca86729"
-  integrity sha512-c9MikQG5MUhrl3KWV5uNjVw3AItwzTxR7ex3q502FQ5I1EaKqUEYU1bF2+cXviqZikR+Xo39khBbIPVwuD9tAQ==
+"@oriflame/config-jest@^1.1.33":
+  version "1.1.33"
+  resolved "https://registry.yarnpkg.com/@oriflame/config-jest/-/config-jest-1.1.33.tgz#5209ceb2a7a2162e094996990f2456b7877ba700"
+  integrity sha512-F0g/6X9hbyFv7e+bvjyMJw/4/KVDz1wwF9WYRrX4LHhvVwTnviENuc6jry551EdhWLWxIRmj7q10OxvWMHBtNA==
   dependencies:
     "@babel/core" "^7.13.16"
     "@beemo/core" "^1.1.8"
     "@beemo/driver-babel" "^1.2.6"
     "@beemo/driver-jest" "^1.2.3"
-    "@oriflame/lumos-common" "^3.0.0"
+    "@oriflame/lumos-common" "^3.0.1"
     "@testing-library/jest-dom" "^5.12.0"
-    "@types/jest" "^26.0.22"
+    "@types/jest" "^26.0.23"
     airbnb-js-shims "^2.2.1"
     cross-env "^7.0.3"
     dom-storage "^2.1.0"
@@ -2755,40 +2755,40 @@
   optionalDependencies:
     "@testing-library/react" ">=11"
 
-"@oriflame/config-prettier@^1.1.16":
-  version "1.1.16"
-  resolved "https://registry.yarnpkg.com/@oriflame/config-prettier/-/config-prettier-1.1.16.tgz#64ae82bbf9b219fcf4eb43435dbd6719c7530bf4"
-  integrity sha512-DWQ0o9ISOimx4VGmG/XbH8Jlhqcb1eZLZcvN9w/ocyd3UG2jcrFGfMsjcWAwH4QOkgPBIQyLbZKW+YehijWiqg==
+"@oriflame/config-prettier@^1.1.17":
+  version "1.1.17"
+  resolved "https://registry.yarnpkg.com/@oriflame/config-prettier/-/config-prettier-1.1.17.tgz#5e377a20a36f3743eeb2c70da1aec3a1bdadcc38"
+  integrity sha512-lVb573AI0o0Lr2DSp6bk/bxBTisQuUBfgAqnItUH+bCSAMIm7EUr9hJV8Nj2EwEYAhBBKvm128s0thPMe8O6SQ==
   dependencies:
     "@beemo/core" "^1.1.8"
     "@beemo/driver-prettier" "^1.3.2"
-    "@oriflame/lumos-common" "^3.0.0"
+    "@oriflame/lumos-common" "^3.0.1"
     prettier "^2.2.1"
 
-"@oriflame/config-typescript@^1.1.22":
-  version "1.1.22"
-  resolved "https://registry.yarnpkg.com/@oriflame/config-typescript/-/config-typescript-1.1.22.tgz#96c6cab8b232e4328a7e558a24a8c9506a1f6c59"
-  integrity sha512-SNjolnfOjM3bdsbfI3oQHLgudGI+Htsg/vF1e4JvlV6jeBqBgJo4HKr9t8EcKFB4r28NdlctUG0ztAQcgJgF6A==
+"@oriflame/config-typescript@^1.1.23":
+  version "1.1.23"
+  resolved "https://registry.yarnpkg.com/@oriflame/config-typescript/-/config-typescript-1.1.23.tgz#b0f4fab2834cda5b37c02257a13189ad8dbb74f0"
+  integrity sha512-b+Jm7krEivdSQ0RmXgtB/VMmhFLgGoZq1YdW5+QSANS4fj5mxwdKye8qhrEWqcO4wImLzmuQftUD3gTTxHoznw==
   dependencies:
     "@beemo/core" "^1.1.8"
     "@beemo/driver-typescript" "^1.4.1"
-    "@oriflame/lumos-common" "^3.0.0"
+    "@oriflame/lumos-common" "^3.0.1"
     typescript "^4.2.4"
 
-"@oriflame/lumos-common@^3.0.0":
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/@oriflame/lumos-common/-/lumos-common-3.0.0.tgz#68073983a1bbf9873d077c4144be0b63d4cdc958"
-  integrity sha512-f4o8nB7WDWSTEj9FE6T0iKfUB8/jyhjSERRAFSxlp9r4tZK/5XEnEbLTtwWQ1x6hpcbgLEnSnKmW1m+qxZ8tAA==
+"@oriflame/lumos-common@^3.0.1":
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/@oriflame/lumos-common/-/lumos-common-3.0.1.tgz#4099039ba192ff20598173cf8d7c405c78ed7635"
+  integrity sha512-szjgMbbFq/pG880LNGtr0oFOALWJCIB287JRZOFdaYwU3awAdp3V0pz+cWFKiPG2SA4JauPNl14KzhJXZs3dQA==
   dependencies:
     "@beemo/core" "^1.1.8"
     "@boost/common" "^2.7.2"
     execa "^5.0.0"
     fast-glob "^3.2.5"
 
-"@oriflame/lumos@^2.4.120":
-  version "2.4.120"
-  resolved "https://registry.yarnpkg.com/@oriflame/lumos/-/lumos-2.4.120.tgz#328c99d75518a2525e378befe515c245ecdbfe0a"
-  integrity sha512-WA6rgrLh9U5X864rC/TzReEWtTKyJLFsUWY/oDwYBvjkhSEsBI+DfW1iCTltL+CSmZZHQvk4YFBq7FZbKrP/7Q==
+"@oriflame/lumos@^2.4.125":
+  version "2.4.125"
+  resolved "https://registry.yarnpkg.com/@oriflame/lumos/-/lumos-2.4.125.tgz#973ac47bb23617a3c0e03e53ac47ebae0af3b293"
+  integrity sha512-NscubRS1FOYB4m0LdgdkzROIGiFgwvtl2GSPePOHY9lucA/IGl2xFpdQXxqK0ECIIOKECOBidKm5pz37/bG8VA==
   dependencies:
     "@actions/core" "^1.2.7"
     "@actions/github" "^4.0.0"
@@ -2796,7 +2796,7 @@
     "@beemo/core" "^1.1.8"
     "@octokit/rest" "^16.43.2"
     "@oriflame/conventional-changelog" "^1.1.2"
-    "@oriflame/lumos-common" "^3.0.0"
+    "@oriflame/lumos-common" "^3.0.1"
     chalk "^4.1.1"
     check-node-version "^4.1.0"
     cross-env "^7.0.3"
@@ -3026,10 +3026,18 @@
   dependencies:
     "@types/istanbul-lib-report" "*"
 
-"@types/jest@*", "@types/jest@^26.0.22":
+"@types/jest@*":
   version "26.0.22"
   resolved "https://registry.yarnpkg.com/@types/jest/-/jest-26.0.22.tgz#8308a1debdf1b807aa47be2838acdcd91e88fbe6"
   integrity sha512-eeWwWjlqxvBxc4oQdkueW5OF/gtfSceKk4OnOAGlUSwS/liBRtZppbJuz1YkgbrbfGOoeBHun9fOvXnjNwrSOw==
+  dependencies:
+    jest-diff "^26.0.0"
+    pretty-format "^26.0.0"
+
+"@types/jest@^26.0.23":
+  version "26.0.23"
+  resolved "https://registry.yarnpkg.com/@types/jest/-/jest-26.0.23.tgz#a1b7eab3c503b80451d019efb588ec63522ee4e7"
+  integrity sha512-ZHLmWMJ9jJ9PTiT58juykZpL7KjwJywFN3Rr2pTSkyQfydf/rk22yS7W8p5DaVUMQ2BQC7oYiU3FjbTM/mYrOA==
   dependencies:
     jest-diff "^26.0.0"
     pretty-format "^26.0.0"
@@ -5219,10 +5227,10 @@ eslint-plugin-import@^2.22.1:
     resolve "^1.17.0"
     tsconfig-paths "^3.9.0"
 
-eslint-plugin-jest@^24.3.5:
-  version "24.3.5"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-jest/-/eslint-plugin-jest-24.3.5.tgz#71f0b580f87915695c286c3f0eb88cf23664d044"
-  integrity sha512-XG4rtxYDuJykuqhsOqokYIR84/C8pRihRtEpVskYLbIIKGwPNW2ySxdctuVzETZE+MbF/e7wmsnbNVpzM0rDug==
+eslint-plugin-jest@^24.3.6:
+  version "24.3.6"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-jest/-/eslint-plugin-jest-24.3.6.tgz#5f0ca019183c3188c5ad3af8e80b41de6c8e9173"
+  integrity sha512-WOVH4TIaBLIeCX576rLcOgjNXqP+jNlCiEmRgFTfQtJ52DpwnIQKAVGlGPAN7CZ33bW6eNfHD6s8ZbEUTQubJg==
   dependencies:
     "@typescript-eslint/experimental-utils" "^4.0.1"
 
