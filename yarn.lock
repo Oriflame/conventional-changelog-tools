@@ -701,10 +701,10 @@
   dependencies:
     "@babel/helper-plugin-utils" "^7.12.13"
 
-"@babel/plugin-transform-block-scoping@^7.13.16":
-  version "7.13.16"
-  resolved "https://registry.yarnpkg.com/@babel/plugin-transform-block-scoping/-/plugin-transform-block-scoping-7.13.16.tgz#a9c0f10794855c63b1d629914c7dcfeddd185892"
-  integrity sha512-ad3PHUxGnfWF4Efd3qFuznEtZKoBp0spS+DgqzVzRPV7urEBvPLue3y2j80w4Jf2YLzZHj8TOv/Lmvdmh3b2xg==
+"@babel/plugin-transform-block-scoping@^7.14.1":
+  version "7.14.1"
+  resolved "https://registry.yarnpkg.com/@babel/plugin-transform-block-scoping/-/plugin-transform-block-scoping-7.14.1.tgz#ac1b3a8e3d8cbb31efc6b9be2f74eb9823b74ab2"
+  integrity sha512-2mQXd0zBrwfp0O1moWIhPpEeTKDvxyHcnma3JATVP1l+CctWBuot6OJG8LQ4DnBj4ZZPSmlb/fm4mu47EOAnVA==
   dependencies:
     "@babel/helper-plugin-utils" "^7.13.0"
 
@@ -1002,10 +1002,10 @@
     core-js "^2.6.5"
     regenerator-runtime "^0.13.4"
 
-"@babel/preset-env@^7.14.0":
-  version "7.14.0"
-  resolved "https://registry.yarnpkg.com/@babel/preset-env/-/preset-env-7.14.0.tgz#236f88cd5da625e625dd40500d4824523f50e6c5"
-  integrity sha512-GWRCdBv2whxqqaSi7bo/BEXf070G/fWFMEdCnmoRg2CZJy4GK06ovFuEjJrZhDRXYgBsYtxVbG8GUHvw+UWBkQ==
+"@babel/preset-env@^7.14.1":
+  version "7.14.1"
+  resolved "https://registry.yarnpkg.com/@babel/preset-env/-/preset-env-7.14.1.tgz#b55914e2e68885ea03f69600b2d3537e54574a93"
+  integrity sha512-0M4yL1l7V4l+j/UHvxcdvNfLB9pPtIooHTbEhgD/6UGyh8Hy3Bm1Mj0buzjDXATCSz3JFibVdnoJZCrlUCanrQ==
   dependencies:
     "@babel/compat-data" "^7.14.0"
     "@babel/helper-compilation-targets" "^7.13.16"
@@ -1044,7 +1044,7 @@
     "@babel/plugin-transform-arrow-functions" "^7.13.0"
     "@babel/plugin-transform-async-to-generator" "^7.13.0"
     "@babel/plugin-transform-block-scoped-functions" "^7.12.13"
-    "@babel/plugin-transform-block-scoping" "^7.13.16"
+    "@babel/plugin-transform-block-scoping" "^7.14.1"
     "@babel/plugin-transform-classes" "^7.13.0"
     "@babel/plugin-transform-computed-properties" "^7.13.0"
     "@babel/plugin-transform-destructuring" "^7.13.17"
@@ -1074,7 +1074,7 @@
     "@babel/plugin-transform-unicode-escapes" "^7.12.13"
     "@babel/plugin-transform-unicode-regex" "^7.12.13"
     "@babel/preset-modules" "^0.1.4"
-    "@babel/types" "^7.14.0"
+    "@babel/types" "^7.14.1"
     babel-plugin-polyfill-corejs2 "^0.2.0"
     babel-plugin-polyfill-corejs3 "^0.2.0"
     babel-plugin-polyfill-regenerator "^0.2.0"
@@ -1178,6 +1178,14 @@
   version "7.14.0"
   resolved "https://registry.yarnpkg.com/@babel/types/-/types-7.14.0.tgz#3fc3fc74e0cdad878182e5f66cc6bcab1915a802"
   integrity sha512-O2LVLdcnWplaGxiPBz12d0HcdN8QdxdsWYhz5LSeuukV/5mn2xUUc3gBeU4QBYPJ18g/UToe8F532XJ608prmg==
+  dependencies:
+    "@babel/helper-validator-identifier" "^7.14.0"
+    to-fast-properties "^2.0.0"
+
+"@babel/types@^7.14.1":
+  version "7.14.1"
+  resolved "https://registry.yarnpkg.com/@babel/types/-/types-7.14.1.tgz#095bd12f1c08ab63eff6e8f7745fa7c9cc15a9db"
+  integrity sha512-S13Qe85fzLs3gYRUnrpyeIrBJIMYv33qSTg1qoBwiG6nPKwUWAD9odSzWhEedpwOIzSEI6gbdQIWEMiCI42iBA==
   dependencies:
     "@babel/helper-validator-identifier" "^7.14.0"
     to-fast-properties "^2.0.0"
@@ -2749,10 +2757,10 @@
   dependencies:
     "@octokit/openapi-types" "^6.0.0"
 
-"@oriflame/config-babel@^1.0.62":
-  version "1.0.62"
-  resolved "https://registry.yarnpkg.com/@oriflame/config-babel/-/config-babel-1.0.62.tgz#429b4a2f05e5e20c23ab0cce5602fa3aaa87becd"
-  integrity sha512-B6LOWOOkzOhl6qmwW/283tq7YP4mhiWJR3ICB8BZWgxPuuKnTGPMomPUqS0dteBAXSVkykKYxVEA1xC+qlMVew==
+"@oriflame/config-babel@^2.0.0":
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/@oriflame/config-babel/-/config-babel-2.0.0.tgz#f32114c5a57ee280e58de5d15f8eee1f57a49c15"
+  integrity sha512-/EA3t2/n7dWCaGAilnONigZsDjpbq5sMFYjzTo0Y5Wha9hZLnudo1qNsFp7GVCjKwVBswfGVopo9+JV6cFMG2w==
   dependencies:
     "@babel/cli" "^7.13.16"
     "@babel/core" "^7.14.0"
@@ -2762,7 +2770,7 @@
     "@babel/plugin-transform-react-jsx-self" "^7.12.13"
     "@babel/plugin-transform-react-jsx-source" "^7.12.13"
     "@babel/plugin-transform-runtime" "^7.13.15"
-    "@babel/preset-env" "^7.14.0"
+    "@babel/preset-env" "^7.14.1"
     "@babel/preset-react" "^7.13.13"
     "@babel/preset-typescript" "^7.13.0"
     "@beemo/core" "^1.1.8"
@@ -2863,10 +2871,10 @@
     execa "^5.0.0"
     fast-glob "^3.2.5"
 
-"@oriflame/lumos@^2.4.126":
-  version "2.4.126"
-  resolved "https://registry.yarnpkg.com/@oriflame/lumos/-/lumos-2.4.126.tgz#2e823f87070b57ac5ea66a2e7d0b0953ded64f5f"
-  integrity sha512-BytUyqczmtT2OsAxoSJ/zjlyLvk6eeptXZN4Fas6AT+52fo5AsoYEUQ4PPRh04pBtF9wWl+iwpI9PHQuSKiGkA==
+"@oriflame/lumos@^3.0.0":
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/@oriflame/lumos/-/lumos-3.0.0.tgz#77227a36c66568edf3631b0dd9ff94ba5f6517d5"
+  integrity sha512-tUmCGaNqVset1eRtjeCEtBVvLn2x5xGTWZ8Rba8+HtsGH5J2B0A8G59aJQ5m0XJT958qS7D+SdyIl/c1+cS/tA==
   dependencies:
     "@actions/core" "^1.2.7"
     "@actions/github" "^4.0.0"
