@@ -1,6 +1,5 @@
 /* eslint-disable @typescript-eslint/no-unsafe-argument -- false positive */
 /* eslint-disable jest/no-done-callback -- false positive */
-/* eslint-disable node/no-extraneous-import -- false positive */
 /* eslint-disable @typescript-eslint/no-unsafe-call -- needed */
 /* eslint-disable jest/expect-expect, import/no-extraneous-dependencies -- needed */
 

@@ -1,6 +1,7 @@
 import { Group } from './types';
 
-export const COMMIT_FORMAT_PREFIX = /(break|breaking|build|ci|cd|deps|docs|feature|fix|internal|misc|new|patch|release|revert|security|style|styles|test|tests|type|types|update)(?:\(([a-zA-Z0-9\-., ]+)\))?:/u;
+export const COMMIT_FORMAT_PREFIX =
+  /(break|breaking|build|ci|cd|deps|docs|feature|fix|internal|misc|new|patch|release|revert|security|style|styles|test|tests|type|types|update)(?:\(([a-zA-Z0-9\-., ]+)\))?:/u;
 
 export const GROUPS: Group[] = [
   {
