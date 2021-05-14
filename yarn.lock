@@ -2855,18 +2855,18 @@
     babel-plugin-typescript-to-proptypes "^1.4.2"
     react-refresh "^0.10.0"
 
-"@oriflame/config-danger@1.1.33":
-  version "1.1.33"
-  resolved "https://registry.yarnpkg.com/@oriflame/config-danger/-/config-danger-1.1.33.tgz#1e14bb90bc7c0d9266393a914a40016a1b5f659c"
-  integrity sha512-jPHONqZNqdBw4hPG5GIWCxRhBaM4k72ugMabA2RzTqCtjo0P8af4ugCJyM3OBOYf7dsFonM/5I4dnw2j/cQhFw==
+"@oriflame/config-danger@1.1.34":
+  version "1.1.34"
+  resolved "https://registry.yarnpkg.com/@oriflame/config-danger/-/config-danger-1.1.34.tgz#8ebe3e5a1e788829a382dd1b6692dd58e9f5d734"
+  integrity sha512-u92ypl4fI2F81Cyn6f9wfXrs+OkD7mpJfeeIC9cVntaMrqOass89R8zQp7BdpvuImy/JBIMy4ZUlJlj10tczcw==
   dependencies:
-    "@oriflame/conventional-changelog" "^1.1.2"
+    "@oriflame/conventional-changelog" "^1.1.3"
     danger "^10.6.4"
 
-"@oriflame/config-eslint@^3.2.0":
-  version "3.2.0"
-  resolved "https://registry.yarnpkg.com/@oriflame/config-eslint/-/config-eslint-3.2.0.tgz#67d85906af82597994e560cdaa42f0c63650df9d"
-  integrity sha512-bx3t6uhpu0gHyqKIRVzyX7+QrQaTxrn0Eq+3yaPrVlO0xKv6lxCg5DLIF+lChNTlz/RXpsYP/j/q1cj2HfRstA==
+"@oriflame/config-eslint@^3.2.1":
+  version "3.2.1"
+  resolved "https://registry.yarnpkg.com/@oriflame/config-eslint/-/config-eslint-3.2.1.tgz#a34a36d6d23a79efbc9ae1e5b9ace5e45246f79b"
+  integrity sha512-x70KwntQCZ1FbqQNfCHcEF8KiJlbZ0CSTU9Dk9RDaN66tpyNGMfUIDmJasGYFP7j2mIGErj97rDVeZnUisgENg==
   dependencies:
     "@beemo/core" "^1.1.8"
     "@beemo/driver-eslint" "^1.2.3"
@@ -2887,7 +2887,7 @@
     eslint-plugin-promise "^5.1.0"
     eslint-plugin-react "^7.23.2"
     eslint-plugin-react-hooks "^4.2.0"
-    eslint-plugin-testing-library "^4.3.0"
+    eslint-plugin-testing-library "^4.4.0"
     eslint-plugin-unicorn "^32.0.1"
 
 "@oriflame/config-jest@^1.1.37":
@@ -2942,17 +2942,17 @@
     execa "^5.0.0"
     fast-glob "^3.2.5"
 
-"@oriflame/lumos@^3.0.7":
-  version "3.0.7"
-  resolved "https://registry.yarnpkg.com/@oriflame/lumos/-/lumos-3.0.7.tgz#4275e5e90334a25a700e9e7928ea9939adfc825e"
-  integrity sha512-IDZkMbx0Mqm3Fe3caynaZjQ3LawDR+W0lE4yy7PtdCkJ115jOiM2Ykd/+ZY8iAi/ISLxuWaDP6V0ArCDTzpajg==
+"@oriflame/lumos@^3.0.9":
+  version "3.0.9"
+  resolved "https://registry.yarnpkg.com/@oriflame/lumos/-/lumos-3.0.9.tgz#b7de4b6ea32aa9e6e69a46153dd62525ab8350c9"
+  integrity sha512-AOPQ0N1H0rkce29q54yukjLTJDtDgk4cGAkM6HGxq55nzN1WG2AA5ppnhgW8q2sLAa7c6Mi5NKz9OkN53RoGnw==
   dependencies:
     "@actions/core" "^1.2.7"
     "@actions/github" "^4.0.0"
     "@beemo/cli" "^1.0.11"
     "@beemo/core" "^1.1.8"
     "@octokit/rest" "^16.43.2"
-    "@oriflame/conventional-changelog" "^1.1.2"
+    "@oriflame/conventional-changelog" "^1.1.3"
     "@oriflame/lumos-common" "^3.0.2"
     chalk "^4.1.1"
     check-node-version "^4.1.0"
@@ -5506,10 +5506,10 @@ eslint-plugin-react@^7.23.2:
     resolve "^2.0.0-next.3"
     string.prototype.matchall "^4.0.4"
 
-eslint-plugin-testing-library@^4.3.0:
-  version "4.3.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-testing-library/-/eslint-plugin-testing-library-4.3.0.tgz#f902103b3c837e8ad4faaf5b4dd1b7db2fc337b2"
-  integrity sha512-zl9b6kusePn7+f8ptSMycKM5DkbaGoDsPJwAxew3mA7779nLSWhEvxa6ldWUunAyTHbi+gszOrz5WYlOlKfqkQ==
+eslint-plugin-testing-library@^4.4.0:
+  version "4.4.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-testing-library/-/eslint-plugin-testing-library-4.4.0.tgz#3624e3a4f3db04ba67e3e8a16345e1b48068f62c"
+  integrity sha512-uMsWi6/4V4GPNiGzoa2OaTQT32BezKxxTWSrJfy/JXk2AJLv1IEM6t1uN2j0qiNrL3tEbl1yl4tinaDFxj8YjA==
   dependencies:
     "@typescript-eslint/experimental-utils" "^4.21.0"
 
