@@ -2854,10 +2854,10 @@
   dependencies:
     "@octokit/openapi-types" "^7.0.0"
 
-"@oriflame/config-babel@^2.0.4":
-  version "2.0.4"
-  resolved "https://registry.yarnpkg.com/@oriflame/config-babel/-/config-babel-2.0.4.tgz#80bf05c1c1b0ce480e7a6d430278180126a4bc55"
-  integrity sha512-3U6kQ69rzhdrPMtTbLEOnl6gB9tcobB3GwoPLIG5q2MRh8YizcE787qdRsMDixPHMJ44Z0LJFGjTdKea+TOHwg==
+"@oriflame/config-babel@^2.0.5":
+  version "2.0.5"
+  resolved "https://registry.yarnpkg.com/@oriflame/config-babel/-/config-babel-2.0.5.tgz#7e1deeab1da29458cb41ebdd681cef32e1000dbd"
+  integrity sha512-DeD7wGEMs0G1u071M8b+6jjuABq3l8SXXohq6Sx6AXPFQGh3K7D8xG6EzlKJyR+2xuVYrOimzD+sC5CUtIv2tw==
   dependencies:
     "@babel/cli" "^7.14.3"
     "@babel/core" "^7.14.3"
@@ -2873,7 +2873,7 @@
     "@beemo/core" "^1.1.8"
     "@beemo/driver-babel" "^1.2.6"
     "@oriflame/lumos-common" "^3.1.0"
-    babel-plugin-graphql-tag "^3.2.0"
+    babel-plugin-graphql-tag "^3.3.0"
     babel-plugin-module-resolver "^4.1.0"
     babel-plugin-optimize-clsx "^2.6.1"
     babel-plugin-parameter-decorator "^1.0.16"
@@ -2968,10 +2968,10 @@
     execa "^5.0.0"
     fast-glob "^3.2.5"
 
-"@oriflame/lumos@^3.1.5":
-  version "3.1.5"
-  resolved "https://registry.yarnpkg.com/@oriflame/lumos/-/lumos-3.1.5.tgz#482f2db4b1190e25462836ff707e0a7002b588f6"
-  integrity sha512-TsvlHzqbnPIG1Kw821QTOieU6LZMFDy/KRinCpfZM/pVinS2Uh2PhuUcYoBQvsWSintYC5dgiKk5T8gpCepCGA==
+"@oriflame/lumos@^3.1.8":
+  version "3.1.8"
+  resolved "https://registry.yarnpkg.com/@oriflame/lumos/-/lumos-3.1.8.tgz#06e70417cf0b04ad5e0169237898966f42426d2c"
+  integrity sha512-qKnukLJvc3qoo9jW5q1ZlEvrVgWjCuKXPqH231IThUWIz/hyOZkMfdgBle9f1hss2u+munoynGYamcB7cvIgwQ==
   dependencies:
     "@actions/core" "^1.2.7"
     "@actions/github" "^5.0.0"
@@ -3889,10 +3889,10 @@ babel-plugin-dynamic-import-node@^2.3.3:
   dependencies:
     object.assign "^4.1.0"
 
-babel-plugin-graphql-tag@^3.2.0:
-  version "3.2.0"
-  resolved "https://registry.yarnpkg.com/babel-plugin-graphql-tag/-/babel-plugin-graphql-tag-3.2.0.tgz#d9f06de489c629d6a05b3bb5d804c0a82e26ba71"
-  integrity sha512-2WjslcT4Vbd9S2nHL6eBdrzKcFbg89uK+AEx8BdWaXu51BXIO7f3W1A7ZWQ1mwQw+84dFo4fEdGa6C9Vu68Cfw==
+babel-plugin-graphql-tag@^3.3.0:
+  version "3.3.0"
+  resolved "https://registry.yarnpkg.com/babel-plugin-graphql-tag/-/babel-plugin-graphql-tag-3.3.0.tgz#77d8ce04fb8f2ca56bce9af0ca7d5ad2b91f53bc"
+  integrity sha512-27qfJhFJ2jQg+ktcC3cdppE2RrXZ5uiDz+39YC5lhkmftWPuJW8ET9Ehskwv7ujScZ1jSKhs5/JZKlESCkwIBg==
   dependencies:
     "@babel/helper-plugin-utils" "^7.0.0"
     "@babel/parser" "^7.3.2"
