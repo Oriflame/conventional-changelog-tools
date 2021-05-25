@@ -48,7 +48,7 @@
     "@oriflame/config-prettier": "^1.1.20",
     "@oriflame/config-typescript": "^1.1.25",
     "@oriflame/lumos": "^3.1.10",
-    "@types/node": "^14.17.0",
+    "@types/node": "^14.17.1",
     "@types/shelljs": "^0.8.8",
     "husky": "^6.0.0",
     "lerna": "^4.0.0",
