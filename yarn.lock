@@ -2950,15 +2950,15 @@
     "@oriflame/lumos-common" "^3.1.0"
     prettier "^2.3.0"
 
-"@oriflame/config-typescript@^1.1.25":
-  version "1.1.25"
-  resolved "https://registry.yarnpkg.com/@oriflame/config-typescript/-/config-typescript-1.1.25.tgz#dfde5d5ffe157196d2d82de5a9e67ff8a6ea9600"
-  integrity sha512-9+toSQUzKqCiAX//RUz3DA9au2EG7uVXCAdiNsWmlciyJSlqJiVfhALdB2bI+++gSCtYeUszU5p7xO+52Z4SNA==
+"@oriflame/config-typescript@^1.2.0":
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/@oriflame/config-typescript/-/config-typescript-1.2.0.tgz#ab28f04aaa09cacd8a3075e3fb08a8796b12a69f"
+  integrity sha512-LwfDjxJ7kO30N2D5Ts1LIol4AADPHJXnUZwQfQafo3KTYY4XE7P7/n4j1QW4UImho7buuVIcCChvXbZQ1LEi/w==
   dependencies:
     "@beemo/core" "^1.1.8"
     "@beemo/driver-typescript" "^1.4.1"
     "@oriflame/lumos-common" "^3.1.0"
-    typescript "^4.2.4"
+    typescript "^4.3.2"
 
 "@oriflame/lumos-common@^3.1.0":
   version "3.1.0"
@@ -2970,10 +2970,10 @@
     execa "^5.0.0"
     fast-glob "^3.2.5"
 
-"@oriflame/lumos@^3.1.13":
-  version "3.1.13"
-  resolved "https://registry.yarnpkg.com/@oriflame/lumos/-/lumos-3.1.13.tgz#12e340c602ec9c262f1862926645a9bb9cc1114c"
-  integrity sha512-tW5VBb90/KH4ACtFiIZe6LUTSuP0xk/9P0nozu5nD7F78L5FalTZLjOnpdjZz6qoiLPlUI02pPkhF0LwI/xUvw==
+"@oriflame/lumos@^3.1.14":
+  version "3.1.14"
+  resolved "https://registry.yarnpkg.com/@oriflame/lumos/-/lumos-3.1.14.tgz#99fddfafa8e3222ee57bc7cc74c36c28ade47780"
+  integrity sha512-KuAG7o1qZ+LHb0gAiRMhSqNSZyWVg95IwUhqZnL2qYfAaM91dnuR8BKSwwV4d9uQimHK4wRxUUi+bGSF6UAsCA==
   dependencies:
     "@actions/core" "^1.3.0"
     "@actions/github" "^5.0.0"
@@ -11494,10 +11494,10 @@ typedarray@^0.0.6:
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
 
-typescript@^4.2.4:
-  version "4.2.4"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.2.4.tgz#8610b59747de028fda898a8aef0e103f156d0961"
-  integrity sha512-V+evlYHZnQkaz8TRBuxTA92yZBPotr5H+WhQ7bD3hZUndx5tGOa1fuCgeSjxAzM1RiN5IzvadIXTVefuuwZCRg==
+typescript@^4.3.2:
+  version "4.3.2"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.3.2.tgz#399ab18aac45802d6f2498de5054fcbbe716a805"
+  integrity sha512-zZ4hShnmnoVnAHpVHWpTcxdv7dWP60S2FsydQLV8V5PbS3FifjWFFRiHSWpDJahly88PRyV5teTSLoq4eG7mKw==
 
 uglify-js@^3.1.4:
   version "3.13.4"
