@@ -25,7 +25,7 @@
     "@oriflame/conventional-changelog-types": "^1.0.5"
   },
   "devDependencies": {
-    "conventional-changelog-core": "^4.2.2",
+    "conventional-changelog-core": "^4.2.3",
     "conventional-recommended-bump": "^6.1.0"
   }
 }
