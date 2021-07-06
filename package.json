@@ -49,7 +49,7 @@
     "@oriflame/config-typescript": "^1.2.1",
     "@oriflame/lumos": "^3.1.33",
     "@types/node": "^14.17.4",
-    "@types/shelljs": "^0.8.8",
+    "@types/shelljs": "^0.8.9",
     "husky": "^7.0.0",
     "lerna": "^4.0.0",
     "shelljs": "^0.8.4"
