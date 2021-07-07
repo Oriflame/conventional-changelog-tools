@@ -3110,10 +3110,10 @@
     "@oriflame/conventional-changelog" "^1.1.4"
     danger "^10.6.6"
 
-"@oriflame/config-eslint@^3.3.7":
-  version "3.3.7"
-  resolved "https://registry.yarnpkg.com/@oriflame/config-eslint/-/config-eslint-3.3.7.tgz#92a6a1de92ea03c43cb0ad6301c93ebc43889ede"
-  integrity sha512-DFDNVaKhvQZ9L4u6/1dJzwp5ETwJZXalFSfVCcv/vUdlHhMVX1FwyQ5raqJzVrsWpBDNbCKlKo5d3P9EDIq2Gg==
+"@oriflame/config-eslint@^3.3.8":
+  version "3.3.8"
+  resolved "https://registry.yarnpkg.com/@oriflame/config-eslint/-/config-eslint-3.3.8.tgz#454da7da1405bbcca2673ffa2f842f14845ae3c7"
+  integrity sha512-QkEa/nHECdf25gosxwTz2LD/aiJLj4d1/p5Zy32agcwcefvqZ32sIKYFQ9rkDxT3gSsWPgNnbZPpOe5cAxbFAg==
   dependencies:
     "@beemo/core" "^1.1.8"
     "@beemo/driver-eslint" "^1.2.3"
@@ -3134,13 +3134,13 @@
     eslint-plugin-promise "^5.1.0"
     eslint-plugin-react "^7.24.0"
     eslint-plugin-react-hooks "^4.2.0"
-    eslint-plugin-testing-library "^4.7.0"
+    eslint-plugin-testing-library "^4.9.0"
     eslint-plugin-unicorn "^34.0.1"
 
-"@oriflame/config-jest@^1.1.55":
-  version "1.1.55"
-  resolved "https://registry.yarnpkg.com/@oriflame/config-jest/-/config-jest-1.1.55.tgz#7acf1f83ecdecf9ae3b4ff123bb054aca387b1a1"
-  integrity sha512-MvyqI9gfxNNJtwALZ87nWymGZyHq+QLDiI4ybh+aifVkwD34q9/D+8GefbELseUeoIQkpHYif0yMxkDTwUoFzQ==
+"@oriflame/config-jest@^1.1.56":
+  version "1.1.56"
+  resolved "https://registry.yarnpkg.com/@oriflame/config-jest/-/config-jest-1.1.56.tgz#f7bbb98ed1a53a7ed3b5bc7315888610e68e4e82"
+  integrity sha512-1ptmxWIm5kd1sdRNJALpCaoy1nSyA6wS3NcVx1htGqoscQGyldQTDsTGXbfV5R6FR75Mq8oJF6VNC4GFrnawtw==
   dependencies:
     "@babel/core" "^7.14.6"
     "@beemo/core" "^1.1.8"
@@ -3148,7 +3148,7 @@
     "@beemo/driver-jest" "^1.2.3"
     "@oriflame/lumos-common" "^3.1.2"
     "@testing-library/jest-dom" "^5.14.1"
-    "@types/jest" "^26.0.23"
+    "@types/jest" "^26.0.24"
     airbnb-js-shims "^2.2.1"
     cross-env "^7.0.3"
     dom-storage "^2.1.0"
@@ -3189,10 +3189,10 @@
     execa "^5.0.1"
     fast-glob "^3.2.6"
 
-"@oriflame/lumos@^3.1.53":
-  version "3.1.53"
-  resolved "https://registry.yarnpkg.com/@oriflame/lumos/-/lumos-3.1.53.tgz#ae97801b36b935e70bb0985b4115fd8f4230c2d6"
-  integrity sha512-CLQ5HluBS+5Tgo4a2KGyau8y2V+jEsSfSI+ZErgKNOneBe5+6r3Xn9cTCRzlj+CLME/wMdE/8puJfTX4BpP4bw==
+"@oriflame/lumos@^3.1.55":
+  version "3.1.55"
+  resolved "https://registry.yarnpkg.com/@oriflame/lumos/-/lumos-3.1.55.tgz#a6be9864295e90131f2254a2d2890ad271a457ac"
+  integrity sha512-N1wdnC8iMCuNgLege84PUYdpnOWjqZAgB+g1Mn8dMwOZ8q0RaZckaWE8QnrbqjKufnF1LT1FcNT/nrXcI3XApg==
   dependencies:
     "@actions/core" "^1.4.0"
     "@actions/github" "^5.0.0"
@@ -3439,10 +3439,10 @@
     jest-diff "^26.0.0"
     pretty-format "^26.0.0"
 
-"@types/jest@^26.0.23":
-  version "26.0.23"
-  resolved "https://registry.yarnpkg.com/@types/jest/-/jest-26.0.23.tgz#a1b7eab3c503b80451d019efb588ec63522ee4e7"
-  integrity sha512-ZHLmWMJ9jJ9PTiT58juykZpL7KjwJywFN3Rr2pTSkyQfydf/rk22yS7W8p5DaVUMQ2BQC7oYiU3FjbTM/mYrOA==
+"@types/jest@^26.0.24":
+  version "26.0.24"
+  resolved "https://registry.yarnpkg.com/@types/jest/-/jest-26.0.24.tgz#943d11976b16739185913a1936e0de0c4a7d595a"
+  integrity sha512-E/X5Vib8BWqZNRlDxj9vYXhsDwPYbPINqKF9BsnSoon4RQ0D9moEuLD8txgyypFLH7J4+Lho9Nr/c8H0Fi+17w==
   dependencies:
     jest-diff "^26.0.0"
     pretty-format "^26.0.0"
@@ -5878,10 +5878,10 @@ eslint-plugin-react@^7.24.0:
     resolve "^2.0.0-next.3"
     string.prototype.matchall "^4.0.5"
 
-eslint-plugin-testing-library@^4.7.0:
-  version "4.7.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-testing-library/-/eslint-plugin-testing-library-4.7.0.tgz#2bf32514120bd3ac8ff2805cc52b12ae067cfd5f"
-  integrity sha512-CLVlCrBnCog8aaEi50D8HNN0bK5FzkNwHtY0ICUVGZLfnIdfmb6VrIePrj9PuGyvibvcC8txKn3jVhH5jmJjWg==
+eslint-plugin-testing-library@^4.9.0:
+  version "4.9.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-testing-library/-/eslint-plugin-testing-library-4.9.0.tgz#be65bab6cf20725c6a503974f134a65deea02de9"
+  integrity sha512-pnWco+Gi8I77K3DAusOmt9MMA1BG1/sbztkEptB4VbNeVxE0ju5sOyLETJ03CIx8eMNbQAZNeiLQB7hT5D0L3A==
   dependencies:
     "@typescript-eslint/experimental-utils" "^4.24.0"
 
