@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 2.1.11 - 2021-09-05
+
+#### 📦 Dependencies
+
+- update dependency @semantic-release/git to ^9.0.1 (#678) ([a7f424d](https://github.com/Oriflame/conventional-changelog-tools/commit/a7f424dfaa3294ce8896cc981431e59421f71682)), closes  _#678_
+
+**Note:** Version bump only for package @oriflame/semantic-release-config
+
+
+
+
+
 ### 2.1.10 - 2021-07-03
 
 **Note:** Version bump only for package @oriflame/semantic-release-config
