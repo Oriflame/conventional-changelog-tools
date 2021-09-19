@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 2.1.13 - 2021-09-19
+
+#### 📦 Dependencies
+
+- update semantic-release monorepo (#680) ([b019d78](https://github.com/Oriflame/conventional-changelog-tools/commit/b019d785c53d2cc87b2005d461e6376e9e2e8d44)), closes  _#680_
+
+**Note:** Version bump only for package @oriflame/semantic-release-config
+
+
+
+
+
 ### 2.1.12 - 2021-09-12
 
 **Note:** Version bump only for package @oriflame/semantic-release-config
