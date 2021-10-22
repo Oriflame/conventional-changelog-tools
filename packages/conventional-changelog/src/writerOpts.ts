@@ -164,14 +164,22 @@ const options: Partial<WriterOptions> = {
       commit.hash = commit.hash.slice(0, 7);
     }
 
-    for await (const reference of commit.references) {
+    commit.references.forEach((reference) => {
       if (SYSTEM_ACCESSTOKEN) {
-        try {
-          reference.issueLink = await createWorkItemLink(reference.issue);
-        } catch (error: unknown) {
-          console.log('Error during generation of workitem link');
-          console.error(error);
-        }
+        let done = false;
+        createWorkItemLink(reference.issue)
+          .then((item) => {
+            reference.issueLink = item;
+          })
+          .catch((error: unknown) => {
+            console.log('Error during generation of workitem link');
+            console.error(error);
+          })
+          .finally(() => {
+            done = true;
+          });
+        // eslint-disable-next-line no-unmodified-loop-condition -- needed
+        while (!done) {}
       } else {
         reference.issueLink = createLink([context.issue, reference.issue], context, reference);
       }
@@ -183,7 +191,7 @@ const options: Partial<WriterOptions> = {
       }
 
       reference.source = source;
-    }
+    });
 
     // Link users
     if (context.host) {
