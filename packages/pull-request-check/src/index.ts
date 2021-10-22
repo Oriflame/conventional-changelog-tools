@@ -1,6 +1,7 @@
-/* eslint-disable @typescript-eslint/no-non-null-assertion -- needed */
 import { checkCommitFormat } from '@oriflame/conventional-changelog';
 import { getPersonalAccessTokenHandler, WebApi } from 'azure-devops-node-api';
+
+import { createThread } from './CreateThread';
 
 interface AzureClientOptions {
   serverUrl: string;
@@ -30,19 +31,10 @@ export async function checkForConventionalTitle({
   const pullRequest = await gitApi.getPullRequestById(prId);
 
   if (!checkCommitFormat(pullRequest.title!)) {
-    await gitApi.createThread(
-      {
-        comments: [
-          {
-            commentType: 1,
-            content:
-              'Pull request title requires a conventional changelog prefix. More information: https://github.com/Oriflame/conventional-changelog-tools/tree/master/packages/conventional-changelog#commit-message-format',
-          },
-        ],
-        status: 1,
-      },
-      pullRequest.repository!.id!,
-      prId,
+    await createThread(
+      gitApi,
+      pullRequest,
+      'Pull request title requires a conventional changelog prefix. More information: https://github.com/Oriflame/conventional-changelog-tools/tree/master/packages/conventional-changelog#commit-message-format',
     );
     throw new Error(
       'Pull request title requires a conventional changelog prefix. More information: https://github.com/Oriflame/conventional-changelog-tools/tree/master/packages/conventional-changelog#commit-message-format',
