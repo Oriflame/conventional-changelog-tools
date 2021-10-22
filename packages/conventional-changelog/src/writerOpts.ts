@@ -1,5 +1,4 @@
 /* eslint-disable @typescript-eslint/no-non-null-assertion -- needed */
-/* eslint-disable no-console -- needed */
 /* eslint-disable no-param-reassign -- needed */
 
 import { createAzureClient, getWorkItemUrl } from '@oriflame/azure-helpers';
@@ -43,18 +42,20 @@ const sortWeights: GroupMap<number> = {
 const { SYSTEM_ACCESSTOKEN, ENDPOINT_URL_SYSTEMVSSCONNECTION } = process.env;
 
 function* createWorkItemLink(workItemId: string) {
-  createAzureClient({
+  yield createAzureClient({
     pat: SYSTEM_ACCESSTOKEN!,
     serverUrl: ENDPOINT_URL_SYSTEMVSSCONNECTION!,
-  }).then((webApi) => {
-    webApi.getWorkItemTrackingApi().then((workApi) => {
+  }).then(async (webApi) =>
+    webApi.getWorkItemTrackingApi().then(async (workApi) =>
       workApi.getWorkItem(Number(workItemId)).then((workItem) => {
         if (workItemId) {
-          yield getWorkItemUrl({ workItem, organizationUrl: ENDPOINT_URL_SYSTEMVSSCONNECTION! });
+          return getWorkItemUrl({ workItem, organizationUrl: ENDPOINT_URL_SYSTEMVSSCONNECTION! });
         }
-      });
-    });
-  });
+
+        return '';
+      }),
+    ),
+  );
 
   return '';
 }
