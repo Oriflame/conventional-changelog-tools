@@ -119,7 +119,7 @@ const options: Partial<WriterOptions> = {
   noteGroupsSort: 'title',
 
   // Add metadata
-  transform(commit, context) {
+  async transform(commit, context) {
     context.groupEmojis = groupEmojis;
 
     // eslint-disable-next-line @typescript-eslint/no-unnecessary-condition -- false positive
@@ -164,14 +164,14 @@ const options: Partial<WriterOptions> = {
       commit.hash = commit.hash.slice(0, 7);
     }
 
-    commit.references.forEach((reference) => {
+    for await (const reference of commit.references) {
       if (SYSTEM_ACCESSTOKEN) {
-        createWorkItemLink(reference.issue)
-          .then((item) => (reference.issueLink = item))
-          .catch((error: unknown) => {
-            console.log('Error during generation of workitem link');
-            console.error(error);
-          });
+        try {
+          reference.issueLink = await createWorkItemLink(reference.issue);
+        } catch (error: unknown) {
+          console.log('Error during generation of workitem link');
+          console.error(error);
+        }
       } else {
         reference.issueLink = createLink([context.issue, reference.issue], context, reference);
       }
@@ -183,7 +183,7 @@ const options: Partial<WriterOptions> = {
       }
 
       reference.source = source;
-    });
+    }
 
     // Link users
     if (context.host) {

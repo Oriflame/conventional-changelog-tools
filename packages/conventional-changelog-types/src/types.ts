@@ -149,7 +149,7 @@ export interface WriterOptions {
   notesSort: Sorter<Note>;
   partials: { [key: string]: unknown };
   reverse: boolean;
-  transform: (commit: Commit, context: Context) => Commit | undefined;
+  transform: (commit: Commit, context: Context) => Commit | Promise<Commit | undefined> | undefined;
 }
 
 export type SemverLevel = 0 | 1 | 2 | null; // major | minor | patch
