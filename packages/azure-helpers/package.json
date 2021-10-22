@@ -1,11 +1,10 @@
 {
-  "name": "@oriflame/pull-request-check",
-  "version": "1.1.0",
+  "name": "@oriflame/azure-helpers",
+  "version": "1.0.0",
   "main": "./lib/index.js",
-  "bin": "./index.js",
   "repository": {
     "url": "https://github.com/Oriflame/conventional-changelog-tools",
-    "directory": "packages/pull-request-check"
+    "directory": "packages/azure-helpers"
   },
   "license": "MIT",
   "engines": {
@@ -22,8 +21,6 @@
     "oriflame"
   ],
   "dependencies": {
-    "@oriflame/azure-helpers": "^1.0.0",
-    "@oriflame/conventional-changelog": "^1.1.5",
-    "chalk": "^4.1.2"
+    "azure-devops-node-api": "^11.0.1"
   }
 }

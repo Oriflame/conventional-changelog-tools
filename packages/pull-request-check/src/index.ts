@@ -1,19 +1,10 @@
 /* eslint-disable @typescript-eslint/no-non-null-assertion -- needed */
+import { createAzureClient } from '@oriflame/azure-helpers';
 import { checkCommitFormat } from '@oriflame/conventional-changelog';
-import { getPersonalAccessTokenHandler, WebApi } from 'azure-devops-node-api';
 
 interface AzureClientOptions {
   serverUrl: string;
   pat: string;
-}
-
-async function createAzureClient({ pat, serverUrl }: AzureClientOptions) {
-  const authHandler = getPersonalAccessTokenHandler(pat);
-  const webApi = new WebApi(serverUrl, authHandler);
-  await webApi.connect();
-  const gitApi = await webApi.getGitApi();
-
-  return { webApi, gitApi };
 }
 
 interface CheckForConventionalTitleArgs extends AzureClientOptions {
@@ -24,7 +15,8 @@ export async function checkForConventionalTitle({
   pullRequestId,
   ...rest
 }: CheckForConventionalTitleArgs) {
-  const { gitApi } = await createAzureClient(rest);
+  const webApi = await createAzureClient(rest);
+  const gitApi = await webApi.getGitApi();
   const prId = Number(pullRequestId);
 
   const pullRequest = await gitApi.getPullRequestById(prId);

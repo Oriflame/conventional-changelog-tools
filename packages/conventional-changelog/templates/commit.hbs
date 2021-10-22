@@ -12,10 +12,10 @@
 {{~#if references~}}
 , closes
 {{~#each references}}
-  {{!-- {{#if @root.linkReferences~}}
+  {{#if @root.linkReferences~}}
     [{{this.source}}]({{this.issueLink}})
-  {{~else~}} --}}
+  {{~else~}}
   _{{this.source}}_
-  {{!-- {{~/if}} --}}
+  {{~/if}}
 {{~/each}}
 {{~/if}}
