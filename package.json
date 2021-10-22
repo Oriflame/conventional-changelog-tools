@@ -19,6 +19,7 @@
     "pretest": "yarn run type",
     "test": "yarn run jest",
     "posttest": "yarn run lint",
+    "release-alpha": "git reset --hard && lerna publish --canary --force-publish --yes",
     "release": "git reset --hard && lumos run-script auto-release",
     "link-packages": "lerna exec -- yarn link",
     "unlink-packages": "lerna exec -- yarn unlink"
