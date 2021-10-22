@@ -42,18 +42,19 @@ const sortWeights: GroupMap<number> = {
 
 const { SYSTEM_ACCESSTOKEN, ENDPOINT_URL_SYSTEMVSSCONNECTION } = process.env;
 
-async function createWorkItemLink(workItemId: string) {
-  const webApi = await createAzureClient({
+function* createWorkItemLink(workItemId: string) {
+  createAzureClient({
     pat: SYSTEM_ACCESSTOKEN!,
     serverUrl: ENDPOINT_URL_SYSTEMVSSCONNECTION!,
+  }).then((webApi) => {
+    webApi.getWorkItemTrackingApi().then((workApi) => {
+      workApi.getWorkItem(Number(workItemId)).then((workItem) => {
+        if (workItemId) {
+          yield getWorkItemUrl({ workItem, organizationUrl: ENDPOINT_URL_SYSTEMVSSCONNECTION! });
+        }
+      });
+    });
   });
-  const workApi = await webApi.getWorkItemTrackingApi();
-
-  if (workItemId) {
-    const workItem = await workApi.getWorkItem(Number(workItemId));
-
-    return getWorkItemUrl({ workItem, organizationUrl: ENDPOINT_URL_SYSTEMVSSCONNECTION! });
-  }
 
   return '';
 }
@@ -119,7 +120,7 @@ const options: Partial<WriterOptions> = {
   noteGroupsSort: 'title',
 
   // Add metadata
-  async transform(commit, context) {
+  transform(commit, context) {
     context.groupEmojis = groupEmojis;
 
     // eslint-disable-next-line @typescript-eslint/no-unnecessary-condition -- false positive
@@ -166,20 +167,7 @@ const options: Partial<WriterOptions> = {
 
     commit.references.forEach((reference) => {
       if (SYSTEM_ACCESSTOKEN) {
-        let done = false;
-        createWorkItemLink(reference.issue)
-          .then((item) => {
-            reference.issueLink = item;
-          })
-          .catch((error: unknown) => {
-            console.log('Error during generation of workitem link');
-            console.error(error);
-          })
-          .finally(() => {
-            done = true;
-          });
-        // eslint-disable-next-line no-unmodified-loop-condition -- needed
-        while (!done) {}
+        reference.issueLink = createWorkItemLink(reference.issue).next().value;
       } else {
         reference.issueLink = createLink([context.issue, reference.issue], context, reference);
       }
