@@ -22,7 +22,6 @@
   "author": "Jan Silhan",
   "license": "MIT",
   "dependencies": {
-    "@oriflame/azure-helpers": "^1.0.0",
     "@oriflame/conventional-changelog-types": "^1.0.5"
   },
   "devDependencies": {

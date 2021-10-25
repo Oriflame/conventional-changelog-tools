@@ -1,8 +1,5 @@
 /* eslint-disable @typescript-eslint/no-non-null-assertion -- needed */
-/* eslint-disable no-console -- needed */
 /* eslint-disable no-param-reassign -- needed */
-
-import { createAzureClient, getWorkItemUrl } from '@oriflame/azure-helpers';
 import {
   CommitGroupLabel,
   Context,
@@ -40,19 +37,13 @@ const sortWeights: GroupMap<number> = {
   Internals: -5,
 };
 
-const { SYSTEM_ACCESSTOKEN, ENDPOINT_URL_SYSTEMVSSCONNECTION } = process.env;
+const { SYSTEM_TASKDEFINITIONSURI } = process.env;
 
-async function createWorkItemLink(workItemId: string) {
-  const webApi = await createAzureClient({
-    pat: SYSTEM_ACCESSTOKEN!,
-    serverUrl: ENDPOINT_URL_SYSTEMVSSCONNECTION!,
-  });
-  const workApi = await webApi.getWorkItemTrackingApi();
+function createWorkItemLink(workItemId: string) {
+  const serverUrl = SYSTEM_TASKDEFINITIONSURI!;
 
   if (workItemId) {
-    const workItem = await workApi.getWorkItem(Number(workItemId));
-
-    return getWorkItemUrl({ workItem, organizationUrl: ENDPOINT_URL_SYSTEMVSSCONNECTION! });
+    return `${serverUrl}/_workitems/edit/${workItemId}`;
   }
 
   return '';
@@ -165,15 +156,9 @@ const options: Partial<WriterOptions> = {
     }
 
     commit.references.forEach((reference) => {
-      if (SYSTEM_ACCESSTOKEN) {
-        createWorkItemLink(reference.issue)
-          .then((item) => {
-            reference.issueLink = item;
-          })
-          .catch((error: unknown) => {
-            console.log('Error during generation of workitem link');
-            console.error(error);
-          });
+      // Azure devops
+      if (SYSTEM_TASKDEFINITIONSURI) {
+        reference.issueLink = createWorkItemLink(reference.issue);
       } else {
         reference.issueLink = createLink([context.issue, reference.issue], context, reference);
       }
