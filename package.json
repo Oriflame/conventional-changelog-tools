@@ -19,6 +19,7 @@
     "pretest": "yarn run type",
     "test": "yarn run jest",
     "posttest": "yarn run lint",
+    "release-alpha": "git reset --hard && lerna publish --canary --force-publish --yes",
     "release": "git reset --hard && lumos run-script auto-release",
     "link-packages": "lerna exec -- yarn link",
     "unlink-packages": "lerna exec -- yarn unlink"
@@ -53,5 +54,8 @@
     "husky": "^7.0.4",
     "lerna": "^4.0.0",
     "shelljs": "^0.8.4"
+  },
+  "resolutions": {
+    "caniuse-lite": "^1.0.30001271"
   }
 }

@@ -10,12 +10,11 @@
 
 {{~!-- commit references --}}
 {{~#if references~}}
-, closes
-{{~#each references}}
-  {{!-- {{#if @root.linkReferences~}}
-    [{{this.source}}]({{this.issueLink}})
-  {{~else~}} --}}
+, work items
+{{~#each references}} {{#if @root.linkReferences~}}
+  [{{this.source}}]({{this.issueLink}})
+{{~else~}}
   _{{this.source}}_
-  {{!-- {{~/if}} --}}
+{{~/if}}
 {{~/each}}
 {{~/if}}

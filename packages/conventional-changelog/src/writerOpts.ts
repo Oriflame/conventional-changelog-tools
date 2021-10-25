@@ -1,5 +1,5 @@
+/* eslint-disable @typescript-eslint/no-non-null-assertion -- needed */
 /* eslint-disable no-param-reassign -- needed */
-
 import {
   CommitGroupLabel,
   Context,
@@ -36,6 +36,18 @@ const sortWeights: GroupMap<number> = {
   Reverts: -4,
   Internals: -5,
 };
+
+const { SYSTEM_TASKDEFINITIONSURI } = process.env;
+
+function createWorkItemLink(workItemId: string) {
+  const serverUrl = SYSTEM_TASKDEFINITIONSURI!;
+
+  if (workItemId) {
+    return new URL(`/_workitems/edit/${workItemId}`, serverUrl).toString();
+  }
+
+  return '';
+}
 
 function createLink(paths: string[], context: Context, reference: Partial<Reference> = {}): string {
   const owner = reference.owner ?? context.owner;
@@ -144,7 +156,12 @@ const options: Partial<WriterOptions> = {
     }
 
     commit.references.forEach((reference) => {
-      reference.issueLink = createLink([context.issue, reference.issue], context, reference);
+      // Azure devops
+      if (SYSTEM_TASKDEFINITIONSURI) {
+        reference.issueLink = createWorkItemLink(reference.issue);
+      } else {
+        reference.issueLink = createLink([context.issue, reference.issue], context, reference);
+      }
 
       let source = `${reference.repository ?? ''}#${reference.issue}`;
 
