@@ -1,4 +1,5 @@
 /* eslint-disable @typescript-eslint/no-non-null-assertion -- needed */
+/* eslint-disable no-console -- needed */
 /* eslint-disable no-param-reassign -- needed */
 
 import { createAzureClient, getWorkItemUrl } from '@oriflame/azure-helpers';
@@ -41,21 +42,18 @@ const sortWeights: GroupMap<number> = {
 
 const { SYSTEM_ACCESSTOKEN, ENDPOINT_URL_SYSTEMVSSCONNECTION } = process.env;
 
-function* createWorkItemLink(workItemId: string) {
-  yield createAzureClient({
+async function createWorkItemLink(workItemId: string) {
+  const webApi = await createAzureClient({
     pat: SYSTEM_ACCESSTOKEN!,
     serverUrl: ENDPOINT_URL_SYSTEMVSSCONNECTION!,
-  }).then(async (webApi) =>
-    webApi.getWorkItemTrackingApi().then(async (workApi) =>
-      workApi.getWorkItem(Number(workItemId)).then((workItem) => {
-        if (workItemId) {
-          return getWorkItemUrl({ workItem, organizationUrl: ENDPOINT_URL_SYSTEMVSSCONNECTION! });
-        }
+  });
+  const workApi = await webApi.getWorkItemTrackingApi();
 
-        return '';
-      }),
-    ),
-  );
+  if (workItemId) {
+    const workItem = await workApi.getWorkItem(Number(workItemId));
+
+    return getWorkItemUrl({ workItem, organizationUrl: ENDPOINT_URL_SYSTEMVSSCONNECTION! });
+  }
 
   return '';
 }
@@ -168,7 +166,14 @@ const options: Partial<WriterOptions> = {
 
     commit.references.forEach((reference) => {
       if (SYSTEM_ACCESSTOKEN) {
-        reference.issueLink = createWorkItemLink(reference.issue).next().value;
+        createWorkItemLink(reference.issue)
+          .then((item) => {
+            reference.issueLink = item;
+          })
+          .catch((error: unknown) => {
+            console.log('Error during generation of workitem link');
+            console.error(error);
+          });
       } else {
         reference.issueLink = createLink([context.issue, reference.issue], context, reference);
       }
