@@ -43,7 +43,7 @@ function createWorkItemLink(workItemId: string) {
   const serverUrl = SYSTEM_TASKDEFINITIONSURI!;
 
   if (workItemId) {
-    return `${serverUrl}/_workitems/edit/${workItemId}`;
+    return new URL(`/_workitems/edit/${workItemId}`, serverUrl).toString();
   }
 
   return '';
