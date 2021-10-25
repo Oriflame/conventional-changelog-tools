@@ -54,5 +54,8 @@
     "husky": "^7.0.4",
     "lerna": "^4.0.0",
     "shelljs": "^0.8.4"
+  },
+  "resolutions": {
+    "caniuse-lite": "^1.0.30001271"
   }
 }
