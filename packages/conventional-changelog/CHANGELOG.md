@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.2.0 - 2021-10-25
+
+#### 🚀 Updates
+
+- Add workitem link. (#690) ([97241d3](https://github.com/Oriflame/conventional-changelog-tools/commit/97241d36de7ac3a569495113b921be7cdc660091)), work items [#690](https://github.com/Oriflame/conventional-changelog-tools/issues/690)
+
+#### 🛠 Internals
+
+- Release [ci skip]. ([6d1f82f](https://github.com/Oriflame/conventional-changelog-tools/commit/6d1f82febfb245c8ad42e83a2d2d925c4ae398c2))
+
+**Note:** Version bump only for package @oriflame/conventional-changelog
+
+
+
+
+
 ### 1.1.5 - 2021-09-12
 
 #### 🛠 Internals
