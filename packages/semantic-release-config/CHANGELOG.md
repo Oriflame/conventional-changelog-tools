@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 2.1.20 - 2021-11-25
+
+#### 📦 Dependencies
+
+- update dependency @semantic-release/release-notes-generator to ^10.0.3 (#700) ([7313fad](https://github.com/Oriflame/conventional-changelog-tools/commit/7313fadc4dc940493eee160cd7ad9f60aa4039d2)), work items [#700](https://github.com/Oriflame/conventional-changelog-tools/issues/700)
+
+**Note:** Version bump only for package @oriflame/semantic-release-config
+
+
+
+
+
 ### 2.1.19 - 2021-11-23
 
 #### 📦 Dependencies
