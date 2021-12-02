@@ -1,6 +1,6 @@
 {
   "name": "@oriflame/conventional-changelog",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "Conventional changelog preset for oriflame and associated projects.",
   "keywords": [
     "conventional-changelog",
@@ -22,7 +22,7 @@
   "author": "Jan Silhan",
   "license": "MIT",
   "dependencies": {
-    "@oriflame/conventional-changelog-types": "^1.0.6"
+    "@oriflame/conventional-changelog-types": "^1.0.7"
   },
   "devDependencies": {
     "conventional-changelog-core": "^4.2.4",
