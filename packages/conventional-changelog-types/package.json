@@ -2,7 +2,7 @@
   "name": "@oriflame/conventional-changelog-types",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "engines": {
     "node": ">=12"
   },
