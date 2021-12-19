@@ -3,7 +3,7 @@
   "version": "1.1.5",
   "description": "Conventional changelog lint config oriflame",
   "main": "./lib/index.js",
-  "types": "./lib/index.d.ts",
+  "types": "./dts/index.d.ts",
   "repository": {
     "url": "https://github.com/Oriflame/conventional-changelog-tools",
     "directory": "packages/conventional-changelog-lint"
@@ -11,7 +11,9 @@
   "author": "Jan Šilhan <silhanu@gmail.com>",
   "license": "MIT",
   "files": [
-    "lib"
+    "lib",
+    "dts",
+    "src"
   ],
   "keywords": [
     "conventional-changelog",

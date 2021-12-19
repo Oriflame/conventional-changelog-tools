@@ -5,7 +5,7 @@
 
 import { GROUPS } from '@oriflame/conventional-changelog-types';
 
-export = {
+export default {
   rules: {
     'body-max-length': [0],
     'scope-case': [0, 'never', 'start-case'],

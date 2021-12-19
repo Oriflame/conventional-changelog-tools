@@ -14,7 +14,9 @@
     "access": "public"
   },
   "files": [
-    "lib"
+    "lib",
+    "dts",
+    "src"
   ],
   "keywords": [
     "azure",

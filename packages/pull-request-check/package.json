@@ -14,6 +14,11 @@
   "publishConfig": {
     "access": "public"
   },
+  "files": [
+    "lib",
+    "dts",
+    "src"
+  ],
   "keywords": [
     "azure",
     "azure devops",

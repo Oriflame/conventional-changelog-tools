@@ -8,7 +8,7 @@ export default function checkCommitFormat(
   if (!match) {
     return null;
   }
-  const [, type, scope] = match;
+  const [, type, scope = ''] = match;
 
   return {
     scope: scope || '',

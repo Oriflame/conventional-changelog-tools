@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "noUncheckedIndexedAccess": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "forceConsistentCasingInFileNames": true,
+    "isolatedModules": false,
+    "lib": [
+      "DOM",
+      "esnext"
+    ],
+    "jsx": "react-jsx",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "noEmitOnError": false,
+    "noImplicitOverride": true,
+    "noImplicitReturns": true,
+    "pretty": true,
+    "removeComments": false,
+    "resolveJsonModule": false,
+    "skipLibCheck": false,
+    "sourceMap": true,
+    "strict": true,
+    "target": "es2021",
+    "composite": true,
+    "declarationMap": true,
+    "emitDeclarationOnly": true,
+    "useDefineForClassFields": false,
+    "allowJs": false,
+    "declaration": true
+  }
+}

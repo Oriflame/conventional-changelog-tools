@@ -61,4 +61,4 @@ if (generateChangelog) {
   ]);
 }
 
-export = config;
+export default config;

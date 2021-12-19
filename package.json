@@ -10,12 +10,14 @@
   "license": "MIT",
   "scripts": {
     "prepare": "lumos create-config && husky install",
-    "build": "lumos typescript --build --reference-workspaces",
+    "prebuild": "yarn run type",
+    "build": "lumos babel --workspaces=*",
     "coverage": "yarn run jest --coverage",
+    "sync-project-refs": "lumos typescript:sync-project-refs",
     "lint": "lumos eslint",
     "jest": "lumos jest -i",
     "prettier": "lumos prettier",
-    "type": "yarn run build",
+    "type": "lumos typescript --build",
     "pretest": "yarn run type",
     "test": "yarn run jest",
     "posttest": "yarn run lint",
@@ -27,30 +29,11 @@
   "workspaces": [
     "./packages/*"
   ],
-  "lumos": {
-    "drivers": [
-      "babel",
-      "eslint",
-      "jest",
-      "prettier",
-      "typescript"
-    ],
-    "settings": {
-      "node": true,
-      "library": true
-    }
-  },
   "devDependencies": {
     "@commitlint/cli": "^15.0.0",
-    "@oriflame/config-babel": "^4.3.0",
-    "@oriflame/config-danger": "4.3.0",
-    "@oriflame/config-eslint": "^4.3.0",
-    "@oriflame/config-jest": "^4.3.0",
-    "@oriflame/config-prettier": "^4.3.0",
-    "@oriflame/config-typescript": "^4.3.0",
-    "@oriflame/lumos": "^4.3.0",
-    "@types/node": "^16.11.11",
-    "@types/shelljs": "^0.8.9",
+    "@oriflame/lumos": "^5.0.9",
+    "@types/node": "^16.11.14",
+    "@types/shelljs": "^0.8.10",
     "husky": "^7.0.4",
     "lerna": "^4.0.0",
     "shelljs": "^0.8.4"

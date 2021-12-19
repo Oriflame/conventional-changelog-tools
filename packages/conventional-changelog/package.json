@@ -8,10 +8,15 @@
     "preset"
   ],
   "main": "./index.js",
-  "types": "./lib/index.d.ts",
+  "types": "./dts/index.d.ts",
   "engines": {
     "node": ">=12"
   },
+  "files": [
+    "lib",
+    "dts",
+    "src"
+  ],
   "publishConfig": {
     "access": "public"
   },

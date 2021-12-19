@@ -79,7 +79,7 @@ function createLink(paths: string[], context: Context, reference: Partial<Refere
     'src',
   ].forEach((browsePart) => {
     if (base.includes(`/${browsePart}/`)) {
-      [base] = base.split(`/${browsePart}/`);
+      base = base.split(`/${browsePart}/`)[0]!;
     }
   });
 

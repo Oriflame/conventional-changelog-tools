@@ -1,0 +1,24 @@
+{
+  "extends": "./tsconfig.options.json",
+  "files": [],
+  "references": [
+    {
+      "path": "packages/conventional-changelog"
+    },
+    {
+      "path": "packages/conventional-changelog/tests"
+    },
+    {
+      "path": "packages/conventional-changelog-lint"
+    },
+    {
+      "path": "packages/conventional-changelog-types"
+    },
+    {
+      "path": "packages/pull-request-check"
+    },
+    {
+      "path": "packages/semantic-release-config"
+    }
+  ]
+}
