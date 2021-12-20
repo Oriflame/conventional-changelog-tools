@@ -2733,10 +2733,10 @@
   dependencies:
     "@octokit/openapi-types" "^11.2.0"
 
-"@oriflame/babel-preset@^5.0.9":
-  version "5.0.9"
-  resolved "https://registry.yarnpkg.com/@oriflame/babel-preset/-/babel-preset-5.0.9.tgz#1a753ec8d4ec540449b8ff91d9b534b2d2ef0427"
-  integrity sha512-FsloXxVZP1r4ot0Q3zSYu/wZxBKx2vUj/dUs2rQmfuNv16fY1amUTeE2lOReIQzHcbDSWiriQcpH58urn8mPXQ==
+"@oriflame/babel-preset@^5.0.12-alpha.1+09577210":
+  version "5.0.12-alpha.1"
+  resolved "https://registry.yarnpkg.com/@oriflame/babel-preset/-/babel-preset-5.0.12-alpha.1.tgz#bdef5419a42ae20e16470ba2130c39cff6d6464b"
+  integrity sha512-b6kHKmW4NSoZGFaezwUC62kOsaAZn73JQqjLbpDXZMIUk3VmL1Yn1gs8v8ecCa0ynrZJ8WZZ9WAT9JtQg98sCg==
   dependencies:
     "@babel/plugin-proposal-class-properties" "^7.16.5"
     "@babel/plugin-proposal-decorators" "^7.16.5"
@@ -2748,7 +2748,8 @@
     "@babel/preset-react" "^7.16.5"
     "@babel/preset-typescript" "^7.16.5"
     "@emotion/babel-plugin" "^11.7.1"
-    "@oriflame/lumos-common" "^5.0.9"
+    "@oriflame/lumos-common" "^5.0.12-alpha.1+09577210"
+    babel-plugin-add-module-exports "^1.0.4"
     babel-plugin-graphql-tag "^3.3.0"
     babel-plugin-module-resolver "^4.1.0"
     babel-plugin-optimize-clsx "^2.6.2"
@@ -2757,64 +2758,64 @@
     babel-plugin-typescript-to-proptypes "^2.0.0"
     react-refresh "^0.11.0"
 
-"@oriflame/config-babel@^5.0.9":
-  version "5.0.9"
-  resolved "https://registry.yarnpkg.com/@oriflame/config-babel/-/config-babel-5.0.9.tgz#20e9ec36d1db4bf4367ee20a01f9db3a7fe0f711"
-  integrity sha512-3w4jH9d2sdW0mBJJl2yCudq5p6QvmCj85kcM/Gr58DhEqDcdsiUWietnb9pICmyazLPlwMdG2cYZJ5F79W89ZA==
+"@oriflame/config-babel@^5.0.12-alpha.1+09577210":
+  version "5.0.12-alpha.1"
+  resolved "https://registry.yarnpkg.com/@oriflame/config-babel/-/config-babel-5.0.12-alpha.1.tgz#3fd2cd6d66ca6d8a36811414eecf7580bb31ddaf"
+  integrity sha512-rpjwlMnCYPChxCZpIdQYl/KJgLgv96NELxqH5CEw1T1H1f/YbLlq7s5/whkPE8/DaBVz6aJs4rYUvQbrDfz5DQ==
   dependencies:
-    "@oriflame/babel-preset" "^5.0.9"
-    "@oriflame/lumos-common" "^5.0.9"
+    "@oriflame/babel-preset" "^5.0.12-alpha.1+09577210"
+    "@oriflame/lumos-common" "^5.0.12-alpha.1+09577210"
 
-"@oriflame/config-eslint@^5.0.9":
-  version "5.0.9"
-  resolved "https://registry.yarnpkg.com/@oriflame/config-eslint/-/config-eslint-5.0.9.tgz#d3c0cf704f64c44d90ed4b11bac48d0386877aed"
-  integrity sha512-z0VzTJl2+RUOg+ox//8OQgWcgH/jRiNefq7Cc1TA8exv8grGqa6j6wwh0S+jMy8o/XzlcpjeD2g//pGFcItv7Q==
+"@oriflame/config-eslint@^5.0.12-alpha.1+09577210":
+  version "5.0.12-alpha.1"
+  resolved "https://registry.yarnpkg.com/@oriflame/config-eslint/-/config-eslint-5.0.12-alpha.1.tgz#7529e3276d287bafe75c2115788deae677af7da3"
+  integrity sha512-sbVlRBH8D2UEld7rLhGTLe9LNa7m4VbODvSnFvNWi0AiaM/8csMbgsDMtaB+NZSIeVae8rjC0wU5ZucTt1mfXQ==
   dependencies:
-    "@oriflame/lumos-common" "^5.0.9"
-    eslint-config-oriflame "^5.0.9"
+    "@oriflame/lumos-common" "^5.0.12-alpha.1+09577210"
+    eslint-config-oriflame "^5.0.12-alpha.1+09577210"
 
-"@oriflame/config-jest@^5.0.9":
-  version "5.0.9"
-  resolved "https://registry.yarnpkg.com/@oriflame/config-jest/-/config-jest-5.0.9.tgz#0b9ce1aac49d1c8c756b4b29f0267889c78ec739"
-  integrity sha512-ImiZbbyfXNbPY92WIWM2+rij2K+TZ2/UzLX/+G8X/+077CjFPH4C4QuNgPnKy+4reyu2xrakRPONKCjlGGDqCQ==
+"@oriflame/config-jest@^5.0.12-alpha.1+09577210":
+  version "5.0.12-alpha.1"
+  resolved "https://registry.yarnpkg.com/@oriflame/config-jest/-/config-jest-5.0.12-alpha.1.tgz#426e8532734b89865b8691e395311f4af2eb6970"
+  integrity sha512-9v3+oTeQOT1vVfsUZQULIuS3GIbcMUwQZghVN6TmwedZijIGWF0X8Blmhzlc6M8p6TNPAaJo0F9guggsUkrDIg==
   dependencies:
     "@babel/core" "^7.16.5"
     "@beemo/driver-jest" "^2.0.4"
-    "@oriflame/lumos-common" "^5.0.9"
+    "@oriflame/lumos-common" "^5.0.12-alpha.1+09577210"
     "@testing-library/jest-dom" "^5.16.1"
     "@types/jest" "^27.0.3"
     dom-storage "^2.1.0"
     graphql "^16.2.0"
     graphql-tag "^2.12.6"
-    jest-preset-oriflame "^5.0.9"
+    jest-preset-oriflame "^5.0.12-alpha.1+09577210"
   optionalDependencies:
     "@testing-library/react" ">=12"
 
-"@oriflame/config-prettier@^5.0.9":
-  version "5.0.9"
-  resolved "https://registry.yarnpkg.com/@oriflame/config-prettier/-/config-prettier-5.0.9.tgz#31251121ebfa2d9444a4872676c1d3d582214b49"
-  integrity sha512-2gt/80lphILCJwl5/ZLtoRFAjpu1MELgTKO4UODNRrmUKVjJyGoELjsw5PfuaEZBYMwkhs/ACCXl1zI5djbF3Q==
+"@oriflame/config-prettier@^5.0.12-alpha.1+09577210":
+  version "5.0.12-alpha.1"
+  resolved "https://registry.yarnpkg.com/@oriflame/config-prettier/-/config-prettier-5.0.12-alpha.1.tgz#01b3d6cc75fe024ee21eec154d740cffc7987b5a"
+  integrity sha512-syv/xums2zclV2TnKTYjoxomThrNgmumV2CjVsLw080zihjniqAS9HVZOKk9rIy00nwNeScXfosc/yXQlhaglQ==
   dependencies:
-    "@oriflame/lumos-common" "^5.0.9"
-    prettier-config-oriflame "^5.0.9"
+    "@oriflame/lumos-common" "^5.0.12-alpha.1+09577210"
+    prettier-config-oriflame "^5.0.12-alpha.1+09577210"
 
-"@oriflame/config-typescript@^5.0.9":
-  version "5.0.9"
-  resolved "https://registry.yarnpkg.com/@oriflame/config-typescript/-/config-typescript-5.0.9.tgz#7479d704c4590731c6c4262bb40de38870d91099"
-  integrity sha512-YoHz19Kle3qwkTPGXUu99k5Ra+EDveLENohI5qXqk4gqtTyBUBLGLuu1PfYqUtcrts6apbLRcKEbsZms1ErnWQ==
+"@oriflame/config-typescript@^5.0.12-alpha.1+09577210":
+  version "5.0.12-alpha.1"
+  resolved "https://registry.yarnpkg.com/@oriflame/config-typescript/-/config-typescript-5.0.12-alpha.1.tgz#6e14300ae4ad55d906c8bd2eba521ee64529318c"
+  integrity sha512-o29/IoExASyYEmvcwpLjO6ch/SdfJw/HrRqpfurrLl+RhOLYECtpZlzIC3NMwlv/B47gZy3wWedWgKeYw8EDKA==
   dependencies:
-    "@oriflame/lumos-common" "^5.0.9"
-    tsconfig-oriflame "^5.0.9"
+    "@oriflame/lumos-common" "^5.0.12-alpha.1+09577210"
+    tsconfig-oriflame "^5.0.12-alpha.1+09577210"
 
-"@oriflame/config-webpack@^5.0.9":
-  version "5.0.9"
-  resolved "https://registry.yarnpkg.com/@oriflame/config-webpack/-/config-webpack-5.0.9.tgz#c35da9c2983b845f663a0954ebdefdceebad5b7b"
-  integrity sha512-xvoa3XSQ7+Zs/F59XuoVjm6vdtTSOSQLx4XQKVmMAcaKL8Vaz5fqVE2zpqLhQvS9IbvEZk5q5TOipKaTB2cRQA==
+"@oriflame/config-webpack@^5.0.12-alpha.1+09577210":
+  version "5.0.12-alpha.1"
+  resolved "https://registry.yarnpkg.com/@oriflame/config-webpack/-/config-webpack-5.0.12-alpha.1.tgz#76da2725b34323567081715e8d5b984479048f4e"
+  integrity sha512-sFVauW5eIYxiPAz29cCTnwwRAR4ZUN14xCgK30/iCartpYMyaHVOU+askoadSu0Z4R5dY8ZfCPvnYT2TyiyK5A==
   dependencies:
     "@babel/core" "^7.16.5"
     "@boost/module" "^3.0.1"
     "@module-federation/concat-runtime" "^0.0.1"
-    "@oriflame/lumos-common" "^5.0.9"
+    "@oriflame/lumos-common" "^5.0.12-alpha.1+09577210"
     "@pmmmwh/react-refresh-webpack-plugin" "^0.5.3"
     babel-loader "^8.2.3"
     cross-env "^7.0.3"
@@ -2845,17 +2846,17 @@
     webpack-graphql-loader "^1.0.2"
     webpack-merge "^5.8.0"
 
-"@oriflame/lumos-common@^5.0.9":
-  version "5.0.9"
-  resolved "https://registry.yarnpkg.com/@oriflame/lumos-common/-/lumos-common-5.0.9.tgz#0414eb83f99db297c116ccf6b657fd364734fd0d"
-  integrity sha512-WpY0UPiWlKLT9GeP8QXflHK+Bob6/dd3Gl0cEUj7EhQVdhHSQi1elcXd/8GIiVTKUa0c3v6PvkzUEsasL7H0oQ==
+"@oriflame/lumos-common@^5.0.12-alpha.1+09577210":
+  version "5.0.12-alpha.1"
+  resolved "https://registry.yarnpkg.com/@oriflame/lumos-common/-/lumos-common-5.0.12-alpha.1.tgz#637ee35644251f1a85328528155e1fa5564baa13"
+  integrity sha512-xphBo8TlW2vDq20SBEQ/O8wraJoGMErhHZpRoB+66Z0eJb4yfnJM3vbW/Hwx/A9zgTPThWphcSViY2SStnuNXg==
   dependencies:
     "@beemo/core" "^2.1.3"
 
-"@oriflame/lumos@^5.0.9":
-  version "5.0.9"
-  resolved "https://registry.yarnpkg.com/@oriflame/lumos/-/lumos-5.0.9.tgz#b792a86a9c9ddcc7227270fa44a2b6d2d8e6bb4e"
-  integrity sha512-DXz7vgz0YW27e49VbBc5CQ8gxjebARBl9GnZ9dD74axXYiGRYp7fhDYzeEC0C6PGVvXeSlzMY8z7QxBNofhRXQ==
+"@oriflame/lumos@^5.0.12-alpha.1":
+  version "5.0.12-alpha.1"
+  resolved "https://registry.yarnpkg.com/@oriflame/lumos/-/lumos-5.0.12-alpha.1.tgz#35b1862d8e7723e3847782c774c564e4615926f0"
+  integrity sha512-LRKxUlXYXiKlW5w85qowoI6l9zpHNcE6Kt6q6BkY56Yaf+yXqNu+Pwrp3kL6tdxRASC9X9c9a3Y7f6PERO3ixg==
   dependencies:
     "@actions/core" "^1.6.0"
     "@actions/github" "^5.0.0"
@@ -2872,14 +2873,14 @@
     "@boost/common" "^3.1.0"
     "@boost/module" "^3.0.1"
     "@octokit/rest" "^18.12.0"
-    "@oriflame/config-babel" "^5.0.9"
-    "@oriflame/config-eslint" "^5.0.9"
-    "@oriflame/config-jest" "^5.0.9"
-    "@oriflame/config-prettier" "^5.0.9"
-    "@oriflame/config-typescript" "^5.0.9"
-    "@oriflame/config-webpack" "^5.0.9"
+    "@oriflame/config-babel" "^5.0.12-alpha.1+09577210"
+    "@oriflame/config-eslint" "^5.0.12-alpha.1+09577210"
+    "@oriflame/config-jest" "^5.0.12-alpha.1+09577210"
+    "@oriflame/config-prettier" "^5.0.12-alpha.1+09577210"
+    "@oriflame/config-typescript" "^5.0.12-alpha.1+09577210"
+    "@oriflame/config-webpack" "^5.0.12-alpha.1+09577210"
     "@oriflame/conventional-changelog" "^1.2.3"
-    "@oriflame/lumos-common" "^5.0.9"
+    "@oriflame/lumos-common" "^5.0.12-alpha.1+09577210"
     chalk "^5.0.0"
     check-node-version "^4.2.1"
     cross-env "^7.0.3"
@@ -3978,6 +3979,11 @@ babel-loader@^8.2.3:
     loader-utils "^1.4.0"
     make-dir "^3.1.0"
     schema-utils "^2.6.5"
+
+babel-plugin-add-module-exports@^1.0.4:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/babel-plugin-add-module-exports/-/babel-plugin-add-module-exports-1.0.4.tgz#6caa4ddbe1f578c6a5264d4d3e6c8a2720a7ca2b"
+  integrity sha512-g+8yxHUZ60RcyaUpfNzy56OtWW+x9cyEe9j+CranqLiqbju2yf/Cy6ZtYK40EZxtrdHllzlVZgLmcOUCTlJ7Jg==
 
 babel-plugin-dynamic-import-node@^2.3.3:
   version "2.3.3"
@@ -5748,15 +5754,15 @@ escodegen@^2.0.0:
   optionalDependencies:
     source-map "~0.6.1"
 
-eslint-config-oriflame@^5.0.9:
-  version "5.0.9"
-  resolved "https://registry.yarnpkg.com/eslint-config-oriflame/-/eslint-config-oriflame-5.0.9.tgz#a31b1569c8a779f39a229d0a48cab4a87aa600ca"
-  integrity sha512-ID2l23zm9HCqC+gsYjIqpyT8ci+B+e8Jhi7qFhXkv9UfLWVdRTIab2sYXE7Dje4QTHy10gMK6Cth/oL/yDYV9A==
+eslint-config-oriflame@^5.0.12-alpha.1+09577210:
+  version "5.0.12-alpha.1"
+  resolved "https://registry.yarnpkg.com/eslint-config-oriflame/-/eslint-config-oriflame-5.0.12-alpha.1.tgz#ef5d0b31e01884e17f078d99de4e6082510d0ab0"
+  integrity sha512-ZUUxNXRdsz4Op+g1fWCEyogHsrMjxoCjCoJawLKd+4EIGnvRcSUd+9wGZRLxzifGRTWAYjFI6jnzLc189vGGJg==
   dependencies:
     "@babel/core" "^7.16.5"
     "@babel/eslint-parser" "^7.16.5"
     "@next/eslint-plugin-next" "^12.0.7"
-    "@oriflame/lumos-common" "^5.0.9"
+    "@oriflame/lumos-common" "^5.0.12-alpha.1+09577210"
     "@typescript-eslint/eslint-plugin" "^5.7.0"
     "@typescript-eslint/parser" "^5.7.0"
     confusing-browser-globals "^1.0.11"
@@ -7956,12 +7962,12 @@ jest-pnp-resolver@^1.2.2:
   resolved "https://registry.yarnpkg.com/jest-pnp-resolver/-/jest-pnp-resolver-1.2.2.tgz#b704ac0ae028a89108a4d040b3f919dfddc8e33c"
   integrity sha512-olV41bKSMm8BdnuMsewT4jqlZ8+3TCARAXjZGT9jcoSnrfUnRCqnMoF9XEeoWjbzObpqF9dRhHQj0Xb9QdF6/w==
 
-jest-preset-oriflame@^5.0.9:
-  version "5.0.9"
-  resolved "https://registry.yarnpkg.com/jest-preset-oriflame/-/jest-preset-oriflame-5.0.9.tgz#26a603af5cd6e07ded5f8b8f4fd9ce3b95c5d5eb"
-  integrity sha512-6yDQt2ZFqmE5fx4fT2aRcXVyhvJ//j7uKeGwar4+b4gRBfS6VKvvk+y7KSjLmgBpxoCe7f0Y6oxUp7tJFqRp1w==
+jest-preset-oriflame@^5.0.12-alpha.1+09577210:
+  version "5.0.12-alpha.1"
+  resolved "https://registry.yarnpkg.com/jest-preset-oriflame/-/jest-preset-oriflame-5.0.12-alpha.1.tgz#9574faf834686e5a7ce922d668646ebf1f54798f"
+  integrity sha512-bWLgavLk6P1dqV4ONTMsWXVPNyuYsRavDbL2WngzDmW+1Cl9JSMW6MNf6gC9gmOKPP0O78QRDxXLP/bar7yOYw==
   dependencies:
-    "@oriflame/lumos-common" "^5.0.9"
+    "@oriflame/lumos-common" "^5.0.12-alpha.1+09577210"
     "@types/jest" "^27.0.3"
     jest-junit "^13.0.0"
 
@@ -10662,10 +10668,10 @@ prelude-ls@~1.1.2:
   resolved "https://registry.yarnpkg.com/prelude-ls/-/prelude-ls-1.1.2.tgz#21932a549f5e52ffd9a827f570e04be62a97da54"
   integrity sha1-IZMqVJ9eUv/ZqCf1cOBL5iqX2lQ=
 
-prettier-config-oriflame@^5.0.9:
-  version "5.0.9"
-  resolved "https://registry.yarnpkg.com/prettier-config-oriflame/-/prettier-config-oriflame-5.0.9.tgz#d9ed49d39eed28e43ea49bda9bd2c41425791f47"
-  integrity sha512-e72+aS/ikDIjD+IpjlfUXKtzxkQjU6IKnOQnfowrTKUUZMB1yz3+qASfZz/JWmBw3MP9A6JLGzUJxo7ihre8Xg==
+prettier-config-oriflame@^5.0.12-alpha.1+09577210:
+  version "5.0.12-alpha.1"
+  resolved "https://registry.yarnpkg.com/prettier-config-oriflame/-/prettier-config-oriflame-5.0.12-alpha.1.tgz#e60e63d433d74595b9b9f9bf23465d2458690f83"
+  integrity sha512-azj+JWkWICD5MZ2uNO3gXaw1xdJ0Z0xOukF+dW0M40mgyi3yiWkW+tNtvEP3BtCma6aQn+9PbmbiKM7hpLooMQ==
 
 prettier-linter-helpers@^1.0.0:
   version "1.0.0"
@@ -12346,10 +12352,10 @@ ts-node@^9:
     source-map-support "^0.5.17"
     yn "3.1.1"
 
-tsconfig-oriflame@^5.0.9:
-  version "5.0.9"
-  resolved "https://registry.yarnpkg.com/tsconfig-oriflame/-/tsconfig-oriflame-5.0.9.tgz#3f6751a44d0ed2c0d9c3fcd8ec89a646965731ee"
-  integrity sha512-pYvX3wwvctGfTkWgoZcfk7HZQ0ElACaUvZPGncOI44lXKursHxpmarnSi7Ws5nDGTci2uuPvVJrwdljoIL1aVA==
+tsconfig-oriflame@^5.0.12-alpha.1+09577210:
+  version "5.0.12-alpha.1"
+  resolved "https://registry.yarnpkg.com/tsconfig-oriflame/-/tsconfig-oriflame-5.0.12-alpha.1.tgz#5da5feb68e7ab1ba18b8c190d7b16701f001f8a5"
+  integrity sha512-6VrPSlqUhhHO9lFUQ+SsmuoMs18sOjF2KR/n1CaEU5dBs0VPz03extKtFY31qSb+bFPDA/m4KzNgTlurhsW4GA==
 
 tsconfig-paths@^3.11.0, tsconfig-paths@^3.9.0:
   version "3.12.0"
