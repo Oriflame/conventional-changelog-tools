@@ -13,7 +13,7 @@ jobs:
       - uses: actions/setup-node@v2
       - run: yarn install --immutable
       - run: yarn run build
-      - run: yarn danger ci --use-github-checks
+      - run: npx danger ci --use-github-checks
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           DANGER_FAKE_CI: GitHub
