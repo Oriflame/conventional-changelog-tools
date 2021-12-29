@@ -11,7 +11,7 @@ jobs:
     if: "! contains(toJSON(github.event.commits.*.message), '[ci skip]')"
     strategy:
       matrix:
-        node-version: [12, 14]
+        node-version: [14, 16, 17]
       fail-fast: true
     steps:
       - uses: actions/checkout@v2
