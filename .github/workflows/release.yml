@@ -26,10 +26,10 @@ jobs:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
 
       - name: Install Packages
-        run: yarn install --frozen-lockfile --ignore-engines
+        run: yarn install --immutable
 
       - name: Build packages
-        run: yarn build
+        run: yarn run pack
 
       - name: Publish package
         run: yarn run release

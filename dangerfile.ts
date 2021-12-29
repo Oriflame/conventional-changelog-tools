@@ -1,10 +1,8 @@
-/* eslint-disable import/no-extraneous-dependencies */
-
-import {
+const {
   checkForInvalidLocks,
   checkForConventionalPrefix,
   checkForConventionalSquashCommit,
-} from '@oriflame/config-danger';
+} = require('@oriflame/config-danger');
 
 checkForInvalidLocks();
 checkForConventionalPrefix();

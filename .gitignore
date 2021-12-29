@@ -15,6 +15,7 @@ coverage/
 esm/
 lib/
 node_modules/
+dts/
 
 # Custom
 *.min.js
@@ -29,11 +30,15 @@ node_modules/
 babel.config.js
 jest.config.js
 prettier.config.js
-tsconfig.json
 webpack.config.js
-tsconfig.eslint.json
 prettier.config.js
 TEST-RESULTS.xml
 *.tsbuildinfo
-tsconfig.json
-tsconfig.options.json
+
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions

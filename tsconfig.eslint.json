@@ -1,0 +1,1 @@
+{"extends":"./tsconfig.options.json","include":["types\\**\\*","packages\\*\\src\\**\\*","packages\\*\\tests\\**\\*","packages\\*\\types\\**\\*"]}

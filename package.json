@@ -10,15 +10,16 @@
   "license": "MIT",
   "scripts": {
     "prepare": "lumos create-config && husky install",
-    "build": "lumos typescript --build --reference-workspaces",
+    "build": "packemon build --addEngines --declaration=standard",
     "coverage": "yarn run jest --coverage",
+    "sync-project-refs": "lumos typescript:sync-project-refs",
     "lint": "lumos eslint",
     "jest": "lumos jest -i",
     "prettier": "lumos prettier",
-    "type": "yarn run build",
-    "pretest": "yarn run type",
+    "pretest": "yarn run pack",
     "test": "yarn run jest",
     "posttest": "yarn run lint",
+    "pack": "cross-env NODE_ENV=production packemon pack --addEngines --declaration=standard",
     "release-alpha": "git reset --hard && lerna publish --canary --force-publish --yes",
     "release": "git reset --hard && lumos run-script auto-release",
     "link-packages": "lerna exec -- yarn link",
@@ -27,35 +28,20 @@
   "workspaces": [
     "./packages/*"
   ],
-  "lumos": {
-    "drivers": [
-      "babel",
-      "eslint",
-      "jest",
-      "prettier",
-      "typescript"
-    ],
-    "settings": {
-      "node": true,
-      "library": true
-    }
-  },
   "devDependencies": {
-    "@commitlint/cli": "^15.0.0",
-    "@oriflame/config-babel": "^4.3.0",
-    "@oriflame/config-danger": "4.3.0",
-    "@oriflame/config-eslint": "^4.3.0",
-    "@oriflame/config-jest": "^4.3.0",
-    "@oriflame/config-prettier": "^4.3.0",
-    "@oriflame/config-typescript": "^4.3.0",
-    "@oriflame/lumos": "^4.3.0",
-    "@types/node": "^16.11.11",
-    "@types/shelljs": "^0.8.9",
+    "@commitlint/cli": "^16.0.1",
+    "@oriflame/config-danger": "^5.0.27",
+    "@oriflame/lumos": "^5.0.27",
+    "@types/node": "^17.0.5",
+    "@types/shelljs": "^0.8.10",
+    "cross-env": "^7.0.3",
     "husky": "^7.0.4",
     "lerna": "^4.0.0",
+    "packemon": "^1.10.0",
     "shelljs": "^0.8.4"
   },
   "resolutions": {
     "caniuse-lite": "^1.0.30001271"
-  }
+  },
+  "packageManager": "yarn@3.1.1"
 }

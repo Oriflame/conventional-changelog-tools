@@ -1,3 +1,3 @@
 module.exports = {
-  extends: ['./packages/conventional-changelog-lint'],
+  extends: ['@oriflame/conventional-changelog-lint-config'],
 };
