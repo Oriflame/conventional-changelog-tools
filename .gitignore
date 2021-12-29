@@ -34,3 +34,11 @@ webpack.config.js
 prettier.config.js
 TEST-RESULTS.xml
 *.tsbuildinfo
+
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
