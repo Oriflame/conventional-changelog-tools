@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## <small>1.2.6 (2022-01-07)</small>
+
+* fix: Update package json files. ([9b63fdb](https://github.com/Oriflame/conventional-changelog-tools/commit/9b63fdb))
+
+
+
+
+
 ## <small>1.2.5 (2022-01-07)</small>
 
 **Note:** Version bump only for package @oriflame/conventional-changelog
