@@ -7,7 +7,7 @@ import conventionalChangelogCore from 'conventional-changelog-core';
 import conventionalRecommendedBump from 'conventional-recommended-bump';
 import path from 'path';
 import shell from 'shelljs';
-import Stream from 'stream';
+import type Stream from 'stream';
 
 import { config } from '../src';
 
@@ -449,25 +449,32 @@ describe('conventional-changelog-ori', () => {
       });
     });
 
-    ['docs', 'ci', 'build', 'test', 'tests', 'internal'].forEach((minor) => {
-      it(`doesn't bump version for ${minor} with devops prefix`, (done) => {
-        gitDummyCommit(`Merged PR 21884: ${minor}: new stuff`);
-        gitDummyCommit(`Merged PR 21884: ${minor}(todo): with scope`);
+    test.each([
+      { minor: 'docs' },
+      { minor: 'ci' },
+      { minor: 'build' },
+      { minor: 'test' },
+      { minor: 'tests' },
+      { minor: 'internal' },
+    ])("doesn't bump version for {minor} with devops prefix", ({ minor }, done: unknown) => {
+      gitDummyCommit(`Merged PR 21884: ${minor}: new stuff`);
+      gitDummyCommit(`Merged PR 21884: ${minor}(todo): with scope`);
+      jest.setTimeout(100000);
 
-        conventionalRecommendedBump(
-          {
-            ...commonConfig,
-          },
-          (error: Error | null, result: Record<string, unknown>) => {
-            expect(error).toBeNull();
-            expect(result).toEqual({
-              level: null,
-              reason: 'There are 0 breaking changes and 0 new features, also 0 fixes',
-            });
-            done();
-          },
-        );
-      });
+      conventionalRecommendedBump(
+        {
+          ...commonConfig,
+        },
+        (error: Error | null, result: Record<string, unknown>) => {
+          expect(error).toBeNull();
+          expect(result).toEqual({
+            level: null,
+            reason: 'There are 0 breaking changes and 0 new features, also 0 fixes',
+          });
+          // @ts-expect-error
+          done();
+        },
+      );
     });
 
     it('does nothing when no type exist', (done) => {
