@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## <small>2.1.24 (2022-01-07)</small>
+
+**Note:** Version bump only for package @oriflame/semantic-release-config
+
+
+
+
+
 ## <small>2.1.23 (2022-01-07)</small>
 
 * build: Update to lumos 5. (#708) ([d854dd9](https://github.com/Oriflame/conventional-changelog-tools/commit/d854dd9)), closes [#708](https://github.com/Oriflame/conventional-changelog-tools/issues/708)
