@@ -19,6 +19,12 @@
     },
     {
       "path": "packages/semantic-release-config"
+    },
+    {
+      "path": "packages/version-tools"
+    },
+    {
+      "path": "packages/version-tools/tests"
     }
   ]
 }

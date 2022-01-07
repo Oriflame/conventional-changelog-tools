@@ -32,8 +32,10 @@
     "@oriflame/conventional-changelog-types": "^1.0.11"
   },
   "devDependencies": {
+    "@types/tmp": "^0.2.3",
     "conventional-changelog-core": "^4.2.4",
-    "conventional-recommended-bump": "^6.1.0"
+    "conventional-recommended-bump": "^6.1.0",
+    "tmp": "^0.2.1"
   },
   "packemon": {
     "format": "lib",
