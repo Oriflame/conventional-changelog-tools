@@ -6,7 +6,7 @@ import GreaterVersionCommand from './commands/GreaterVersionCommand';
 const pkg = require('../package.json');
 
 const program = new Program({
-  bin: '@oriflame/version-tools',
+  bin: 'version-tools',
   name: 'Oriflame version tools',
   version: pkg.version,
 });
