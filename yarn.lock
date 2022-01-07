@@ -5228,8 +5228,6 @@ __metadata:
 "@oriflame/conventional-changelog-types@^1.0.11, @oriflame/conventional-changelog-types@workspace:packages/conventional-changelog-types":
   version: 0.0.0-use.local
   resolution: "@oriflame/conventional-changelog-types@workspace:packages/conventional-changelog-types"
-  bin:
-    conventional-changelog-types: ./lib/bin.js
   languageName: unknown
   linkType: soft
 
