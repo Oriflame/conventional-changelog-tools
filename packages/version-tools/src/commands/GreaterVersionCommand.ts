@@ -23,8 +23,8 @@ export default class GreaterVersionCommand extends Command<GlobalOptions, Versio
       required: false,
     },
   )
-  run(firstVersion: string, secondVersion?: string) {
-    if (secondVersion && gt(secondVersion, firstVersion)) {
+  run(firstVersion: string, secondVersion = '') {
+    if (secondVersion && gt(secondVersion.replace('v', ''), firstVersion.replace('v', ''))) {
       return secondVersion;
     }
 
