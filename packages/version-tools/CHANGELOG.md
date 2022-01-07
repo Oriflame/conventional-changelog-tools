@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## <small>1.0.2 (2022-01-07)</small>
+
+* fix: Change bin name. ([172e6c0](https://github.com/Oriflame/conventional-changelog-tools/commit/172e6c0))
+* fix: Update bin. ([412257f](https://github.com/Oriflame/conventional-changelog-tools/commit/412257f))
+
+
+
+
+
 ## <small>1.0.1 (2022-01-07)</small>
 
 * build: Fix issues. ([e793700](https://github.com/Oriflame/conventional-changelog-tools/commit/e793700))
