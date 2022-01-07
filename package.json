@@ -21,7 +21,7 @@
     "posttest": "yarn run lint",
     "pack": "cross-env NODE_ENV=production packemon pack --addEngines --declaration=standard",
     "release-alpha": "git reset --hard && lerna publish --canary --force-publish --yes",
-    "release": "git reset --hard && lumos run-script auto-release",
+    "release": "git reset --hard && lumos run-script lerna-release",
     "link-packages": "lerna exec -- yarn link",
     "unlink-packages": "lerna exec -- yarn unlink"
   },
