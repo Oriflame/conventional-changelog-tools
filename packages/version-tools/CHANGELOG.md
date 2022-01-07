@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## <small>1.0.3 (2022-01-07)</small>
+
+* fix: Remove v from version. ([6d6ac4a](https://github.com/Oriflame/conventional-changelog-tools/commit/6d6ac4a))
+* internal: Regenerate yarn lock. [ci skip] ([356c68e](https://github.com/Oriflame/conventional-changelog-tools/commit/356c68e))
+
+
+
+
+
 ## <small>1.0.2 (2022-01-07)</small>
 
 * fix: Change bin name. ([172e6c0](https://github.com/Oriflame/conventional-changelog-tools/commit/172e6c0))
