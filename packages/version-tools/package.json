@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "./lib/index.js",
   "bin": "./lib/bin.js",
-  "types": "./dts/index.d.ts",
+  "types": "",
   "repository": {
     "url": "https://github.com/Oriflame/conventional-changelog-tools",
     "directory": "packages/version-tools"
@@ -40,6 +40,9 @@
     "@types/semver": "^7.3.9"
   },
   "packemon": {
+    "inputs": {
+      "bin": "src/bin.ts"
+    },
     "format": "lib",
     "platform": "node",
     "support": "current"
