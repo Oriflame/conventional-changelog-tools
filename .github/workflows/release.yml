@@ -37,3 +37,16 @@ jobs:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+      - name: Install Packages
+        run: yarn install --no-immutable
+
+      - name: Setup git
+        run: |
+          git config --global user.email "lumos@oriflame.com"
+          git config --global user.name "Lumos Bot"
+
+      - name: Push yarn lock
+        run: |
+          git commit -am 'internal: Regenerate yarn lock. [ci skip]' --no-verify
+          git push
