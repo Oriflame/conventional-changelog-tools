@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## <small>2.1.26 (2022-01-07)</small>
+
+* build: Fix issues. ([e793700](https://github.com/Oriflame/conventional-changelog-tools/commit/e793700))
+
+
+
+
+
 ## <small>2.1.25 (2022-01-07)</small>
 
 **Note:** Version bump only for package @oriflame/semantic-release-config

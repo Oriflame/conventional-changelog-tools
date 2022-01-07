@@ -1,6 +1,6 @@
 {
   "name": "@oriflame/pull-request-check",
-  "version": "1.1.8",
+  "version": "1.1.9",
   "main": "./lib/index.js",
   "bin": "./index.js",
   "repository": {
@@ -32,7 +32,7 @@
     "oriflame"
   ],
   "dependencies": {
-    "@oriflame/conventional-changelog": "^1.2.6",
+    "@oriflame/conventional-changelog": "^1.2.7",
     "azure-devops-node-api": "^11.1.0",
     "chalk": "^4.1.2"
   },

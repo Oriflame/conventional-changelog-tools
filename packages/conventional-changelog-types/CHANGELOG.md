@@ -3,6 +3,16 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## <small>1.0.12 (2022-01-07)</small>
+
+* build: Fix build. ([dbdb3b4](https://github.com/Oriflame/conventional-changelog-tools/commit/dbdb3b4))
+* build: Fix issues. ([e793700](https://github.com/Oriflame/conventional-changelog-tools/commit/e793700))
+* build: Fix. ([cc2bc0c](https://github.com/Oriflame/conventional-changelog-tools/commit/cc2bc0c))
+
+
+
+
+
 ## <small>1.0.11 (2022-01-07)</small>
 
 **Note:** Version bump only for package @oriflame/conventional-changelog-types
