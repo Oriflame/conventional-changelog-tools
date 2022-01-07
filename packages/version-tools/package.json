@@ -2,7 +2,9 @@
   "name": "@oriflame/version-tools",
   "version": "1.0.1",
   "main": "./lib/index.js",
-  "bin": "./lib/bin.js",
+  "bin": {
+    "version-tools": "./lib/bin.js"
+  },
   "types": "",
   "repository": {
     "url": "https://github.com/Oriflame/conventional-changelog-tools",
