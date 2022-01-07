@@ -14,12 +14,10 @@
     "npm": ">=6.14.0 || >=7.0.0"
   },
   "files": [
-    "dts",
     "dts/**/*.d.ts",
-    "lib",
     "lib/**/*.{js,map}",
-    "src",
-    "src/**/*.{ts,tsx,json}"
+    "src/**/*.{ts,tsx,json}",
+    "templates/**/*.hbs"
   ],
   "publishConfig": {
     "access": "public"
