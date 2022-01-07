@@ -1,7 +1,7 @@
 {
   "name": "@oriflame/conventional-changelog-types",
   "main": "./lib/index.js",
-  "types": "./dts/index.d.ts",
+  "types": "",
   "version": "1.0.11",
   "engines": {
     "node": ">=14.16.0",
@@ -11,11 +11,9 @@
     "access": "public"
   },
   "files": [
-    "dts",
     "dts/**/*.d.ts",
-    "lib",
+    "dts/**/*.{d.ts,d.ts.map}",
     "lib/**/*.{js,map}",
-    "src",
     "src/**/*.{ts,tsx,json}"
   ],
   "repository": {
@@ -25,8 +23,12 @@
   "author": "Jan Silhan",
   "license": "MIT",
   "packemon": {
+    "inputs": {
+      "bin": "src/bin.ts"
+    },
     "format": "lib",
     "platform": "node",
     "support": "current"
-  }
+  },
+  "bin": "./lib/bin.js"
 }

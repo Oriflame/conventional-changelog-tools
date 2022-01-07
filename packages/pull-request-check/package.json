@@ -18,6 +18,7 @@
   "files": [
     "dts",
     "dts/**/*.d.ts",
+    "dts/**/*.{d.ts,d.ts.map}",
     "lib",
     "lib/**/*.{js,map}",
     "src",

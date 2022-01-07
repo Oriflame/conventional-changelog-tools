@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "main": "./lib/index.js",
   "bin": "./lib/bin.js",
+  "types": "./dts/index.d.ts",
   "repository": {
     "url": "https://github.com/Oriflame/conventional-changelog-tools",
     "directory": "packages/version-tools"
@@ -17,6 +18,7 @@
   },
   "files": [
     "dts/**/*.d.ts",
+    "dts/**/*.{d.ts,d.ts.map}",
     "lib/**/*.{js,map}",
     "src/**/*.{ts,tsx,json}"
   ],
@@ -41,6 +43,5 @@
     "format": "lib",
     "platform": "node",
     "support": "current"
-  },
-  "types": "./dts/index.d.ts"
+  }
 }

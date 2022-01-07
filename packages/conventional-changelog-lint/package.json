@@ -13,6 +13,7 @@
   "files": [
     "dts",
     "dts/**/*.d.ts",
+    "dts/**/*.{d.ts,d.ts.map}",
     "lib",
     "lib/**/*.{js,map}",
     "src",
@@ -32,6 +33,9 @@
   },
   "peerDependencies": {
     "@commitlint/cli": ">=12"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^16.0.1"
   },
   "packemon": {
     "format": "lib",
