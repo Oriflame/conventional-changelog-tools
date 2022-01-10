@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## <small>1.0.4 (2022-01-10)</small>
+
+**Note:** Version bump only for package @oriflame/version-tools
+
+
+
+
+
 ## <small>1.0.3 (2022-01-07)</small>
 
 * fix: Remove v from version. ([6d6ac4a](https://github.com/Oriflame/conventional-changelog-tools/commit/6d6ac4a))
