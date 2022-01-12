@@ -30,8 +30,8 @@
   ],
   "devDependencies": {
     "@commitlint/cli": "^16.0.2",
-    "@oriflame/config-danger": "^5.1.20",
-    "@oriflame/lumos": "^5.1.20",
+    "@oriflame/config-danger": "^5.1.23",
+    "@oriflame/lumos": "^5.1.23",
     "@types/node": "^17.0.5",
     "@types/shelljs": "^0.8.10",
     "cross-env": "^7.0.3",

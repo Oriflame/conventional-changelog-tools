@@ -5066,9 +5066,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@oriflame/babel-preset@npm:^5.1.20":
-  version: 5.1.20
-  resolution: "@oriflame/babel-preset@npm:5.1.20"
+"@oriflame/babel-preset@npm:^5.1.23":
+  version: 5.1.23
+  resolution: "@oriflame/babel-preset@npm:5.1.23"
   dependencies:
     "@babel/plugin-proposal-class-properties": ^7.16.7
     "@babel/plugin-proposal-decorators": ^7.16.7
@@ -5080,7 +5080,7 @@ __metadata:
     "@babel/preset-react": ^7.16.7
     "@babel/preset-typescript": ^7.16.7
     "@emotion/babel-plugin": ^11.7.2
-    "@oriflame/lumos-common": ^5.1.20
+    "@oriflame/lumos-common": ^5.1.23
     babel-plugin-add-module-exports: ^1.0.4
     babel-plugin-graphql-tag: ^3.3.0
     babel-plugin-module-resolver: ^4.1.0
@@ -5098,16 +5098,16 @@ __metadata:
       optional: true
     typescript:
       optional: true
-  checksum: dadd29a75e0d9cb2d3e65ff2054e32c5c017bbe38301f77aeff3e93eac388848dbaf2fff17bf6df4ffaffe1ee82cd726a62c4e2d920ee2f134abd93830cfada1
+  checksum: be57b77714951368483cb4e1a9ef71a45fd99aad56f3002b751ed02d45c0baa3cad964bd75c34f9e2030d80971209e15a597d1637f3bd91c0da757f64342b7d1
   languageName: node
   linkType: hard
 
-"@oriflame/config-babel@npm:^5.1.20":
-  version: 5.1.20
-  resolution: "@oriflame/config-babel@npm:5.1.20"
+"@oriflame/config-babel@npm:^5.1.23":
+  version: 5.1.23
+  resolution: "@oriflame/config-babel@npm:5.1.23"
   dependencies:
-    "@oriflame/babel-preset": ^5.1.20
-    "@oriflame/lumos-common": ^5.1.20
+    "@oriflame/babel-preset": ^5.1.23
+    "@oriflame/lumos-common": ^5.1.23
   peerDependencies:
     "@babel/core": ^7.16.0
     "@beemo/core": ^2.1.2
@@ -5116,26 +5116,26 @@ __metadata:
   peerDependenciesMeta:
     typescript:
       optional: true
-  checksum: 2fb02ab5157a1c9d031f73895b452ebf64b1f79f1c2789d360ca6f801f9856662b3e3c8ede2c7fa533965f2ce5430f91a5da496cef3b038ed60d36901f1d06b0
+  checksum: 237d0fe96afabb11a2503d94f856087a8472fae0307570dea08bdc9eeeb5584cf1f11e660d102f9aa3f419be4a8772d3e422c04ee1406cd871ca3f9234f89427
   languageName: node
   linkType: hard
 
-"@oriflame/config-danger@npm:^5.1.20":
-  version: 5.1.20
-  resolution: "@oriflame/config-danger@npm:5.1.20"
+"@oriflame/config-danger@npm:^5.1.23":
+  version: 5.1.23
+  resolution: "@oriflame/config-danger@npm:5.1.23"
   dependencies:
     "@oriflame/conventional-changelog": ^1.2.10
     danger: ^10.8.0
-  checksum: f18d8475e5de2363f1ea51b99d2ff556fef1d6cd9837faf95b892b979ba5882b3e8deee12ecf03f571d4dcf3c1c92b2f9b903a73b2314e2b6fb2fa43921a7587
+  checksum: 64cd9da64a643f7ded1ab8f3e411923b9879de3586f452d5a957db1ad928a4bf12e08039abf1fb64f8acfba6786534e9681eb29b7f31a7446a1b1d0447c679c6
   languageName: node
   linkType: hard
 
-"@oriflame/config-eslint@npm:^5.1.20":
-  version: 5.1.20
-  resolution: "@oriflame/config-eslint@npm:5.1.20"
+"@oriflame/config-eslint@npm:^5.1.23":
+  version: 5.1.23
+  resolution: "@oriflame/config-eslint@npm:5.1.23"
   dependencies:
-    "@oriflame/lumos-common": ^5.1.20
-    eslint-config-oriflame: ^5.1.20
+    "@oriflame/lumos-common": ^5.1.23
+    eslint-config-oriflame: ^5.1.23
   peerDependencies:
     "@beemo/core": ^2.1.2
     "@beemo/driver-eslint": ^2.0.3
@@ -5147,24 +5147,24 @@ __metadata:
       optional: true
     typescript:
       optional: true
-  checksum: 9e48c83bdc8953a6119bfb4ba2909a126e5c7ed0eb7069ab26f97c4f35e017201ab29b1c5156e1e60ffd019ecc57c3babece6b60ff645f30500ec7e67c85b1b1
+  checksum: a8a974cb1b56370f460d015f2580bbf5cd79a0501a30fbb2415bb34869e80321a50445040a97312cefb0855c4f7a772eba3d01cd2df4c5fd4a3fe4b55de133cc
   languageName: node
   linkType: hard
 
-"@oriflame/config-jest@npm:^5.1.20":
-  version: 5.1.20
-  resolution: "@oriflame/config-jest@npm:5.1.20"
+"@oriflame/config-jest@npm:^5.1.23":
+  version: 5.1.23
+  resolution: "@oriflame/config-jest@npm:5.1.23"
   dependencies:
     "@babel/core": ^7.16.7
     "@beemo/driver-jest": ^2.0.4
-    "@oriflame/lumos-common": ^5.1.20
+    "@oriflame/lumos-common": ^5.1.23
     "@testing-library/jest-dom": ^5.16.1
     "@testing-library/react": ">=12"
     "@types/jest": ^27.4.0
     dom-storage: ^2.1.0
     graphql: ^16.2.0
     graphql-tag: ^2.12.6
-    jest-preset-oriflame: ^5.1.20
+    jest-preset-oriflame: ^5.1.23
   peerDependencies:
     "@beemo/core": ^2.1.2
     "@beemo/driver-babel": ^2.0.4
@@ -5179,46 +5179,46 @@ __metadata:
       optional: true
     react-dom:
       optional: true
-  checksum: cb2de62dc46612febbda7005f5c5ee60f83540eba62850afa36fdf77c758a428956df98aec9f08d3233caf2a4688e57d0e6c39e29e8d6fb98ec918f521361ddb
+  checksum: 35532a619b2ad79a94bd3df4e89036ef0d958a1aa3e7555a293e77c37ea01969c59ffedc4b5dc0d32c56039df8eee541b2d55533949a87998336d23496555f10
   languageName: node
   linkType: hard
 
-"@oriflame/config-prettier@npm:^5.1.20":
-  version: 5.1.20
-  resolution: "@oriflame/config-prettier@npm:5.1.20"
+"@oriflame/config-prettier@npm:^5.1.23":
+  version: 5.1.23
+  resolution: "@oriflame/config-prettier@npm:5.1.23"
   dependencies:
-    "@oriflame/lumos-common": ^5.1.20
-    prettier-config-oriflame: ^5.1.20
+    "@oriflame/lumos-common": ^5.1.23
+    prettier-config-oriflame: ^5.1.23
   peerDependencies:
     "@beemo/core": ^2.1.2
     "@beemo/driver-prettier": ^2.0.4
     prettier: ^2.5.1
-  checksum: 00512cfebb92f55132c3f8bd335746d0e25a431e723a8072380040f858f77b8c40996596b5fc367ee21507c9067155cd639cfdc2b204f8c63e85b8b0e89b45f1
+  checksum: e82b6deb50f954d20aecc07b83fd4038ae85193080c971485ac61b8c761f0d5ccbe703867c9484a9f6193e4f9ebfae6012799f7e95d726557a06c8131b9bca2b
   languageName: node
   linkType: hard
 
-"@oriflame/config-typescript@npm:^5.1.20":
-  version: 5.1.20
-  resolution: "@oriflame/config-typescript@npm:5.1.20"
+"@oriflame/config-typescript@npm:^5.1.23":
+  version: 5.1.23
+  resolution: "@oriflame/config-typescript@npm:5.1.23"
   dependencies:
-    "@oriflame/lumos-common": ^5.1.20
-    tsconfig-oriflame: ^5.1.20
+    "@oriflame/lumos-common": ^5.1.23
+    tsconfig-oriflame: ^5.1.23
   peerDependencies:
     "@beemo/core": ^2.1.2
     "@beemo/driver-typescript": ^2.1.0
     typescript: ^4.5.4
-  checksum: deff92e42ed1515f109072604feb78dd2df6f3e38a1a4c71d9a9051c3460232b593e86267e587758233c7a96322d182f7df4240f3b617261649d4400449457e7
+  checksum: 6654506f00c3b4b3666cccc278e393ebdf84952b3410997348d9b6e35c9278f06788048e7ebe43aa5859ca1208376fa20e05c483bcb252bc01b9d0fd2e839cc1
   languageName: node
   linkType: hard
 
-"@oriflame/config-webpack@npm:^5.1.20":
-  version: 5.1.20
-  resolution: "@oriflame/config-webpack@npm:5.1.20"
+"@oriflame/config-webpack@npm:^5.1.23":
+  version: 5.1.23
+  resolution: "@oriflame/config-webpack@npm:5.1.23"
   dependencies:
     "@babel/core": ^7.16.7
     "@boost/module": ^3.1.0
     "@module-federation/concat-runtime": ^0.0.1
-    "@oriflame/lumos-common": ^5.1.20
+    "@oriflame/lumos-common": ^5.1.23
     "@pmmmwh/react-refresh-webpack-plugin": ^0.5.4
     babel-loader: ^8.2.3
     cross-env: ^7.0.3
@@ -5237,7 +5237,7 @@ __metadata:
     postcss-modules: ^4.3.0
     postcss-modules-values: ^4.0.0
     postcss-normalize: ^10.0.1
-    postcss-preset-env: ^7.1.0
+    postcss-preset-env: ^7.2.1
     postcss-reporter: ^7.0.5
     postcss-url: ^10.1.3
     react-refresh: ^0.11.0
@@ -5265,7 +5265,7 @@ __metadata:
       optional: true
   bin:
     lumos-webpack-server: bin/server
-  checksum: c0350794d621b7ceae8d0e4cb39e81f714042bf19ea83542b3633bcf867c346bfd6241959be8dd880090880b2ded232de7cbfe0c613493ba9bd6517502993cb2
+  checksum: 61c0f97bfb0ea16c9b4a7a500faa3362312b66cf51146f8b6df493c7777f39b2024c0ad8b78fc47f8280e563b41bbb67d42a4bfb4ec57695dec70be45528f55e
   languageName: node
   linkType: hard
 
@@ -5298,18 +5298,18 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@oriflame/lumos-common@npm:^5.1.20":
-  version: 5.1.20
-  resolution: "@oriflame/lumos-common@npm:5.1.20"
+"@oriflame/lumos-common@npm:^5.1.23":
+  version: 5.1.23
+  resolution: "@oriflame/lumos-common@npm:5.1.23"
   dependencies:
     "@beemo/core": ^2.1.3
-  checksum: 261f61e27fa43a3effb57d761bfaa7d7f2a5729d9009ea1a05a8689664870912465c82282a6faa5047f37dd81173da2acfacc015a0a4178069fbaa029500dc77
+  checksum: c3ec5ccfe24c1f1be0e6930e7fdb0254b7938b0f480762f3c64beba522114ccb6413e03f5901f552f5dab7d6d383739d0f779f72256af4c6e63bbe35be33186b
   languageName: node
   linkType: hard
 
-"@oriflame/lumos@npm:^5.1.20":
-  version: 5.1.20
-  resolution: "@oriflame/lumos@npm:5.1.20"
+"@oriflame/lumos@npm:^5.1.23":
+  version: 5.1.23
+  resolution: "@oriflame/lumos@npm:5.1.23"
   dependencies:
     "@actions/core": ^1.6.0
     "@actions/github": ^5.0.0
@@ -5326,14 +5326,14 @@ __metadata:
     "@boost/common": ^3.2.0
     "@boost/module": ^3.1.0
     "@octokit/rest": ^18.12.0
-    "@oriflame/config-babel": ^5.1.20
-    "@oriflame/config-eslint": ^5.1.20
-    "@oriflame/config-jest": ^5.1.20
-    "@oriflame/config-prettier": ^5.1.20
-    "@oriflame/config-typescript": ^5.1.20
-    "@oriflame/config-webpack": ^5.1.20
+    "@oriflame/config-babel": ^5.1.23
+    "@oriflame/config-eslint": ^5.1.23
+    "@oriflame/config-jest": ^5.1.23
+    "@oriflame/config-prettier": ^5.1.23
+    "@oriflame/config-typescript": ^5.1.23
+    "@oriflame/config-webpack": ^5.1.23
     "@oriflame/conventional-changelog": ^1.2.10
-    "@oriflame/lumos-common": ^5.1.20
+    "@oriflame/lumos-common": ^5.1.23
     chalk: ^5.0.0
     check-node-version: ^4.2.1
     cross-env: ^7.0.3
@@ -5343,11 +5343,11 @@ __metadata:
     jest: ^27.4.7
     prettier: ^2.5.1
     typescript: ^4.5.4
-    webpack: ^5.65.0
+    webpack: ^5.66.0
     webpack-cli: ^4.9.1
   bin:
     lumos: bin/lumos
-  checksum: d81bc305c694911abfb119f4a9ea27b041f4131eef1674f9330bc2a9388863b854c77ed081d9d9710f6d02562ad65615f624a3313e2178af779df50fa4159fae
+  checksum: 7022c965138e4ba197249be6b1a6e84320ba890cded39ebaaba50bf85fa8fb21a89febb0de81c8c7129e4b88f62f8cc075d01c7725c9359326c117d4647dd9e7
   languageName: node
   linkType: hard
 
@@ -7245,21 +7245,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"autoprefixer@npm:^10.4.0":
-  version: 10.4.0
-  resolution: "autoprefixer@npm:10.4.0"
+"autoprefixer@npm:^10.4.2":
+  version: 10.4.2
+  resolution: "autoprefixer@npm:10.4.2"
   dependencies:
-    browserslist: ^4.17.5
-    caniuse-lite: ^1.0.30001272
-    fraction.js: ^4.1.1
+    browserslist: ^4.19.1
+    caniuse-lite: ^1.0.30001297
+    fraction.js: ^4.1.2
     normalize-range: ^0.1.2
     picocolors: ^1.0.0
-    postcss-value-parser: ^4.1.0
+    postcss-value-parser: ^4.2.0
   peerDependencies:
     postcss: ^8.1.0
   bin:
     autoprefixer: bin/autoprefixer
-  checksum: 7d511c64daeaa13c7888b40b0394cd891fab1852a1f60165330c9e49ab70ac29ad1e3386665d86361661cf2bbe90cea42b78ea73cb77b373ffe30a8f4973a955
+  checksum: dbd13e641eaa7d7e3121769c22cc439222f1a9d0371a583d12300849de7287ece1e793767ff9902842dbfd56c4b7c19ed9fe1947c9f343ba2f4f3519dbddfdef
   languageName: node
   linkType: hard
 
@@ -8565,8 +8565,8 @@ __metadata:
   resolution: "conventional-changelog-tools@workspace:."
   dependencies:
     "@commitlint/cli": ^16.0.2
-    "@oriflame/config-danger": ^5.1.20
-    "@oriflame/lumos": ^5.1.20
+    "@oriflame/config-danger": ^5.1.23
+    "@oriflame/lumos": ^5.1.23
     "@types/node": ^17.0.5
     "@types/shelljs": ^0.8.10
     cross-env: ^7.0.3
@@ -8829,16 +8829,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"css-blank-pseudo@npm:^3.0.0":
-  version: 3.0.0
-  resolution: "css-blank-pseudo@npm:3.0.0"
+"css-blank-pseudo@npm:^3.0.2":
+  version: 3.0.2
+  resolution: "css-blank-pseudo@npm:3.0.2"
   dependencies:
-    postcss-selector-parser: ^6.0.7
+    postcss-selector-parser: ^6.0.8
   peerDependencies:
     postcss: ^8.3
   bin:
-    css-blank-pseudo: dist/cli.mjs
-  checksum: d7f8f6c4d9b03ad57dd45f5eb0ff982c748518d1b5cc63f1101e2edcdb18c7e49c3a89ff7d93f1367b3c7ac151bd19e4f44177dc00b6e9e4847d1acf652e556d
+    css-blank-pseudo: dist/cli.cjs
+  checksum: 764a0c74cdeff39d8743bf9f11b1caf0831092be20103914f65982389b607970c539076f75b9b1a78bbfae964d62d9d3c00013fe29178111b2b416f78d0deb0c
   languageName: node
   linkType: hard
 
@@ -8853,16 +8853,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"css-has-pseudo@npm:^3.0.0":
-  version: 3.0.0
-  resolution: "css-has-pseudo@npm:3.0.0"
+"css-has-pseudo@npm:^3.0.3":
+  version: 3.0.3
+  resolution: "css-has-pseudo@npm:3.0.3"
   dependencies:
-    postcss-selector-parser: ^6.0.7
+    postcss-selector-parser: ^6.0.8
   peerDependencies:
     postcss: ^8.3
   bin:
-    css-has-pseudo: dist/cli.mjs
-  checksum: 06d869b30f81d78878de5310ab24465a08bb38abb1e38a8f72103c0e91f04a3c7c273167f954885e532ff519ab3fb807fb03fac8085b75f15dffb95929e7a99e
+    css-has-pseudo: dist/cli.cjs
+  checksum: 57d4cb466d19a639611274937a71b2f3d797a55b76cdeb18bd75934ece4daf09d20d7cd2e604ed82ece913f562a15b90955a781575249dda88b75a9a7ac4a071
   languageName: node
   linkType: hard
 
@@ -8907,14 +8907,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"css-prefers-color-scheme@npm:^6.0.0":
-  version: 6.0.0
-  resolution: "css-prefers-color-scheme@npm:6.0.0"
+"css-prefers-color-scheme@npm:^6.0.2":
+  version: 6.0.2
+  resolution: "css-prefers-color-scheme@npm:6.0.2"
   peerDependencies:
     postcss: ^8.3
   bin:
-    css-prefers-color-scheme: dist/cli.mjs
-  checksum: d31271ebe9c9e7cb93dc073d54b124f5395f92d135cefd02bf7a934409d59ed32ae47ac2dfd66c80b4feedcf503b69036b0bd9bb99dd33cf9a48469b56d93a93
+    css-prefers-color-scheme: dist/cli.cjs
+  checksum: d4f8e5d484fc601f7b09644a655de228990a039207e454a23a108f59ca490d94c903e55938ca3d2907b410a2bdcbbae048047e23e14324279473d27fdcd7b4dc
   languageName: node
   linkType: hard
 
@@ -9922,14 +9922,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-config-oriflame@npm:^5.1.20":
-  version: 5.1.20
-  resolution: "eslint-config-oriflame@npm:5.1.20"
+"eslint-config-oriflame@npm:^5.1.23":
+  version: 5.1.23
+  resolution: "eslint-config-oriflame@npm:5.1.23"
   dependencies:
     "@babel/core": ^7.16.7
     "@babel/eslint-parser": ^7.16.5
     "@next/eslint-plugin-next": ^12.0.7
-    "@oriflame/lumos-common": ^5.1.20
+    "@oriflame/lumos-common": ^5.1.23
     "@typescript-eslint/eslint-plugin": ^5.9.1
     "@typescript-eslint/parser": ^5.9.1
     confusing-browser-globals: ^1.0.11
@@ -9955,7 +9955,7 @@ __metadata:
       optional: true
     typescript:
       optional: true
-  checksum: 9fd02ee3905d08b2786192f4db95fb24b10a228c8dc2e3e864a18cacf023011457fce0c9200fbcbb5e7abd684500238a10d6f15f21110ddd492737a22848e534
+  checksum: 81f9d8047dd6d61b5c0a69468a871a9c25d1bfa09d38102fe4d68b4aea80301e1f565d796c88248fcf137a5f33663c613f1e1927047d9edf3d1f244fce8a7583
   languageName: node
   linkType: hard
 
@@ -10899,7 +10899,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fraction.js@npm:^4.1.1":
+"fraction.js@npm:^4.1.2":
   version: 4.1.2
   resolution: "fraction.js@npm:4.1.2"
   checksum: a67eff2b599cb6546b77ce9c913bd0cccd646e1a525c793ba4e0bf5a399fc403f379227fca83423a6ea79d01e35c2f2b0f141ffa1d09e41377041268a53fb150
@@ -11392,6 +11392,13 @@ __metadata:
   version: 4.2.8
   resolution: "graceful-fs@npm:4.2.8"
   checksum: 5d224c8969ad0581d551dfabdb06882706b31af2561bd5e2034b4097e67cc27d05232849b8643866585fd0a41c7af152950f8776f4dd5579e9853733f31461c6
+  languageName: node
+  linkType: hard
+
+"graceful-fs@npm:^4.2.9":
+  version: 4.2.9
+  resolution: "graceful-fs@npm:4.2.9"
+  checksum: 68ea4e07ff2c041ada184f9278b830375f8e0b75154e3f080af6b70f66172fabb4108d19b3863a96b53fc068a310b9b6493d86d1291acc5f3861eb4b79d26ad6
   languageName: node
   linkType: hard
 
@@ -13073,16 +13080,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jest-preset-oriflame@npm:^5.1.20":
-  version: 5.1.20
-  resolution: "jest-preset-oriflame@npm:5.1.20"
+"jest-preset-oriflame@npm:^5.1.23":
+  version: 5.1.23
+  resolution: "jest-preset-oriflame@npm:5.1.23"
   dependencies:
-    "@oriflame/lumos-common": ^5.1.20
+    "@oriflame/lumos-common": ^5.1.23
     "@types/jest": ^27.4.0
     jest-junit: ^13.0.0
   peerDependencies:
     jest: ">=27.0.0"
-  checksum: 825f1e6c88ac7857c78e1fe6d6c727f68747b21559f6f97b8ed7fd35738a750c4da8379bec702fddb5c1fbbef65172a91d8f99bedc99b7caa7d7c587333d8c6e
+  checksum: 67e21bbb8a5ede7ffea94b1cc1467cb4683ec596db607b46935eaee37cf4f06dd37d1d79f524eddbfbc5c9ad849525438d894c0940a284257de05723cbea16ec
   languageName: node
   linkType: hard
 
@@ -16313,42 +16320,36 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss-color-functional-notation@npm:^4.1.0":
-  version: 4.1.0
-  resolution: "postcss-color-functional-notation@npm:4.1.0"
+"postcss-color-functional-notation@npm:^4.2.1":
+  version: 4.2.1
+  resolution: "postcss-color-functional-notation@npm:4.2.1"
   dependencies:
     postcss-value-parser: ^4.2.0
   peerDependencies:
     postcss: ^8.3
-  bin:
-    postcss-color-functional-notation: dist/cli.mjs
-  checksum: 32b57c35273275047d3f4f80298d3edc8979f6f3b68642632331c7d9a1e046b5844e24e31f6849f423959bd4492718318265e52dac895cf1ecc5cee311d441bd
+  checksum: a7ed645fc92400e7b47e0c5fbd584be0ce12c6c9b65174e1dbb0d10253b971a755822c4d14b413400d4dd062af4ae1dccd4b92280b3e6c26270c09b4973bee9e
   languageName: node
   linkType: hard
 
-"postcss-color-hex-alpha@npm:^8.0.1":
-  version: 8.0.1
-  resolution: "postcss-color-hex-alpha@npm:8.0.1"
+"postcss-color-hex-alpha@npm:^8.0.2":
+  version: 8.0.2
+  resolution: "postcss-color-hex-alpha@npm:8.0.2"
   dependencies:
     postcss-value-parser: ^4.2.0
   peerDependencies:
     postcss: ^8.3
-  bin:
-    postcss-color-hex-alpha: dist/cli.mjs
-  checksum: 9cfcbddff5e55c378bf5670ba4b5d73f2fff208538ab96b5d555291d5d7aa0785a310b4642059f02ddfd9b35c241f777c6021d67892cd91a3e3b215a56497252
+  checksum: c01513cfed194d3b1ab35beb62fe4aecb3d9101e3d45e2ef3368e9c033076fad480731ee4d875976cbe8a067a684fda55402690396361342070da2825422a1f6
   languageName: node
   linkType: hard
 
-"postcss-color-rebeccapurple@npm:^7.0.1":
-  version: 7.0.1
-  resolution: "postcss-color-rebeccapurple@npm:7.0.1"
+"postcss-color-rebeccapurple@npm:^7.0.2":
+  version: 7.0.2
+  resolution: "postcss-color-rebeccapurple@npm:7.0.2"
   dependencies:
     postcss-value-parser: ^4.2.0
   peerDependencies:
     postcss: ^8.3
-  bin:
-    postcss-color-rebeccapurple: dist/cli.mjs
-  checksum: 53facaba204a637f4de6979d8ccafdef8ec846714804854a07ca2184a32fa88e6685cbbf23c2dac02f43d84befac04649810a779f2ba44ca7e6d337789ea8760
+  checksum: 7d734ac50769f2cf42ac1e58247e45dffa3cc5fb663e67fa5b8ca1a71e1e950603263aad2e98d1629db6058b173ade0c5b5de0390d51d240da8c8674c036c8c7
   languageName: node
   linkType: hard
 
@@ -16386,16 +16387,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss-custom-properties@npm:^12.0.1":
-  version: 12.0.1
-  resolution: "postcss-custom-properties@npm:12.0.1"
+"postcss-custom-properties@npm:^12.1.2":
+  version: 12.1.2
+  resolution: "postcss-custom-properties@npm:12.1.2"
   dependencies:
     postcss-value-parser: ^4.2.0
   peerDependencies:
     postcss: ^8.3
-  bin:
-    postcss-custom-properties: dist/cli.mjs
-  checksum: 363e67ff5e0514c2d4df6e3435ab35eac6bae7042a5c658d47eee8471c745aeb946f142c5480fe3f7268d859c893c88108495d29a1fd556a99ad5132e1c2bc47
+  checksum: b73ea1028e4e90ca61edb5a412e5ab12bd5bcdfa7abd62b3034653ad9f745c6d6be40c7f2e7c0310fb4922b1c345f6f93ce0a7a46d0caf84771f85eb0bad4ce5
   languageName: node
   linkType: hard
 
@@ -16410,16 +16409,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss-dir-pseudo-class@npm:^6.0.1":
-  version: 6.0.1
-  resolution: "postcss-dir-pseudo-class@npm:6.0.1"
+"postcss-dir-pseudo-class@npm:^6.0.3":
+  version: 6.0.3
+  resolution: "postcss-dir-pseudo-class@npm:6.0.3"
   dependencies:
-    postcss-selector-parser: ^6.0.7
+    postcss-selector-parser: ^6.0.8
   peerDependencies:
     postcss: ^8.3
-  bin:
-    postcss-dir-pseudo-class: dist/cli.mjs
-  checksum: 63047755404bcdec4bbfce4547cb252b271439e19e400e8b718c10a6e8da827297739a303526e9a274d07fa2ce4574fb1d9c5e3de7cb95a3c532d037c5625506
+  checksum: a567d3533168722d3d0c1f8792362109358a7959bfbfc4a2055ad1bb70e4a69f2bad6b39acd807ddbcd3f9fb01864d7505c69201df4ac33d71a241c8f23275c2
   languageName: node
   linkType: hard
 
@@ -16459,29 +16456,25 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss-double-position-gradients@npm:^3.0.3":
-  version: 3.0.3
-  resolution: "postcss-double-position-gradients@npm:3.0.3"
+"postcss-double-position-gradients@npm:^3.0.4":
+  version: 3.0.4
+  resolution: "postcss-double-position-gradients@npm:3.0.4"
   dependencies:
     postcss-value-parser: ^4.2.0
   peerDependencies:
     postcss: ^8.3
-  bin:
-    postcss-double-position-gradients: dist/cli.mjs
-  checksum: 60d8cb2cfa38aadc17f1eac20f66dc4cf34d7ddbe1c81db48ccafa1debbf95b6eb08e6f4193953332d56ebce03da1397bd7487ea51ca0413d5362ee941cb9087
+  checksum: 0c3b3fb9cd504b0382403c13cde1f449468f510a91f227a254c61a6c22eb775b7bd45b14695e70fffde1061e29b68118122179c6f8f8b3c0421dde7e9a6474b1
   languageName: node
   linkType: hard
 
-"postcss-env-function@npm:^4.0.3":
-  version: 4.0.3
-  resolution: "postcss-env-function@npm:4.0.3"
+"postcss-env-function@npm:^4.0.4":
+  version: 4.0.4
+  resolution: "postcss-env-function@npm:4.0.4"
   dependencies:
     postcss-value-parser: ^4.2.0
   peerDependencies:
     postcss: ^8.3
-  bin:
-    postcss-env-function: dist/cli.mjs
-  checksum: 3d54c8155095fd9e7ce7ea704206aa14d5cf08eb6360c041fc5944554faeb598cb4afa5d62add6ce3ddbb5ead0f560219c1b8c846f44e8741df5000abea0852b
+  checksum: 5c05b7a46a9056e2da8da0650222b41d84416408a94e1507be2c231084e44ff965023998450c54c77aac867266e1ace14119d923179969b68c61d7ee1085dd91
   languageName: node
   linkType: hard
 
@@ -16494,29 +16487,25 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss-focus-visible@npm:^6.0.2":
-  version: 6.0.2
-  resolution: "postcss-focus-visible@npm:6.0.2"
+"postcss-focus-visible@npm:^6.0.3":
+  version: 6.0.3
+  resolution: "postcss-focus-visible@npm:6.0.3"
   dependencies:
-    postcss-selector-parser: ^6.0.7
+    postcss-selector-parser: ^6.0.8
   peerDependencies:
     postcss: ^8.3
-  bin:
-    postcss-focus-visible: dist/cli.mjs
-  checksum: 73a13e7f4506b1b1ba6f4b982d6a1be1b15e44b5faa3d0cc7257d06b54757bc4888d0af2860b5b5deedfec926a05bbcf76c6483a739279250596728857973b29
+  checksum: 89f1f61fc39e84c6e0136c0322f1901a3630e6401f8cb59e667f21b1c6ab691ed23cfce83f8c57e95d92b967211a2b2b87531d4a0720558dc1b26cf728ae0dca
   languageName: node
   linkType: hard
 
-"postcss-focus-within@npm:^5.0.2":
-  version: 5.0.2
-  resolution: "postcss-focus-within@npm:5.0.2"
+"postcss-focus-within@npm:^5.0.3":
+  version: 5.0.3
+  resolution: "postcss-focus-within@npm:5.0.3"
   dependencies:
-    postcss-selector-parser: ^6.0.7
+    postcss-selector-parser: ^6.0.8
   peerDependencies:
     postcss: ^8.3
-  bin:
-    postcss-focus-within: dist/cli.mjs
-  checksum: 2f506856296ada4db22d6bce46bebc5d50f7923181073fcba64bd297c36055aabe0a28108ba9c0d5dab05a66edcf52ee79cf43d51d884f055a447fda87504049
+  checksum: 81adfa21d3a40e8db386ef031960ef5e8ed80a7594eea14e9d3265f6f49de35e8ac50b23a6036c6085f1751302aeec9a71910de41317dc19e0ce39a6a1745a7e
   languageName: node
   linkType: hard
 
@@ -16529,27 +16518,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss-gap-properties@npm:^3.0.1":
-  version: 3.0.1
-  resolution: "postcss-gap-properties@npm:3.0.1"
+"postcss-gap-properties@npm:^3.0.2":
+  version: 3.0.2
+  resolution: "postcss-gap-properties@npm:3.0.2"
   peerDependencies:
     postcss: ^8.3
-  bin:
-    postcss-gap-properties: dist/cli.mjs
-  checksum: 4305a9dc23f30cc194c7b9d6b92eeb78ed7aa165eb312f021853a58608516446f3d598e8e5f09e3a07bff24344cbbddb51398edaedc208b10675153e71919eee
+  checksum: e0e64198c58851ce5d324241efc5b42603fc40cc0da329538f6eb1c261e610b5d0610b98914316f64befb4d8142e5b04e91b06aa6a0bba139b357968e5dfedb8
   languageName: node
   linkType: hard
 
-"postcss-image-set-function@npm:^4.0.3":
-  version: 4.0.3
-  resolution: "postcss-image-set-function@npm:4.0.3"
+"postcss-image-set-function@npm:^4.0.4":
+  version: 4.0.4
+  resolution: "postcss-image-set-function@npm:4.0.4"
   dependencies:
     postcss-value-parser: ^4.2.0
   peerDependencies:
     postcss: ^8.3
-  bin:
-    postcss-image-set-function: dist/cli.mjs
-  checksum: 1db7c0427161697a61db4deff0cf7ce240635ac2d1d7da404ea8e9f90729d77e0e1165362b02cf8ed1f761776eab887a1af071b7b2a93fc01625cccb136c25a8
+  checksum: 4858841a1a39b812bcd9b891a9f67c3105b593c9b831a82469ea06212ee1c818f6d6168f58b5e7f1c82301a6e89b8b908008f201f001b82a8108df435b1f6761
   languageName: node
   linkType: hard
 
@@ -16575,16 +16560,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss-lab-function@npm:^4.0.2":
-  version: 4.0.2
-  resolution: "postcss-lab-function@npm:4.0.2"
+"postcss-lab-function@npm:^4.0.3":
+  version: 4.0.3
+  resolution: "postcss-lab-function@npm:4.0.3"
   dependencies:
     postcss-value-parser: ^4.2.0
   peerDependencies:
     postcss: ^8.3
-  bin:
-    postcss-lab-function: dist/cli.mjs
-  checksum: f1b42a4a609c8ad48e3c0707fc28791aba80df1db0f9f2544ce11c5db95f45458bc979f9b8fffb52e71ff184d79b74acb63f4cb2553809530cad7c5157d82dfa
+  checksum: 4f72dc7b4d10d56884c449f6af9233b93a139449af7ea54504f4eeba3439784cfca1136f57ffc292b750caf897854302530ba0ebf4b5c254657182dd6d76bfa9
   languageName: node
   linkType: hard
 
@@ -16602,14 +16585,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss-logical@npm:^5.0.1":
-  version: 5.0.1
-  resolution: "postcss-logical@npm:5.0.1"
+"postcss-logical@npm:^5.0.3":
+  version: 5.0.3
+  resolution: "postcss-logical@npm:5.0.3"
   peerDependencies:
     postcss: ^8.3
-  bin:
-    postcss-logical: dist/cli.mjs
-  checksum: a3405f01433c3c415c7baa087cc2be8b929b6c12852f8cca22be52aa30cb786c412bb5c5067223cdfd0b30afa92e934dde90386450967eb336cdf3edc48977bb
+  checksum: e98fdd0637ce82cf7e9c39dc981bf91992e63db90a9b319ce135e5090ef19fe04ef24ba35ce60d456bb264580be66eb6383112cde4963c0c18d519d788d566d1
   languageName: node
   linkType: hard
 
@@ -16760,16 +16741,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss-nesting@npm:^10.0.3":
-  version: 10.0.3
-  resolution: "postcss-nesting@npm:10.0.3"
+"postcss-nesting@npm:^10.1.2":
+  version: 10.1.2
+  resolution: "postcss-nesting@npm:10.1.2"
   dependencies:
-    postcss-selector-parser: ^6.0.7
+    postcss-selector-parser: ^6.0.8
   peerDependencies:
     postcss: ^8.3
-  bin:
-    postcss-nesting: dist/cli.mjs
-  checksum: 69e267421bc105857fd6a2f34af6b540aab395c7a61bce1150956ee0b077328df89496760f3611fe63cc2c9fc17c2b8ba3916e834ea751b69a978c08e964fbb8
+  checksum: 571385eb40ba2874d9e87ed4f8e6e1743c2626e8e626d2d8dc857eeaff7299cc378aa5a662aea93de807955bd32282cf4eaa0434bdb4bd0fdaa2b74703ba98f7
   languageName: node
   linkType: hard
 
@@ -16901,14 +16880,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss-overflow-shorthand@npm:^3.0.1":
-  version: 3.0.1
-  resolution: "postcss-overflow-shorthand@npm:3.0.1"
+"postcss-overflow-shorthand@npm:^3.0.2":
+  version: 3.0.2
+  resolution: "postcss-overflow-shorthand@npm:3.0.2"
   peerDependencies:
     postcss: ^8.3
-  bin:
-    postcss-overflow-shorthand: dist/cli.mjs
-  checksum: 92cf3b3cf642ebf1bcdac0dc3dce0c894d9566a1ad4062f711befb6090c85cf1034bdd5d2528dc6aa2b24da250b1a0877a4abacb76e21adbe6c7220c80353beb
+  checksum: 654973d030af93eadc0813d649a429e3df066347c8b1ccc92699cfaaabdf50f2720d25b5a8c939309a6ce98ff2dc7d89cea39223933555f78aa5e86f98ad3d1c
   languageName: node
   linkType: hard
 
@@ -16921,74 +16898,68 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss-place@npm:^7.0.2":
-  version: 7.0.2
-  resolution: "postcss-place@npm:7.0.2"
+"postcss-place@npm:^7.0.3":
+  version: 7.0.3
+  resolution: "postcss-place@npm:7.0.3"
   dependencies:
     postcss-value-parser: ^4.2.0
   peerDependencies:
     postcss: ^8.3
-  bin:
-    postcss-place: dist/cli.mjs
-  checksum: 32650bffd97fdbccd3309bd48c9caa9ab1b42deab2371bf94d5f030a98aea3421ed5fd963d8fbbb6f56e04a50f4f6842629ea078cc33d4c090bedd453489d97e
+  checksum: 5521e25aa78dab1f77084c3b16b691c69e8affe8f62e471c0ec5b7d0604bf7b663b5bbd190df58c3755f48fc7152ffa1a7493fda8777d6d95c9af9ce80d18e0d
   languageName: node
   linkType: hard
 
-"postcss-preset-env@npm:^7.1.0":
-  version: 7.1.0
-  resolution: "postcss-preset-env@npm:7.1.0"
+"postcss-preset-env@npm:^7.2.1":
+  version: 7.2.2
+  resolution: "postcss-preset-env@npm:7.2.2"
   dependencies:
-    autoprefixer: ^10.4.0
+    autoprefixer: ^10.4.2
     browserslist: ^4.19.1
-    caniuse-lite: ^1.0.30001291
-    css-blank-pseudo: ^3.0.0
-    css-has-pseudo: ^3.0.0
-    css-prefers-color-scheme: ^6.0.0
+    caniuse-lite: ^1.0.30001299
+    css-blank-pseudo: ^3.0.2
+    css-has-pseudo: ^3.0.3
+    css-prefers-color-scheme: ^6.0.2
     cssdb: ^5.0.0
     postcss-attribute-case-insensitive: ^5.0.0
-    postcss-color-functional-notation: ^4.1.0
-    postcss-color-hex-alpha: ^8.0.1
-    postcss-color-rebeccapurple: ^7.0.1
+    postcss-color-functional-notation: ^4.2.1
+    postcss-color-hex-alpha: ^8.0.2
+    postcss-color-rebeccapurple: ^7.0.2
     postcss-custom-media: ^8.0.0
-    postcss-custom-properties: ^12.0.1
+    postcss-custom-properties: ^12.1.2
     postcss-custom-selectors: ^6.0.0
-    postcss-dir-pseudo-class: ^6.0.1
-    postcss-double-position-gradients: ^3.0.3
-    postcss-env-function: ^4.0.3
-    postcss-focus-visible: ^6.0.2
-    postcss-focus-within: ^5.0.2
+    postcss-dir-pseudo-class: ^6.0.3
+    postcss-double-position-gradients: ^3.0.4
+    postcss-env-function: ^4.0.4
+    postcss-focus-visible: ^6.0.3
+    postcss-focus-within: ^5.0.3
     postcss-font-variant: ^5.0.0
-    postcss-gap-properties: ^3.0.1
-    postcss-image-set-function: ^4.0.3
+    postcss-gap-properties: ^3.0.2
+    postcss-image-set-function: ^4.0.4
     postcss-initial: ^4.0.1
-    postcss-lab-function: ^4.0.2
-    postcss-logical: ^5.0.1
+    postcss-lab-function: ^4.0.3
+    postcss-logical: ^5.0.3
     postcss-media-minmax: ^5.0.0
-    postcss-nesting: ^10.0.3
-    postcss-overflow-shorthand: ^3.0.1
+    postcss-nesting: ^10.1.2
+    postcss-overflow-shorthand: ^3.0.2
     postcss-page-break: ^3.0.4
-    postcss-place: ^7.0.2
-    postcss-pseudo-class-any-link: ^7.0.1
+    postcss-place: ^7.0.3
+    postcss-pseudo-class-any-link: ^7.0.2
     postcss-replace-overflow-wrap: ^4.0.0
     postcss-selector-not: ^5.0.0
   peerDependencies:
-    postcss: ^8.3
-  bin:
-    postcss-preset-env: dist/cli.mjs
-  checksum: b7d128ca1cae90a6c351d1a7705108c99710264f2b7c13ea47964fd96f0e2a33889d4c7bc24a8c6d5bc095c3d6d360367fbdc65ce1072836ac7dd854e8afedbc
+    postcss: ^8.4
+  checksum: 464889eb65e24f11321d2c97b5f351d6a84a0148ed49954dff242a40651b2dfceffc0ea00feff3fa062a1f736db16a0bb942a7df0e1540a4e488b17f7d308b42
   languageName: node
   linkType: hard
 
-"postcss-pseudo-class-any-link@npm:^7.0.1":
-  version: 7.0.1
-  resolution: "postcss-pseudo-class-any-link@npm:7.0.1"
+"postcss-pseudo-class-any-link@npm:^7.0.2":
+  version: 7.0.2
+  resolution: "postcss-pseudo-class-any-link@npm:7.0.2"
   dependencies:
-    postcss-selector-parser: ^6.0.7
+    postcss-selector-parser: ^6.0.8
   peerDependencies:
     postcss: ^8.3
-  bin:
-    postcss-pseudo-class-any-link: dist/cli.mjs
-  checksum: 1ddbfbd956d7513b266662065f2fba4964b05a1eea5d363e04d054eb02b4744c5db049e4ff02d43bcdcf6f7df2edcbb5a81dea8ba38348f310076bf14496afa7
+  checksum: 3e62506780c113ba7578f31beedbe2706b1f1974f332e0a7d7e3adf888c45a3752ae4a68fb3ebf2b3a8ed918f11defb4d2d6059230538a1fd79c1d637d33a0b3
   languageName: node
   linkType: hard
 
@@ -17048,13 +17019,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss-selector-parser@npm:^6.0.2, postcss-selector-parser@npm:^6.0.4, postcss-selector-parser@npm:^6.0.5, postcss-selector-parser@npm:^6.0.7":
+"postcss-selector-parser@npm:^6.0.2, postcss-selector-parser@npm:^6.0.4, postcss-selector-parser@npm:^6.0.5":
   version: 6.0.7
   resolution: "postcss-selector-parser@npm:6.0.7"
   dependencies:
     cssesc: ^3.0.0
     util-deprecate: ^1.0.2
   checksum: 661808ad629e3f289e0d237fbe9bb13766dadd2d548ec09ae86f68118f5d98be0f25bbaf5cd88486c5416e2eefaa9f73c59c2fc98dc370872fa51b250c7d1d9c
+  languageName: node
+  linkType: hard
+
+"postcss-selector-parser@npm:^6.0.8":
+  version: 6.0.8
+  resolution: "postcss-selector-parser@npm:6.0.8"
+  dependencies:
+    cssesc: ^3.0.0
+    util-deprecate: ^1.0.2
+  checksum: 550351c8d04216106e259f7c433652aa6742dd7ddbedf7afdc313526963bb170589a6fefd1bc1fe6268a2cf9f5073d4ecb09bc7b5b4bef49edf80634300500af
   languageName: node
   linkType: hard
 
@@ -17138,10 +17119,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier-config-oriflame@npm:^5.1.20":
-  version: 5.1.20
-  resolution: "prettier-config-oriflame@npm:5.1.20"
-  checksum: f31048477879a8e46651bccc5f487736fff7d6e6780bba7bdebcbfdadc912e466978b617b5a9d8527b119b3bdd27af44cabed151eafe3a48d4ef32c3a3101b25
+"prettier-config-oriflame@npm:^5.1.23":
+  version: 5.1.23
+  resolution: "prettier-config-oriflame@npm:5.1.23"
+  checksum: 1bdb6bcbff9066df903b723b90d770b8e1082847ffb73c24f1adc4dcf7eea125d32f46fbe51d3e8942a39f469ba0f3a669dd0521a0c844f4a750b8ca50a53d06
   languageName: node
   linkType: hard
 
@@ -19560,10 +19541,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tsconfig-oriflame@npm:^5.1.20":
-  version: 5.1.20
-  resolution: "tsconfig-oriflame@npm:5.1.20"
-  checksum: cb92db03a7d33f47ca56f9c3d0eb1246957b51e403f0798dd48bb7ecfacf623c35ac67cb764351acc7931d2bc8124d01ce99ea4cdc9369c92f11fbc2e9d7a434
+"tsconfig-oriflame@npm:^5.1.23":
+  version: 5.1.23
+  resolution: "tsconfig-oriflame@npm:5.1.23"
+  checksum: c1104d36b2ca016002484ba236a7d41ba88f5ffc775495ea338c5d60ac26f85b5806a565255fed028c079200979a25b06d561ba06b8a7a3e182abc39d1880b98
   languageName: node
   linkType: hard
 
@@ -20320,9 +20301,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"webpack@npm:^5.65.0":
-  version: 5.65.0
-  resolution: "webpack@npm:5.65.0"
+"webpack@npm:^5.66.0":
+  version: 5.66.0
+  resolution: "webpack@npm:5.66.0"
   dependencies:
     "@types/eslint-scope": ^3.7.0
     "@types/estree": ^0.0.50
@@ -20338,7 +20319,7 @@ __metadata:
     eslint-scope: 5.1.1
     events: ^3.2.0
     glob-to-regexp: ^0.4.1
-    graceful-fs: ^4.2.4
+    graceful-fs: ^4.2.9
     json-parse-better-errors: ^1.0.2
     loader-runner: ^4.2.0
     mime-types: ^2.1.27
@@ -20353,7 +20334,7 @@ __metadata:
       optional: true
   bin:
     webpack: bin/webpack.js
-  checksum: 221ab8ccd440cb678269e86689704bbef81cf41393eb266625873e30c6980ffaa055bb1a7d14bf9fc0f5a2e6f03d15d068cbb995bc876757c01a4ca27fd2870c
+  checksum: 5a44664a840fd64c5383aa78847b205ae0b42b607f85ee1d6a568617a210c1b9caab1822bce40a89a3b5eb0f626a83fb5fe2055c638aa230897bf224030d28e8
   languageName: node
   linkType: hard
 
