@@ -28,6 +28,9 @@
   },
   "author": "Jan Silhan",
   "license": "MIT",
+  "scripts": {
+    "prepack": "node ../../scripts/pre-pack.js"
+  },
   "dependencies": {
     "@oriflame/conventional-changelog-types": "^1.0.18"
   },
