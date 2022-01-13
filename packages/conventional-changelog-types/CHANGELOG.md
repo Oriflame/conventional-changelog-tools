@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## <small>1.0.19 (2022-01-13)</small>
+
+**Note:** Version bump only for package @oriflame/conventional-changelog-types
+
+
+
+
+
 ## <small>1.0.18 (2022-01-13)</small>
 
 * internal: Run lint fix. ([5a67f27](https://github.com/Oriflame/conventional-changelog-tools/commit/5a67f27))

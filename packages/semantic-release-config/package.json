@@ -1,6 +1,6 @@
 {
   "name": "@oriflame/semantic-release-config",
-  "version": "2.1.32",
+  "version": "2.1.33",
   "main": "./lib/index.js",
   "repository": {
     "url": "https://github.com/Oriflame/conventional-changelog-tools",
@@ -35,7 +35,7 @@
     "oriflame"
   ],
   "dependencies": {
-    "@oriflame/conventional-changelog": "^1.2.13",
+    "@oriflame/conventional-changelog": "^1.2.14",
     "@semantic-release/changelog": "^6.0.1",
     "@semantic-release/commit-analyzer": "^9.0.2",
     "@semantic-release/git": "^10.0.1",
