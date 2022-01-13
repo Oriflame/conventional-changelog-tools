@@ -4,7 +4,7 @@
  */
 /* eslint-disable no-template-curly-in-string -- Needed for semantic release */
 
-import { SemanticReleaseConfig } from './types';
+import type { SemanticReleaseConfig } from './types';
 
 // Get env variable from env
 let generateChangelog: boolean | string | undefined = process.env.GENERATE_CHANGELOG;

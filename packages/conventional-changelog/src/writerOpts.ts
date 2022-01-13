@@ -1,12 +1,12 @@
 /* eslint-disable @typescript-eslint/no-non-null-assertion -- needed */
 /* eslint-disable no-param-reassign -- needed */
-import {
+import type {
   CommitGroupLabel,
   Context,
-  GROUPS,
   Reference,
   WriterOptions,
 } from '@oriflame/conventional-changelog-types';
+import { GROUPS } from '@oriflame/conventional-changelog-types';
 import fs from 'fs';
 import path from 'path';
 

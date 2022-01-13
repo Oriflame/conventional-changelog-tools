@@ -1,8 +1,8 @@
-import { SemverLevel, Group } from '@oriflame/conventional-changelog-types';
+import type { SemverLevel, Group } from '@oriflame/conventional-changelog-types';
 
 import getTypeGroup from './getTypeGroup';
 import parserOpts from './parserOpts';
-import { BumpOptions } from './types';
+import type { BumpOptions } from './types';
 
 const options: BumpOptions = {
   parserOpts,

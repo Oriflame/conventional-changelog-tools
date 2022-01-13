@@ -1,4 +1,5 @@
-import { ParserOptions, COMMIT_FORMAT_PREFIX } from '@oriflame/conventional-changelog-types';
+import type { ParserOptions } from '@oriflame/conventional-changelog-types';
+import { COMMIT_FORMAT_PREFIX } from '@oriflame/conventional-changelog-types';
 
 const options: Partial<ParserOptions> = {
   headerCorrespondence: ['azure', 'type', 'scope', 'message'],
