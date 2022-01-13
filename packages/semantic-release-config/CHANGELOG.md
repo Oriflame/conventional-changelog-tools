@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## <small>2.1.32 (2022-01-13)</small>
+
+* internal: Run lint fix. ([5a67f27](https://github.com/Oriflame/conventional-changelog-tools/commit/5a67f27))
+
+
+
+
+
 ## <small>2.1.31 (2022-01-13)</small>
 
 **Note:** Version bump only for package @oriflame/semantic-release-config
