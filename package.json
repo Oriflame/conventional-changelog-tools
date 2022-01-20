@@ -30,7 +30,7 @@
     "./packages/*"
   ],
   "devDependencies": {
-    "@commitlint/cli": "^16.0.2",
+    "@commitlint/cli": "^16.1.0",
     "@oriflame/config-danger": "^5.1.23",
     "@oriflame/lumos": "^5.1.23",
     "@types/fs-extra": "^9.0.13",
