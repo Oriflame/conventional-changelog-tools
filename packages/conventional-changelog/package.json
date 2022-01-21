@@ -7,7 +7,7 @@
     "oriflame",
     "preset"
   ],
-  "main": "index.js",
+  "main": "./lib/index.js",
   "types": "./dts/index.d.ts",
   "engines": {
     "node": ">=14.16.0",
