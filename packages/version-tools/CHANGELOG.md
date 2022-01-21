@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## <small>1.0.13 (2022-01-21)</small>
+
+* fix: Support for multiple versions. ([c0e9180](https://github.com/Oriflame/conventional-changelog-tools/commit/c0e9180))
+
+
+
+
+
 ## <small>1.0.12 (2022-01-21)</small>
 
 **Note:** Version bump only for package @oriflame/version-tools
