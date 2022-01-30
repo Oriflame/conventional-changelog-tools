@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## <small>1.0.14 (2022-01-30)</small>
+
+* deps: update dependency @boost/cli to ^3.0.3 (#723) ([56548aa](https://github.com/Oriflame/conventional-changelog-tools/commit/56548aa)), closes [#723](https://github.com/Oriflame/conventional-changelog-tools/issues/723)
+
+
+
+
+
 ## <small>1.0.13 (2022-01-21)</small>
 
 * fix: Support for multiple versions. ([c0e9180](https://github.com/Oriflame/conventional-changelog-tools/commit/c0e9180))
