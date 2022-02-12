@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## <small>1.0.15 (2022-02-12)</small>
+
+* deps: update dependency @types/react to ^17.0.39 (#726) ([342106b](https://github.com/Oriflame/conventional-changelog-tools/commit/342106b)), closes [#726](https://github.com/Oriflame/conventional-changelog-tools/issues/726)
+
+
+
+
+
 ## <small>1.0.14 (2022-01-30)</small>
 
 * deps: update dependency @boost/cli to ^3.0.3 (#723) ([56548aa](https://github.com/Oriflame/conventional-changelog-tools/commit/56548aa)), closes [#723](https://github.com/Oriflame/conventional-changelog-tools/issues/723)
