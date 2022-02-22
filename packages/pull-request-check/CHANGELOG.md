@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## <small>1.1.26 (2022-02-22)</small>
+
+* deps: update dependency azure-devops-node-api to ^11.1.1 (#732) ([3482816](https://github.com/Oriflame/conventional-changelog-tools/commit/3482816)), closes [#732](https://github.com/Oriflame/conventional-changelog-tools/issues/732)
+
+
+
+
+
 ## <small>1.1.25 (2022-02-14)</small>
 
 **Note:** Version bump only for package @oriflame/pull-request-check
