@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## <small>1.1.28 (2022-02-24)</small>
+
+**Note:** Version bump only for package @oriflame/conventional-changelog-lint-config
+
+
+
+
+
 ## <small>1.1.27 (2022-02-23)</small>
 
 **Note:** Version bump only for package @oriflame/conventional-changelog-lint-config
