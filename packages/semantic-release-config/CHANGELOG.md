@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## <small>2.1.46 (2022-02-25)</small>
+
+**Note:** Version bump only for package @oriflame/semantic-release-config
+
+
+
+
+
 ## <small>2.1.45 (2022-02-24)</small>
 
 **Note:** Version bump only for package @oriflame/semantic-release-config
