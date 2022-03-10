@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## <small>2.1.49 (2022-03-10)</small>
+
+**Note:** Version bump only for package @oriflame/semantic-release-config
+
+
+
+
+
 ## <small>2.1.48 (2022-03-02)</small>
 
 * deps: update dependency @semantic-release/npm to ^9.0.1 (#739) ([4f72c63](https://github.com/Oriflame/conventional-changelog-tools/commit/4f72c63)), closes [#739](https://github.com/Oriflame/conventional-changelog-tools/issues/739)
