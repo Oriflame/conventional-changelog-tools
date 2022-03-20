@@ -12,6 +12,7 @@ const config: LumosConfig = {
   settings: {
     node: true,
     library: true,
+    skipLibCheck: true,
     env: {
       targets: {
         node: '12.14',
