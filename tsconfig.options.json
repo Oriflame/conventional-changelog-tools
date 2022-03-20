@@ -19,7 +19,7 @@
     "pretty": true,
     "removeComments": false,
     "resolveJsonModule": true,
-    "skipLibCheck": false,
+    "skipLibCheck": true,
     "sourceMap": true,
     "strict": true,
     "target": "es2021",
