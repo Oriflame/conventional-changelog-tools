@@ -4672,23 +4672,23 @@ __metadata:
   resolution: "@oriflame/conventional-changelog-lint-config@workspace:packages/conventional-changelog-lint"
   dependencies:
     "@commitlint/cli": ^16.2.1
-    "@oriflame/conventional-changelog-types": ^1.0.36
+    "@oriflame/conventional-changelog-types": ^1.0.37
   peerDependencies:
     "@commitlint/cli": ">=12"
   languageName: unknown
   linkType: soft
 
-"@oriflame/conventional-changelog-types@^1.0.36, @oriflame/conventional-changelog-types@workspace:packages/conventional-changelog-types":
+"@oriflame/conventional-changelog-types@^1.0.37, @oriflame/conventional-changelog-types@workspace:packages/conventional-changelog-types":
   version: 0.0.0-use.local
   resolution: "@oriflame/conventional-changelog-types@workspace:packages/conventional-changelog-types"
   languageName: unknown
   linkType: soft
 
-"@oriflame/conventional-changelog@^1.2.28, @oriflame/conventional-changelog@^1.2.31, @oriflame/conventional-changelog@workspace:packages/conventional-changelog":
+"@oriflame/conventional-changelog@^1.2.28, @oriflame/conventional-changelog@^1.2.32, @oriflame/conventional-changelog@workspace:packages/conventional-changelog":
   version: 0.0.0-use.local
   resolution: "@oriflame/conventional-changelog@workspace:packages/conventional-changelog"
   dependencies:
-    "@oriflame/conventional-changelog-types": ^1.0.36
+    "@oriflame/conventional-changelog-types": ^1.0.37
     "@types/tmp": ^0.2.3
     conventional-changelog-core: ^4.2.4
     conventional-recommended-bump: ^6.1.0
@@ -4757,7 +4757,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@oriflame/pull-request-check@workspace:packages/pull-request-check"
   dependencies:
-    "@oriflame/conventional-changelog": ^1.2.31
+    "@oriflame/conventional-changelog": ^1.2.32
     azure-devops-node-api: ^11.1.1
     chalk: ^4.1.2
   bin:
@@ -4769,7 +4769,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@oriflame/semantic-release-config@workspace:packages/semantic-release-config"
   dependencies:
-    "@oriflame/conventional-changelog": ^1.2.31
+    "@oriflame/conventional-changelog": ^1.2.32
     "@semantic-release/changelog": ^6.0.1
     "@semantic-release/commit-analyzer": ^9.0.2
     "@semantic-release/git": ^10.0.1
