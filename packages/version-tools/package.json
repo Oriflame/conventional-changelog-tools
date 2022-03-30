@@ -33,7 +33,7 @@
     "@boost/cli": "^3.0.3",
     "@types/react": "^17.0.43",
     "ink": "^3.2.0",
-    "react": "^17.0.2",
+    "react": "^18.0.0",
     "semver": "^7.3.5"
   },
   "devDependencies": {
