@@ -34,7 +34,7 @@
     "@types/react": "^17.0.43",
     "ink": "^3.2.0",
     "react": "^18.0.0",
-    "semver": "^7.3.5"
+    "semver": "^7.3.6"
   },
   "devDependencies": {
     "@types/semver": "^7.3.9"
