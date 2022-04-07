@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## <small>1.0.30 (2022-04-07)</small>
+
+* deps: update dependency semver to ^7.3.6 (#749) ([392e98f](https://github.com/Oriflame/conventional-changelog-tools/commit/392e98f)), closes [#749](https://github.com/Oriflame/conventional-changelog-tools/issues/749)
+
+
+
+
+
 ## <small>1.0.29 (2022-03-30)</small>
 
 * deps: update dependency react to v18 (#746) ([256a670](https://github.com/Oriflame/conventional-changelog-tools/commit/256a670)), closes [#746](https://github.com/Oriflame/conventional-changelog-tools/issues/746)
