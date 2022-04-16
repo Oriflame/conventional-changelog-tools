@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## <small>1.0.32 (2022-04-16)</small>
+
+* deps: update dependency @types/react to v18 (#751) ([c847fe7](https://github.com/Oriflame/conventional-changelog-tools/commit/c847fe7)), closes [#751](https://github.com/Oriflame/conventional-changelog-tools/issues/751)
+
+
+
+
+
 ## <small>1.0.31 (2022-04-13)</small>
 
 * deps: update dependency semver to ^7.3.7 (#752) ([7867900](https://github.com/Oriflame/conventional-changelog-tools/commit/7867900)), closes [#752](https://github.com/Oriflame/conventional-changelog-tools/issues/752)
