@@ -1,6 +1,6 @@
 {
   "name": "@oriflame/version-tools",
-  "version": "1.0.32",
+  "version": "1.0.33",
   "main": "./lib/index.js",
   "bin": "./lib/bin.js",
   "types": "",
