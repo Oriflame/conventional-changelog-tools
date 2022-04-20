@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## <small>1.0.34 (2022-04-20)</small>
+
+* build: update dependency packemon to v2 (#754) ([e9095f3](https://github.com/Oriflame/conventional-changelog-tools/commit/e9095f3)), closes [#754](https://github.com/Oriflame/conventional-changelog-tools/issues/754)
+
+
+
+
+
 ## <small>1.0.33 (2022-04-17)</small>
 
 **Note:** Version bump only for package @oriflame/version-tools
