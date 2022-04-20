@@ -10,7 +10,7 @@
   "license": "MIT",
   "scripts": {
     "prepare": "lumos create-config && husky install",
-    "build": "packemon build --addEngines --declaration=standard --no-addFiles",
+    "build": "packemon build --addEngines --declaration --no-addFiles",
     "coverage": "yarn run jest --coverage",
     "sync-project-refs": "lumos typescript:sync-project-refs",
     "lint": "lumos eslint",
@@ -19,7 +19,7 @@
     "pretest": "yarn run pack",
     "test": "yarn run jest",
     "posttest": "yarn run lint",
-    "pack": "cross-env NODE_ENV=production packemon pack --addEngines --declaration=standard --no-addFiles",
+    "pack": "cross-env NODE_ENV=production packemon pack --addEngines --declaration --no-addFiles",
     "release-alpha": "git reset --hard && lerna publish --canary --force-publish --yes",
     "release": "git reset --hard && lumos run-script lerna-release",
     "prepack": "lerna run --parallel --scope \"@oriflame/*\" prepack",
@@ -40,7 +40,7 @@
     "fs-extra": "^10.1.0",
     "husky": "^7.0.4",
     "lerna": "^4.0.0",
-    "packemon": "^1.15.0",
+    "packemon": "^2.0.0",
     "shelljs": "^0.8.5"
   },
   "resolutions": {
