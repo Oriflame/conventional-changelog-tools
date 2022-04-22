@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## <small>1.0.46 (2022-04-22)</small>
+
+**Note:** Version bump only for package @oriflame/conventional-changelog-types
+
+
+
+
+
 ## <small>1.0.45 (2022-04-20)</small>
 
 * build: update dependency packemon to v2 (#754) ([e9095f3](https://github.com/Oriflame/conventional-changelog-tools/commit/e9095f3)), closes [#754](https://github.com/Oriflame/conventional-changelog-tools/issues/754)

@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## <small>2.1.60 (2022-04-22)</small>
+
+**Note:** Version bump only for package @oriflame/semantic-release-config
+
+
+
+
+
 ## <small>2.1.59 (2022-04-20)</small>
 
 * build: update dependency packemon to v2 (#754) ([e9095f3](https://github.com/Oriflame/conventional-changelog-tools/commit/e9095f3)), closes [#754](https://github.com/Oriflame/conventional-changelog-tools/issues/754)

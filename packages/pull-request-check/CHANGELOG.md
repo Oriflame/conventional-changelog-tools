@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## <small>1.1.43 (2022-04-22)</small>
+
+**Note:** Version bump only for package @oriflame/pull-request-check
+
+
+
+
+
 ## <small>1.1.42 (2022-04-20)</small>
 
 * build: update dependency packemon to v2 (#754) ([e9095f3](https://github.com/Oriflame/conventional-changelog-tools/commit/e9095f3)), closes [#754](https://github.com/Oriflame/conventional-changelog-tools/issues/754)

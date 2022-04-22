@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## <small>1.0.35 (2022-04-22)</small>
+
+* deps: update dependency @types/react to ^18.0.6 (#755) ([9229fe8](https://github.com/Oriflame/conventional-changelog-tools/commit/9229fe8)), closes [#755](https://github.com/Oriflame/conventional-changelog-tools/issues/755)
+
+
+
+
+
 ## <small>1.0.34 (2022-04-20)</small>
 
 * build: update dependency packemon to v2 (#754) ([e9095f3](https://github.com/Oriflame/conventional-changelog-tools/commit/e9095f3)), closes [#754](https://github.com/Oriflame/conventional-changelog-tools/issues/754)
