@@ -8081,7 +8081,7 @@ __metadata:
     fs-extra: ^10.1.0
     husky: ^7.0.4
     lerna: ^4.0.0
-    packemon: ^2.1.0
+    packemon: ^2.2.0
     shelljs: ^0.8.5
   languageName: unknown
   linkType: soft
@@ -15129,9 +15129,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"packemon@npm:^2.1.0":
-  version: 2.1.0
-  resolution: "packemon@npm:2.1.0"
+"packemon@npm:^2.2.0":
+  version: 2.2.0
+  resolution: "packemon@npm:2.2.0"
   dependencies:
     "@babel/core": ^7.17.9
     "@babel/plugin-proposal-decorators": ^7.17.9
@@ -15182,7 +15182,7 @@ __metadata:
       optional: true
   bin:
     packemon: cjs/bin.cjs
-  checksum: eb9e419299dca4ac37eba9b3750d1513f2cc4efa76702c3a7a063e7ea7d418a3be9432019b762e2ba14562f6da02ac9357d8120e8372e593f5ea7df461184ca3
+  checksum: 81c6705dd530fa4a487312f48cbc16c2d4fab26221cf65386d21fa0d08155fe3ef97c502db8e84bce2d0412598679e2ab020db03f4e9e98713f4414e05b3381b
   languageName: node
   linkType: hard
 
