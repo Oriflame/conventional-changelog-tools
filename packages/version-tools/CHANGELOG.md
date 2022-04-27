@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## <small>1.0.39 (2022-04-27)</small>
+
+* deps: update dependency @types/react to ^18.0.8 (#759) ([f0c4207](https://github.com/Oriflame/conventional-changelog-tools/commit/f0c4207)), closes [#759](https://github.com/Oriflame/conventional-changelog-tools/issues/759)
+
+
+
+
+
 ## <small>1.0.38 (2022-04-27)</small>
 
 * deps: update dependency react to ^18.1.0 (#760) ([265a795](https://github.com/Oriflame/conventional-changelog-tools/commit/265a795)), closes [#760](https://github.com/Oriflame/conventional-changelog-tools/issues/760)
