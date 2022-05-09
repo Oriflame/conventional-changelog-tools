@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## <small>1.0.43 (2022-05-09)</small>
+
+**Note:** Version bump only for package @oriflame/version-tools
+
+
+
+
+
 ## <small>1.0.42 (2022-05-08)</small>
 
 * deps: update dependency @types/react to ^18.0.9 (#763) ([3075750](https://github.com/Oriflame/conventional-changelog-tools/commit/3075750)), closes [#763](https://github.com/Oriflame/conventional-changelog-tools/issues/763)
