@@ -1,6 +1,6 @@
 {
   "name": "@oriflame/conventional-changelog",
-  "version": "1.2.50",
+  "version": "1.2.51",
   "description": "Conventional changelog preset for oriflame and associated projects.",
   "keywords": [
     "conventional-changelog",
@@ -32,7 +32,7 @@
     "prepack": "node ../../scripts/pre-pack.js"
   },
   "dependencies": {
-    "@oriflame/conventional-changelog-types": "^1.0.55"
+    "@oriflame/conventional-changelog-types": "^1.0.56"
   },
   "devDependencies": {
     "@types/tmp": "^0.2.3",
