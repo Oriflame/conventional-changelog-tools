@@ -4727,9 +4727,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@oriflame/babel-preset@npm:^5.9.6":
-  version: 5.9.6
-  resolution: "@oriflame/babel-preset@npm:5.9.6"
+"@oriflame/babel-preset@npm:^5.9.7":
+  version: 5.9.7
+  resolution: "@oriflame/babel-preset@npm:5.9.7"
   dependencies:
     "@babel/plugin-proposal-class-properties": ^7.16.7
     "@babel/plugin-proposal-decorators": ^7.17.9
@@ -4741,7 +4741,7 @@ __metadata:
     "@babel/preset-react": ^7.16.7
     "@babel/preset-typescript": ^7.16.7
     "@emotion/babel-plugin": ^11.9.2
-    "@oriflame/lumos-common": ^5.9.6
+    "@oriflame/lumos-common": ^5.9.7
     babel-plugin-graphql-tag: ^3.3.0
     babel-plugin-module-resolver: ^4.1.0
     babel-plugin-optimize-clsx: ^2.6.2
@@ -4761,16 +4761,16 @@ __metadata:
       optional: true
     typescript:
       optional: true
-  checksum: 83baeca00a63c05fd605d2c063bbc9ffff97cfcb860b2d62c348ab3720cb542e5b2381780ad0101b1be0be86dfcd5ab29612edf9aa64f3c9c7df1fee45ca862e
+  checksum: ea25b0d0517e90ffc2b4d540eb082c5603a8facc95776ce8db226660c1a026c7518dc57a2a6b86dfb276851faffa5bbc8bb085c3d33122ced6aacf088038c50a
   languageName: node
   linkType: hard
 
-"@oriflame/config-babel@npm:^5.9.6":
-  version: 5.9.6
-  resolution: "@oriflame/config-babel@npm:5.9.6"
+"@oriflame/config-babel@npm:^5.9.7":
+  version: 5.9.7
+  resolution: "@oriflame/config-babel@npm:5.9.7"
   dependencies:
-    "@oriflame/babel-preset": ^5.9.6
-    "@oriflame/lumos-common": ^5.9.6
+    "@oriflame/babel-preset": ^5.9.7
+    "@oriflame/lumos-common": ^5.9.7
   peerDependencies:
     "@babel/core": ^7.16.0
     "@beemo/core": ^2.1.2
@@ -4782,26 +4782,26 @@ __metadata:
       optional: true
     typescript:
       optional: true
-  checksum: b44c0f57e738c6cb03f2db54e1c5e2269393678319754fb6708c966703356a07d68e8ed8268aac8c38bffedf2d76b1ff31b46c78db0173d29a4522aa065cfea7
+  checksum: 809e1db5f418f5ba47fdfd5c5548c64e2915e704e0d7f0b23625efeaf74f6c88b24a4d1e263d6841e969093839b870e0cf812910370ab883a2d74c258e2da974
   languageName: node
   linkType: hard
 
-"@oriflame/config-danger@npm:^5.9.6":
-  version: 5.9.6
-  resolution: "@oriflame/config-danger@npm:5.9.6"
+"@oriflame/config-danger@npm:^5.9.7":
+  version: 5.9.7
+  resolution: "@oriflame/config-danger@npm:5.9.7"
   dependencies:
     "@oriflame/conventional-changelog": ^1.2.40
     danger: ^11.0.5
-  checksum: 8c9029daeb6ed983f8461da9e6fdeaf497b86142c128a012f817216730a81fb365afc718468496dba985746230c2fc6b13eeac12bf68da06b2866b17abc7bccb
+  checksum: 5d1086f60dabdec10776d66633b7701dd9e53c6977f150674f9b99910b6c74cb204cd738905494afe19be6bbec0a425fb8e5da2643feccc153056f05af82a0fb
   languageName: node
   linkType: hard
 
-"@oriflame/config-eslint@npm:^5.9.6":
-  version: 5.9.6
-  resolution: "@oriflame/config-eslint@npm:5.9.6"
+"@oriflame/config-eslint@npm:^5.9.7":
+  version: 5.9.7
+  resolution: "@oriflame/config-eslint@npm:5.9.7"
   dependencies:
-    "@oriflame/lumos-common": ^5.9.6
-    eslint-config-oriflame: ^5.9.6
+    "@oriflame/lumos-common": ^5.9.7
+    eslint-config-oriflame: ^5.9.7
   peerDependencies:
     "@beemo/core": ^2.1.2
     "@beemo/driver-eslint": ^2.0.3
@@ -4813,25 +4813,25 @@ __metadata:
       optional: true
     typescript:
       optional: true
-  checksum: 16233a0604c879edeacab2cd9049c8b5cf38313480f479bece15b60770e396504b136bced3a899fafb11807623a9b978953258c03c766a793771bca9cef53864
+  checksum: 84cd09a69b54ee58e435c79f618a5db665e5a05debd98ff64ad8c01b1eab92fc33552db10545f93caecd972554502213a6382f48c4343b473c8c15ac1c02bee8
   languageName: node
   linkType: hard
 
-"@oriflame/config-jest@npm:^5.9.6":
-  version: 5.9.6
-  resolution: "@oriflame/config-jest@npm:5.9.6"
+"@oriflame/config-jest@npm:^5.9.7":
+  version: 5.9.7
+  resolution: "@oriflame/config-jest@npm:5.9.7"
   dependencies:
     "@babel/core": ^7.17.10
     "@beemo/driver-jest": ^2.0.5
     "@emotion/jest": ^11.9.1
-    "@oriflame/lumos-common": ^5.9.6
+    "@oriflame/lumos-common": ^5.9.7
     "@testing-library/jest-dom": ^5.16.4
     "@types/jest": ^27.5.0
     dom-storage: ^2.1.0
-    graphql: ^16.4.0
+    graphql: ^16.5.0
     graphql-tag: ^2.12.6
     jest-environment-jsdom: ^28.1.0
-    jest-preset-oriflame: ^5.9.6
+    jest-preset-oriflame: ^5.9.7
   peerDependencies:
     "@beemo/core": ^2.1.2
     "@beemo/driver-babel": ^2.0.4
@@ -4846,47 +4846,47 @@ __metadata:
       optional: true
     react-dom:
       optional: true
-  checksum: 116a2642b1dc1ca5a437b4d468a581eefbc3debdda241c4edffa7150086ef708834b685eb3f172e4aa47f947bc87518d35a8054c26033e9b91afb0937490d47d
+  checksum: a3bd9c987d04fb4fe40021ddc2582e617a5bfab5c2b3f992d10f70531c94141087f25f305532ab19103effd1929fa5ce29945521fe5781632ca7025d4795e86d
   languageName: node
   linkType: hard
 
-"@oriflame/config-prettier@npm:^5.9.6":
-  version: 5.9.6
-  resolution: "@oriflame/config-prettier@npm:5.9.6"
+"@oriflame/config-prettier@npm:^5.9.7":
+  version: 5.9.7
+  resolution: "@oriflame/config-prettier@npm:5.9.7"
   dependencies:
-    "@oriflame/lumos-common": ^5.9.6
-    prettier-config-oriflame: ^5.9.6
+    "@oriflame/lumos-common": ^5.9.7
+    prettier-config-oriflame: ^5.9.7
   peerDependencies:
     "@beemo/core": ^2.1.2
     "@beemo/driver-prettier": ^2.0.4
     prettier: ^2.5.1
-  checksum: 18c115cebdea2206df5c767a918f502e1efa371719e8de4a5cbd398b4fb7580729972fafa18c2ad25e4d8877eeac2842aea2f177a951d14e47c78bcca79740f4
+  checksum: 264c1d7249cdcf2ca23cbbe7ad31080d93d4aa2491c1f16a09ccce4ad1335c742b31d5684dd3d74d27b466cefc17c427e9c3502ec6ef30cf870e847048f7be47
   languageName: node
   linkType: hard
 
-"@oriflame/config-typescript@npm:^5.9.6":
-  version: 5.9.6
-  resolution: "@oriflame/config-typescript@npm:5.9.6"
+"@oriflame/config-typescript@npm:^5.9.7":
+  version: 5.9.7
+  resolution: "@oriflame/config-typescript@npm:5.9.7"
   dependencies:
-    "@oriflame/lumos-common": ^5.9.6
-    tsconfig-oriflame: ^5.9.6
+    "@oriflame/lumos-common": ^5.9.7
+    tsconfig-oriflame: ^5.9.7
   peerDependencies:
     "@beemo/core": ^2.1.2
     "@beemo/driver-typescript": ^2.1.0
     typescript: ^4.5.4
-  checksum: cb45be23be5781b619fc2ff67f30ad817ea5caface23b1f24dffdd9a1f4007674406b0426cfab1979ac0b2298a7836a0ddb3efe042bf1ddbab918ef5c406dc0c
+  checksum: f93cca84d808675a41d2aac13250b687b16897d059406d53358660c97e03c2dd21fec40e798c7d3fcd4e287059625880ac5b6a515e7690fdde81743c5ebefd7f
   languageName: node
   linkType: hard
 
-"@oriflame/config-webpack@npm:^5.9.6":
-  version: 5.9.6
-  resolution: "@oriflame/config-webpack@npm:5.9.6"
+"@oriflame/config-webpack@npm:^5.9.7":
+  version: 5.9.7
+  resolution: "@oriflame/config-webpack@npm:5.9.7"
   dependencies:
     "@babel/core": ^7.17.10
     "@boost/args": ^3.0.1
     "@boost/module": ^3.1.0
     "@module-federation/concat-runtime": ^0.0.1
-    "@oriflame/lumos-common": ^5.9.6
+    "@oriflame/lumos-common": ^5.9.7
     "@pmmmwh/react-refresh-webpack-plugin": ^0.5.5
     babel-loader: ^8.2.5
     cross-env: ^7.0.3
@@ -4931,7 +4931,7 @@ __metadata:
       optional: true
   bin:
     lumos-webpack-server: bin/server
-  checksum: fb79dad9146617d872889410df186302555bce250cfcb81efd1ebc112ef5ffcc2e6b3a43b60686582db2463c503807b43da0816cccc72967c62a7695998af170
+  checksum: 6c0249fa9a129a7d0da47432feebd3d7d5bb757deee4d2d3015b00ed123da1872b26b7960ecfdacc6c20afd1dbbfe1343d431b579b890feb65d3d04305a003a4
   languageName: node
   linkType: hard
 
@@ -4964,18 +4964,18 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@oriflame/lumos-common@npm:^5.9.6":
-  version: 5.9.6
-  resolution: "@oriflame/lumos-common@npm:5.9.6"
+"@oriflame/lumos-common@npm:^5.9.7":
+  version: 5.9.7
+  resolution: "@oriflame/lumos-common@npm:5.9.7"
   dependencies:
     "@beemo/core": ^2.1.4
-  checksum: c1cb3416bf7423240dfa688bdf7b204e67f97ec1207c952496dfabeda5ba62197dd6bd916b19569ccd2a752e5127bb074598b5324ccac67d3f78c7d140de02b5
+  checksum: 5f37678ee8f7553a4566b7c25cc6a3b19cf652bcc5373a181695d6446107554094ea82a6caeb9a610516d3867f1ec57d0946b422fc223d148ddb3f2944f2df08
   languageName: node
   linkType: hard
 
-"@oriflame/lumos@npm:^5.9.6":
-  version: 5.9.6
-  resolution: "@oriflame/lumos@npm:5.9.6"
+"@oriflame/lumos@npm:^5.9.7":
+  version: 5.9.7
+  resolution: "@oriflame/lumos@npm:5.9.7"
   dependencies:
     "@actions/core": ^1.8.0
     "@actions/github": ^5.0.1
@@ -4992,14 +4992,14 @@ __metadata:
     "@boost/common": ^3.2.1
     "@boost/module": ^3.1.0
     "@octokit/rest": ^18.12.0
-    "@oriflame/config-babel": ^5.9.6
-    "@oriflame/config-eslint": ^5.9.6
-    "@oriflame/config-jest": ^5.9.6
-    "@oriflame/config-prettier": ^5.9.6
-    "@oriflame/config-typescript": ^5.9.6
-    "@oriflame/config-webpack": ^5.9.6
+    "@oriflame/config-babel": ^5.9.7
+    "@oriflame/config-eslint": ^5.9.7
+    "@oriflame/config-jest": ^5.9.7
+    "@oriflame/config-prettier": ^5.9.7
+    "@oriflame/config-typescript": ^5.9.7
+    "@oriflame/config-webpack": ^5.9.7
     "@oriflame/conventional-changelog": ^1.2.40
-    "@oriflame/lumos-common": ^5.9.6
+    "@oriflame/lumos-common": ^5.9.7
     chalk: ^5.0.1
     check-node-version: ^4.2.1
     cross-env: ^7.0.3
@@ -5017,7 +5017,7 @@ __metadata:
       optional: true
   bin:
     lumos: bin/lumos
-  checksum: c0888418f31ad363f8a3622d95331e529d4f2a5ea11a2514f70d980a28ecf9c3fd9e9e1d5604c963e377a44916a407bf9df5c8676646d67a55f284aa89f000e1
+  checksum: ba8029e6f001bdf3878d509cfc710144f89f6660339cbd97ae6d72a653cda83743011180eefe8763b230860d00ac98b776cf5b9e544623f6086b9c0d5442a767
   languageName: node
   linkType: hard
 
@@ -6065,13 +6065,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/eslint-plugin@npm:^5.22.0":
-  version: 5.22.0
-  resolution: "@typescript-eslint/eslint-plugin@npm:5.22.0"
+"@typescript-eslint/eslint-plugin@npm:^5.23.0":
+  version: 5.23.0
+  resolution: "@typescript-eslint/eslint-plugin@npm:5.23.0"
   dependencies:
-    "@typescript-eslint/scope-manager": 5.22.0
-    "@typescript-eslint/type-utils": 5.22.0
-    "@typescript-eslint/utils": 5.22.0
+    "@typescript-eslint/scope-manager": 5.23.0
+    "@typescript-eslint/type-utils": 5.23.0
+    "@typescript-eslint/utils": 5.23.0
     debug: ^4.3.2
     functional-red-black-tree: ^1.0.1
     ignore: ^5.1.8
@@ -6084,24 +6084,24 @@ __metadata:
   peerDependenciesMeta:
     typescript:
       optional: true
-  checksum: 3b083f7003f091c3ef7b3970dca9cfd507ab8c52a9b8a52259c630010adf765e9766f0e6fd9c901fc0e807319a4e8c003e12287b1f12a4b9eb4d7222e8d6db83
+  checksum: 19ee37c0be172469968f61d156d6ce36a975ab72ccbb8f702eb4573c94d1cf9247ff32352ed85eda5e7b2eaace567d5c66b32846f042f9711349213496ec37d4
   languageName: node
   linkType: hard
 
-"@typescript-eslint/parser@npm:^5.22.0":
-  version: 5.22.0
-  resolution: "@typescript-eslint/parser@npm:5.22.0"
+"@typescript-eslint/parser@npm:^5.23.0":
+  version: 5.23.0
+  resolution: "@typescript-eslint/parser@npm:5.23.0"
   dependencies:
-    "@typescript-eslint/scope-manager": 5.22.0
-    "@typescript-eslint/types": 5.22.0
-    "@typescript-eslint/typescript-estree": 5.22.0
+    "@typescript-eslint/scope-manager": 5.23.0
+    "@typescript-eslint/types": 5.23.0
+    "@typescript-eslint/typescript-estree": 5.23.0
     debug: ^4.3.2
   peerDependencies:
     eslint: ^6.0.0 || ^7.0.0 || ^8.0.0
   peerDependenciesMeta:
     typescript:
       optional: true
-  checksum: 28a7d4b73154fc97336be9a4efd5ffdc659f748232c82479909e86ed87ed8a78d23280b3aaf532ca4e735caaffac43d9576e6af2dfd11865e30a9d70c8a3f275
+  checksum: b65a732b0be06ac9e4b13df78c466517e33fd382985c5d85b6d51cfa295cdf3351594cc2f95dda41d57abb6115e3b8df815fbbb7793aa0c4eddbac11077b90a8
   languageName: node
   linkType: hard
 
@@ -6125,21 +6125,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/scope-manager@npm:5.22.0":
-  version: 5.22.0
-  resolution: "@typescript-eslint/scope-manager@npm:5.22.0"
+"@typescript-eslint/scope-manager@npm:5.23.0":
+  version: 5.23.0
+  resolution: "@typescript-eslint/scope-manager@npm:5.23.0"
   dependencies:
-    "@typescript-eslint/types": 5.22.0
-    "@typescript-eslint/visitor-keys": 5.22.0
-  checksum: ebf2ad44f4e5a4dfd55225419804f81f68056086c20f1549adbcca4236634eac3aae461e30d6cab6539ce6f42346ed6e1fbbb2710d2cc058a3283ef91a0fe174
+    "@typescript-eslint/types": 5.23.0
+    "@typescript-eslint/visitor-keys": 5.23.0
+  checksum: cd3dda0b18d6730e34784fc63135fc9fe31673898d3e0868cd765ad78855351f285fe577297193cf179b3ce918c3d44453de85159a925f5c02d12a5626e787d8
   languageName: node
   linkType: hard
 
-"@typescript-eslint/type-utils@npm:5.22.0":
-  version: 5.22.0
-  resolution: "@typescript-eslint/type-utils@npm:5.22.0"
+"@typescript-eslint/type-utils@npm:5.23.0":
+  version: 5.23.0
+  resolution: "@typescript-eslint/type-utils@npm:5.23.0"
   dependencies:
-    "@typescript-eslint/utils": 5.22.0
+    "@typescript-eslint/utils": 5.23.0
     debug: ^4.3.2
     tsutils: ^3.21.0
   peerDependencies:
@@ -6147,7 +6147,7 @@ __metadata:
   peerDependenciesMeta:
     typescript:
       optional: true
-  checksum: 7128085bfbeca3a9646a795a34730cdfeca110bc00240569f6a7b3dc0854680afa56e015715675a78198b414de869339bd6036cc33cb14903919780a60321a95
+  checksum: 88bf7c7a08c11f2a02a05fe331750c569bfc2b4759e0dea6ec72ffd1597624a01100965052a5fede1e3f25ea8ef503bd424e03c9805f0a1af223f28b4fd74946
   languageName: node
   linkType: hard
 
@@ -6165,10 +6165,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/types@npm:5.22.0":
-  version: 5.22.0
-  resolution: "@typescript-eslint/types@npm:5.22.0"
-  checksum: 74f822c5a3b96bba05229eea4ed370c4bd48b17f475c37f08d6ba708adf65c3aa026bb544f1d0308c96e043b30015e396fd53b1e8e4e9fbb6dc9c92d2ccc0a15
+"@typescript-eslint/types@npm:5.23.0":
+  version: 5.23.0
+  resolution: "@typescript-eslint/types@npm:5.23.0"
+  checksum: 96ae3e80cfae7b34f2846db692c31fb1804bf9651bce1d29f2eb8ae4c763d22f3283adc02dedeebd7cf70e4d8be54ec7f6ca593e03cdca26c791207e7556c2c1
   languageName: node
   linkType: hard
 
@@ -6208,12 +6208,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/typescript-estree@npm:5.22.0":
-  version: 5.22.0
-  resolution: "@typescript-eslint/typescript-estree@npm:5.22.0"
+"@typescript-eslint/typescript-estree@npm:5.23.0":
+  version: 5.23.0
+  resolution: "@typescript-eslint/typescript-estree@npm:5.23.0"
   dependencies:
-    "@typescript-eslint/types": 5.22.0
-    "@typescript-eslint/visitor-keys": 5.22.0
+    "@typescript-eslint/types": 5.23.0
+    "@typescript-eslint/visitor-keys": 5.23.0
     debug: ^4.3.2
     globby: ^11.0.4
     is-glob: ^4.0.3
@@ -6222,23 +6222,23 @@ __metadata:
   peerDependenciesMeta:
     typescript:
       optional: true
-  checksum: 2797a79d7d32a9a547b7f1de77a353d8e8c8519791f865f5e061bfc4918d12cdaddec51afa015f5aac5d068ef525c92bd65afc83b84dc9e52e697303acf0873a
+  checksum: 8d85bb1cd777e93cc7322ae8fea25f9b924def02494cdb8395c1d5d17b5fd3ac9bc969418a1d20a5dc28c2cdd85da20e13527e28b595c06ff6f84cd22a78d73f
   languageName: node
   linkType: hard
 
-"@typescript-eslint/utils@npm:5.22.0":
-  version: 5.22.0
-  resolution: "@typescript-eslint/utils@npm:5.22.0"
+"@typescript-eslint/utils@npm:5.23.0":
+  version: 5.23.0
+  resolution: "@typescript-eslint/utils@npm:5.23.0"
   dependencies:
     "@types/json-schema": ^7.0.9
-    "@typescript-eslint/scope-manager": 5.22.0
-    "@typescript-eslint/types": 5.22.0
-    "@typescript-eslint/typescript-estree": 5.22.0
+    "@typescript-eslint/scope-manager": 5.23.0
+    "@typescript-eslint/types": 5.23.0
+    "@typescript-eslint/typescript-estree": 5.23.0
     eslint-scope: ^5.1.1
     eslint-utils: ^3.0.0
   peerDependencies:
     eslint: ^6.0.0 || ^7.0.0 || ^8.0.0
-  checksum: 5019485e76d754a7a60c042545fd884dc666fddf9d4223ff706bbf0c275f19ea25a6b210fb5cf7ed368b019fe538fd854a925e9c6f12007d51b1731a29d95cc1
+  checksum: 72207399f29856b601148fe1aff07049021fad8e780ee6e896279d2291806d4608f1c28ddc5c3c5616ce94f25dcbcd26f295669e524fc1c4b4db810569c90f85
   languageName: node
   linkType: hard
 
@@ -6294,13 +6294,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/visitor-keys@npm:5.22.0":
-  version: 5.22.0
-  resolution: "@typescript-eslint/visitor-keys@npm:5.22.0"
+"@typescript-eslint/visitor-keys@npm:5.23.0":
+  version: 5.23.0
+  resolution: "@typescript-eslint/visitor-keys@npm:5.23.0"
   dependencies:
-    "@typescript-eslint/types": 5.22.0
+    "@typescript-eslint/types": 5.23.0
     eslint-visitor-keys: ^3.0.0
-  checksum: d30dfa98dcce75da49a6a204a0132d42e63228c35681cb9b3643e47a0a24a633e259832d48d101265bd85b8eb5a9f2b4858f9447646c1d3df6a2ac54258dfe8f
+  checksum: 322e10d52a985e8a90d3612bb9d09a87dc64fc4cb1248484f1a9a7a98f65d3ef65a465ce868773a4939e35fa3b726ad609dac5a168efd7eaca4b06df33e965e3
   languageName: node
   linkType: hard
 
@@ -8393,8 +8393,8 @@ __metadata:
   resolution: "conventional-changelog-tools@workspace:."
   dependencies:
     "@commitlint/cli": ^16.2.4
-    "@oriflame/config-danger": ^5.9.6
-    "@oriflame/lumos": ^5.9.6
+    "@oriflame/config-danger": ^5.9.7
+    "@oriflame/lumos": ^5.9.7
     "@types/fs-extra": ^9.0.13
     "@types/node": ^17.0.5
     "@types/shelljs": ^0.8.11
@@ -9743,16 +9743,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-config-oriflame@npm:^5.9.6":
-  version: 5.9.6
-  resolution: "eslint-config-oriflame@npm:5.9.6"
+"eslint-config-oriflame@npm:^5.9.7":
+  version: 5.9.7
+  resolution: "eslint-config-oriflame@npm:5.9.7"
   dependencies:
     "@babel/core": ^7.17.10
     "@babel/eslint-parser": ^7.17.0
     "@next/eslint-plugin-next": ^12.1.6
-    "@oriflame/lumos-common": ^5.9.6
-    "@typescript-eslint/eslint-plugin": ^5.22.0
-    "@typescript-eslint/parser": ^5.22.0
+    "@oriflame/lumos-common": ^5.9.7
+    "@typescript-eslint/eslint-plugin": ^5.23.0
+    "@typescript-eslint/parser": ^5.23.0
     confusing-browser-globals: ^1.0.11
     eslint-config-prettier: ^8.5.0
     eslint-import-resolver-typescript: ^2.7.1
@@ -9776,7 +9776,7 @@ __metadata:
       optional: true
     typescript:
       optional: true
-  checksum: 206c90b8948c3e0f5766918720e16089bc78f80266b7d68d348600a93c42c4a61a13bce8e9bf4cfabcb8196917d1e322dca9e71fc74f5e1040da9e21b5e53dad
+  checksum: 169868a9e428ace257a4369e16d8fa4aa69bba037a1ea717c92d8c899be6a742ce4a62c8403d24e04f3fdfe0e95c6e46526d929f11ab2161a46d16f871606a5b
   languageName: node
   linkType: hard
 
@@ -11207,10 +11207,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"graphql@npm:^16.4.0":
-  version: 16.4.0
-  resolution: "graphql@npm:16.4.0"
-  checksum: 8cac2c466891b6c6ace2fa3807f93815dea53cbec372998c139e796a321a6882c2324cc605e5f9aa45356890239aa9e731a04d8c59ec524db82bd18fb48aafee
+"graphql@npm:^16.5.0":
+  version: 16.5.0
+  resolution: "graphql@npm:16.5.0"
+  checksum: a82a926d085818934d04fdf303a269af170e79de943678bd2726370a96194f9454ade9d6d76c2de69afbd7b9f0b4f8061619baecbbddbe82125860e675ac219e
   languageName: node
   linkType: hard
 
@@ -12794,17 +12794,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jest-preset-oriflame@npm:^5.9.6":
-  version: 5.9.6
-  resolution: "jest-preset-oriflame@npm:5.9.6"
+"jest-preset-oriflame@npm:^5.9.7":
+  version: 5.9.7
+  resolution: "jest-preset-oriflame@npm:5.9.7"
   dependencies:
     "@jest/types": ^28.1.0
-    "@oriflame/lumos-common": ^5.9.6
+    "@oriflame/lumos-common": ^5.9.7
     "@types/jest": ^27.5.0
     jest-junit: ^13.2.0
   peerDependencies:
     jest: ^28.0.0
-  checksum: 429cf1ea3975cc92abcc3d1dd246912d4dffc13dfa3c9ab18cd9f188a8793e4ffb19cbaa3f12ae69497149efaa74fd41dc36db936bb400c12dd961873fe81946
+  checksum: 615e4c9e59d9d4810f88efbfe60d15d7b18fd7acac23a12ee4e8174033663a72b526b3cfc98b7dbd11e6c37a23d5cd6a3949755eab0b82887eef1e8ec0f119af
   languageName: node
   linkType: hard
 
@@ -16827,10 +16827,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier-config-oriflame@npm:^5.9.6":
-  version: 5.9.6
-  resolution: "prettier-config-oriflame@npm:5.9.6"
-  checksum: a68c044180846a3fef6144f11367529cd181f347f7894f43e90fd4cf56a5302477bac5d61836fe7c5eed9de7bdb8cd75f65aeb9bce15f4522bd5f862f693d34e
+"prettier-config-oriflame@npm:^5.9.7":
+  version: 5.9.7
+  resolution: "prettier-config-oriflame@npm:5.9.7"
+  checksum: 8358b10fd5f6d0ddd71e5606e7dba8159319bf119b0790f14d52f123d7f5db90c7491c08eec22ee5bcada6d23e1773837458961c8fd44a937354741c4a3cd264
   languageName: node
   linkType: hard
 
@@ -19298,10 +19298,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tsconfig-oriflame@npm:^5.9.6":
-  version: 5.9.6
-  resolution: "tsconfig-oriflame@npm:5.9.6"
-  checksum: dfa4178003ff7a09f1266cfadafd85ff863deae0ad774b19d74c52d4bfcecf5c92f1c0f8d2a4507b086fd47cf519c59cc473506d4fff15ed4676e72cf621eb00
+"tsconfig-oriflame@npm:^5.9.7":
+  version: 5.9.7
+  resolution: "tsconfig-oriflame@npm:5.9.7"
+  checksum: a65c10feae233176acd1c615d51c06d2c77c354b6b92e56a37a4be828e46f6db67b8c91f26691548a6e9d0f0e7fe7f9fa3e8e1e193acdf04655277a679aad5dd
   languageName: node
   linkType: hard
 
