@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## <small>1.1.56 (2022-05-15)</small>
+
+* build: update dependency @commitlint/cli to ^16.3.0 (#770) ([69047f3](https://github.com/Oriflame/conventional-changelog-tools/commit/69047f3)), closes [#770](https://github.com/Oriflame/conventional-changelog-tools/issues/770)
+
+
+
+
+
 ## <small>1.1.55 (2022-05-14)</small>
 
 **Note:** Version bump only for package @oriflame/conventional-changelog-lint-config
