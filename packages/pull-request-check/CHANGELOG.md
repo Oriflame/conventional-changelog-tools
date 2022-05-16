@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## <small>1.1.57 (2022-05-16)</small>
+
+**Note:** Version bump only for package @oriflame/pull-request-check
+
+
+
+
+
 ## <small>1.1.56 (2022-05-15)</small>
 
 **Note:** Version bump only for package @oriflame/pull-request-check

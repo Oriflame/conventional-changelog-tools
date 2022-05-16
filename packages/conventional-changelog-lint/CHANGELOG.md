@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## <small>1.1.57 (2022-05-16)</small>
+
+* build: update dependency @commitlint/cli to v17 (#771) ([a488abb](https://github.com/Oriflame/conventional-changelog-tools/commit/a488abb)), closes [#771](https://github.com/Oriflame/conventional-changelog-tools/issues/771)
+
+
+
+
+
 ## <small>1.1.56 (2022-05-15)</small>
 
 * build: update dependency @commitlint/cli to ^16.3.0 (#770) ([69047f3](https://github.com/Oriflame/conventional-changelog-tools/commit/69047f3)), closes [#770](https://github.com/Oriflame/conventional-changelog-tools/issues/770)
