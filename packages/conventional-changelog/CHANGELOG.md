@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## <small>1.2.56 (2022-05-20)</small>
+
+**Note:** Version bump only for package @oriflame/conventional-changelog
+
+
+
+
+
 ## <small>1.2.55 (2022-05-16)</small>
 
 **Note:** Version bump only for package @oriflame/conventional-changelog
