@@ -35,7 +35,7 @@
     "@commitlint/cli": ">=12"
   },
   "devDependencies": {
-    "@commitlint/cli": "^17.0.0"
+    "@commitlint/cli": "^17.0.1"
   },
   "packemon": {
     "format": "lib",
