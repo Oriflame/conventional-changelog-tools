@@ -5777,7 +5777,7 @@ __metadata:
   resolution: "@oriflame/version-tools@workspace:packages/version-tools"
   dependencies:
     "@boost/cli": ^3.0.3
-    "@types/react": ^18.0.9
+    "@types/react": ^18.0.25
     "@types/semver": ^7.3.9
     ink: ^3.2.0
     react: ^18.1.0
@@ -6639,14 +6639,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:^18.0.9":
-  version: 18.0.9
-  resolution: "@types/react@npm:18.0.9"
+"@types/react@npm:^18.0.25":
+  version: 18.0.25
+  resolution: "@types/react@npm:18.0.25"
   dependencies:
     "@types/prop-types": "*"
     "@types/scheduler": "*"
     csstype: ^3.0.2
-  checksum: 162364dad716d9017ee34aabf2ea37499709ebbdef70392ae1b39225985971e1a46f121efb9c5c7da92144ee1d96d4525df806a7c1c03a5db7fd31dd034ddc7a
+  checksum: 231d658c45abdef044a716b4502774f1585d8336d73b2f5bd68f181acbfc874b7a457686ecd29b415b43ed0922c309bab7e2cf96832d188a3f4f1b02f2af760a
   languageName: node
   linkType: hard
 
